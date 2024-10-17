@@ -27,7 +27,7 @@ async fn main() {
     debug!("Starting...");
     let args = MainArgs::parse();
 
-    let base_url = String::from("https://onepiece.fandom.com/wiki");
+    let base_url = "https://onepiece.fandom.com";
     if let Some(output_dir) = args.output.as_deref() {}
 
     let df_s = DfScraper::new(base_url, reqwest::Client::new());
