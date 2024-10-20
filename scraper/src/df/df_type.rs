@@ -9,6 +9,17 @@ pub enum DfType {
     Undetermined,
 }
 
+impl DfType {
+    pub fn id_for_fruit_list(&self) -> String {
+        match self {
+            DfType::Logia => "#Logia-Types".to_string(),
+            DfType::Zoan => "#List_of_Zoan-Type_Fruits".to_string(),
+            DfType::Paramecia => "#Paramecia-Type_Fruits".to_string(),
+            DfType::Undetermined => String::new(),
+        }
+    }
+}
+
 #[derive(Debug, EnumString, PartialEq, Display, EnumIter)]
 pub enum DfSubType {
     AncientZoan,

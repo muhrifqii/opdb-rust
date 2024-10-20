@@ -23,16 +23,18 @@ impl std::fmt::Display for DfTypeInfo {
 pub struct DevilFruit {
     pub df_type: DfType,
     pub name: String,
+    pub en_name: String,
     pub description: String,
     pub pic_url: String,
+    pub df_url: String,
 }
 
 impl std::fmt::Display for DevilFruit {
     fn fmt(&self, f: &mut std::fmt::Formatter) -> std::fmt::Result {
         write!(
             f,
-            "(df_type: {}, name: {}, pic: {}, description: {})",
-            self.df_type, self.name, self.pic_url, self.description,
+            "(df_type: {}, name: {}, english name: {}, pic: {}, url: {}, description: {})",
+            self.df_type, self.name, self.en_name, self.pic_url, self.df_url, self.description,
         )
     }
 }

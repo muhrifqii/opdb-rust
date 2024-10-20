@@ -31,5 +31,6 @@ async fn main() {
     if let Some(output_dir) = args.output.as_deref() {}
 
     let df_s = DfScraper::new(base_url, reqwest::Client::new());
-    df_s.get_dftype_info().await.unwrap();
+    // df_s.get_dftype_info().await.unwrap();
+    df_s.get_df_list().await.unwrap();
 }
