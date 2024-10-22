@@ -16,7 +16,7 @@ pub type ArcMapHtml = Arc<Mutex<HashMap<String, String>>>;
 
 pub trait DfScrapable {
     async fn get_dftype_info(&self) -> Result<Vec<DfTypeInfo>, Error>;
-    async fn get_df_list(&self) -> Result<Vec<DfType>, Error>;
+    async fn get_df_list(&self) -> Result<Vec<DevilFruit>, Error>;
     async fn get_df(&self) -> Result<DevilFruit, Error>;
 }
 
@@ -97,11 +97,13 @@ impl DfScrapable for DfScraper {
         df_infos
     }
 
-    async fn get_df_list(&self) -> Result<Vec<DfType>, Error> {
+    async fn get_df_list(&self) -> Result<Vec<DevilFruit>, Error> {
         let df_type = DfType::iter()
             .filter(|df| !df.get_path().is_empty())
             .collect_vec();
         let mut tasks = Vec::with_capacity(df_type.len());
+        let mut pic_tasks = tokio::task::JoinSet::new();
+        let mut devil_fruits_map = HashMap::new();
         for t in df_type {
             let client = self.client.clone();
             let cache = self.html_cache.clone();
@@ -111,65 +113,30 @@ impl DfScrapable for DfScraper {
             }));
         }
         for task in tasks {
-            task.await
+            let df_list = task
+                .await
                 .map_err(|e| Error::RequestError(e.to_string()))??;
+            for df in df_list {
+                let client = self.client.clone();
+                let url = format!("{}{}", self.base_url, df.df_url.to_string());
+                let key = url.to_string();
+                pic_tasks.spawn(async move { get_picture(url.as_str(), &client).await });
+                devil_fruits_map.insert(key, df);
+            }
         }
 
-        // let tasks = DfType::iter()
-        //     .filter(|df| !df.get_path().is_empty())
-        //     .filter(|df| df == &DfType::Paramecia)
-        //     .map(|df| {
-        //         let url = format!("{}{}", self.base_url, df.get_path());
-        //         let client = self.client.clone();
-        //         tokio::spawn(async move {
-        //             let res_htm = fetch_html(&url, &client).await?;
-        //             let doc = Html::parse_document(&res_htm);
-        //             let siblings: Result<Vec<_>, _> = doc
-        //                 .select(&Selector::parse(&df.id_for_fruit_list()).unwrap())
-        //                 .next()
-        //                 .and_then(|e| e.parent())
-        //                 .map(|n| n.next_siblings())
-        //                 .ok_or(Error::InvalidStructure(String::from(
-        //                     "invalid sibling node",
-        //                 )))?
-        //                 .filter_map(|n| {
-        //                     if n.value().is_element() {
-        //                         ElementRef::wrap(n)
-        //                             .filter(|e| e.value().name() == "dl")
-        //                             .and_then(|e| e.next_sibling())
-        //                             .and_then(|e| e.next_sibling())
-        //                     } else {
-        //                         None
-        //                     }
-        //                 })
-        //                 .map(|n| {
-        //                     ElementRef::wrap(n)
-        //                         .ok_or(Error::InvalidStructure("invalid element node".to_string()))
-        //                 })
-        //                 // .filter_ok(|e| e.value().name() == "ul")
-        //                 .collect();
+        let pic_task_results = pic_tasks.join_all().await;
+        for pic_task_res in pic_task_results {
+            let (df_url, pic_url) = pic_task_res.map_err(|e| Error::RequestError(e.to_string()))?;
 
-        //             for x in siblings.unwrap() {
-        //                 info!("siblings {}: {:?}", df, &x.html());
-        //             }
+            // info!("df:{}:{}", pic_url, df_url);
 
-        //             Ok(vec![DevilFruit {
-        //                 df_type: df,
-        //                 name: String::new(),
-        //                 description: String::new(),
-        //                 pic_url: String::new(),
-        //             }])
-        //         })
-        //     })
-        //     .collect_vec();
-        // for task in tasks {
-        //     let res = task
-        //         .await
-        //         .map_err(|e| Error::RequestError(e.to_string()))??;
-        //     // info!("res: {:?}", &res);
-        // }
+            devil_fruits_map
+                .entry(df_url)
+                .and_modify(|df| df.pic_url = pic_url);
+        }
 
-        Ok(Vec::new())
+        Ok(devil_fruits_map.into_values().collect_vec())
     }
 
     async fn get_df(&self) -> Result<DevilFruit, Error> {
@@ -224,22 +191,26 @@ async fn get_canon(
     base_url: &str,
 ) -> Result<Vec<DevilFruit>, Error> {
     match df_typpe {
-        DfType::Paramecia => get_canon_paramecia(cache, client, base_url).await,
+        // DfType::Paramecia => get_canon_paramecia(cache, client, base_url).await,
+        DfType::Logia | DfType::Paramecia => {
+            get_canon_paramecia_logia(cache, client, base_url, df_typpe).await
+        }
         _ => Ok(Vec::new()),
     }
 }
 
-async fn get_canon_paramecia(
+async fn get_canon_paramecia_logia(
     cache: &ArcMapHtml,
     client: &reqwest::Client,
     base_url: &str,
+    df_type: DfType,
 ) -> Result<Vec<DevilFruit>, Error> {
-    let url = format!("{}{}", base_url, DfType::Paramecia.get_path());
+    let url = format!("{}{}", base_url, &df_type.get_path());
     let htm = fetch_cached_html(&cache, &url, &client).await?;
 
     let doc = Html::parse_document(&htm);
     let fruits: Result<Vec<_>, _> = doc
-        .select(&Selector::parse(&DfType::Paramecia.id_for_fruit_list()).unwrap())
+        .select(&Selector::parse(&df_type.id_for_fruit_list()).unwrap())
         .next()
         .and_then(|e| e.parent())
         .map(|n| n.next_siblings())
@@ -268,7 +239,7 @@ async fn get_canon_paramecia(
     let mut df_list = Vec::with_capacity(fruits.len());
     let rex_en_name = Regex::new(r"English version: (.+)").unwrap();
     let rex_desc = Regex::new(r"\): (.+)").unwrap();
-    for el in fruits {
+    for el in &fruits {
         let path = el
             .select(&Selector::parse("a:nth-of-type(1)").unwrap())
             .next()
@@ -300,16 +271,26 @@ async fn get_canon_paramecia(
 
         // info!("fruit: {:?}", &el.html());
         let df = DevilFruit {
-            df_type: DfType::Paramecia,
+            df_type,
             name: name.to_string(),
             en_name: en_name.to_string(),
             description: desc.to_string(),
             pic_url: String::new(),
             df_url: path.to_string(),
         };
-        info!("fruit name: {}", &df);
+        // info!("fruit name: {}", &df);
         df_list.push(df);
     }
 
     Ok(df_list)
+}
+
+async fn get_picture(url: &str, client: &reqwest::Client) -> Result<(String, String), Error> {
+    let htm = fetch_html(url, client).await?;
+    let doc = Html::parse_document(&htm);
+    doc.select(&Selector::parse("aside>figure.pi-image>a.image").unwrap())
+        .next()
+        .and_then(|e| e.value().attr("href"))
+        .map(|s| (url.to_string(), s.to_string()))
+        .ok_or(Error::InvalidStructure("invalid image url".to_string()))
 }

@@ -4,7 +4,7 @@ mod types;
 
 use clap::{Parser, Subcommand};
 use df::df_scraper::{DfScrapable, DfScraper};
-use log::debug;
+use log::{debug, info};
 
 /// OPDB Scrapper program
 #[derive(Parser, Debug)]
@@ -32,5 +32,9 @@ async fn main() {
 
     let df_s = DfScraper::new(base_url, reqwest::Client::new());
     // df_s.get_dftype_info().await.unwrap();
-    df_s.get_df_list().await.unwrap();
+    let result = df_s.get_df_list().await.unwrap();
+    info!("result size: {}", result.len());
+    // for x in result {
+    //     info!("result: {}", x);
+    // }
 }

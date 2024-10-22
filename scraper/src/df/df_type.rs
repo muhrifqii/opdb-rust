@@ -1,7 +1,7 @@
 use crate::types::UrlTyped;
 use strum::{Display, EnumIter, EnumString};
 
-#[derive(Debug, EnumString, PartialEq, Display, EnumIter)]
+#[derive(Debug, Clone, Copy, EnumString, PartialEq, Display, EnumIter)]
 pub enum DfType {
     Logia,
     Zoan,
