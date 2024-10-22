@@ -1,3 +1,4 @@
+use super::df_type::DfSubType;
 use super::models::DfTypeInfo;
 use super::{df_type::DfType, models::DevilFruit};
 use crate::types::{Error, UrlTyped};
@@ -125,15 +126,16 @@ impl DfScrapable for DfScraper {
             }
         }
 
+        info!("collecting pictures...");
         let pic_task_results = pic_tasks.join_all().await;
         for pic_task_res in pic_task_results {
             let (df_url, pic_url) = pic_task_res.map_err(|e| Error::RequestError(e.to_string()))?;
 
             // info!("df:{}:{}", pic_url, df_url);
 
-            devil_fruits_map
-                .entry(df_url)
-                .and_modify(|df| df.pic_url = pic_url);
+            devil_fruits_map.entry(df_url).and_modify(|df| {
+                df.pic_url = pic_url.first().map(|s| s.to_string()).unwrap_or_default()
+            });
         }
 
         Ok(devil_fruits_map.into_values().collect_vec())
@@ -190,15 +192,152 @@ async fn get_canon(
     client: &reqwest::Client,
     base_url: &str,
 ) -> Result<Vec<DevilFruit>, Error> {
+    info!("getting canon devil fruits for {:?}", df_typpe);
     match df_typpe {
-        // DfType::Paramecia => get_canon_paramecia(cache, client, base_url).await,
         DfType::Logia | DfType::Paramecia => {
             get_canon_paramecia_logia(cache, client, base_url, df_typpe).await
         }
+        DfType::Zoan => get_canon_zoan(cache, client, base_url).await,
         _ => Ok(Vec::new()),
     }
 }
 
+fn get_sub_type(html_doc: &Html) -> Result<HashMap<&str, DfSubType>, Error> {
+    let mut sub_type_map = HashMap::new();
+
+    for df_sub in DfSubType::iter() {
+        let sub_type_selector = &Selector::parse(&df_sub.id_for_fruit_list()).unwrap();
+        html_doc
+            .select(sub_type_selector)
+            .next()
+            .and_then(|e| e.parent())
+            .map(|n| n.next_siblings())
+            .ok_or(Error::InvalidStructure(String::from(
+                "invalid sibling node",
+            )))?
+            .filter_map(|n| {
+                if n.value().is_element() {
+                    ElementRef::wrap(n)
+                } else {
+                    None
+                }
+            })
+            .filter(|e| e.value().name() == "ul")
+            .take(1)
+            .flat_map(|e| e.child_elements().collect_vec())
+            .for_each(|e| {
+                let path = e
+                    .select(&Selector::parse("a:nth-of-type(1)").unwrap())
+                    .next()
+                    .and_then(|e| e.value().attr("href"))
+                    .unwrap();
+                sub_type_map.insert(path, df_sub);
+            });
+    }
+
+    Ok(sub_type_map)
+}
+
+// traverse h3 "Canon" before h3 "Non-Canon"
+async fn get_canon_zoan(
+    cache: &ArcMapHtml,
+    client: &reqwest::Client,
+    base_url: &str,
+) -> Result<Vec<DevilFruit>, Error> {
+    let url = format!("{}{}", base_url, DfType::Zoan.get_path());
+    let htm = fetch_cached_html(&cache, &url, &client).await?;
+
+    let doc = Html::parse_document(&htm);
+    let sibling_iter = doc
+        .select(&Selector::parse(&DfType::Zoan.id_for_fruit_list()).unwrap())
+        .next()
+        .and_then(|e| e.parent())
+        .map(|n| n.next_siblings())
+        .ok_or(Error::InvalidStructure(String::from(
+            "invalid sibling node",
+        )))?
+        .filter_map(|n| {
+            if n.value().is_element() {
+                ElementRef::wrap(n)
+            } else {
+                None
+            }
+        });
+
+    let mut fruits: Vec<ElementRef> = Vec::new();
+    for el_res in sibling_iter {
+        let el = el_res;
+        if el.value().name() == "h3"
+            && el
+                .first_child()
+                .and_then(|n| ElementRef::wrap(n))
+                .unwrap()
+                .value()
+                .id()
+                .is_some_and(|s| s != "Canon")
+        {
+            break;
+        }
+        if el.value().name() == "ul" {
+            let mut li = el.child_elements().collect_vec();
+            fruits.append(&mut li);
+        }
+    }
+    let df_sub_map = get_sub_type(&doc)?;
+    let mut df_list = Vec::with_capacity(fruits.len());
+    let rex_en_name = Regex::new(r"English version: (.+)").unwrap();
+    let rex_desc = Regex::new(r"\) \- (.+)").unwrap();
+    for el in &fruits {
+        let path = el
+            .select(&Selector::parse("a:nth-of-type(1)").unwrap())
+            .next()
+            .and_then(|e| e.value().attr("href"))
+            .expect(el.html().as_str());
+
+        let mut en_name = "";
+        let mut desc = "".to_string();
+        let mut iter = el.text().into_iter();
+        let name = iter.next().unwrap();
+
+        while let Some(txt) = iter.next() {
+            if rex_en_name.is_match(txt) {
+                en_name = rex_en_name.captures(txt).unwrap().get(1).unwrap().as_str();
+                continue;
+            }
+            if rex_desc.is_match(txt) {
+                desc = rex_desc
+                    .captures(txt)
+                    .unwrap()
+                    .get(1)
+                    .unwrap()
+                    .as_str()
+                    .to_string();
+                break;
+            }
+        }
+        desc += &iter.join("").replace("\n", "").to_string();
+        let sub_type = df_sub_map.get(&path);
+
+        // info!("fruit: {:?}", &el.html());
+        let df = DevilFruit {
+            df_type: DfType::Zoan,
+            df_sub_type: sub_type.map(|s| *s),
+            name: name.to_string(),
+            en_name: en_name.to_string(),
+            description: desc.to_string(),
+            pic_url: String::new(),
+            df_url: path.to_string(),
+        };
+        // info!("fruit name: {}", &df);
+        df_list.push(df);
+    }
+
+    info!("total Zoan: {}", df_list.len());
+
+    Ok(df_list)
+}
+
+// first ul after dl
 async fn get_canon_paramecia_logia(
     cache: &ArcMapHtml,
     client: &reqwest::Client,
@@ -272,6 +411,7 @@ async fn get_canon_paramecia_logia(
         // info!("fruit: {:?}", &el.html());
         let df = DevilFruit {
             df_type,
+            df_sub_type: None,
             name: name.to_string(),
             en_name: en_name.to_string(),
             description: desc.to_string(),
@@ -282,15 +422,19 @@ async fn get_canon_paramecia_logia(
         df_list.push(df);
     }
 
+    info!("total {}: {}", df_type, df_list.len());
+
     Ok(df_list)
 }
 
-async fn get_picture(url: &str, client: &reqwest::Client) -> Result<(String, String), Error> {
+async fn get_picture(url: &str, client: &reqwest::Client) -> Result<(String, Vec<String>), Error> {
     let htm = fetch_html(url, client).await?;
     let doc = Html::parse_document(&htm);
-    doc.select(&Selector::parse("aside>figure.pi-image>a.image").unwrap())
-        .next()
-        .and_then(|e| e.value().attr("href"))
-        .map(|s| (url.to_string(), s.to_string()))
-        .ok_or(Error::InvalidStructure("invalid image url".to_string()))
+    // info!("grep url: {}", &url);
+    let imgs = doc
+        .select(&Selector::parse("aside figure.pi-image>a.image").unwrap())
+        .filter_map(|e| e.value().attr("href"))
+        .map(|s| s.to_string())
+        .collect_vec();
+    Ok((url.to_string(), imgs))
 }

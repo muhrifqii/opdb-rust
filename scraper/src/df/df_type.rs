@@ -1,7 +1,8 @@
 use crate::types::UrlTyped;
+use serde::Serialize;
 use strum::{Display, EnumIter, EnumString};
 
-#[derive(Debug, Clone, Copy, EnumString, PartialEq, Display, EnumIter)]
+#[derive(Debug, Clone, Copy, EnumString, PartialEq, Display, EnumIter, Serialize)]
 pub enum DfType {
     Logia,
     Zoan,
@@ -20,11 +21,19 @@ impl DfType {
     }
 }
 
-#[derive(Debug, EnumString, PartialEq, Display, EnumIter)]
+#[derive(Debug, Clone, Copy, EnumString, PartialEq, Display, EnumIter, Serialize)]
 pub enum DfSubType {
     AncientZoan,
     MythicalZoan,
-    Artificial,
+}
+
+impl DfSubType {
+    pub fn id_for_fruit_list(&self) -> String {
+        match self {
+            DfSubType::AncientZoan => "#Ancient_Zoan".to_string(),
+            DfSubType::MythicalZoan => "#Mythical_Zoan".to_string(),
+        }
+    }
 }
 
 impl UrlTyped for DfType {
@@ -41,9 +50,7 @@ impl UrlTyped for DfType {
 impl UrlTyped for DfSubType {
     fn get_path(&self) -> String {
         match self {
-            DfSubType::AncientZoan => "/wiki/Zoan#Ancient_Zoan".to_string(),
-            DfSubType::MythicalZoan => "/wiki/Zoan#Mythical_Zoan".to_string(),
-            DfSubType::Artificial => "/wiki/Artificial_Devil_Fruit".to_string(),
+            DfSubType::AncientZoan | DfSubType::MythicalZoan => "/wiki/Zoan".to_string(),
         }
     }
 }
