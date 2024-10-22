@@ -1,9 +1,7 @@
-use core::error;
-
 use thiserror::Error;
 
 pub trait UrlTyped {
-    fn get_path(&self) -> &'static str;
+    fn get_path(&self) -> String;
 }
 
 #[derive(Debug, Clone, Error)]

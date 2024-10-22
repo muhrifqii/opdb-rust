@@ -1,7 +1,8 @@
 use crate::types::UrlTyped;
-use strum::{Display, EnumString};
+use serde::Serialize;
+use strum::{Display, EnumIter, EnumString};
 
-#[derive(Debug, EnumString, PartialEq, Display)]
+#[derive(Debug, Clone, Copy, EnumString, PartialEq, Display, EnumIter, Serialize)]
 pub enum DfType {
     Logia,
     Zoan,
@@ -9,30 +10,47 @@ pub enum DfType {
     Undetermined,
 }
 
-#[derive(Debug)]
+impl DfType {
+    pub fn id_for_fruit_list(&self) -> String {
+        match self {
+            DfType::Logia => "#Logia-Types".to_string(),
+            DfType::Zoan => "#List_of_Zoan-Type_Fruits".to_string(),
+            DfType::Paramecia => "#Paramecia-Type_Fruits".to_string(),
+            DfType::Undetermined => String::new(),
+        }
+    }
+}
+
+#[derive(Debug, Clone, Copy, EnumString, PartialEq, Display, EnumIter, Serialize)]
 pub enum DfSubType {
     AncientZoan,
     MythicalZoan,
-    Artificial,
+}
+
+impl DfSubType {
+    pub fn id_for_fruit_list(&self) -> String {
+        match self {
+            DfSubType::AncientZoan => "#Ancient_Zoan".to_string(),
+            DfSubType::MythicalZoan => "#Mythical_Zoan".to_string(),
+        }
+    }
 }
 
 impl UrlTyped for DfType {
-    fn get_path(&self) -> &'static str {
+    fn get_path(&self) -> String {
         match self {
-            DfType::Logia => "/Logia",
-            DfType::Zoan => "/Zoan",
-            DfType::Paramecia => "/Paramecia",
-            DfType::Undetermined => "",
+            DfType::Logia => "/wiki/Logia".to_string(),
+            DfType::Zoan => "/wiki/Zoan".to_string(),
+            DfType::Paramecia => "/wiki/Paramecia".to_string(),
+            DfType::Undetermined => String::new(),
         }
     }
 }
 
 impl UrlTyped for DfSubType {
-    fn get_path(&self) -> &'static str {
+    fn get_path(&self) -> String {
         match self {
-            DfSubType::AncientZoan => "/Zoan#Ancient_Zoan",
-            DfSubType::MythicalZoan => "/Zoan#Mythical_Zoan",
-            DfSubType::Artificial => "/Artificial_Devil_Fruit",
+            DfSubType::AncientZoan | DfSubType::MythicalZoan => "/wiki/Zoan".to_string(),
         }
     }
 }

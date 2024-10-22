@@ -4,7 +4,8 @@ mod types;
 
 use clap::{Parser, Subcommand};
 use df::df_scraper::{DfScrapable, DfScraper};
-use log::debug;
+use log::{debug, info};
+use output_writer::{JsonWriter, OutputWriter};
 
 /// OPDB Scrapper program
 #[derive(Parser, Debug)]
@@ -27,9 +28,22 @@ async fn main() {
     debug!("Starting...");
     let args = MainArgs::parse();
 
-    let base_url = String::from("https://onepiece.fandom.com/wiki");
-    if let Some(output_dir) = args.output.as_deref() {}
+    let base_url = "https://onepiece.fandom.com";
+    let default_output_dir = String::from("data");
+    let output_dir = args.output.unwrap_or(default_output_dir);
 
     let df_s = DfScraper::new(base_url, reqwest::Client::new());
-    df_s.get_dftype_info().await.unwrap();
+    let df_type_infos = df_s.get_dftype_info().await.unwrap();
+    let df_result = df_s.get_df_list().await.unwrap();
+    info!("result size: {}", df_result.len());
+
+    let writer = JsonWriter {};
+    writer
+        .write(&df_type_infos, &output_dir, "df_type_infos")
+        .await
+        .unwrap();
+    writer
+        .write(&df_result, &output_dir, "df_list")
+        .await
+        .unwrap();
 }
