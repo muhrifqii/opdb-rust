@@ -1,3 +1,5 @@
+use std::cmp::Ordering;
+
 use serde::Serialize;
 
 use super::df_type::{DfSubType, DfType};
@@ -39,6 +41,31 @@ impl std::fmt::Display for DevilFruit {
             "(df_type: {}, df_sub_type: {:?}, name: {}, english name: {}, pic: {}, url: {}, description: {})",
             self.df_type, self.df_sub_type, self.name, self.en_name, self.pic_url, self.df_url, self.description,
         )
+    }
+}
+
+impl Ord for DevilFruit {
+    fn cmp(&self, other: &Self) -> Ordering {
+        self.df_url.cmp(&other.df_url)
+    }
+}
+
+impl PartialOrd for DevilFruit {
+    fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
+        self.df_url.partial_cmp(&other.df_url)
+    }
+}
+
+impl Eq for DevilFruit {}
+
+impl PartialEq for DevilFruit {
+    fn eq(&self, other: &Self) -> bool {
+        self.df_type == other.df_type
+            && self.df_sub_type == other.df_sub_type
+            && self.name == other.name
+            && self.en_name == other.en_name
+            && self.description == other.description
+            && self.df_url == other.df_url
     }
 }
 

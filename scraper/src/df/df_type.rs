@@ -2,7 +2,9 @@ use crate::types::UrlTyped;
 use serde::Serialize;
 use strum::{Display, EnumIter, EnumString};
 
-#[derive(Debug, Clone, Copy, EnumString, PartialEq, Display, EnumIter, Serialize)]
+#[derive(
+    Debug, Clone, Copy, EnumString, PartialEq, Display, EnumIter, Serialize, Eq, PartialOrd, Ord,
+)]
 pub enum DfType {
     Logia,
     Zoan,
@@ -21,7 +23,9 @@ impl DfType {
     }
 }
 
-#[derive(Debug, Clone, Copy, EnumString, PartialEq, Display, EnumIter, Serialize)]
+#[derive(
+    Debug, Clone, Copy, EnumString, PartialEq, Display, EnumIter, Serialize, Eq, PartialOrd, Ord,
+)]
 pub enum DfSubType {
     AncientZoan,
     MythicalZoan,

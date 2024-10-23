@@ -138,7 +138,7 @@ impl DfScrapable for DfScraper {
             });
         }
 
-        Ok(devil_fruits_map.into_values().collect_vec())
+        Ok(devil_fruits_map.into_values().sorted().collect_vec())
     }
 
     async fn get_df(&self) -> Result<DevilFruit, Error> {
@@ -434,7 +434,7 @@ async fn get_picture(url: &str, client: &reqwest::Client) -> Result<(String, Vec
     let imgs = doc
         .select(&Selector::parse("aside figure.pi-image>a.image").unwrap())
         .filter_map(|e| e.value().attr("href"))
-        .map(|s| s.to_string())
+        .map(|s| s.split("?cb=").next().unwrap().to_string())
         .collect_vec();
     Ok((url.to_string(), imgs))
 }

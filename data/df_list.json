@@ -2,1208 +2,11 @@
   {
     "df_type": "Paramecia",
     "df_sub_type": null,
-    "name": "Toge Toge no Mi",
-    "en_name": "Spike-Spike Fruit",
-    "description": "Allows the user to grow long, pointy spikes from their body that are strong enough to pierce through solid stone. Eaten by Zala.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/e/ee/Toge_Toge_no_Mi_Infobox.png/revision/latest?cb=20230120173638",
-    "df_url": "/wiki/Toge_Toge_no_Mi"
-  },
-  {
-    "df_type": "Zoan",
-    "df_sub_type": null,
-    "name": "Hito Hito no Mi",
-    "en_name": "Human-Human Fruit",
-    "description": "Allows an animal that eats it to become a full human or a half-human hybrid, as well as grant them human-like intelligence and the ability to speak. Eaten by Tony Tony Chopper.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/38/Hito_Hito_no_Mi_Infobox.png/revision/latest?cb=20191228120250",
-    "df_url": "/wiki/Hito_Hito_no_Mi"
-  },
-  {
-    "df_type": "Zoan",
-    "df_sub_type": null,
-    "name": "Kame Kame no Mi",
-    "en_name": "Turtle-Turtle Fruit",
-    "description": "Allows the user to become a full turtle or a half-turtle hybrid. In the case of Pekoms, he resembles a Tarasque.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/74/Kame_Kame_no_Mi_Infobox.png/revision/latest?cb=20160120235204",
-    "df_url": "/wiki/Kame_Kame_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Doku Doku no Mi",
-    "en_name": "Venom-Venom Fruit",
-    "description": "Allows the user to create and control poison. Eaten by Magellan.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/2/21/Doku_Doku_no_Mi_Infobox.png/revision/latest?cb=20160129102538",
-    "df_url": "/wiki/Doku_Doku_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
     "name": "Ato Ato no Mi",
     "en_name": "Art-Art Fruit",
     "description": "Allows the user to transform people and objects into abstract art, rendering them unable to function. Eaten by Giolla.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/0/0f/Ato_Ato_no_Mi_Infobox.png/revision/latest?cb=20240312130350",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/0/0f/Ato_Ato_no_Mi_Infobox.png/revision/latest",
     "df_url": "/wiki/Ato_Ato_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Yomi Yomi no Mi",
-    "en_name": "Revive-Revive Fruit",
-    "description": "Allows the user's soul to return to the living world after dying, bringing the user back to life. The user can also make their returned soul temporarily leave their reanimated body and their soul exudes a freezing coldness that can be weaponized. Eaten by Brook.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/3b/Yomi_Yomi_no_Mi_Infobox.png/revision/latest?cb=20201116170233",
-    "df_url": "/wiki/Yomi_Yomi_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Nomi Nomi no Mi",
-    "en_name": "Brain-Brain Fruit",
-    "description": "Allows the user's brain to store an indefinite amount of information and recall everything they ever learn. It also causes their brain to expand continuously as a result. Eaten by Vegapunk until his death.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/8/86/Nomi_Nomi_no_Mi_Infobox.png/revision/latest?cb=20240317020525",
-    "df_url": "/wiki/Nomi_Nomi_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Toshi Toshi no Mi",
-    "en_name": "Age-Age Fruit)",
-    "description": "Toshi Toshi no Mi (English version: Age-Age Fruit): Allows the user to manipulate the aging process of any person or object. Eaten by Jewelry Bonney.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/b7/Toshi_Toshi_no_Mi_Infobox.png/revision/latest?cb=20220916035306",
-    "df_url": "/wiki/Toshi_Toshi_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Shari Shari no Mi",
-    "en_name": "Wheel-Wheel Fruit",
-    "description": "Allows the user to turn their limbs into wheels. Eaten by Sharinguru.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/f4/Sharinguru_Manga_Infobox.png/revision/latest?cb=20220723150343",
-    "df_url": "/wiki/Shari_Shari_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Beri Beri no Mi",
-    "en_name": "Berry-Berry Fruit",
-    "description": "Allows the user to split their body into many spheres. Eaten by Very Good.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/2/27/Beri_Beri_no_Mi_Infobox.png/revision/latest?cb=20130503053935",
-    "df_url": "/wiki/Beri_Beri_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Shiro Shiro no Mi",
-    "en_name": "Castle-Castle Fruit",
-    "description": "Allows the user to become a literal miniature living fortress equipped with cannons, as well as letting them shrink people and objects who enter their body and house them inside. Eaten by Capone Bege.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/e/e8/Shiro_Shiro_no_Mi_Infobox.png/revision/latest?cb=20160115065100",
-    "df_url": "/wiki/Shiro_Shiro_no_Mi"
-  },
-  {
-    "df_type": "Zoan",
-    "df_sub_type": null,
-    "name": "Uma Uma no Mi",
-    "en_name": "Horse-Horse Fruit",
-    "description": "Allows the user to become a full horse or a half-horse hybrid. In the case of Gan Fall's pet bird Pierre, he resembles a Pegasus.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/39/Uma_Uma_no_Mi_Infobox.png/revision/latest?cb=20220713111132",
-    "df_url": "/wiki/Uma_Uma_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Bari Bari no Mi",
-    "en_name": "Barrier-Barrier Fruit",
-    "description": "Allows the user to create barriers by crossing their fingers. The barriers can also be shaped into constructs. However, the user is limited to only one barrier at a time. Eaten by Kurozumi Semimaru until his death and later eaten by Bartolomeo.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/de/Bari_Bari_no_Mi_Infobox.png/revision/latest?cb=20160212174221",
-    "df_url": "/wiki/Bari_Bari_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Guru Guru no Mi",
-    "en_name": "Spin-Spin Fruit",
-    "description": "Allows the user to make any part of their body spin like a propeller. Eaten by Buffalo.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/0/0a/Guru_Guru_no_Mi_Infobox.png/revision/latest?cb=20230825080411",
-    "df_url": "/wiki/Guru_Guru_no_Mi"
-  },
-  {
-    "df_type": "Zoan",
-    "df_sub_type": null,
-    "name": "Hebi Hebi no Mi, Model: Anaconda",
-    "en_name": "Snake-Snake Fruit, Model: Anaconda",
-    "description": "Allows the user to become a full anaconda or a half-anaconda hybrid. Eaten by Boa Sandersonia.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/3c/Hebi_Hebi_no_Mi%2C_Model_Anaconda_Infobox.png/revision/latest?cb=20210908193532",
-    "df_url": "/wiki/Hebi_Hebi_no_Mi,_Model:_Anaconda"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Nui Nui no Mi",
-    "en_name": "Stitch-Stitch Power",
-    "description": "Allows the user to stitch things together. It works on both objects and living things. Eaten by Leo.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/0/00/Nui_Nui_no_Mi_Infobox.png/revision/latest?cb=20190526000026",
-    "df_url": "/wiki/Nui_Nui_no_Mi"
-  },
-  {
-    "df_type": "Zoan",
-    "df_sub_type": "AncientZoan",
-    "name": "Ryu Ryu no Mi, Model: Triceratops",
-    "en_name": "Dragon-Dragon Fruit, Model: Triceratops",
-    "description": "Allows the user to become a full Triceratops or a half-Triceratops hybrid. Eaten by Sasaki.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/58/Ryu_Ryu_no_Mi%2C_Model_Triceratops_Beast_Form.png/revision/latest?cb=20220529042151",
-    "df_url": "/wiki/Ryu_Ryu_no_Mi,_Model:_Triceratops"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Buku Buku no Mi",
-    "en_name": "Book-Book Fruit",
-    "description": "Allows the user to manipulate books, as well as trap people inside them. Eaten by Charlotte Mont-d'Or.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/44/Buku_Buku_no_Mi_Infobox.png/revision/latest?cb=20230228052953",
-    "df_url": "/wiki/Buku_Buku_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Shima Shima no Mi",
-    "en_name": "Isle-Isle Fruit",
-    "description": "Allows the user to merge themself with an island itself and control its environment. Eaten by Avalo Pizarro.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/40/Shima_Shima_no_Mi_Infobox.png/revision/latest?cb=20241013020620",
-    "df_url": "/wiki/Shima_Shima_no_Mi"
-  },
-  {
-    "df_type": "Zoan",
-    "df_sub_type": "MythicalZoan",
-    "name": "Inu Inu no Mi, Model: Kyubi no Kitsune",
-    "en_name": "Dog-Dog Fruit, Model: Nine-Tailed Fox",
-    "description": "Allows the user to become a full nine-tailed fox or a half-nine-tailed fox hybrid. Eaten by Catarina Devon.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/4d/Inu_Inu_no_Mi%2C_Model_Kyubi_no_Kitsune_Infobox.png/revision/latest?cb=20210717170215",
-    "df_url": "/wiki/Inu_Inu_no_Mi,_Model:_Kyubi_no_Kitsune"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Gura Gura no Mi",
-    "en_name": "Tremor-Tremor Fruit",
-    "description": "Allows the user to create quakes and shockwaves. Considered to be the most powerful Paramecia. Eaten by Edward Newgate and later stolen from him by Marshall D. Teach upon his death.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/e/e3/Gura_Gura_no_Mi_Infobox.png/revision/latest?cb=20230301220936",
-    "df_url": "/wiki/Gura_Gura_no_Mi"
-  },
-  {
-    "df_type": "Zoan",
-    "df_sub_type": "MythicalZoan",
-    "name": "Hito Hito no Mi, Model: Daibutsu",
-    "en_name": "",
-    "description": "Allows the user to become a full Daibutsu (a giant gold Buddha) or a half-Daibutsu hybrid. Eaten by Sengoku.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/45/Hito_Hito_no_Mi%2C_Model_Daibutsu_Infobox.png/revision/latest?cb=20240813213645",
-    "df_url": "/wiki/Hito_Hito_no_Mi,_Model:_Daibutsu"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Beta Beta no Mi",
-    "en_name": "",
-    "description": "Allows the user to create and control mucus. Eaten by Trebol.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d9/Beta_Beta_no_Mi_Infobox.png/revision/latest?cb=20231017083240",
-    "df_url": "/wiki/Beta_Beta_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Nagi Nagi no Mi",
-    "en_name": "Calm-Calm Fruit",
-    "description": "Allows the user to nullify sounds. Eaten by Donquixote Rosinante until his death.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/37/Nagi_Nagi_no_Mi_Infobox.png/revision/latest?cb=20150802120152",
-    "df_url": "/wiki/Nagi_Nagi_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Bara Bara no Mi",
-    "en_name": "Chop-Chop Fruit",
-    "description": "Allows the user to split their body into separate pieces, which they can manipulate and levitate through the air. It also makes them immune to slashing attacks. Eaten by Buggy.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/9/9c/Bara_Bara_no_Mi_Infobox.png/revision/latest?cb=20240421082610",
-    "df_url": "/wiki/Bara_Bara_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Wapu Wapu no Mi",
-    "en_name": "Warp-Warp Fruit",
-    "description": "Allows the user to teleport themselves and others from place to place. Eaten by Van Augur.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/5e/Wapu_Wapu_no_Mi.gif/revision/latest?cb=20240215015054",
-    "df_url": "/wiki/Wapu_Wapu_no_Mi"
-  },
-  {
-    "df_type": "Logia",
-    "df_sub_type": null,
-    "name": "Mera Mera no Mi",
-    "en_name": "",
-    "description": "Allows the user to create, control, and transform into fire. Eaten by Portgas D. Ace until his death and later eaten by Sabo.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/8/8c/Mera_Mera_no_Mi_Infobox.png/revision/latest?cb=20240710204632",
-    "df_url": "/wiki/Mera_Mera_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Bomu Bomu no Mi",
-    "en_name": "",
-    "description": "Allows the user to create explosions from their body, as well as give explosive properties to their bodily secretions. Also makes the user immune to explosions. Eaten by Gem.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/1a/Bomu_Bomu_no_Mi_Infobox.png/revision/latest?cb=20210204030003",
-    "df_url": "/wiki/Bomu_Bomu_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Suke Suke no Mi",
-    "en_name": "Clear-Clear Fruit",
-    "description": "Allows the user to become invisible, as well as make anything they touch invisible. Eaten by Absalom until his death and later eaten by Shiryu.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/bb/Suke_Suke_no_Mi_Infobox.png/revision/latest?cb=20200112035251",
-    "df_url": "/wiki/Suke_Suke_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Fuwa Fuwa no Mi",
-    "en_name": "Float-Float Fruit",
-    "description": "Allows the user to fly, as well as giving them the power to make any non-living things they've touched levitate. Eaten by Shiki.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/df/Fuwa_Fuwa_no_Mi_Infobox.png/revision/latest?cb=20130323001748",
-    "df_url": "/wiki/Fuwa_Fuwa_no_Mi"
-  },
-  {
-    "df_type": "Zoan",
-    "df_sub_type": null,
-    "name": "Sara Sara no Mi, Model: Axolotl",
-    "en_name": "Sala-Sala Fruit, Model: Axolotl",
-    "description": "Allows the user to become a full axolotl or a half-axolotl hybrid. In the case of Caesar Clown's poisonous gas Smiley, it became an axolotl/poisonous gas hybrid until his death.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/db/Sara_Sara_no_Mi%2C_Model_Axolotl_Infobox.png/revision/latest?cb=20130630175803",
-    "df_url": "/wiki/Sara_Sara_no_Mi,_Model:_Axolotl"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Kibi Kibi no Mi",
-    "en_name": "Millet-Millet Fruit",
-    "description": "Allows the user to create delicious, but non-nourishing \"dango\" from their cheek by pinching it. Any animal that eats one of these dango is tamed and becomes subservient to the user for a month. Eaten by Tama.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/35/Kibi_Kibi_no_Mi_Infobox.png/revision/latest?cb=20190819140148",
-    "df_url": "/wiki/Kibi_Kibi_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Memo Memo no Mi",
-    "en_name": "Memo-Memo Fruit",
-    "description": "Allows the user to manipulate people's memories. Eaten by Charlotte Pudding.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/c0/Memo_Memo_no_Mi_Infobox.png/revision/latest?cb=20171217105138",
-    "df_url": "/wiki/Memo_Memo_no_Mi"
-  },
-  {
-    "df_type": "Zoan",
-    "df_sub_type": "AncientZoan",
-    "name": "Ryu Ryu no Mi, Model: Spinosaurus",
-    "en_name": "Dragon-Dragon Fruit, Model: Spinosaurus",
-    "description": "Allows the user to become a full Spinosaurus or a half-Spinosaurus hybrid. Eaten by Page One.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/9/92/Ryu_Ryu_no_Mi%2C_Model_Spinosaurus_Beast_Form.png/revision/latest?cb=20220807021957",
-    "df_url": "/wiki/Ryu_Ryu_no_Mi,_Model:_Spinosaurus"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Buki Buki no Mi",
-    "en_name": "Arms-Arms Fruit",
-    "description": "Allows the user to transform their body into any kind of weapon. Eaten by Baby 5.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/3e/Buki_Buki_no_Mi_Infobox.png/revision/latest?cb=20240706141021",
-    "df_url": "/wiki/Buki_Buki_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Bisu Bisu no Mi",
-    "en_name": "Bis-Bis Fruit",
-    "description": "Allows the user to create and control biscuits. Eaten by Charlotte Cracker.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/8/8b/Bisu_Bisu_no_Mi_Infobox.png/revision/latest?cb=20170730022308",
-    "df_url": "/wiki/Bisu_Bisu_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Doru Doru no Mi",
-    "en_name": "Wax-Wax Fruit",
-    "description": "Allows the user to create and control candle wax. Eaten by Galdino.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/5f/Doru_Doru_no_Mi_Infobox.png/revision/latest?cb=20200507205151",
-    "df_url": "/wiki/Doru_Doru_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Toki Toki no Mi",
-    "en_name": "Time-Time Fruit",
-    "description": "Allows the user to send themselves and others forward in time. Eaten by Kouzuki Toki until her death.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/6/6b/Toki_Toki_no_Mi_Infobox.png/revision/latest?cb=20210221040316",
-    "df_url": "/wiki/Toki_Toki_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Gabu Gabu no Mi",
-    "en_name": "Glug-Glug Fruit",
-    "description": "Unknown alcohol-based powers. Eaten by Vasco Shot.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/e/ea/Shot_Spits_Fire_at_Garp.png/revision/latest?cb=20241006020746",
-    "df_url": "/wiki/Gabu_Gabu_no_Mi"
-  },
-  {
-    "df_type": "Zoan",
-    "df_sub_type": null,
-    "name": "Inu Inu no Mi, Model: Dachshund",
-    "en_name": "",
-    "description": "Allows the user to become a full dachshund or a half-dachshund hybrid. In the case of Babe's bazooka-like gun Lassoo, he became a dachshund/gun hybrid.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d0/Inu_Inu_no_Mi%2C_Model_Dachshund_Infobox.png/revision/latest?cb=20200625092631",
-    "df_url": "/wiki/Inu_Inu_no_Mi,_Model:_Dachshund"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Kage Kage no Mi",
-    "en_name": "Shadow-Shadow Fruit",
-    "description": "Allows the user to manifest and control shadows. They can animate and freely manipulate their own shadow, as well as steal and absorb other people's shadows, making the user bigger and stronger. Stolen shadows can also be implanted into corpses, reanimating them. Eaten by Gecko Moria.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/7b/Kage_Kage_no_Mi_Infobox.png/revision/latest?cb=20240628055643",
-    "df_url": "/wiki/Kage_Kage_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Zushi Zushi no Mi",
-    "en_name": "Press-Press Fruit",
-    "description": "Allows the user to manipulate gravity. Eaten by Issho.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/ba/Zushi_Zushi_no_Mi_Infobox.png/revision/latest?cb=20230320032400",
-    "df_url": "/wiki/Zushi_Zushi_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Kuku Kuku no Mi",
-    "en_name": "Cook-Cook Fruit",
-    "description": "Allows the user to transform objects into bad tasting, but nutritious food. Eaten by Streusen.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/47/Kuku_Kuku_no_Mi_Infobox.png/revision/latest?cb=20180527032147",
-    "df_url": "/wiki/Kuku_Kuku_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Gomu Gomu no Mi",
-    "en_name": "Gum-Gum Fruit",
-    "description": "Turns the user's body into rubber, giving them the power to stretch, bounce, and inflate, as well as making them immune to electricity and near impervious to blunt-force attacks and bullets. Eaten by Joy Boy until his death and later eaten by Monkey D. Luffy.This fruit was originally called the Hito Hito no Mi, Model: Nika and was classified as a Mythical Zoan before being renamed by the World Government.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/12/Gomu_Gomu_no_Mi_Infobox.png/revision/latest?cb=20221108072550",
-    "df_url": "/wiki/Gomu_Gomu_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Bata Bata no Mi",
-    "en_name": "Butter-Butter Fruit",
-    "description": "Allows the user to create and control butter. Eaten by Charlotte Galette.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/6/61/Bata_Bata_no_Mi_Infobox.png/revision/latest?cb=20240112231955",
-    "df_url": "/wiki/Bata_Bata_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Horu Horu no Mi",
-    "en_name": "Horm-Horm Fruit",
-    "description": "Allows the user to create various special hormones that can alter a person's body in various ways. The user can also turn their fingers into syringes that they can use to inject the hormones into a person's body. Eaten by Emporio Ivankov.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/53/Horu_Horu_no_Mi_Infobox.png/revision/latest?cb=20231111060110",
-    "df_url": "/wiki/Horu_Horu_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Kuri Kuri no Mi",
-    "en_name": "Cream-Cream Fruit",
-    "description": "Allows the user to create and control cream. Eaten by Charlotte Opera.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/73/Kuri_Kuri_no_Mi_Infobox.png/revision/latest?cb=20180913105124",
-    "df_url": "/wiki/Kuri_Kuri_no_Mi"
-  },
-  {
-    "df_type": "Zoan",
-    "df_sub_type": "MythicalZoan",
-    "name": "Inu Inu no Mi, Model: Okuchi no Makami",
-    "en_name": "Dog-Dog Fruit, Model: Okuchi-no-Makami",
-    "description": "Allows the user to become a full Okuchi no Makami (a wolf deity) or a half-Okuchi no Makami hybrid. Eaten by Yamato.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/1d/Inu_Inu_no_Mi%2C_Model_Okuchi_no_Makami_Infobox.png/revision/latest?cb=20221120062131",
-    "df_url": "/wiki/Inu_Inu_no_Mi,_Model:_Okuchi_no_Makami"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Jiki Jiki no Mi",
-    "en_name": "Magnet-Magnet Fruit",
-    "description": "Allows the user to manipulate magnetic forces. Eaten by Eustass Kid.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/13/Jiki_Jiki_no_Mi_Infobox.png/revision/latest?cb=20240505021030",
-    "df_url": "/wiki/Jiki_Jiki_no_Mi"
-  },
-  {
-    "df_type": "Zoan",
-    "df_sub_type": null,
-    "name": "Inu Inu no Mi, Model: Tanuki",
-    "en_name": "Dog-Dog Fruit, Model: Tanuki",
-    "description": "Allows the user to become a full tanuki or a half-tanuki hybrid. In the case of Kouzuki Sukiyaki's teapot Bunbuku, he becomes a tanuki/teapot hybrid.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/33/Bunbuku_Manga_Infobox.png/revision/latest?cb=20210405204206",
-    "df_url": "/wiki/Inu_Inu_no_Mi,_Model:_Tanuki"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Hana Hana no Mi",
-    "en_name": "Flower-Flower Fruit",
-    "description": "Allows the user to sprout duplicates of their body parts from any nearby surface. The user maintains full control of duplicated limbs and can perceive sights and sounds remotely through duplicate eyes and ears. Eaten by Nico Robin.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/2/21/Hana_Hana_no_Mi_Infobox.png/revision/latest?cb=20191228120242",
-    "df_url": "/wiki/Hana_Hana_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Noro Noro no Mi",
-    "en_name": "Slow-Slow Fruit",
-    "description": "Allows the user to emit special unique photons. Anything hit by these photons will be trapped in a state of slow motion for 30 seconds. Eaten by Foxy.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/7a/Noro_Noro_no_Mi_Infobox.png/revision/latest?cb=20230516224102",
-    "df_url": "/wiki/Noro_Noro_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Deka Deka no Mi",
-    "en_name": "Huge-Huge Fruit",
-    "description": "Allows the user to greatly increase the size of their body. Eaten by Sanjuan Wolf.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/b4/Deka_Deka_no_Mi_Infobox.png/revision/latest?cb=20241006041532",
-    "df_url": "/wiki/Deka_Deka_no_Mi"
-  },
-  {
-    "df_type": "Zoan",
-    "df_sub_type": "AncientZoan",
-    "name": "Ryu Ryu no Mi, Model: Pachycephalosaurus",
-    "en_name": "Dragon-Dragon Fruit, Model: Pachycephalosaurus",
-    "description": "Allows the user to become a full Pachycephalosaurus or a half-Pachycephalosaurus hybrid. Eaten by Ulti.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/4b/Ryu_Ryu_no_Mi%2C_Model_Pachycephalosaurus_Beast_Form.png/revision/latest?cb=20240831170434",
-    "df_url": "/wiki/Ryu_Ryu_no_Mi,_Model:_Pachycephalosaurus"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Sabi Sabi no Mi",
-    "en_name": "Rust-Rust Fruit",
-    "description": "Allows the user to rapidly rust anything they touch, including organic material. Eaten by Shu.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/7c/Sabi_Sabi_no_Mi_Infobox.png/revision/latest?cb=20160708014101",
-    "df_url": "/wiki/Sabi_Sabi_no_Mi"
-  },
-  {
-    "df_type": "Logia",
-    "df_sub_type": null,
-    "name": "Yuki Yuki no Mi",
-    "en_name": "Snow-Snow Fruit",
-    "description": "Allows the user to create, control, and transform into snow. Eaten by Monet until her death.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/a9/Yuki_Yuki_no_Mi_Infobox.png/revision/latest?cb=20240221181209",
-    "df_url": "/wiki/Yuki_Yuki_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Doa Doa no Mi",
-    "en_name": "Door-Door Fruit",
-    "description": "Allows the user to create and open doors on anything, including walls, living beings, and even the air itself. Eaten by Blueno.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/0/04/Doa_Doa_no_Mi_Infobox.png/revision/latest?cb=20230117020238",
-    "df_url": "/wiki/Doa_Doa_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Choki Choki no Mi",
-    "en_name": "Snip-Snip Fruit",
-    "description": "Allows the user to transform parts of their body into scissors. Anything cut by these scissors briefly gains the properties of paper. Eaten by Inazuma.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/0/0f/Choki_Choki_no_Mi_Infobox.png/revision/latest?cb=20130224140928",
-    "df_url": "/wiki/Choki_Choki_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Horo Horo no Mi",
-    "en_name": "Hollow-Hollow Fruit",
-    "description": "Allows the user to create and control ghosts with different abilities, such as inflicting feelings of despair on people whom they pass through, or exploding with great force. The user can also make their own ghost leave their body as a form of astral projection. Eaten by Perona.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/14/Horo_Horo_no_Mi_Infobox.png/revision/latest?cb=20230907011956",
-    "df_url": "/wiki/Horo_Horo_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Mato Mato no Mi",
-    "en_name": "Mark-Mark Fruit",
-    "description": "Allows the user to mark a person as their target by touching them so that any weapon thrown with that same hand will chase after the marked target. Eaten by Vander Decken IX.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/b7/Mato_Mato_no_Mi_Infobox.png/revision/latest?cb=20220920042704",
-    "df_url": "/wiki/Mato_Mato_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Giro Giro no Mi",
-    "en_name": "Glare-Glare Fruit",
-    "description": "Allows the user to see through solid objects and over vast distances, as well as see into people's minds and memories. The user achieves this by forming a circle with their index finger and thumb and looking through it. Eaten by Viola.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/2/23/Giro_Giro_no_Mi_Infobox.png/revision/latest?cb=20201101164342",
-    "df_url": "/wiki/Giro_Giro_no_Mi"
-  },
-  {
-    "df_type": "Zoan",
-    "df_sub_type": "AncientZoan",
-    "name": "Ryu Ryu no Mi, Model: Allosaurus",
-    "en_name": "Dragon-Dragon Fruit, Model: Allosaurus",
-    "description": "Allows the user to become a full Allosaurus or a half-Allosaurus hybrid. Eaten by X Drake.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/a3/Ryu_Ryu_no_Mi%2C_Model_Allosaurus_Beast_Form.png/revision/latest?cb=20220301122130",
-    "df_url": "/wiki/Ryu_Ryu_no_Mi,_Model:_Allosaurus"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Shiku Shiku no Mi",
-    "en_name": "Sick-Sick Fruit",
-    "description": "Allows the user to afflict others with diseases. Eaten by Doc Q.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/a2/Shiku_Shiku_no_Mi_Infobox.png/revision/latest?cb=20240211021532",
-    "df_url": "/wiki/Shiku_Shiku_no_Mi"
-  },
-  {
-    "df_type": "Zoan",
-    "df_sub_type": null,
-    "name": "Inu Inu no Mi, Model: Jackal",
-    "en_name": "",
-    "description": "Allows the user to become a full jackal or a half-jackal hybrid. Eaten by Chaka.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/4f/Inu_Inu_no_Mi%2C_Model_Jackal_Infobox.png/revision/latest?cb=20230913193627",
-    "df_url": "/wiki/Inu_Inu_no_Mi,_Model:_Jackal"
-  },
-  {
-    "df_type": "Zoan",
-    "df_sub_type": "MythicalZoan",
-    "name": "Uma Uma no Mi, Model: Pegasus",
-    "en_name": "Horse- Horse Fruit, Model: Pegasus",
-    "description": "Allows the user to become a full pegasus or a half-pegasus hybrid. Eaten by Stronger.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/7e/Uma_Uma_no_Mi%2C_Model_Pegasus_Infobox.png/revision/latest?cb=20240211024057",
-    "df_url": "/wiki/Uma_Uma_no_Mi,_Model:_Pegasus"
-  },
-  {
-    "df_type": "Logia",
-    "df_sub_type": null,
-    "name": "Magu Magu no Mi",
-    "en_name": "Mag-Mag Fruit",
-    "description": "Allows the user to create, control, and transform into magma. It ranks amongst the greatest attack power out of all the Devil Fruits.[29] Eaten by Sakazuki.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/0/07/Magu_Magu_no_Mi_Infobox.png/revision/latest?cb=20231013044624",
-    "df_url": "/wiki/Magu_Magu_no_Mi"
-  },
-  {
-    "df_type": "Zoan",
-    "df_sub_type": null,
-    "name": "Zou Zou no Mi",
-    "en_name": "",
-    "description": "Allows the user to become a full elephant or a half-elephant hybrid. In the case of Spandam's sword Funkfreed, he becomes an elephant/sword hybrid.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/c1/Funkfreed_Anime_Infobox.png/revision/latest?cb=20160816232853",
-    "df_url": "/wiki/Zou_Zou_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Wara Wara no Mi",
-    "en_name": "Straw-Straw Fruit",
-    "description": "Allows the user to create and control straw. They can also create straw voodoo dolls, allowing the user to transfer the damage they take to the dolls and, by extension, the people connected to them. Eaten by Basil Hawkins.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/b4/Wara_Wara_no_Mi_Infobox.png/revision/latest?cb=20180803070246",
-    "df_url": "/wiki/Wara_Wara_no_Mi"
-  },
-  {
-    "df_type": "Zoan",
-    "df_sub_type": "AncientZoan",
-    "name": "Ryu Ryu no Mi, Model: Brachiosaurus",
-    "en_name": "Dragon-Dragon Fruit, Model: Brachiosaurus",
-    "description": "Allows the user to become a full Brachiosaurus or a half-Brachiosaurus hybrid. Eaten by Queen.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/40/Ryu_Ryu_no_Mi%2C_Model_Brachiosaurus_Beast_Form.png/revision/latest?cb=20221106024038",
-    "df_url": "/wiki/Ryu_Ryu_no_Mi,_Model:_Brachiosaurus"
-  },
-  {
-    "df_type": "Logia",
-    "df_sub_type": null,
-    "name": "Mori Mori no Mi",
-    "en_name": "Woods-Woods Fruit",
-    "description": "Allows the user to create, control, and transform into flora. The user can become what is described to be a living forest. Eaten by Aramaki.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/2/23/Mori_Mori_no_Mi_Infobox.png/revision/latest?cb=20240915022218",
-    "df_url": "/wiki/Mori_Mori_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Ope Ope no Mi",
-    "en_name": "Op-Op Fruit",
-    "description": "Allows the user to manifest a large sphere of aura, inside which they can manipulate the fabric of space, allowing the user to teleport, telekinetically move things, cleave things without actually damaging them, reassemble things into various combinations, and generate high voltage energy. Eaten by an unknown doctor until his death and later eaten by Trafalgar D. Water Law.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/0/0e/Ope_Ope_no_Mi_Infobox.png/revision/latest?cb=20210409181034",
-    "df_url": "/wiki/Ope_Ope_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Bane Bane no Mi",
-    "en_name": "",
-    "description": "Allows the user to turn their body and limbs into springs. Eaten by Bellamy.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/1d/Bane_Bane_no_Mi_Infobox.png/revision/latest?cb=20160913222919",
-    "df_url": "/wiki/Bane_Bane_no_Mi"
-  },
-  {
-    "df_type": "Zoan",
-    "df_sub_type": null,
-    "name": "Inu Inu no Mi, Model: Wolf",
-    "en_name": "",
-    "description": "Allows the user to become a full wolf or a half-wolf hybrid similar to a werewolf. Eaten by Jabra.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/e/e1/Full-Beast_Form_of_Jabra%27s_fruit.png/revision/latest?cb=20240303202356",
-    "df_url": "/wiki/Inu_Inu_no_Mi,_Model:_Wolf"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Mero Mero no Mi",
-    "en_name": "Love-Love Fruit",
-    "description": "Allows the user to turn people that feel attraction to them into stone statues. Eaten by Boa Hancock.S-Snake possesses the artificial version of this fruit's power.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/9/98/Mero_Mero_no_Mi_Infobox.png/revision/latest?cb=20230306202058",
-    "df_url": "/wiki/Mero_Mero_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Chiyu Chiyu no Mi",
-    "en_name": "Heal-Heal Fruit",
-    "description": "Allows the user to heal people's wounds. Eaten by Mansherry.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/b2/Chiyu_Chiyu_no_Mi_Infobox.png/revision/latest?cb=20151129192854",
-    "df_url": "/wiki/Chiyu_Chiyu_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Maki Maki no Mi",
-    "en_name": "Scroll-Scroll Fruit",
-    "description": "Allows the user to create and control scrolls. These scrolls have special properties, including the ability to store objects inside them. Eaten by Raizo.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d1/Maki_Maki_no_Mi_Infobox.png/revision/latest?cb=20230820124033",
-    "df_url": "/wiki/Maki_Maki_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Shibo Shibo no Mi",
-    "en_name": "Wring-Wring Fruit",
-    "description": "Allows the user to drain liquid from people and objects, as well as transfer that liquid into their own body, making them bigger and stronger. Eaten by Charlotte Smoothie.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d7/Shibo_Shibo_no_Mi_Infobox.png/revision/latest?cb=20230702183856",
-    "df_url": "/wiki/Shibo_Shibo_no_Mi"
-  },
-  {
-    "df_type": "Zoan",
-    "df_sub_type": null,
-    "name": "Mushi Mushi no Mi, Model: Suzumebachi",
-    "en_name": "Bug-Bug Fruit, Model: Hornet",
-    "description": "Allows the user to become a full hornet or a half-hornet hybrid. The user can also fly in either form. Eaten by Bian.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d4/Mushi_Mushi_no_Mi%2C_Model_Suzumebachi_Infobox.png/revision/latest?cb=20140609062408",
-    "df_url": "/wiki/Mushi_Mushi_no_Mi,_Model:_Suzumebachi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Gocha Gocha no Mi",
-    "en_name": "Pile-Pile Fruit",
-    "description": "Allows the user to fuse themselves with other people. Eaten by Charlotte Newshi.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/47/Gocha_Gocha_no_Mi_Infobox.png/revision/latest?cb=20240929200919",
-    "df_url": "/wiki/Gocha_Gocha_no_Mi"
-  },
-  {
-    "df_type": "Zoan",
-    "df_sub_type": null,
-    "name": "Mushi Mushi no Mi, Model: Kabutomushi",
-    "en_name": "Bug-Bug Fruit, Model: Rhinoceros Beetle",
-    "description": "Allows the user to become a full rhinoceros beetle or a half-rhinoceros beetle hybrid. The user can also fly in either form. Eaten by Kabu.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/ce/Mushi_Mushi_no_Mi%2C_Model_Kabutomushi_Infobox.png/revision/latest?cb=20141006011335",
-    "df_url": "/wiki/Mushi_Mushi_no_Mi,_Model:_Kabutomushi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Ton Ton no Mi",
-    "en_name": "Ton-Ton Fruit",
-    "description": "Allows the user to drastically increase their body weight, by as much as thousands of metric tons. Eaten by Machvise.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/40/Ton_Ton_no_Mi_Infobox.png/revision/latest?cb=20240211235111",
-    "df_url": "/wiki/Ton_Ton_no_Mi"
-  },
-  {
-    "df_type": "Zoan",
-    "df_sub_type": null,
-    "name": "Tori Tori no Mi, Model: Falcon",
-    "en_name": "",
-    "description": "Allows the user to become a full falcon or a half-falcon hybrid. Eaten by Pell.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/e/ea/Tori_Tori_no_Mi%2C_Model_Falcon_Beast_Form.png/revision/latest?cb=20230916035747",
-    "df_url": "/wiki/Tori_Tori_no_Mi,_Model:_Falcon"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Mira Mira no Mi",
-    "en_name": "Mirror-Mirror Fruit",
-    "description": "Allows the user to create mirrors that can reflect attacks, as well as transform living things, including themselves, into a reflection of their chosen target. The user can also turn any mirror into an entrance to the Mirro-World. Eaten by Charlotte Brûlée.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/c3/Mira_Mira_no_Mi_Infobox.png/revision/latest?cb=20170709205701",
-    "df_url": "/wiki/Mira_Mira_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Kira Kira no Mi",
-    "en_name": "Twinkle-Twinkle Fruit",
-    "description": "Allows the user to transform their body into diamond. Eaten by Jozu.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/ad/Kira_Kira_no_Mi_Infobox.png/revision/latest?cb=20240320175137",
-    "df_url": "/wiki/Kira_Kira_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Soru Soru no Mi",
-    "en_name": "Soul-Soul Fruit",
-    "description": "Allows the user to extract souls/lifespan from people who fear them and use those souls to bring objects to life. These objects are subservient to the user. Objects brought to life with a fragment of the user's own soul are stronger than others. Eaten by Carmel until her death and later eaten by Charlotte Linlin.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/9/9d/Soru_Soru_no_Mi_Infobox.png/revision/latest?cb=20230113122808",
-    "df_url": "/wiki/Soru_Soru_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Pamu Pamu no Mi",
-    "en_name": "Pop-Pop Fruit",
-    "description": "Allows the user to expand and rupture their body, as well as expand and rupture any inorganic object they touch. Eaten by Gladius.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/a9/Pamu_Pamu_no_Mi_Infobox.png/revision/latest?cb=20231025225145",
-    "df_url": "/wiki/Pamu_Pamu_no_Mi"
-  },
-  {
-    "df_type": "Logia",
-    "df_sub_type": null,
-    "name": "Moku Moku no Mi",
-    "en_name": "",
-    "description": "Allows the user to create, control, and transform into smoke. Eaten by Smoker.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/8/8d/Moku_Moku_no_Mi_Infobox.png/revision/latest?cb=20200912191830",
-    "df_url": "/wiki/Moku_Moku_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Baku Baku no Mi",
-    "en_name": "Munch-Munch Fruit",
-    "description": "Allows the user to expand their mouth and eat anything, as well as allowing them to transform their body to replicate the characteristics and function of anything they've eaten in the past 24 hours. Eaten by Wapol.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/c6/Baku_Baku_no_Mi_Infobox.png/revision/latest?cb=20200507163319",
-    "df_url": "/wiki/Baku_Baku_no_Mi"
-  },
-  {
-    "df_type": "Zoan",
-    "df_sub_type": "AncientZoan",
-    "name": "Zou Zou no Mi, Model: Mammoth",
-    "en_name": "Elephant-Elephant Fruit, Model: Mammoth",
-    "description": "Allows the user to become a full mammoth or a half-mammoth hybrid. Eaten by Jack.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d4/Zou_Zou_no_Mi%2C_Model_Mammoth_Beast_Form.png/revision/latest?cb=20211212162937",
-    "df_url": "/wiki/Zou_Zou_no_Mi,_Model:_Mammoth"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Oshi Oshi no Mi",
-    "en_name": "Push-Push Fruit",
-    "description": "Allows the user to manipulate the ground as if it were made of clay. Eaten by Morley.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/1f/Oshi_Oshi_no_Mi_Infobox.png/revision/latest?cb=20220721051214",
-    "df_url": "/wiki/Oshi_Oshi_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Jake Jake no Mi",
-    "en_name": "Jacket-Jacket Fruit",
-    "description": "Allows the user to transform into a whole-body jacket and control the body of the person wearing them. While being worn, the user can take advantage of both their own physical abilities and those of the person wearing them. Eaten by Kelly Funk.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/a1/Jake_Jake_no_Mi_Infobox.png/revision/latest?cb=20170607182134",
-    "df_url": "/wiki/Jake_Jake_no_Mi"
-  },
-  {
-    "df_type": "Logia",
-    "df_sub_type": null,
-    "name": "Hie Hie no Mi",
-    "en_name": "",
-    "description": "Allows the user to create, control, and transform into ice. Eaten by Kuzan.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/56/Hie_Hie_no_Mi_Infobox.png/revision/latest?cb=20221101155813",
-    "df_url": "/wiki/Hie_Hie_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Ito Ito no Mi",
-    "en_name": "String-String Fruit",
-    "description": "Allows the user to create and control strings. Eaten by Donquixote Doflamingo.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/ae/Ito_Ito_no_Mi_Infobox.png/revision/latest?cb=20151220070449",
-    "df_url": "/wiki/Ito_Ito_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Hoya Hoya no Mi",
-    "en_name": "Puff-Puff Fruit",
-    "description": "Allows the user to summon a powerful warrior genie from their body by rubbing their belly. Eaten by Charlotte Daifuku.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/9/97/Hoya_Hoya_no_Mi_Infobox.png/revision/latest?cb=20210208063127",
-    "df_url": "/wiki/Hoya_Hoya_no_Mi"
-  },
-  {
-    "df_type": "Zoan",
-    "df_sub_type": null,
-    "name": "Ushi Ushi no Mi, Model: Giraffe",
-    "en_name": "",
-    "description": "Allows the user to become a full giraffe or a half-giraffe hybrid. Eaten by a non-canon New World pirate until his death and later eaten by Kaku.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/8/8c/Ushi_Ushi_no_Mi%2C_Model_Giraffe_Infobox.png/revision/latest?cb=20230120040539",
-    "df_url": "/wiki/Ushi_Ushi_no_Mi,_Model:_Giraffe"
-  },
-  {
-    "df_type": "Zoan",
-    "df_sub_type": "MythicalZoan",
-    "name": "Hito Hito no Mi, Model: Onyudo",
-    "en_name": "Human-Human Fruit, Model: Onyudo",
-    "description": "Allows the user to become a full onyudo (a monk yokai) or a half-onyudo hybrid, as well as grant them human-like intelligence and the ability to speak. Eaten by Onimaru.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d2/Onimaru_as_Gyukimaru.png/revision/latest?cb=20200712035243",
-    "df_url": "/wiki/Hito_Hito_no_Mi,_Model:_Onyudo"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Mochi Mochi no Mi",
-    "en_name": "Mochi-Mochi Fruit",
-    "description": "Allows the user to create, control, and even transform their body into mochi. Eaten by Charlotte Katakuri.This Devil Fruit is noted to be a \"Special Paramecia\".",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/2/2c/Mochi_Mochi_no_Mi_Infobox.png/revision/latest?cb=20220525022420",
-    "df_url": "/wiki/Mochi_Mochi_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Hobi Hobi no Mi",
-    "en_name": "Hobby-Hobby Fruit",
-    "description": "Allows the user to turn people into subservient living toys, simultaneously erasing any memory of the victim from the minds of others. It also halts the user's aging. Eaten by Sugar.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/3d/Hobi_Hobi_no_Mi_Infobox.png/revision/latest?cb=20230911073220",
-    "df_url": "/wiki/Hobi_Hobi_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Oto Oto no Mi",
-    "en_name": "Tone-Tone Fruit",
-    "description": "Allows the user to morph their body parts into musical instruments and weaponize the sound waves they create. Eaten by Scratchmen Apoo.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/16/Oto_Oto_no_Mi_Infobox.png/revision/latest?cb=20230625231507",
-    "df_url": "/wiki/Oto_Oto_no_Mi"
-  },
-  {
-    "df_type": "Zoan",
-    "df_sub_type": "AncientZoan",
-    "name": "Neko Neko no Mi, Model: Saber Tiger",
-    "en_name": "Cat-Cat Fruit, Model: Saber-Toothed Tiger",
-    "description": "Allows the user to become a full saber-toothed tiger or a half-saber-toothed tiger hybrid. Eaten by Who's-Who.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/2/2a/Neko_Neko_no_Mi%2C_Model_Saber_Tiger_Beast_Form.png/revision/latest?cb=20230416152814",
-    "df_url": "/wiki/Neko_Neko_no_Mi,_Model:_Saber_Tiger"
-  },
-  {
-    "df_type": "Zoan",
-    "df_sub_type": "AncientZoan",
-    "name": "Kumo Kumo no Mi, Model: Rosamygale Grauvogeli",
-    "en_name": "Spider-Spider Fruit, Model: Rosamygale Grauvogeli",
-    "description": "Allows the user to become a Rosamygale grauvogeli or a half-Rosamygale grauvogeli hybrid. Eaten by Black Maria.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/7c/Kumo_Kumo_no_Mi_Model_Rosamygale_Grauvogeli_Infobox.png/revision/latest?cb=20230818050241",
-    "df_url": "/wiki/Kumo_Kumo_no_Mi,_Model:_Rosamygale_Grauvogeli"
-  },
-  {
-    "df_type": "Zoan",
-    "df_sub_type": null,
-    "name": "Ushi Ushi no Mi, Model: Bison",
-    "en_name": "",
-    "description": "Allows the user to become a full bison or a half-bison hybrid. Eaten by Dalton.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/bf/Ushi_Ushi_no_Mi%2C_Model_Bison_Infobox.png/revision/latest?cb=20220408131623",
-    "df_url": "/wiki/Ushi_Ushi_no_Mi,_Model:_Bison"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Ori Ori no Mi",
-    "en_name": "",
-    "description": "Allows the user to create iron bars from their body and create iron bindings on their opponents. Eaten by Hina.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/7a/Ori_Ori_no_Mi_Infobox.png/revision/latest?cb=20231125033554",
-    "df_url": "/wiki/Ori_Ori_no_Mi"
-  },
-  {
-    "df_type": "Zoan",
-    "df_sub_type": null,
-    "name": "Tori Tori no Mi, Model: Albatross",
-    "en_name": "Bird-Bird Fruit, Model: Albatross",
-    "description": "Allows the user to become a full albatross or a half-albatross hybrid. Eaten by Morgans.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/8/87/Morgans_Anime_Infobox.png/revision/latest?cb=20240526034406",
-    "df_url": "/wiki/Tori_Tori_no_Mi,_Model:_Albatross"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Kiro Kiro no Mi",
-    "en_name": "Kilo-Kilo Fruit",
-    "description": "Allows the user to increase or decrease their body weight at will, anywhere between 1 and 10,000 kilograms. Eaten by Mikita.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/8/89/Kiro_Kiro_no_Mi_Infobox.png/revision/latest?cb=20210204030042",
-    "df_url": "/wiki/Kiro_Kiro_no_Mi"
-  },
-  {
-    "df_type": "Zoan",
-    "df_sub_type": null,
-    "name": "Mogu Mogu no Mi",
-    "en_name": "",
-    "description": "Allows the user to become a full mole or a half-mole hybrid. The user can also dig underground. Eaten by Drophy.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/9/95/Mogu_Mogu_no_Mi_Infobox.png/revision/latest?cb=20230624124000",
-    "df_url": "/wiki/Mogu_Mogu_no_Mi"
-  },
-  {
-    "df_type": "Logia",
-    "df_sub_type": null,
-    "name": "Pika Pika no Mi",
-    "en_name": "Glint-Glint Fruit",
-    "description": "Allows the user to create, control, and transform into light. Eaten by Borsalino.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/6/66/Pika_Pika_no_Mi_Infobox.png/revision/latest?cb=20230524010145",
-    "df_url": "/wiki/Pika_Pika_no_Mi"
-  },
-  {
-    "df_type": "Logia",
-    "df_sub_type": null,
-    "name": "Yami Yami no Mi",
-    "en_name": "Dark-Dark Fruit",
-    "description": "Allows the user to create, control, and transform into darkness. The darkness has strong gravitational properties, and the user has an infinite amount of space inside of their elemental body. Eaten by Marshall D. Teach.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/f5/Yami_Yami_no_Mi_Infobox.png/revision/latest?cb=20240627010252",
-    "df_url": "/wiki/Yami_Yami_no_Mi"
-  },
-  {
-    "df_type": "Logia",
-    "df_sub_type": null,
-    "name": "Numa Numa no Mi",
-    "en_name": "Swamp-Swamp Fruit",
-    "description": "Allows the user to create, control, and transform into mud. The user is a \"bottomless swamp\", granting them an infinite amount of space inside their elemental body. The mud can also take on the properties of quicksand. Eaten by Caribou.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d3/Numa_Numa_no_Mi_Infobox.png/revision/latest?cb=20230715142546",
-    "df_url": "/wiki/Numa_Numa_no_Mi"
-  },
-  {
-    "df_type": "Zoan",
-    "df_sub_type": "MythicalZoan",
-    "name": "Tori Tori no Mi, Model: Phoenix",
-    "en_name": "Bird-Bird Fruit, Model: Phoenix",
-    "description": "Tori Tori no Mi, Model: Phoenix (English version: Bird-Bird Fruit, Model: Phoenix)- Allows the user to become a full phoenix or a half-phoenix hybrid. Eaten by Marco.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/1f/Tori_Tori_no_Mi%2C_Model_Phoenix_Beast_Form.png/revision/latest?cb=20211210062841",
-    "df_url": "/wiki/Tori_Tori_no_Mi,_Model:_Phoenix"
-  },
-  {
-    "df_type": "Zoan",
-    "df_sub_type": null,
-    "name": "Neko Neko no Mi, Model: Leopard",
-    "en_name": "Cat-Cat Fruit, Model: Leopard",
-    "description": "Allows the user to become a full leopard or a half-leopard hybrid. Eaten by Rob Lucci.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/9/98/Neko_Neko_no_Mi%2C_Model_Leopard_Infobox.png/revision/latest?cb=20230306213909",
-    "df_url": "/wiki/Neko_Neko_no_Mi,_Model:_Leopard"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Supa Supa no Mi",
-    "en_name": "Dice-Dice Fruit",
-    "description": "Allows the user to transform any part of their body into a blade, thus gaining slashing abilities and making their skin as hard as steel. Eaten by Daz Bonez.S-Hawk possesses the artificial version of this fruit's power.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/f9/Supa_Supa_no_Mi_Infobox.png/revision/latest?cb=20240605221022",
-    "df_url": "/wiki/Supa_Supa_no_Mi"
-  },
-  {
-    "df_type": "Zoan",
-    "df_sub_type": null,
-    "name": "Tama Tama no Mi",
-    "en_name": "Egg-Egg Fruit",
-    "description": "Gives the user's body the properties of an egg. When the shell is destroyed, the user will regenerate from the yolk in a stronger chicken-like form. It was eaten by Tamago.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/a9/Tama_Tama_no_Mi_Infobox.png/revision/latest?cb=20171203040745",
-    "df_url": "/wiki/Tama_Tama_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Woshu Woshu no Mi",
-    "en_name": "Wash-Wash Fruit",
-    "description": "Allows the user to literally wash and fold a person as if they were laundry. It also makes the victim's heart cleaner. Eaten by Tsuru.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/4c/Woshu_Woshu_no_Mi_Infobox.png/revision/latest?cb=20220818020619",
-    "df_url": "/wiki/Woshu_Woshu_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Fude Fude no Mi",
-    "en_name": "Brush-Brush Fruit",
-    "description": "Allows the user to create and control ink, as well as manifest and manipulate anything they draw using a brush. Eaten by Kurozumi Kanjuro until his death.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/b4/Fude_Fude_no_Mi_Infobox.png/revision/latest?cb=20210710161433",
-    "df_url": "/wiki/Fude_Fude_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Pero Pero no Mi",
-    "en_name": "Lick-Lick Fruit",
-    "description": "Allows the user to create and control candy. Eaten by Charlotte Perospero.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/77/Pero_Pero_no_Mi_Infobox.png/revision/latest?cb=20230707021540",
-    "df_url": "/wiki/Pero_Pero_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Juku Juku no Mi",
-    "en_name": "Ripe-Ripe Fruit",
-    "description": "Allows the user to rapidly mature and decay any person or object they touch. Eaten by Shinobu.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/f1/Juku_Juku_no_Mi_Infobox.png/revision/latest?cb=20200412160241",
-    "df_url": "/wiki/Juku_Juku_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Muchi Muchi no Mi",
-    "en_name": "Whip-Whip Fruit",
-    "description": "Allows the user to force anything they whip to obey their orders. Eaten by Kujaku.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/0/0f/Muchi_Muchi_no_Mi_Infobox.png/revision/latest?cb=20240728225755",
-    "df_url": "/wiki/Muchi_Muchi_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Nikyu Nikyu no Mi",
-    "en_name": "Paw-Paw Fruit",
-    "description": "Gives the user paw pads on their hands that can repel anything they touch. They can even repel intangible things like pain or memories out of a target's body and manifest it as a tangible paw-shaped bubble. Eaten by Bartholomew Kuma.S-Bear possesses the artificial version of this fruit's power.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/e/e4/Nikyu_Nikyu_no_Mi_Infobox.png/revision/latest?cb=20231111200903",
-    "df_url": "/wiki/Nikyu_Nikyu_no_Mi"
-  },
-  {
-    "df_type": "Logia",
-    "df_sub_type": null,
-    "name": "Gasu Gasu no Mi",
-    "en_name": "Gas-Gas Fruit",
-    "description": "Allows the user to create, control, and transform into gas. Eaten by Caesar Clown.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/cf/Gasu_Gasu_no_Mi_Infobox.png/revision/latest?cb=20230902035324",
-    "df_url": "/wiki/Gasu_Gasu_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Mane Mane no Mi",
-    "en_name": "Clone-Clone Fruit",
-    "description": "Allows the user to transform into a physical lookalike of any person whose face they have touched. Eaten by Kurozumi Higurashi until her death and later eaten by Bentham.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/12/Mane_Mane_no_Mi_Infobox.png/revision/latest?cb=20240605221030",
-    "df_url": "/wiki/Mane_Mane_no_Mi"
-  },
-  {
-    "df_type": "Logia",
-    "df_sub_type": null,
-    "name": "Susu Susu no Mi",
-    "en_name": "Soot-Soot Fruit",
-    "description": "Allows the user to create, control, and transform into soot. Eaten by Karasu.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/0/0c/Susu_Susu_no_Mi_Infobox.png/revision/latest?cb=20240901100624",
-    "df_url": "/wiki/Susu_Susu_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Netsu Netsu no Mi",
-    "en_name": "Heat-Heat Fruit",
-    "description": "Allows the user to emit high heat from their body. Eaten by Charlotte Oven.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/c5/Netsu_Netsu_no_Mi_Infobox.png/revision/latest?cb=20210208063018",
-    "df_url": "/wiki/Netsu_Netsu_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Sube Sube no Mi",
-    "en_name": "",
-    "description": "Makes the user's skin extremely smooth and slippery, causing attacks, objects, and even excess body fat to harmlessly slide off them. Eaten by Alvida.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/e/e9/Sube_Sube_no_Mi_Infobox.png/revision/latest?cb=20240728223748",
-    "df_url": "/wiki/Sube_Sube_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Hira Hira no Mi",
-    "en_name": "Ripple-Ripple Fruit",
-    "description": "Allows the user to give anything they touch the properties of fabric, making it thin, flexible, and fluttering. They can also bestow the properties of fabric onto their own body. Eaten by Diamante.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/5a/Hira_Hira_no_Mi_Infobox.png/revision/latest?cb=20151110020239",
-    "df_url": "/wiki/Hira_Hira_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Nori Nori no Mi",
-    "en_name": "Ride-Ride Fruit",
-    "description": "Allows the user to control anything they ride. Eaten by Bluegrass.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/6/68/Nori_Nori_no_Mi_Infobox.png/revision/latest?cb=20231009224156",
-    "df_url": "/wiki/Nori_Nori_no_Mi"
-  },
-  {
-    "df_type": "Zoan",
-    "df_sub_type": "MythicalZoan",
-    "name": "Hebi Hebi no Mi, Model: Yamata no Orochi",
-    "en_name": "Snake-Snake Fruit, Model: Yamata-no-Orochi",
-    "description": "Allows the user to become a full Yamata no Orochi (an eight headed snake) or a half-Yamata no Orochi hybrid. Eaten by Kurozumi Orochi until his death.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/3e/Hebi_Hebi_no_Mi%2C_Model_Yamata_no_Orochi_Infobox.png/revision/latest?cb=20210307032049",
-    "df_url": "/wiki/Hebi_Hebi_no_Mi,_Model:_Yamata_no_Orochi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Kobu Kobu no Mi",
-    "en_name": "Pump-Pump Fruit",
-    "description": "Allows the user to rally people into fighting and awaken their latent potential. Eaten by Belo Betty.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/75/Kobu_Kobu_no_Mi_Infobox.png/revision/latest?cb=20190414130522",
-    "df_url": "/wiki/Kobu_Kobu_no_Mi"
-  },
-  {
-    "df_type": "Zoan",
-    "df_sub_type": "AncientZoan",
-    "name": "Ryu Ryu no Mi, Model: Pteranodon",
-    "en_name": "Dragon-Dragon Fruit, Model: Pteranodon",
-    "description": "Allows the user to become a full Pteranodon or a half-Pteranodon hybrid. Eaten by King.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/9/96/Ryu_Ryu_no_Mi%2C_Model_Pteranodon_Beast_Form.png/revision/latest?cb=20220418123709",
-    "df_url": "/wiki/Ryu_Ryu_no_Mi,_Model:_Pteranodon"
-  },
-  {
-    "df_type": "Logia",
-    "df_sub_type": null,
-    "name": "Suna Suna no Mi",
-    "en_name": "Sand-Sand Fruit",
-    "description": "Allows the user to create, control, and transform into sand. The sand can dehydrate any non-metallic substance it touches. Eaten by Crocodile.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/7d/Suna_Suna_no_Mi_Infobox.png/revision/latest?cb=20220408131752",
-    "df_url": "/wiki/Suna_Suna_no_Mi"
-  },
-  {
-    "df_type": "Logia",
-    "df_sub_type": null,
-    "name": "Goro Goro no Mi",
-    "en_name": "Rumble-Rumble Fruit",
-    "description": "Allows the user to create, control, and transform into lightning. Eaten by Enel.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d2/Goro_Goro_no_Mi_Infobox.png/revision/latest?cb=20230907005154",
-    "df_url": "/wiki/Goro_Goro_no_Mi"
-  },
-  {
-    "df_type": "Zoan",
-    "df_sub_type": "MythicalZoan",
-    "name": "Uo Uo no Mi, Model: Seiryu",
-    "en_name": "Fish-Fish Fruit, Model: Azure Dragon",
-    "description": "Allows the user to become a full Azure Dragon or a half-Azure Dragon hybrid. Eaten by Kaidou.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/f9/Uo_Uo_no_Mi%2C_Model_Seiryu_Infobox.png/revision/latest?cb=20211204205430",
-    "df_url": "/wiki/Uo_Uo_no_Mi,_Model:_Seiryu"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Poke Poke no Mi",
-    "en_name": "Pocket-Pocket Fruit",
-    "description": "Gives the user a pocket on their body where they can store objects, including very large objects that are bigger than the pocket holes themselves. The user can pull these stored objects back out at will. Eaten by Blamenco.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/2/26/Poke_Poke_no_Mi_Infobox.png/revision/latest?cb=20220426093454",
-    "df_url": "/wiki/Poke_Poke_no_Mi"
-  },
-  {
-    "df_type": "Paramecia",
-    "df_sub_type": null,
-    "name": "Ishi Ishi no Mi",
-    "en_name": "Stone-Stone Fruit",
-    "description": "Allows the user to assimilate into and control stone. Eaten by Pica.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/9/90/Ishi_Ishi_no_Mi_Infobox.png/revision/latest?cb=20180529180105",
-    "df_url": "/wiki/Ishi_Ishi_no_Mi"
   },
   {
     "df_type": "Paramecia",
@@ -1211,35 +14,170 @@
     "name": "Awa Awa no Mi",
     "en_name": "Bubble-Bubble Fruit",
     "description": "Allows the user to create and control soap bubbles that can clean anything, including cleaning the strength off an opponent. Eaten by Kalifa.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/51/Awa_Awa_no_Mi_Infobox.png/revision/latest?cb=20240612220456",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/51/Awa_Awa_no_Mi_Infobox.png/revision/latest",
     "df_url": "/wiki/Awa_Awa_no_Mi"
   },
   {
-    "df_type": "Zoan",
+    "df_type": "Paramecia",
     "df_sub_type": null,
-    "name": "Hebi Hebi no Mi, Model: King Cobra",
-    "en_name": "Snake-Snake Fruit, Model: King Cobra",
-    "description": "Allows the user to become a full king cobra or a half-king cobra hybrid. Eaten by Boa Marigold.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/33/Hebi_Hebi_no_Mi%2C_Model_King_Cobra_Infobox.png/revision/latest?cb=20220408224556",
-    "df_url": "/wiki/Hebi_Hebi_no_Mi,_Model:_King_Cobra"
+    "name": "Baku Baku no Mi",
+    "en_name": "Munch-Munch Fruit",
+    "description": "Allows the user to expand their mouth and eat anything, as well as allowing them to transform their body to replicate the characteristics and function of anything they've eaten in the past 24 hours. Eaten by Wapol.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/c6/Baku_Baku_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Baku_Baku_no_Mi"
   },
   {
     "df_type": "Paramecia",
     "df_sub_type": null,
-    "name": "Riki Riki no Mi",
-    "en_name": "Strong-Strong Fruit",
-    "description": "Gives the user superhuman strength. Eaten by Jesus Burgess.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/e/e0/Riki_Riki_no_Mi_Infobox.png/revision/latest?cb=20240811030221",
-    "df_url": "/wiki/Riki_Riki_no_Mi"
+    "name": "Bane Bane no Mi",
+    "en_name": "",
+    "description": "Allows the user to turn their body and limbs into springs. Eaten by Bellamy.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/1d/Bane_Bane_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Bane_Bane_no_Mi"
   },
   {
     "df_type": "Paramecia",
     "df_sub_type": null,
-    "name": "Sui Sui no Mi",
-    "en_name": "Swim-Swim Fruit",
-    "description": "Allows the user to swim freely through solid ground and walls. Eaten by Senor Pink.S-Shark possesses the artificial version of this fruit's power.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/9/9d/Sui_Sui_no_Mi_Infobox.png/revision/latest?cb=20240630232023",
-    "df_url": "/wiki/Sui_Sui_no_Mi"
+    "name": "Bara Bara no Mi",
+    "en_name": "Chop-Chop Fruit",
+    "description": "Allows the user to split their body into separate pieces, which they can manipulate and levitate through the air. It also makes them immune to slashing attacks. Eaten by Buggy.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/9/9c/Bara_Bara_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Bara_Bara_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Bari Bari no Mi",
+    "en_name": "Barrier-Barrier Fruit",
+    "description": "Allows the user to create barriers by crossing their fingers. The barriers can also be shaped into constructs. However, the user is limited to only one barrier at a time. Eaten by Kurozumi Semimaru until his death and later eaten by Bartolomeo.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/de/Bari_Bari_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Bari_Bari_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Bata Bata no Mi",
+    "en_name": "Butter-Butter Fruit",
+    "description": "Allows the user to create and control butter. Eaten by Charlotte Galette.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/6/61/Bata_Bata_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Bata_Bata_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Beri Beri no Mi",
+    "en_name": "Berry-Berry Fruit",
+    "description": "Allows the user to split their body into many spheres. Eaten by Very Good.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/2/27/Beri_Beri_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Beri_Beri_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Beta Beta no Mi",
+    "en_name": "",
+    "description": "Allows the user to create and control mucus. Eaten by Trebol.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d9/Beta_Beta_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Beta_Beta_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Bisu Bisu no Mi",
+    "en_name": "Bis-Bis Fruit",
+    "description": "Allows the user to create and control biscuits. Eaten by Charlotte Cracker.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/8/8b/Bisu_Bisu_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Bisu_Bisu_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Bomu Bomu no Mi",
+    "en_name": "",
+    "description": "Allows the user to create explosions from their body, as well as give explosive properties to their bodily secretions. Also makes the user immune to explosions. Eaten by Gem.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/1a/Bomu_Bomu_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Bomu_Bomu_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Buki Buki no Mi",
+    "en_name": "Arms-Arms Fruit",
+    "description": "Allows the user to transform their body into any kind of weapon. Eaten by Baby 5.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/3e/Buki_Buki_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Buki_Buki_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Buku Buku no Mi",
+    "en_name": "Book-Book Fruit",
+    "description": "Allows the user to manipulate books, as well as trap people inside them. Eaten by Charlotte Mont-d'Or.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/44/Buku_Buku_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Buku_Buku_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Chiyu Chiyu no Mi",
+    "en_name": "Heal-Heal Fruit",
+    "description": "Allows the user to heal people's wounds. Eaten by Mansherry.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/b2/Chiyu_Chiyu_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Chiyu_Chiyu_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Choki Choki no Mi",
+    "en_name": "Snip-Snip Fruit",
+    "description": "Allows the user to transform parts of their body into scissors. Anything cut by these scissors briefly gains the properties of paper. Eaten by Inazuma.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/0/0f/Choki_Choki_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Choki_Choki_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Deka Deka no Mi",
+    "en_name": "Huge-Huge Fruit",
+    "description": "Allows the user to greatly increase the size of their body. Eaten by Sanjuan Wolf.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/b4/Deka_Deka_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Deka_Deka_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Doa Doa no Mi",
+    "en_name": "Door-Door Fruit",
+    "description": "Allows the user to create and open doors on anything, including walls, living beings, and even the air itself. Eaten by Blueno.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/0/04/Doa_Doa_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Doa_Doa_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Doku Doku no Mi",
+    "en_name": "Venom-Venom Fruit",
+    "description": "Allows the user to create and control poison. Eaten by Magellan.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/2/21/Doku_Doku_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Doku_Doku_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Doru Doru no Mi",
+    "en_name": "Wax-Wax Fruit",
+    "description": "Allows the user to create and control candle wax. Eaten by Galdino.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/5f/Doru_Doru_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Doru_Doru_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Fude Fude no Mi",
+    "en_name": "Brush-Brush Fruit",
+    "description": "Allows the user to create and control ink, as well as manifest and manipulate anything they draw using a brush. Eaten by Kurozumi Kanjuro until his death.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/b4/Fude_Fude_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Fude_Fude_no_Mi"
   },
   {
     "df_type": "Paramecia",
@@ -1247,7 +185,1069 @@
     "name": "Fuku Fuku no Mi",
     "en_name": "Garb-Garb Fruit",
     "description": "Allows the user to create clothing. Eaten by Kin'emon.",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/9/9c/Fuku_Fuku_no_Mi_Infobox.png/revision/latest?cb=20181020010802",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/9/9c/Fuku_Fuku_no_Mi_Infobox.png/revision/latest",
     "df_url": "/wiki/Fuku_Fuku_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Fuwa Fuwa no Mi",
+    "en_name": "Float-Float Fruit",
+    "description": "Allows the user to fly, as well as giving them the power to make any non-living things they've touched levitate. Eaten by Shiki.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/df/Fuwa_Fuwa_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Fuwa_Fuwa_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Gabu Gabu no Mi",
+    "en_name": "Glug-Glug Fruit",
+    "description": "Unknown alcohol-based powers. Eaten by Vasco Shot.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/e/ea/Shot_Spits_Fire_at_Garp.png/revision/latest",
+    "df_url": "/wiki/Gabu_Gabu_no_Mi"
+  },
+  {
+    "df_type": "Logia",
+    "df_sub_type": null,
+    "name": "Gasu Gasu no Mi",
+    "en_name": "Gas-Gas Fruit",
+    "description": "Allows the user to create, control, and transform into gas. Eaten by Caesar Clown.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/cf/Gasu_Gasu_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Gasu_Gasu_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Giro Giro no Mi",
+    "en_name": "Glare-Glare Fruit",
+    "description": "Allows the user to see through solid objects and over vast distances, as well as see into people's minds and memories. The user achieves this by forming a circle with their index finger and thumb and looking through it. Eaten by Viola.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/2/23/Giro_Giro_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Giro_Giro_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Gocha Gocha no Mi",
+    "en_name": "Pile-Pile Fruit",
+    "description": "Allows the user to fuse themselves with other people. Eaten by Charlotte Newshi.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/47/Gocha_Gocha_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Gocha_Gocha_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Gomu Gomu no Mi",
+    "en_name": "Gum-Gum Fruit",
+    "description": "Turns the user's body into rubber, giving them the power to stretch, bounce, and inflate, as well as making them immune to electricity and near impervious to blunt-force attacks and bullets. Eaten by Joy Boy until his death and later eaten by Monkey D. Luffy.This fruit was originally called the Hito Hito no Mi, Model: Nika and was classified as a Mythical Zoan before being renamed by the World Government.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/12/Gomu_Gomu_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Gomu_Gomu_no_Mi"
+  },
+  {
+    "df_type": "Logia",
+    "df_sub_type": null,
+    "name": "Goro Goro no Mi",
+    "en_name": "Rumble-Rumble Fruit",
+    "description": "Allows the user to create, control, and transform into lightning. Eaten by Enel.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d2/Goro_Goro_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Goro_Goro_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Gura Gura no Mi",
+    "en_name": "Tremor-Tremor Fruit",
+    "description": "Allows the user to create quakes and shockwaves. Considered to be the most powerful Paramecia. Eaten by Edward Newgate and later stolen from him by Marshall D. Teach upon his death.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/e/e3/Gura_Gura_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Gura_Gura_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Guru Guru no Mi",
+    "en_name": "Spin-Spin Fruit",
+    "description": "Allows the user to make any part of their body spin like a propeller. Eaten by Buffalo.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/0/0a/Guru_Guru_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Guru_Guru_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Hana Hana no Mi",
+    "en_name": "Flower-Flower Fruit",
+    "description": "Allows the user to sprout duplicates of their body parts from any nearby surface. The user maintains full control of duplicated limbs and can perceive sights and sounds remotely through duplicate eyes and ears. Eaten by Nico Robin.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/2/21/Hana_Hana_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Hana_Hana_no_Mi"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": null,
+    "name": "Hebi Hebi no Mi, Model: Anaconda",
+    "en_name": "Snake-Snake Fruit, Model: Anaconda",
+    "description": "Allows the user to become a full anaconda or a half-anaconda hybrid. Eaten by Boa Sandersonia.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/3c/Hebi_Hebi_no_Mi%2C_Model_Anaconda_Infobox.png/revision/latest",
+    "df_url": "/wiki/Hebi_Hebi_no_Mi,_Model:_Anaconda"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": null,
+    "name": "Hebi Hebi no Mi, Model: King Cobra",
+    "en_name": "Snake-Snake Fruit, Model: King Cobra",
+    "description": "Allows the user to become a full king cobra or a half-king cobra hybrid. Eaten by Boa Marigold.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/33/Hebi_Hebi_no_Mi%2C_Model_King_Cobra_Infobox.png/revision/latest",
+    "df_url": "/wiki/Hebi_Hebi_no_Mi,_Model:_King_Cobra"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": "MythicalZoan",
+    "name": "Hebi Hebi no Mi, Model: Yamata no Orochi",
+    "en_name": "Snake-Snake Fruit, Model: Yamata-no-Orochi",
+    "description": "Allows the user to become a full Yamata no Orochi (an eight headed snake) or a half-Yamata no Orochi hybrid. Eaten by Kurozumi Orochi until his death.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/3e/Hebi_Hebi_no_Mi%2C_Model_Yamata_no_Orochi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Hebi_Hebi_no_Mi,_Model:_Yamata_no_Orochi"
+  },
+  {
+    "df_type": "Logia",
+    "df_sub_type": null,
+    "name": "Hie Hie no Mi",
+    "en_name": "",
+    "description": "Allows the user to create, control, and transform into ice. Eaten by Kuzan.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/56/Hie_Hie_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Hie_Hie_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Hira Hira no Mi",
+    "en_name": "Ripple-Ripple Fruit",
+    "description": "Allows the user to give anything they touch the properties of fabric, making it thin, flexible, and fluttering. They can also bestow the properties of fabric onto their own body. Eaten by Diamante.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/5a/Hira_Hira_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Hira_Hira_no_Mi"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": null,
+    "name": "Hito Hito no Mi",
+    "en_name": "Human-Human Fruit",
+    "description": "Allows an animal that eats it to become a full human or a half-human hybrid, as well as grant them human-like intelligence and the ability to speak. Eaten by Tony Tony Chopper.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/38/Hito_Hito_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Hito_Hito_no_Mi"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": "MythicalZoan",
+    "name": "Hito Hito no Mi, Model: Daibutsu",
+    "en_name": "",
+    "description": "Allows the user to become a full Daibutsu (a giant gold Buddha) or a half-Daibutsu hybrid. Eaten by Sengoku.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/45/Hito_Hito_no_Mi%2C_Model_Daibutsu_Infobox.png/revision/latest",
+    "df_url": "/wiki/Hito_Hito_no_Mi,_Model:_Daibutsu"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": "MythicalZoan",
+    "name": "Hito Hito no Mi, Model: Onyudo",
+    "en_name": "Human-Human Fruit, Model: Onyudo",
+    "description": "Allows the user to become a full onyudo (a monk yokai) or a half-onyudo hybrid, as well as grant them human-like intelligence and the ability to speak. Eaten by Onimaru.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d2/Onimaru_as_Gyukimaru.png/revision/latest",
+    "df_url": "/wiki/Hito_Hito_no_Mi,_Model:_Onyudo"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Hobi Hobi no Mi",
+    "en_name": "Hobby-Hobby Fruit",
+    "description": "Allows the user to turn people into subservient living toys, simultaneously erasing any memory of the victim from the minds of others. It also halts the user's aging. Eaten by Sugar.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/3d/Hobi_Hobi_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Hobi_Hobi_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Horo Horo no Mi",
+    "en_name": "Hollow-Hollow Fruit",
+    "description": "Allows the user to create and control ghosts with different abilities, such as inflicting feelings of despair on people whom they pass through, or exploding with great force. The user can also make their own ghost leave their body as a form of astral projection. Eaten by Perona.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/14/Horo_Horo_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Horo_Horo_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Horu Horu no Mi",
+    "en_name": "Horm-Horm Fruit",
+    "description": "Allows the user to create various special hormones that can alter a person's body in various ways. The user can also turn their fingers into syringes that they can use to inject the hormones into a person's body. Eaten by Emporio Ivankov.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/53/Horu_Horu_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Horu_Horu_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Hoya Hoya no Mi",
+    "en_name": "Puff-Puff Fruit",
+    "description": "Allows the user to summon a powerful warrior genie from their body by rubbing their belly. Eaten by Charlotte Daifuku.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/9/97/Hoya_Hoya_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Hoya_Hoya_no_Mi"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": null,
+    "name": "Inu Inu no Mi, Model: Dachshund",
+    "en_name": "",
+    "description": "Allows the user to become a full dachshund or a half-dachshund hybrid. In the case of Babe's bazooka-like gun Lassoo, he became a dachshund/gun hybrid.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d0/Inu_Inu_no_Mi%2C_Model_Dachshund_Infobox.png/revision/latest",
+    "df_url": "/wiki/Inu_Inu_no_Mi,_Model:_Dachshund"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": null,
+    "name": "Inu Inu no Mi, Model: Jackal",
+    "en_name": "",
+    "description": "Allows the user to become a full jackal or a half-jackal hybrid. Eaten by Chaka.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/4f/Inu_Inu_no_Mi%2C_Model_Jackal_Infobox.png/revision/latest",
+    "df_url": "/wiki/Inu_Inu_no_Mi,_Model:_Jackal"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": "MythicalZoan",
+    "name": "Inu Inu no Mi, Model: Kyubi no Kitsune",
+    "en_name": "Dog-Dog Fruit, Model: Nine-Tailed Fox",
+    "description": "Allows the user to become a full nine-tailed fox or a half-nine-tailed fox hybrid. Eaten by Catarina Devon.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/4d/Inu_Inu_no_Mi%2C_Model_Kyubi_no_Kitsune_Infobox.png/revision/latest",
+    "df_url": "/wiki/Inu_Inu_no_Mi,_Model:_Kyubi_no_Kitsune"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": "MythicalZoan",
+    "name": "Inu Inu no Mi, Model: Okuchi no Makami",
+    "en_name": "Dog-Dog Fruit, Model: Okuchi-no-Makami",
+    "description": "Allows the user to become a full Okuchi no Makami (a wolf deity) or a half-Okuchi no Makami hybrid. Eaten by Yamato.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/1d/Inu_Inu_no_Mi%2C_Model_Okuchi_no_Makami_Infobox.png/revision/latest",
+    "df_url": "/wiki/Inu_Inu_no_Mi,_Model:_Okuchi_no_Makami"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": null,
+    "name": "Inu Inu no Mi, Model: Tanuki",
+    "en_name": "Dog-Dog Fruit, Model: Tanuki",
+    "description": "Allows the user to become a full tanuki or a half-tanuki hybrid. In the case of Kouzuki Sukiyaki's teapot Bunbuku, he becomes a tanuki/teapot hybrid.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/33/Bunbuku_Manga_Infobox.png/revision/latest",
+    "df_url": "/wiki/Inu_Inu_no_Mi,_Model:_Tanuki"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": null,
+    "name": "Inu Inu no Mi, Model: Wolf",
+    "en_name": "",
+    "description": "Allows the user to become a full wolf or a half-wolf hybrid similar to a werewolf. Eaten by Jabra.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/e/e1/Full-Beast_Form_of_Jabra%27s_fruit.png/revision/latest",
+    "df_url": "/wiki/Inu_Inu_no_Mi,_Model:_Wolf"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Ishi Ishi no Mi",
+    "en_name": "Stone-Stone Fruit",
+    "description": "Allows the user to assimilate into and control stone. Eaten by Pica.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/9/90/Ishi_Ishi_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Ishi_Ishi_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Ito Ito no Mi",
+    "en_name": "String-String Fruit",
+    "description": "Allows the user to create and control strings. Eaten by Donquixote Doflamingo.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/ae/Ito_Ito_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Ito_Ito_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Jake Jake no Mi",
+    "en_name": "Jacket-Jacket Fruit",
+    "description": "Allows the user to transform into a whole-body jacket and control the body of the person wearing them. While being worn, the user can take advantage of both their own physical abilities and those of the person wearing them. Eaten by Kelly Funk.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/a1/Jake_Jake_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Jake_Jake_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Jiki Jiki no Mi",
+    "en_name": "Magnet-Magnet Fruit",
+    "description": "Allows the user to manipulate magnetic forces. Eaten by Eustass Kid.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/13/Jiki_Jiki_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Jiki_Jiki_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Juku Juku no Mi",
+    "en_name": "Ripe-Ripe Fruit",
+    "description": "Allows the user to rapidly mature and decay any person or object they touch. Eaten by Shinobu.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/f1/Juku_Juku_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Juku_Juku_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Kage Kage no Mi",
+    "en_name": "Shadow-Shadow Fruit",
+    "description": "Allows the user to manifest and control shadows. They can animate and freely manipulate their own shadow, as well as steal and absorb other people's shadows, making the user bigger and stronger. Stolen shadows can also be implanted into corpses, reanimating them. Eaten by Gecko Moria.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/7b/Kage_Kage_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Kage_Kage_no_Mi"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": null,
+    "name": "Kame Kame no Mi",
+    "en_name": "Turtle-Turtle Fruit",
+    "description": "Allows the user to become a full turtle or a half-turtle hybrid. In the case of Pekoms, he resembles a Tarasque.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/74/Kame_Kame_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Kame_Kame_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Kibi Kibi no Mi",
+    "en_name": "Millet-Millet Fruit",
+    "description": "Allows the user to create delicious, but non-nourishing \"dango\" from their cheek by pinching it. Any animal that eats one of these dango is tamed and becomes subservient to the user for a month. Eaten by Tama.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/35/Kibi_Kibi_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Kibi_Kibi_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Kira Kira no Mi",
+    "en_name": "Twinkle-Twinkle Fruit",
+    "description": "Allows the user to transform their body into diamond. Eaten by Jozu.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/ad/Kira_Kira_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Kira_Kira_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Kiro Kiro no Mi",
+    "en_name": "Kilo-Kilo Fruit",
+    "description": "Allows the user to increase or decrease their body weight at will, anywhere between 1 and 10,000 kilograms. Eaten by Mikita.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/8/89/Kiro_Kiro_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Kiro_Kiro_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Kobu Kobu no Mi",
+    "en_name": "Pump-Pump Fruit",
+    "description": "Allows the user to rally people into fighting and awaken their latent potential. Eaten by Belo Betty.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/75/Kobu_Kobu_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Kobu_Kobu_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Kuku Kuku no Mi",
+    "en_name": "Cook-Cook Fruit",
+    "description": "Allows the user to transform objects into bad tasting, but nutritious food. Eaten by Streusen.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/47/Kuku_Kuku_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Kuku_Kuku_no_Mi"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": "AncientZoan",
+    "name": "Kumo Kumo no Mi, Model: Rosamygale Grauvogeli",
+    "en_name": "Spider-Spider Fruit, Model: Rosamygale Grauvogeli",
+    "description": "Allows the user to become a Rosamygale grauvogeli or a half-Rosamygale grauvogeli hybrid. Eaten by Black Maria.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/7c/Kumo_Kumo_no_Mi_Model_Rosamygale_Grauvogeli_Infobox.png/revision/latest",
+    "df_url": "/wiki/Kumo_Kumo_no_Mi,_Model:_Rosamygale_Grauvogeli"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Kuri Kuri no Mi",
+    "en_name": "Cream-Cream Fruit",
+    "description": "Allows the user to create and control cream. Eaten by Charlotte Opera.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/73/Kuri_Kuri_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Kuri_Kuri_no_Mi"
+  },
+  {
+    "df_type": "Logia",
+    "df_sub_type": null,
+    "name": "Magu Magu no Mi",
+    "en_name": "Mag-Mag Fruit",
+    "description": "Allows the user to create, control, and transform into magma. It ranks amongst the greatest attack power out of all the Devil Fruits.[29] Eaten by Sakazuki.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/0/07/Magu_Magu_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Magu_Magu_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Maki Maki no Mi",
+    "en_name": "Scroll-Scroll Fruit",
+    "description": "Allows the user to create and control scrolls. These scrolls have special properties, including the ability to store objects inside them. Eaten by Raizo.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d1/Maki_Maki_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Maki_Maki_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Mane Mane no Mi",
+    "en_name": "Clone-Clone Fruit",
+    "description": "Allows the user to transform into a physical lookalike of any person whose face they have touched. Eaten by Kurozumi Higurashi until her death and later eaten by Bentham.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/12/Mane_Mane_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Mane_Mane_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Mato Mato no Mi",
+    "en_name": "Mark-Mark Fruit",
+    "description": "Allows the user to mark a person as their target by touching them so that any weapon thrown with that same hand will chase after the marked target. Eaten by Vander Decken IX.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/b7/Mato_Mato_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Mato_Mato_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Memo Memo no Mi",
+    "en_name": "Memo-Memo Fruit",
+    "description": "Allows the user to manipulate people's memories. Eaten by Charlotte Pudding.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/c0/Memo_Memo_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Memo_Memo_no_Mi"
+  },
+  {
+    "df_type": "Logia",
+    "df_sub_type": null,
+    "name": "Mera Mera no Mi",
+    "en_name": "",
+    "description": "Allows the user to create, control, and transform into fire. Eaten by Portgas D. Ace until his death and later eaten by Sabo.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/8/8c/Mera_Mera_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Mera_Mera_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Mero Mero no Mi",
+    "en_name": "Love-Love Fruit",
+    "description": "Allows the user to turn people that feel attraction to them into stone statues. Eaten by Boa Hancock.S-Snake possesses the artificial version of this fruit's power.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/9/98/Mero_Mero_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Mero_Mero_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Mira Mira no Mi",
+    "en_name": "Mirror-Mirror Fruit",
+    "description": "Allows the user to create mirrors that can reflect attacks, as well as transform living things, including themselves, into a reflection of their chosen target. The user can also turn any mirror into an entrance to the Mirro-World. Eaten by Charlotte Brûlée.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/c3/Mira_Mira_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Mira_Mira_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Mochi Mochi no Mi",
+    "en_name": "Mochi-Mochi Fruit",
+    "description": "Allows the user to create, control, and even transform their body into mochi. Eaten by Charlotte Katakuri.This Devil Fruit is noted to be a \"Special Paramecia\".",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/2/2c/Mochi_Mochi_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Mochi_Mochi_no_Mi"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": null,
+    "name": "Mogu Mogu no Mi",
+    "en_name": "",
+    "description": "Allows the user to become a full mole or a half-mole hybrid. The user can also dig underground. Eaten by Drophy.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/9/95/Mogu_Mogu_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Mogu_Mogu_no_Mi"
+  },
+  {
+    "df_type": "Logia",
+    "df_sub_type": null,
+    "name": "Moku Moku no Mi",
+    "en_name": "",
+    "description": "Allows the user to create, control, and transform into smoke. Eaten by Smoker.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/8/8d/Moku_Moku_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Moku_Moku_no_Mi"
+  },
+  {
+    "df_type": "Logia",
+    "df_sub_type": null,
+    "name": "Mori Mori no Mi",
+    "en_name": "Woods-Woods Fruit",
+    "description": "Allows the user to create, control, and transform into flora. The user can become what is described to be a living forest. Eaten by Aramaki.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/2/23/Mori_Mori_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Mori_Mori_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Muchi Muchi no Mi",
+    "en_name": "Whip-Whip Fruit",
+    "description": "Allows the user to force anything they whip to obey their orders. Eaten by Kujaku.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/0/0f/Muchi_Muchi_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Muchi_Muchi_no_Mi"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": null,
+    "name": "Mushi Mushi no Mi, Model: Kabutomushi",
+    "en_name": "Bug-Bug Fruit, Model: Rhinoceros Beetle",
+    "description": "Allows the user to become a full rhinoceros beetle or a half-rhinoceros beetle hybrid. The user can also fly in either form. Eaten by Kabu.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/ce/Mushi_Mushi_no_Mi%2C_Model_Kabutomushi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Mushi_Mushi_no_Mi,_Model:_Kabutomushi"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": null,
+    "name": "Mushi Mushi no Mi, Model: Suzumebachi",
+    "en_name": "Bug-Bug Fruit, Model: Hornet",
+    "description": "Allows the user to become a full hornet or a half-hornet hybrid. The user can also fly in either form. Eaten by Bian.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d4/Mushi_Mushi_no_Mi%2C_Model_Suzumebachi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Mushi_Mushi_no_Mi,_Model:_Suzumebachi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Nagi Nagi no Mi",
+    "en_name": "Calm-Calm Fruit",
+    "description": "Allows the user to nullify sounds. Eaten by Donquixote Rosinante until his death.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/37/Nagi_Nagi_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Nagi_Nagi_no_Mi"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": null,
+    "name": "Neko Neko no Mi, Model: Leopard",
+    "en_name": "Cat-Cat Fruit, Model: Leopard",
+    "description": "Allows the user to become a full leopard or a half-leopard hybrid. Eaten by Rob Lucci.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/9/98/Neko_Neko_no_Mi%2C_Model_Leopard_Infobox.png/revision/latest",
+    "df_url": "/wiki/Neko_Neko_no_Mi,_Model:_Leopard"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": "AncientZoan",
+    "name": "Neko Neko no Mi, Model: Saber Tiger",
+    "en_name": "Cat-Cat Fruit, Model: Saber-Toothed Tiger",
+    "description": "Allows the user to become a full saber-toothed tiger or a half-saber-toothed tiger hybrid. Eaten by Who's-Who.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/2/2a/Neko_Neko_no_Mi%2C_Model_Saber_Tiger_Beast_Form.png/revision/latest",
+    "df_url": "/wiki/Neko_Neko_no_Mi,_Model:_Saber_Tiger"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Netsu Netsu no Mi",
+    "en_name": "Heat-Heat Fruit",
+    "description": "Allows the user to emit high heat from their body. Eaten by Charlotte Oven.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/c5/Netsu_Netsu_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Netsu_Netsu_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Nikyu Nikyu no Mi",
+    "en_name": "Paw-Paw Fruit",
+    "description": "Gives the user paw pads on their hands that can repel anything they touch. They can even repel intangible things like pain or memories out of a target's body and manifest it as a tangible paw-shaped bubble. Eaten by Bartholomew Kuma.S-Bear possesses the artificial version of this fruit's power.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/e/e4/Nikyu_Nikyu_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Nikyu_Nikyu_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Nomi Nomi no Mi",
+    "en_name": "Brain-Brain Fruit",
+    "description": "Allows the user's brain to store an indefinite amount of information and recall everything they ever learn. It also causes their brain to expand continuously as a result. Eaten by Vegapunk until his death.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/8/86/Nomi_Nomi_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Nomi_Nomi_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Nori Nori no Mi",
+    "en_name": "Ride-Ride Fruit",
+    "description": "Allows the user to control anything they ride. Eaten by Bluegrass.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/6/68/Nori_Nori_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Nori_Nori_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Noro Noro no Mi",
+    "en_name": "Slow-Slow Fruit",
+    "description": "Allows the user to emit special unique photons. Anything hit by these photons will be trapped in a state of slow motion for 30 seconds. Eaten by Foxy.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/7a/Noro_Noro_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Noro_Noro_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Nui Nui no Mi",
+    "en_name": "Stitch-Stitch Power",
+    "description": "Allows the user to stitch things together. It works on both objects and living things. Eaten by Leo.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/0/00/Nui_Nui_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Nui_Nui_no_Mi"
+  },
+  {
+    "df_type": "Logia",
+    "df_sub_type": null,
+    "name": "Numa Numa no Mi",
+    "en_name": "Swamp-Swamp Fruit",
+    "description": "Allows the user to create, control, and transform into mud. The user is a \"bottomless swamp\", granting them an infinite amount of space inside their elemental body. The mud can also take on the properties of quicksand. Eaten by Caribou.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d3/Numa_Numa_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Numa_Numa_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Ope Ope no Mi",
+    "en_name": "Op-Op Fruit",
+    "description": "Allows the user to manifest a large sphere of aura, inside which they can manipulate the fabric of space, allowing the user to teleport, telekinetically move things, cleave things without actually damaging them, reassemble things into various combinations, and generate high voltage energy. Eaten by an unknown doctor until his death and later eaten by Trafalgar D. Water Law.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/0/0e/Ope_Ope_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Ope_Ope_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Ori Ori no Mi",
+    "en_name": "",
+    "description": "Allows the user to create iron bars from their body and create iron bindings on their opponents. Eaten by Hina.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/7a/Ori_Ori_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Ori_Ori_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Oshi Oshi no Mi",
+    "en_name": "Push-Push Fruit",
+    "description": "Allows the user to manipulate the ground as if it were made of clay. Eaten by Morley.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/1f/Oshi_Oshi_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Oshi_Oshi_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Oto Oto no Mi",
+    "en_name": "Tone-Tone Fruit",
+    "description": "Allows the user to morph their body parts into musical instruments and weaponize the sound waves they create. Eaten by Scratchmen Apoo.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/16/Oto_Oto_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Oto_Oto_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Pamu Pamu no Mi",
+    "en_name": "Pop-Pop Fruit",
+    "description": "Allows the user to expand and rupture their body, as well as expand and rupture any inorganic object they touch. Eaten by Gladius.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/a9/Pamu_Pamu_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Pamu_Pamu_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Pero Pero no Mi",
+    "en_name": "Lick-Lick Fruit",
+    "description": "Allows the user to create and control candy. Eaten by Charlotte Perospero.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/77/Pero_Pero_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Pero_Pero_no_Mi"
+  },
+  {
+    "df_type": "Logia",
+    "df_sub_type": null,
+    "name": "Pika Pika no Mi",
+    "en_name": "Glint-Glint Fruit",
+    "description": "Allows the user to create, control, and transform into light. Eaten by Borsalino.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/6/66/Pika_Pika_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Pika_Pika_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Poke Poke no Mi",
+    "en_name": "Pocket-Pocket Fruit",
+    "description": "Gives the user a pocket on their body where they can store objects, including very large objects that are bigger than the pocket holes themselves. The user can pull these stored objects back out at will. Eaten by Blamenco.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/2/26/Poke_Poke_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Poke_Poke_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Riki Riki no Mi",
+    "en_name": "Strong-Strong Fruit",
+    "description": "Gives the user superhuman strength. Eaten by Jesus Burgess.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/e/e0/Riki_Riki_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Riki_Riki_no_Mi"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": "AncientZoan",
+    "name": "Ryu Ryu no Mi, Model: Allosaurus",
+    "en_name": "Dragon-Dragon Fruit, Model: Allosaurus",
+    "description": "Allows the user to become a full Allosaurus or a half-Allosaurus hybrid. Eaten by X Drake.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/a3/Ryu_Ryu_no_Mi%2C_Model_Allosaurus_Beast_Form.png/revision/latest",
+    "df_url": "/wiki/Ryu_Ryu_no_Mi,_Model:_Allosaurus"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": "AncientZoan",
+    "name": "Ryu Ryu no Mi, Model: Brachiosaurus",
+    "en_name": "Dragon-Dragon Fruit, Model: Brachiosaurus",
+    "description": "Allows the user to become a full Brachiosaurus or a half-Brachiosaurus hybrid. Eaten by Queen.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/40/Ryu_Ryu_no_Mi%2C_Model_Brachiosaurus_Beast_Form.png/revision/latest",
+    "df_url": "/wiki/Ryu_Ryu_no_Mi,_Model:_Brachiosaurus"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": "AncientZoan",
+    "name": "Ryu Ryu no Mi, Model: Pachycephalosaurus",
+    "en_name": "Dragon-Dragon Fruit, Model: Pachycephalosaurus",
+    "description": "Allows the user to become a full Pachycephalosaurus or a half-Pachycephalosaurus hybrid. Eaten by Ulti.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/4b/Ryu_Ryu_no_Mi%2C_Model_Pachycephalosaurus_Beast_Form.png/revision/latest",
+    "df_url": "/wiki/Ryu_Ryu_no_Mi,_Model:_Pachycephalosaurus"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": "AncientZoan",
+    "name": "Ryu Ryu no Mi, Model: Pteranodon",
+    "en_name": "Dragon-Dragon Fruit, Model: Pteranodon",
+    "description": "Allows the user to become a full Pteranodon or a half-Pteranodon hybrid. Eaten by King.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/9/96/Ryu_Ryu_no_Mi%2C_Model_Pteranodon_Beast_Form.png/revision/latest",
+    "df_url": "/wiki/Ryu_Ryu_no_Mi,_Model:_Pteranodon"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": "AncientZoan",
+    "name": "Ryu Ryu no Mi, Model: Spinosaurus",
+    "en_name": "Dragon-Dragon Fruit, Model: Spinosaurus",
+    "description": "Allows the user to become a full Spinosaurus or a half-Spinosaurus hybrid. Eaten by Page One.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/9/92/Ryu_Ryu_no_Mi%2C_Model_Spinosaurus_Beast_Form.png/revision/latest",
+    "df_url": "/wiki/Ryu_Ryu_no_Mi,_Model:_Spinosaurus"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": "AncientZoan",
+    "name": "Ryu Ryu no Mi, Model: Triceratops",
+    "en_name": "Dragon-Dragon Fruit, Model: Triceratops",
+    "description": "Allows the user to become a full Triceratops or a half-Triceratops hybrid. Eaten by Sasaki.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/58/Ryu_Ryu_no_Mi%2C_Model_Triceratops_Beast_Form.png/revision/latest",
+    "df_url": "/wiki/Ryu_Ryu_no_Mi,_Model:_Triceratops"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Sabi Sabi no Mi",
+    "en_name": "Rust-Rust Fruit",
+    "description": "Allows the user to rapidly rust anything they touch, including organic material. Eaten by Shu.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/7c/Sabi_Sabi_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Sabi_Sabi_no_Mi"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": null,
+    "name": "Sara Sara no Mi, Model: Axolotl",
+    "en_name": "Sala-Sala Fruit, Model: Axolotl",
+    "description": "Allows the user to become a full axolotl or a half-axolotl hybrid. In the case of Caesar Clown's poisonous gas Smiley, it became an axolotl/poisonous gas hybrid until his death.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/db/Sara_Sara_no_Mi%2C_Model_Axolotl_Infobox.png/revision/latest",
+    "df_url": "/wiki/Sara_Sara_no_Mi,_Model:_Axolotl"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Shari Shari no Mi",
+    "en_name": "Wheel-Wheel Fruit",
+    "description": "Allows the user to turn their limbs into wheels. Eaten by Sharinguru.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/f4/Sharinguru_Manga_Infobox.png/revision/latest",
+    "df_url": "/wiki/Shari_Shari_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Shibo Shibo no Mi",
+    "en_name": "Wring-Wring Fruit",
+    "description": "Allows the user to drain liquid from people and objects, as well as transfer that liquid into their own body, making them bigger and stronger. Eaten by Charlotte Smoothie.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d7/Shibo_Shibo_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Shibo_Shibo_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Shiku Shiku no Mi",
+    "en_name": "Sick-Sick Fruit",
+    "description": "Allows the user to afflict others with diseases. Eaten by Doc Q.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/a2/Shiku_Shiku_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Shiku_Shiku_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Shima Shima no Mi",
+    "en_name": "Isle-Isle Fruit",
+    "description": "Allows the user to merge themself with an island itself and control its environment. Eaten by Avalo Pizarro.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/40/Shima_Shima_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Shima_Shima_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Shiro Shiro no Mi",
+    "en_name": "Castle-Castle Fruit",
+    "description": "Allows the user to become a literal miniature living fortress equipped with cannons, as well as letting them shrink people and objects who enter their body and house them inside. Eaten by Capone Bege.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/e/e8/Shiro_Shiro_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Shiro_Shiro_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Soru Soru no Mi",
+    "en_name": "Soul-Soul Fruit",
+    "description": "Allows the user to extract souls/lifespan from people who fear them and use those souls to bring objects to life. These objects are subservient to the user. Objects brought to life with a fragment of the user's own soul are stronger than others. Eaten by Carmel until her death and later eaten by Charlotte Linlin.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/9/9d/Soru_Soru_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Soru_Soru_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Sube Sube no Mi",
+    "en_name": "",
+    "description": "Makes the user's skin extremely smooth and slippery, causing attacks, objects, and even excess body fat to harmlessly slide off them. Eaten by Alvida.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/e/e9/Sube_Sube_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Sube_Sube_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Sui Sui no Mi",
+    "en_name": "Swim-Swim Fruit",
+    "description": "Allows the user to swim freely through solid ground and walls. Eaten by Senor Pink.S-Shark possesses the artificial version of this fruit's power.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/9/9d/Sui_Sui_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Sui_Sui_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Suke Suke no Mi",
+    "en_name": "Clear-Clear Fruit",
+    "description": "Allows the user to become invisible, as well as make anything they touch invisible. Eaten by Absalom until his death and later eaten by Shiryu.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/bb/Suke_Suke_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Suke_Suke_no_Mi"
+  },
+  {
+    "df_type": "Logia",
+    "df_sub_type": null,
+    "name": "Suna Suna no Mi",
+    "en_name": "Sand-Sand Fruit",
+    "description": "Allows the user to create, control, and transform into sand. The sand can dehydrate any non-metallic substance it touches. Eaten by Crocodile.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/7d/Suna_Suna_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Suna_Suna_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Supa Supa no Mi",
+    "en_name": "Dice-Dice Fruit",
+    "description": "Allows the user to transform any part of their body into a blade, thus gaining slashing abilities and making their skin as hard as steel. Eaten by Daz Bonez.S-Hawk possesses the artificial version of this fruit's power.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/f9/Supa_Supa_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Supa_Supa_no_Mi"
+  },
+  {
+    "df_type": "Logia",
+    "df_sub_type": null,
+    "name": "Susu Susu no Mi",
+    "en_name": "Soot-Soot Fruit",
+    "description": "Allows the user to create, control, and transform into soot. Eaten by Karasu.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/0/0c/Susu_Susu_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Susu_Susu_no_Mi"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": null,
+    "name": "Tama Tama no Mi",
+    "en_name": "Egg-Egg Fruit",
+    "description": "Gives the user's body the properties of an egg. When the shell is destroyed, the user will regenerate from the yolk in a stronger chicken-like form. It was eaten by Tamago.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/a9/Tama_Tama_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Tama_Tama_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Toge Toge no Mi",
+    "en_name": "Spike-Spike Fruit",
+    "description": "Allows the user to grow long, pointy spikes from their body that are strong enough to pierce through solid stone. Eaten by Zala.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/e/ee/Toge_Toge_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Toge_Toge_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Toki Toki no Mi",
+    "en_name": "Time-Time Fruit",
+    "description": "Allows the user to send themselves and others forward in time. Eaten by Kouzuki Toki until her death.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/6/6b/Toki_Toki_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Toki_Toki_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Ton Ton no Mi",
+    "en_name": "Ton-Ton Fruit",
+    "description": "Allows the user to drastically increase their body weight, by as much as thousands of metric tons. Eaten by Machvise.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/40/Ton_Ton_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Ton_Ton_no_Mi"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": null,
+    "name": "Tori Tori no Mi, Model: Albatross",
+    "en_name": "Bird-Bird Fruit, Model: Albatross",
+    "description": "Allows the user to become a full albatross or a half-albatross hybrid. Eaten by Morgans.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/8/87/Morgans_Anime_Infobox.png/revision/latest",
+    "df_url": "/wiki/Tori_Tori_no_Mi,_Model:_Albatross"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": null,
+    "name": "Tori Tori no Mi, Model: Falcon",
+    "en_name": "",
+    "description": "Allows the user to become a full falcon or a half-falcon hybrid. Eaten by Pell.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/e/ea/Tori_Tori_no_Mi%2C_Model_Falcon_Beast_Form.png/revision/latest",
+    "df_url": "/wiki/Tori_Tori_no_Mi,_Model:_Falcon"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": "MythicalZoan",
+    "name": "Tori Tori no Mi, Model: Phoenix",
+    "en_name": "Bird-Bird Fruit, Model: Phoenix",
+    "description": "Tori Tori no Mi, Model: Phoenix (English version: Bird-Bird Fruit, Model: Phoenix)- Allows the user to become a full phoenix or a half-phoenix hybrid. Eaten by Marco.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/1f/Tori_Tori_no_Mi%2C_Model_Phoenix_Beast_Form.png/revision/latest",
+    "df_url": "/wiki/Tori_Tori_no_Mi,_Model:_Phoenix"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Toshi Toshi no Mi",
+    "en_name": "Age-Age Fruit)",
+    "description": "Toshi Toshi no Mi (English version: Age-Age Fruit): Allows the user to manipulate the aging process of any person or object. Eaten by Jewelry Bonney.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/b7/Toshi_Toshi_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Toshi_Toshi_no_Mi"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": null,
+    "name": "Uma Uma no Mi",
+    "en_name": "Horse-Horse Fruit",
+    "description": "Allows the user to become a full horse or a half-horse hybrid. In the case of Gan Fall's pet bird Pierre, he resembles a Pegasus.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/39/Uma_Uma_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Uma_Uma_no_Mi"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": "MythicalZoan",
+    "name": "Uma Uma no Mi, Model: Pegasus",
+    "en_name": "Horse- Horse Fruit, Model: Pegasus",
+    "description": "Allows the user to become a full pegasus or a half-pegasus hybrid. Eaten by Stronger.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/7e/Uma_Uma_no_Mi%2C_Model_Pegasus_Infobox.png/revision/latest",
+    "df_url": "/wiki/Uma_Uma_no_Mi,_Model:_Pegasus"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": "MythicalZoan",
+    "name": "Uo Uo no Mi, Model: Seiryu",
+    "en_name": "Fish-Fish Fruit, Model: Azure Dragon",
+    "description": "Allows the user to become a full Azure Dragon or a half-Azure Dragon hybrid. Eaten by Kaidou.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/f9/Uo_Uo_no_Mi%2C_Model_Seiryu_Infobox.png/revision/latest",
+    "df_url": "/wiki/Uo_Uo_no_Mi,_Model:_Seiryu"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": null,
+    "name": "Ushi Ushi no Mi, Model: Bison",
+    "en_name": "",
+    "description": "Allows the user to become a full bison or a half-bison hybrid. Eaten by Dalton.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/bf/Ushi_Ushi_no_Mi%2C_Model_Bison_Infobox.png/revision/latest",
+    "df_url": "/wiki/Ushi_Ushi_no_Mi,_Model:_Bison"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": null,
+    "name": "Ushi Ushi no Mi, Model: Giraffe",
+    "en_name": "",
+    "description": "Allows the user to become a full giraffe or a half-giraffe hybrid. Eaten by a non-canon New World pirate until his death and later eaten by Kaku.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/8/8c/Ushi_Ushi_no_Mi%2C_Model_Giraffe_Infobox.png/revision/latest",
+    "df_url": "/wiki/Ushi_Ushi_no_Mi,_Model:_Giraffe"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Wapu Wapu no Mi",
+    "en_name": "Warp-Warp Fruit",
+    "description": "Allows the user to teleport themselves and others from place to place. Eaten by Van Augur.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/5e/Wapu_Wapu_no_Mi.gif/revision/latest",
+    "df_url": "/wiki/Wapu_Wapu_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Wara Wara no Mi",
+    "en_name": "Straw-Straw Fruit",
+    "description": "Allows the user to create and control straw. They can also create straw voodoo dolls, allowing the user to transfer the damage they take to the dolls and, by extension, the people connected to them. Eaten by Basil Hawkins.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/b4/Wara_Wara_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Wara_Wara_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Woshu Woshu no Mi",
+    "en_name": "Wash-Wash Fruit",
+    "description": "Allows the user to literally wash and fold a person as if they were laundry. It also makes the victim's heart cleaner. Eaten by Tsuru.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/4c/Woshu_Woshu_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Woshu_Woshu_no_Mi"
+  },
+  {
+    "df_type": "Logia",
+    "df_sub_type": null,
+    "name": "Yami Yami no Mi",
+    "en_name": "Dark-Dark Fruit",
+    "description": "Allows the user to create, control, and transform into darkness. The darkness has strong gravitational properties, and the user has an infinite amount of space inside of their elemental body. Eaten by Marshall D. Teach.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/f5/Yami_Yami_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Yami_Yami_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Yomi Yomi no Mi",
+    "en_name": "Revive-Revive Fruit",
+    "description": "Allows the user's soul to return to the living world after dying, bringing the user back to life. The user can also make their returned soul temporarily leave their reanimated body and their soul exudes a freezing coldness that can be weaponized. Eaten by Brook.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/3b/Yomi_Yomi_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Yomi_Yomi_no_Mi"
+  },
+  {
+    "df_type": "Logia",
+    "df_sub_type": null,
+    "name": "Yuki Yuki no Mi",
+    "en_name": "Snow-Snow Fruit",
+    "description": "Allows the user to create, control, and transform into snow. Eaten by Monet until her death.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/a9/Yuki_Yuki_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Yuki_Yuki_no_Mi"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": null,
+    "name": "Zou Zou no Mi",
+    "en_name": "",
+    "description": "Allows the user to become a full elephant or a half-elephant hybrid. In the case of Spandam's sword Funkfreed, he becomes an elephant/sword hybrid.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/c1/Funkfreed_Anime_Infobox.png/revision/latest",
+    "df_url": "/wiki/Zou_Zou_no_Mi"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": "AncientZoan",
+    "name": "Zou Zou no Mi, Model: Mammoth",
+    "en_name": "Elephant-Elephant Fruit, Model: Mammoth",
+    "description": "Allows the user to become a full mammoth or a half-mammoth hybrid. Eaten by Jack.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d4/Zou_Zou_no_Mi%2C_Model_Mammoth_Beast_Form.png/revision/latest",
+    "df_url": "/wiki/Zou_Zou_no_Mi,_Model:_Mammoth"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Zushi Zushi no Mi",
+    "en_name": "Press-Press Fruit",
+    "description": "Allows the user to manipulate gravity. Eaten by Issho.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/ba/Zushi_Zushi_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Zushi_Zushi_no_Mi"
   }
 ]
