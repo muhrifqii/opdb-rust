@@ -1,0 +1,23 @@
+name: Validation check
+on:
+  push:
+    branches: ['master']
+    paths: ['scrapper/**']
+  pull_request:
+    branches: ['master']
+    paths: ['scrapper/**']
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    container:
+      image: xd009642/tarpaulin:develop-nightly
+      options: --security-opt seccomp=unconfined
+    steps:
+      - uses: actions/checkout@v4
+      - name: Cargo check
+        timeout-minutes: 2
+        run: cargo check --locked
+      - name: Confirm code format
+        run: cargo fmt -- --check
+      - name: Unit test and generate code coverage
+        run: cargo +nightly tarpaulin --verbose --timeout 120

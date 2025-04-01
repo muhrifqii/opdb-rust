@@ -1,11 +1,10 @@
+use serde::Serialize;
 use std::cmp::Ordering;
 
-use serde::Serialize;
-
-use super::df_type::{DfSubType, DfType};
+use super::types::{DfSubType, DfType};
 use crate::types::UrlTyped;
 
-#[derive(Debug, Serialize)]
+#[derive(Debug, Serialize, Default)]
 pub struct DfTypeInfo {
     pub df_type: DfType,
     pub cannon_count: u32,

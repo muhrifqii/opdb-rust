@@ -2,6 +2,15 @@
   {
     "df_type": "Paramecia",
     "df_sub_type": null,
+    "name": "Aro Aro no Mi",
+    "en_name": "Arrow-Arrow Fruit",
+    "description": "Allows the user to control vectorial arrows. Eaten by Gunko.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/32/Aro_Aro_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Aro_Aro_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
     "name": "Ato Ato no Mi",
     "en_name": "Art-Art Fruit",
     "description": "Allows the user to transform people and objects into abstract art, rendering them unable to function. Eaten by Giolla.",
@@ -22,7 +31,7 @@
     "df_sub_type": null,
     "name": "Baku Baku no Mi",
     "en_name": "Munch-Munch Fruit",
-    "description": "Allows the user to expand their mouth and eat anything, as well as allowing them to transform their body to replicate the characteristics and function of anything they've eaten in the past 24 hours. Eaten by Wapol.",
+    "description": "Allows the user to expand their mouth and eat anything, as well as allowing them to transform their body to replicate the characteristics and function of anything they have eaten in the past 24 hours. Eaten by Wapol.",
     "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/c6/Baku_Baku_no_Mi_Infobox.png/revision/latest",
     "df_url": "/wiki/Baku_Baku_no_Mi"
   },
@@ -61,6 +70,15 @@
     "description": "Allows the user to create and control butter. Eaten by Charlotte Galette.",
     "pic_url": "https://static.wikia.nocookie.net/onepiece/images/6/61/Bata_Bata_no_Mi_Infobox.png/revision/latest",
     "df_url": "/wiki/Bata_Bata_no_Mi"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": null,
+    "name": "Batto Batto no Mi",
+    "en_name": "",
+    "description": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/db/Batto_Batto_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Batto_Batto_no_Mi"
   },
   {
     "df_type": "Paramecia",
@@ -193,7 +211,7 @@
     "df_sub_type": null,
     "name": "Fuwa Fuwa no Mi",
     "en_name": "Float-Float Fruit",
-    "description": "Allows the user to fly, as well as giving them the power to make any non-living things they've touched levitate. Eaten by Shiki.",
+    "description": "Allows the user to fly, as well as giving them the power to make any non-living things they have touched levitate. Eaten by Shiki.",
     "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/df/Fuwa_Fuwa_no_Mi_Infobox.png/revision/latest",
     "df_url": "/wiki/Fuwa_Fuwa_no_Mi"
   },
@@ -274,7 +292,7 @@
     "df_sub_type": null,
     "name": "Hana Hana no Mi",
     "en_name": "Flower-Flower Fruit",
-    "description": "Allows the user to sprout duplicates of their body parts from any nearby surface. The user maintains full control of duplicated limbs and can perceive sights and sounds remotely through duplicate eyes and ears. Eaten by Nico Robin.",
+    "description": "Allows the user to sprout duplicates of their body parts from any nearby surface. The user maintains full control of duplicated limbs. Eaten by Nico Robin.",
     "pic_url": "https://static.wikia.nocookie.net/onepiece/images/2/21/Hana_Hana_no_Mi_Infobox.png/revision/latest",
     "df_url": "/wiki/Hana_Hana_no_Mi"
   },
@@ -301,7 +319,7 @@
     "df_sub_type": "MythicalZoan",
     "name": "Hebi Hebi no Mi, Model: Yamata no Orochi",
     "en_name": "Snake-Snake Fruit, Model: Yamata-no-Orochi",
-    "description": "Allows the user to become a full Yamata no Orochi (an eight headed snake) or a half-Yamata no Orochi hybrid. Eaten by Kurozumi Orochi until his death.",
+    "description": "Allows the user to become a full Yamata-no-Orochi (an eight headed snake) or a half-Yamata-no-Orochi hybrid. Eaten by Kurozumi Orochi until his death.",
     "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/3e/Hebi_Hebi_no_Mi%2C_Model_Yamata_no_Orochi_Infobox.png/revision/latest",
     "df_url": "/wiki/Hebi_Hebi_no_Mi,_Model:_Yamata_no_Orochi"
   },
@@ -387,6 +405,24 @@
     "df_url": "/wiki/Hoya_Hoya_no_Mi"
   },
   {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Iba Iba no Mi",
+    "en_name": "Thorn-Thorn Fruit",
+    "description": "Allows the user to generate and attach thorny vines around themself and other people. Eaten by Shepherd Sommers.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/c2/Iba_Iba_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Iba_Iba_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Iku Iku no Mi",
+    "en_name": "Grow-Grow Fruit",
+    "description": "Allows the user to gigantify inorganic objects in their vicinity. Eaten by Biblo.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/ad/Iku_Iku_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Iku_Iku_no_Mi"
+  },
+  {
     "df_type": "Zoan",
     "df_sub_type": null,
     "name": "Inu Inu no Mi, Model: Dachshund",
@@ -394,6 +430,15 @@
     "description": "Allows the user to become a full dachshund or a half-dachshund hybrid. In the case of Babe's bazooka-like gun Lassoo, he became a dachshund/gun hybrid.",
     "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d0/Inu_Inu_no_Mi%2C_Model_Dachshund_Infobox.png/revision/latest",
     "df_url": "/wiki/Inu_Inu_no_Mi,_Model:_Dachshund"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": null,
+    "name": "Inu Inu no Mi, Model: Hound",
+    "en_name": "",
+    "description": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d5/NoPicAvailable.png/revision/latest",
+    "df_url": "/wiki/Inu_Inu_no_Mi,_Model:_Hound"
   },
   {
     "df_type": "Zoan",
@@ -553,7 +598,7 @@
     "df_sub_type": "AncientZoan",
     "name": "Kumo Kumo no Mi, Model: Rosamygale Grauvogeli",
     "en_name": "Spider-Spider Fruit, Model: Rosamygale Grauvogeli",
-    "description": "Allows the user to become a Rosamygale grauvogeli or a half-Rosamygale grauvogeli hybrid. Eaten by Black Maria.",
+    "description": "Allows the user to become a Rosamygale grauvogeli or a half-Rosamygale grauvogeli hybrid. Eaten by Black Maria",
     "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/7c/Kumo_Kumo_no_Mi_Model_Rosamygale_Grauvogeli_Infobox.png/revision/latest",
     "df_url": "/wiki/Kumo_Kumo_no_Mi,_Model:_Rosamygale_Grauvogeli"
   },
@@ -777,7 +822,7 @@
     "df_type": "Paramecia",
     "df_sub_type": null,
     "name": "Nui Nui no Mi",
-    "en_name": "Stitch-Stitch Power",
+    "en_name": "",
     "description": "Allows the user to stitch things together. It works on both objects and living things. Eaten by Leo.",
     "pic_url": "https://static.wikia.nocookie.net/onepiece/images/0/00/Nui_Nui_no_Mi_Infobox.png/revision/latest",
     "df_url": "/wiki/Nui_Nui_no_Mi"
@@ -796,7 +841,7 @@
     "df_sub_type": null,
     "name": "Ope Ope no Mi",
     "en_name": "Op-Op Fruit",
-    "description": "Allows the user to manifest a large sphere of aura, inside which they can manipulate the fabric of space, allowing the user to teleport, telekinetically move things, cleave things without actually damaging them, reassemble things into various combinations, and generate high voltage energy. Eaten by an unknown doctor until his death and later eaten by Trafalgar D. Water Law.",
+    "description": "Allows the user to manifest a large sphere of aura, inside which they can freely manipulate the fabric of space in a \"surgical\" manner. Eaten by an unknown doctor until his death and later eaten by Trafalgar D. Water Law.",
     "pic_url": "https://static.wikia.nocookie.net/onepiece/images/0/0e/Ope_Ope_no_Mi_Infobox.png/revision/latest",
     "df_url": "/wiki/Ope_Ope_no_Mi"
   },
@@ -859,9 +904,18 @@
     "df_sub_type": null,
     "name": "Poke Poke no Mi",
     "en_name": "Pocket-Pocket Fruit",
-    "description": "Gives the user a pocket on their body where they can store objects, including very large objects that are bigger than the pocket holes themselves. The user can pull these stored objects back out at will. Eaten by Blamenco.",
+    "description": "Gives the user a pocket on their body where they can store objects, including very large ones that are bigger than the pocket holes themselves. The user can pull these stored objects back out at will. Eaten by Blamenco.",
     "pic_url": "https://static.wikia.nocookie.net/onepiece/images/2/26/Poke_Poke_no_Mi_Infobox.png/revision/latest",
     "df_url": "/wiki/Poke_Poke_no_Mi"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": null,
+    "name": "Rako Rako no Mi",
+    "en_name": "",
+    "description": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/3e/Rako_Rako_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Rako_Rako_no_Mi"
   },
   {
     "df_type": "Paramecia",
@@ -889,6 +943,15 @@
     "description": "Allows the user to become a full Brachiosaurus or a half-Brachiosaurus hybrid. Eaten by Queen.",
     "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/40/Ryu_Ryu_no_Mi%2C_Model_Brachiosaurus_Beast_Form.png/revision/latest",
     "df_url": "/wiki/Ryu_Ryu_no_Mi,_Model:_Brachiosaurus"
+  },
+  {
+    "df_type": "Zoan",
+    "df_sub_type": "MythicalZoan",
+    "name": "Ryu Ryu no Mi, Model: Kirin",
+    "en_name": "Dragon-Dragon Fruit, Model: Kirin",
+    "description": "Allows the user to become a full Kirin or a half-Kirin hybrid. Eaten by Rimoshifu Killingham.",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/e/ed/Rimoshifu_Killingham_Manga_Infobox.png/revision/latest",
+    "df_url": "/wiki/Ryu_Ryu_no_Mi,_Model:_Kirin"
   },
   {
     "df_type": "Zoan",
@@ -1111,7 +1174,7 @@
     "df_sub_type": "MythicalZoan",
     "name": "Tori Tori no Mi, Model: Phoenix",
     "en_name": "Bird-Bird Fruit, Model: Phoenix",
-    "description": "Tori Tori no Mi, Model: Phoenix (English version: Bird-Bird Fruit, Model: Phoenix)- Allows the user to become a full phoenix or a half-phoenix hybrid. Eaten by Marco.",
+    "description": "Allows the user to become a full Phoenix or a half-Phoenix hybrid. Eaten by Marco.",
     "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/1f/Tori_Tori_no_Mi%2C_Model_Phoenix_Beast_Form.png/revision/latest",
     "df_url": "/wiki/Tori_Tori_no_Mi,_Model:_Phoenix"
   },
@@ -1120,9 +1183,18 @@
     "df_sub_type": null,
     "name": "Toshi Toshi no Mi",
     "en_name": "Age-Age Fruit)",
-    "description": "Toshi Toshi no Mi (English version: Age-Age Fruit): Allows the user to manipulate the aging process of any person or object. Eaten by Jewelry Bonney.",
+    "description": "",
     "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/b7/Toshi_Toshi_no_Mi_Infobox.png/revision/latest",
     "df_url": "/wiki/Toshi_Toshi_no_Mi"
+  },
+  {
+    "df_type": "Paramecia",
+    "df_sub_type": null,
+    "name": "Tsutsu Tsutsu no Mi",
+    "en_name": "",
+    "description": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/5a/Tsutsu_Tsutsu_no_Mi_Infobox.png/revision/latest",
+    "df_url": "/wiki/Tsutsu_Tsutsu_no_Mi"
   },
   {
     "df_type": "Zoan",
@@ -1137,7 +1209,7 @@
     "df_type": "Zoan",
     "df_sub_type": "MythicalZoan",
     "name": "Uma Uma no Mi, Model: Pegasus",
-    "en_name": "Horse- Horse Fruit, Model: Pegasus",
+    "en_name": "Horse-Horse Fruit, Model: Pegasus",
     "description": "Allows the user to become a full pegasus or a half-pegasus hybrid. Eaten by Stronger.",
     "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/7e/Uma_Uma_no_Mi%2C_Model_Pegasus_Infobox.png/revision/latest",
     "df_url": "/wiki/Uma_Uma_no_Mi,_Model:_Pegasus"

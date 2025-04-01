@@ -1,13 +1,13 @@
 [
   {
     "df_type": "Paramecia",
-    "cannon_count": 90,
-    "non_cannon_count": 45,
+    "cannon_count": 94,
+    "non_cannon_count": 48,
     "description": "The most common Devil Fruit type, Paramecia, encompasses fruits that grant any one of a wide variety of \"superhuman\" abilities. Their one unifying characteristic is that they are anything other than the ability to transform into animals or into elements of nature."
   },
   {
     "df_type": "Zoan",
-    "cannon_count": 51,
+    "cannon_count": 55,
     "non_cannon_count": 7,
     "description": "Zoan-type Devil Fruits grant the power to transform into a specific animal, as well as transform into a hybrid form between the ability user's own species (most frequently human) and the aforesaid animal. Unlike other Devil Fruits, Zoan fruits are said to carry a will of their own. A recently discovered science allows Zoan Fruits to be integrated into inanimate objects, bringing the object to life and granting it the standard Zoan transformations."
   },
@@ -15,7 +15,7 @@
     "df_type": "Logia",
     "cannon_count": 13,
     "non_cannon_count": 3,
-    "description": "Logia, the rarest and most powerful of the three basic Devil Fruit types, refers to fruits that grant the power to create, control, and transform one's body into an element of nature, e.g.: fire, lightning, ice, sand, mud, magma, smoke, gas, plants, light, and darkness."
+    "description": "Logia, the rarest and most powerful of the three basic Devil Fruit types, refers to fruits that grant the power to create, control, and transform one's body into an element of nature, e.g.: fire, lightning, ice, sand, mud, magma, smoke, soot, snow, gas, plants, light, and darkness."
   },
   {
     "df_type": "Undetermined",
