@@ -1,0 +1,6 @@
+[test_config]
+name = "complete code coverage"
+manifest-path = "./Cargo.toml"
+output-dir = "./coverage"
+out = ["Html", "Xml"]
+exclude-files = []

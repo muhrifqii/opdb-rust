@@ -1,7 +1,3 @@
-use super::df_type::DfSubType;
-use super::models::DfTypeInfo;
-use super::{df_type::DfType, models::DevilFruit};
-use crate::types::{Error, UrlTyped};
 use itertools::Itertools;
 use log::info;
 use regex::Regex;
@@ -13,12 +9,16 @@ use std::sync::Arc;
 use strum::IntoEnumIterator;
 use tokio::sync::Mutex;
 
+use super::models::{DevilFruit, DfTypeInfo};
+use super::types::DfSubType;
+use crate::df::types::DfType;
+use crate::types::{Error, UrlTyped};
+
 pub type ArcMapHtml = Arc<Mutex<HashMap<String, String>>>;
 
 pub trait DfScrapable {
     async fn get_dftype_info(&self) -> Result<Vec<DfTypeInfo>, Error>;
     async fn get_df_list(&self) -> Result<Vec<DevilFruit>, Error>;
-    async fn get_df(&self) -> Result<DevilFruit, Error>;
 }
 
 #[derive(Debug)]
@@ -139,10 +139,6 @@ impl DfScrapable for DfScraper {
         }
 
         Ok(devil_fruits_map.into_values().sorted().collect_vec())
-    }
-
-    async fn get_df(&self) -> Result<DevilFruit, Error> {
-        todo!()
     }
 }
 

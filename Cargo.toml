@@ -12,6 +12,9 @@ homepage = "https://github.com/muhrifqii/opdb-rust"
 repository = "https://github.com/muhrifqii/opdb-rust.git"
 readme = "README.md"
 
+[workspace.lints.rust]
+unexpected_cfgs = { level = "allow", check-cfg = ['cfg(rust_analyzer)'] }
+
 [workspace.dependencies]
 tokio = { version = "1.44.1", features = ["full"] }
 serde = { version = "1.0.219", features = ["derive"] }
@@ -24,5 +27,5 @@ log = "0.4.27"
 env_logger = "0.11.7"
 reqwest = "0.12.15"
 strsim = "0.11.1"
-clap = { version = "4.5.34", features = ["derive"] }
+clap = { version = "4.5.35", features = ["derive"] }
 scraper = "0.23.1"

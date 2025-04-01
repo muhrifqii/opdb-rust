@@ -1,0 +1,13 @@
+{
+    "configurations": [
+      {
+        "name": "Cargo Tarpaulin",
+        "type": "lldb",
+        "request": "launch",
+        "program": "cargo",
+        "args": ["tarpaulin"],
+        "cwd": "${workspaceFolder}",
+        "console": "integratedTerminal"
+      }
+    ]
+}

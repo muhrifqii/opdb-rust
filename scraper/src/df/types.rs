@@ -3,13 +3,36 @@ use serde::Serialize;
 use strum::{Display, EnumIter, EnumString};
 
 #[derive(
-    Debug, Clone, Copy, EnumString, PartialEq, Display, EnumIter, Serialize, Eq, PartialOrd, Ord,
+    Debug,
+    Clone,
+    Copy,
+    EnumString,
+    PartialEq,
+    Display,
+    EnumIter,
+    Serialize,
+    Eq,
+    PartialOrd,
+    Ord,
+    Default,
 )]
 pub enum DfType {
     Logia,
     Zoan,
     Paramecia,
+    #[default]
     Undetermined,
+}
+
+impl UrlTyped for DfType {
+    fn get_path(&self) -> String {
+        match self {
+            DfType::Logia => "/wiki/Logia".to_string(),
+            DfType::Zoan => "/wiki/Zoan".to_string(),
+            DfType::Paramecia => "/wiki/Paramecia".to_string(),
+            DfType::Undetermined => String::new(),
+        }
+    }
 }
 
 impl DfType {
@@ -31,30 +54,19 @@ pub enum DfSubType {
     MythicalZoan,
 }
 
+impl UrlTyped for DfSubType {
+    fn get_path(&self) -> String {
+        match self {
+            DfSubType::AncientZoan | DfSubType::MythicalZoan => "/wiki/Zoan".to_string(),
+        }
+    }
+}
+
 impl DfSubType {
     pub fn id_for_fruit_list(&self) -> String {
         match self {
             DfSubType::AncientZoan => "#Ancient_Zoan".to_string(),
             DfSubType::MythicalZoan => "#Mythical_Zoan".to_string(),
-        }
-    }
-}
-
-impl UrlTyped for DfType {
-    fn get_path(&self) -> String {
-        match self {
-            DfType::Logia => "/wiki/Logia".to_string(),
-            DfType::Zoan => "/wiki/Zoan".to_string(),
-            DfType::Paramecia => "/wiki/Paramecia".to_string(),
-            DfType::Undetermined => String::new(),
-        }
-    }
-}
-
-impl UrlTyped for DfSubType {
-    fn get_path(&self) -> String {
-        match self {
-            DfSubType::AncientZoan | DfSubType::MythicalZoan => "/wiki/Zoan".to_string(),
         }
     }
 }

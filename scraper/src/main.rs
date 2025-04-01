@@ -2,8 +2,8 @@ mod df;
 mod output_writer;
 mod types;
 
-use clap::{Parser, Subcommand};
-use df::df_scraper::{DfScrapable, DfScraper};
+use clap::Parser;
+use df::scraper::{DfScrapable, DfScraper};
 use log::{debug, info};
 use output_writer::{JsonWriter, OutputWriter};
 
@@ -15,9 +15,6 @@ struct MainArgs {
     #[arg(short, long)]
     output: Option<String>,
 }
-
-#[derive(Subcommand)]
-enum Commands {}
 
 #[tokio::main]
 async fn main() {
@@ -37,7 +34,7 @@ async fn main() {
     let df_result = df_s.get_df_list().await.unwrap();
     info!("result size: {}", df_result.len());
 
-    let writer = JsonWriter {};
+    let writer = JsonWriter;
     writer
         .write(&df_type_infos, &output_dir, "df_type_infos")
         .await

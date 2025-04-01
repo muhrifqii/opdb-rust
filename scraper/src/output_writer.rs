@@ -8,7 +8,8 @@ pub trait OutputWriter {
         T: Serialize;
 }
 
-pub struct JsonWriter {}
+#[derive(Default, Debug)]
+pub struct JsonWriter;
 
 impl OutputWriter for JsonWriter {
     async fn write<T>(&self, data: &T, path: &str, file_name: &str) -> std::io::Result<()>
