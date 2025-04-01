@@ -1,3 +1,28 @@
 [workspace]
 members = ["scraper"]
 resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+description = "One Piece DB Repository"
+authors = ["Muhammad Rifqi Fatchurrahman <muh_rif@live.com>"]
+license-file = "LICENSE"
+homepage = "https://github.com/muhrifqii/opdb-rust"
+repository = "https://github.com/muhrifqii/opdb-rust.git"
+readme = "README.md"
+
+[workspace.dependencies]
+tokio = { version = "1.44.1", features = ["full"] }
+serde = { version = "1.0.219", features = ["derive"] }
+serde_json = "1.0.140"
+strum = { version = "0.27.1", features = ["derive"] }
+thiserror = "2.0.12"
+itertools = "0.14.0"
+regex = "1.11.1"
+log = "0.4.27"
+env_logger = "0.11.7"
+reqwest = "0.12.15"
+strsim = "0.11.1"
+clap = { version = "4.5.34", features = ["derive"] }
+scraper = "0.23.1"
