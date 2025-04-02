@@ -70,3 +70,33 @@ impl DfSubType {
         }
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use crate::{df::types::DfSubType, types::UrlTyped};
+
+    use super::DfType;
+
+    #[test]
+    fn dftype_has_valid_impl() {
+        let dft = DfType::Zoan;
+        assert_eq!(dft.get_path(), "/wiki/Zoan");
+        assert_eq!(dft.id_for_fruit_list(), "#List_of_Zoan-Type_Fruits");
+        let dft = DfType::Logia;
+        assert_eq!(dft.get_path(), "/wiki/Logia");
+        assert_eq!(dft.id_for_fruit_list(), "#Logia-Types");
+        let dft = DfType::Paramecia;
+        assert_eq!(dft.get_path(), "/wiki/Paramecia");
+        assert_eq!(dft.id_for_fruit_list(), "#Paramecia-Type_Fruits");
+        let dft = DfType::Undetermined;
+        assert_eq!(dft.get_path(), "");
+        assert_eq!(dft.id_for_fruit_list(), "");
+
+        let dfsub = DfSubType::AncientZoan;
+        assert_eq!(dfsub.get_path(), "/wiki/Zoan");
+        assert_eq!(dfsub.id_for_fruit_list(), "#Ancient_Zoan");
+        let dfsub = DfSubType::MythicalZoan;
+        assert_eq!(dfsub.get_path(), "/wiki/Zoan");
+        assert_eq!(dfsub.id_for_fruit_list(), "#Mythical_Zoan");
+    }
+}
