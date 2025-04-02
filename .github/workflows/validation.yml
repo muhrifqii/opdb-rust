@@ -2,10 +2,10 @@ name: Validation check
 on:
   push:
     branches: ['master']
-    paths: ['scrapper/**']
+    paths: ['scraper/**']
   pull_request:
     branches: ['master']
-    paths: ['scrapper/**']
+    paths: ['scraper/**']
 jobs:
   ci:
     runs-on: ubuntu-latest
