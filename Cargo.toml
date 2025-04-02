@@ -12,9 +12,6 @@ homepage = "https://github.com/muhrifqii/opdb-rust"
 repository = "https://github.com/muhrifqii/opdb-rust.git"
 readme = "README.md"
 
-[workspace.lints.rust]
-unexpected_cfgs = { level = "allow", check-cfg = ['cfg(rust_analyzer)'] }
-
 [workspace.dependencies]
 tokio = { version = "1.44.1", features = ["full"] }
 serde = { version = "1.0.219", features = ["derive"] }
@@ -24,7 +21,7 @@ thiserror = "2.0.12"
 itertools = "0.14.0"
 regex = "1.11.1"
 log = "0.4.27"
-env_logger = "0.11.7"
+env_logger = "0.11.8"
 reqwest = "0.12.15"
 strsim = "0.11.1"
 clap = { version = "4.5.35", features = ["derive"] }

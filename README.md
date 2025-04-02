@@ -8,6 +8,7 @@
   <p>
 
 ![RC](https://img.shields.io/badge/rustc-1.81+-ab6000.svg)
+[![codecov](https://codecov.io/gh/muhrifqii/opdb-rust/graph/badge.svg?token=P55ZVGUGE9)](https://codecov.io/gh/muhrifqii/opdb-rust)
 ![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)
 
 </p>

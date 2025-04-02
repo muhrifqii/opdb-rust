@@ -21,3 +21,10 @@ jobs:
         run: cargo fmt -- --check
       - name: Unit test and generate code coverage
         run: cargo +nightly tarpaulin --verbose --timeout 120
+      - name: Upload to codecov.io
+        uses: codecov/codecov-action@v5
+        with:
+          fail_ci_if_error: true
+          files: ./coverage/cobertura.xml
+          token: ${{ secrets.CODECOV_TOKEN }}
+          slug: muhrifqii/opdb-rust
