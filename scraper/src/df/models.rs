@@ -51,7 +51,7 @@ impl Ord for DevilFruit {
 
 impl PartialOrd for DevilFruit {
     fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
-        self.df_url.partial_cmp(&other.df_url)
+        Some(self.cmp(other))
     }
 }
 
@@ -84,5 +84,77 @@ pub struct Character {
 impl UrlTyped for Character {
     fn get_path(&self) -> String {
         format!("/wiki/Character:{}", self.id)
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use crate::{
+        df::{
+            models::DfTypeInfo,
+            types::{DfSubType, DfType},
+        },
+        types::UrlTyped,
+    };
+
+    use super::{Character, DevilFruit};
+
+    #[test]
+    fn df_has_valid_traits() {
+        let dftype = DfTypeInfo {
+            df_type: DfType::Logia,
+            cannon_count: 10,
+            non_cannon_count: 1,
+            description: "logia".to_string(),
+        };
+        assert_eq!(
+            format!("{}", dftype),
+            "(df_type: Logia, cannon: 10, non-cannon: 1, description: logia)"
+        );
+        let df1 = DevilFruit {
+            df_type: DfType::Zoan,
+            df_sub_type: Some(DfSubType::MythicalZoan),
+            name: "Nika".to_string(),
+            en_name: "Nika".to_string(),
+            description: "Used to Gomu".to_string(),
+            pic_url: "pic".to_string(),
+            df_url: "nika".to_string(),
+        };
+        let df2 = DevilFruit {
+            df_type: DfType::Zoan,
+            df_sub_type: Some(DfSubType::MythicalZoan),
+            name: "Zeus".to_string(),
+            en_name: "Zeus".to_string(),
+            description: "Greek".to_string(),
+            pic_url: "pic".to_string(),
+            df_url: "zeus".to_string(),
+        };
+        let df3 = DevilFruit {
+            df_type: DfType::Zoan,
+            df_sub_type: Some(DfSubType::MythicalZoan),
+            name: "Nika".to_string(),
+            en_name: "Nika".to_string(),
+            description: "Used to Gomu".to_string(),
+            pic_url: "pic".to_string(),
+            df_url: "nika".to_string(),
+        };
+        assert_ne!(df1, df2);
+        assert_eq!(df1, df3);
+        assert!(df1 < df2);
+        assert_eq!(
+            format!("{}", df1),
+            format!("(df_type: {}, df_sub_type: {:?}, name: {}, english name: {}, pic: {}, url: {}, description: {})",
+                df1.df_type, df1.df_sub_type, df1.name, df1.en_name, df1.pic_url, df1.df_url, df1.description
+            ));
+    }
+
+    #[test]
+    fn char_has_valid_traits() {
+        let character = Character {
+            id: "1234".to_string(),
+            name: "Foo".to_string(),
+            pic_url: "pic".to_string(),
+        };
+        assert_eq!(character.get_path(), "/wiki/Character:1234");
     }
 }
