@@ -14,6 +14,8 @@ jobs:
       options: --security-opt seccomp=unconfined
     steps:
       - uses: actions/checkout@v4
+      - name: Setup tools
+        run: rustup component add rustfmt
       - name: Cargo check
         timeout-minutes: 2
         run: cargo check --locked
