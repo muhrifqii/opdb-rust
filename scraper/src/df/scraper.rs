@@ -1,4 +1,5 @@
 use itertools::Itertools;
+use lazy_static::lazy_static;
 use log::info;
 use regex::Regex;
 use scraper::selectable::Selectable;
@@ -12,6 +13,7 @@ use tokio::sync::Mutex;
 use super::models::{DevilFruit, DfTypeInfo};
 use super::types::DfSubType;
 use crate::df::types::DfType;
+use crate::fetcher::HtmlFetcher;
 use crate::types::{Error, UrlTyped};
 
 pub type ArcMapHtml = Arc<Mutex<HashMap<String, String>>>;
@@ -21,7 +23,26 @@ pub trait DfScrapable {
     async fn get_df_list(&self) -> Result<Vec<DevilFruit>, Error>;
 }
 
+lazy_static! {
+    static ref REX_EN_NAME: Regex = Regex::new(r"English version: (.+)").unwrap();
+}
+
 #[derive(Debug)]
+pub struct DfScraperV2 {
+    fetcher: HtmlFetcher,
+    base_url: String,
+}
+
+impl DfScraperV2 {
+    pub fn new(fetcher: HtmlFetcher, base_url: &str) -> Self {
+        Self {
+            fetcher,
+            base_url: base_url.to_string(),
+        }
+    }
+}
+
+#[derive(Debug, Clone)]
 pub struct DfScraper {
     base_url: String,
     client: reqwest::Client,
@@ -51,7 +72,7 @@ impl DfScrapable for DfScraper {
         let row_selector = &Selector::parse(
             "table.wikitable:nth-of-type(1) tr:nth-of-type(n+2):nth-of-type(-n+5)",
         )
-        .unwrap();
+        .map_err(|_| Error::InvalidStructure("Failed to parse row selector".to_string()))?;
         let td_selector = &Selector::parse("td").unwrap();
 
         let p_desc = Selector::parse("#Paramecia").unwrap();
@@ -202,8 +223,9 @@ fn get_sub_type(html_doc: &Html) -> Result<HashMap<&str, DfSubType>, Error> {
     let mut sub_type_map = HashMap::new();
 
     for df_sub in DfSubType::iter() {
-        let sub_type_selector = &Selector::parse(&df_sub.id_for_fruit_list()).unwrap();
-        html_doc
+        let sub_type_selector = &Selector::parse(&df_sub.id_for_fruit_list())
+            .map_err(|_| Error::InvalidStructure("Failed to parse selector".to_string()))?;
+        let res: Result<(), Error> = html_doc
             .select(sub_type_selector)
             .next()
             .and_then(|e| e.parent())
@@ -221,17 +243,63 @@ fn get_sub_type(html_doc: &Html) -> Result<HashMap<&str, DfSubType>, Error> {
             .filter(|e| e.value().name() == "ul")
             .take(1)
             .flat_map(|e| e.child_elements().collect_vec())
-            .for_each(|e| {
+            .try_for_each(|e| {
                 let path = e
                     .select(&Selector::parse("a:nth-of-type(1)").unwrap())
                     .next()
                     .and_then(|e| e.value().attr("href"))
-                    .unwrap();
+                    .ok_or(Error::InvalidStructure(
+                        "Missing href attribute".to_string(),
+                    ))?;
                 sub_type_map.insert(path, df_sub);
+                Ok(())
             });
+        res?;
     }
 
     Ok(sub_type_map)
+}
+
+struct DevilFruitDesc {
+    name: String,
+    en_name: String,
+    description: String,
+}
+
+fn parse_fruit_details(el: &ElementRef, rex_en_name: &Regex, rex_desc: &Regex) -> DevilFruitDesc {
+    let mut en_name = String::new();
+    let mut desc = String::new();
+    let mut iter = el.text().into_iter();
+    let name = iter.next().unwrap_or_default().to_string();
+
+    while let Some(txt) = iter.next() {
+        if rex_en_name.is_match(txt) {
+            en_name = rex_en_name
+                .captures(txt)
+                .unwrap()
+                .get(1)
+                .unwrap()
+                .as_str()
+                .to_string();
+            continue;
+        }
+        if rex_desc.is_match(txt) {
+            desc = rex_desc
+                .captures(txt)
+                .unwrap()
+                .get(1)
+                .unwrap()
+                .as_str()
+                .to_string();
+            break;
+        }
+    }
+    desc += &iter.join("").replace("\n", "").to_string();
+    DevilFruitDesc {
+        name,
+        en_name,
+        description: desc,
+    }
 }
 
 // traverse h3 "Canon" before h3 "Non-Canon"
@@ -260,73 +328,55 @@ async fn get_canon_zoan(
             }
         });
 
-    let mut fruits: Vec<ElementRef> = Vec::new();
-    for el_res in sibling_iter {
-        let el = el_res;
-        if el.value().name() == "h3"
-            && el
-                .first_child()
-                .and_then(|n| ElementRef::wrap(n))
-                .unwrap()
-                .value()
-                .id()
-                .is_some_and(|s| s != "Canon")
-        {
-            break;
-        }
-        if el.value().name() == "ul" {
-            let mut li = el.child_elements().collect_vec();
-            fruits.append(&mut li);
-        }
-    }
+    let fruits: Vec<ElementRef> = sibling_iter
+        .take_while(|el| {
+            !(el.value().name() == "h3"
+                && el
+                    .first_child()
+                    .and_then(|n| ElementRef::wrap(n))
+                    .ok_or_else(|| false)
+                    .unwrap()
+                    .value()
+                    .id()
+                    .is_some_and(|s| s != "Canon"))
+        })
+        .filter(|el| el.value().name() == "ul")
+        .flat_map(|el| el.child_elements().collect_vec())
+        .collect();
     let df_sub_map = get_sub_type(&doc)?;
-    let mut df_list = Vec::with_capacity(fruits.len());
-    let rex_en_name = Regex::new(r"English version: (.+)").unwrap();
     let rex_desc = Regex::new(r"\) \- (.+)").unwrap();
-    for el in &fruits {
-        let path = el
-            .select(&Selector::parse("a:nth-of-type(1)").unwrap())
-            .next()
-            .and_then(|e| e.value().attr("href"))
-            .expect(el.html().as_str());
 
-        let mut en_name = "";
-        let mut desc = "".to_string();
-        let mut iter = el.text().into_iter();
-        let name = iter.next().unwrap();
+    let df_list: Vec<_> = fruits
+        .iter()
+        .map(|el| {
+            let path = el
+                .select(
+                    &Selector::parse("a:nth-of-type(1)")
+                        .map_err(|_| Error::InvalidStructure("Invalid selector".to_string()))?,
+                )
+                .next()
+                .and_then(|e| e.value().attr("href"))
+                .ok_or(Error::InvalidStructure(format!(
+                    "Missing href attribute. found: {}",
+                    el.html().as_str()
+                )))?;
 
-        while let Some(txt) = iter.next() {
-            if rex_en_name.is_match(txt) {
-                en_name = rex_en_name.captures(txt).unwrap().get(1).unwrap().as_str();
-                continue;
-            }
-            if rex_desc.is_match(txt) {
-                desc = rex_desc
-                    .captures(txt)
-                    .unwrap()
-                    .get(1)
-                    .unwrap()
-                    .as_str()
-                    .to_string();
-                break;
-            }
-        }
-        desc += &iter.join("").replace("\n", "").to_string();
-        let sub_type = df_sub_map.get(&path);
-
-        // info!("fruit: {:?}", &el.html());
-        let df = DevilFruit {
-            df_type: DfType::Zoan,
-            df_sub_type: sub_type.map(|s| *s),
-            name: name.to_string(),
-            en_name: en_name.to_string(),
-            description: desc.to_string(),
-            pic_url: String::new(),
-            df_url: path.to_string(),
-        };
-        // info!("fruit name: {}", &df);
-        df_list.push(df);
-    }
+            let fruit_details = parse_fruit_details(el, &REX_EN_NAME, &rex_desc);
+            let sub_type = df_sub_map.get(&path);
+            // info!("fruit: {:?}", &el.html());
+            let df = DevilFruit {
+                df_type: DfType::Zoan,
+                df_sub_type: sub_type.map(|s| *s),
+                name: fruit_details.name,
+                en_name: fruit_details.en_name,
+                description: fruit_details.description,
+                pic_url: String::new(),
+                df_url: path.to_string(),
+            };
+            // info!("fruit name: {}", &df);
+            Ok(df)
+        })
+        .collect::<Result<_, _>>()?;
 
     info!("total Zoan: {}", df_list.len());
 
@@ -371,52 +421,37 @@ async fn get_canon_paramecia_logia(
         .flatten_ok()
         .collect();
     let fruits = fruits?;
-    let mut df_list = Vec::with_capacity(fruits.len());
-    let rex_en_name = Regex::new(r"English version: (.+)").unwrap();
     let rex_desc = Regex::new(r"\): (.+)").unwrap();
-    for el in &fruits {
-        let path = el
-            .select(&Selector::parse("a:nth-of-type(1)").unwrap())
-            .next()
-            .and_then(|e| e.value().attr("href"))
-            .unwrap();
+    let df_list: Vec<_> = fruits
+        .iter()
+        .map(|el| {
+            let path = el
+                .select(
+                    &Selector::parse("a:nth-of-type(1)")
+                        .map_err(|_| Error::InvalidStructure("Invalid selector".to_string()))?,
+                )
+                .next()
+                .and_then(|e| e.value().attr("href"))
+                .ok_or(Error::InvalidStructure(format!(
+                    "Missing href attribute. found: {}",
+                    el.html().as_str()
+                )))?;
 
-        let mut en_name = "";
-        let mut desc = "".to_string();
-        let mut iter = el.text().into_iter();
-        let name = iter.next().unwrap();
-
-        while let Some(txt) = iter.next() {
-            if rex_en_name.is_match(txt) {
-                en_name = rex_en_name.captures(txt).unwrap().get(1).unwrap().as_str();
-                continue;
-            }
-            if rex_desc.is_match(txt) {
-                desc = rex_desc
-                    .captures(txt)
-                    .unwrap()
-                    .get(1)
-                    .unwrap()
-                    .as_str()
-                    .to_string();
-                break;
-            }
-        }
-        desc += &iter.join("").replace("\n", "").to_string();
-
-        // info!("fruit: {:?}", &el.html());
-        let df = DevilFruit {
-            df_type,
-            df_sub_type: None,
-            name: name.to_string(),
-            en_name: en_name.to_string(),
-            description: desc.to_string(),
-            pic_url: String::new(),
-            df_url: path.to_string(),
-        };
-        // info!("fruit name: {}", &df);
-        df_list.push(df);
-    }
+            let fruit_details = parse_fruit_details(el, &REX_EN_NAME, &rex_desc);
+            // info!("fruit: {:?}", &el.html());
+            let df = DevilFruit {
+                df_type,
+                df_sub_type: None,
+                name: fruit_details.name,
+                en_name: fruit_details.en_name,
+                description: fruit_details.description,
+                pic_url: String::new(),
+                df_url: path.to_string(),
+            };
+            // info!("fruit name: {}", &df);
+            Ok(df)
+        })
+        .collect::<Result<_, _>>()?;
 
     info!("total {}: {}", df_type, df_list.len());
 
@@ -430,7 +465,8 @@ async fn get_picture(url: &str, client: &reqwest::Client) -> Result<(String, Vec
     let imgs = doc
         .select(&Selector::parse("aside figure.pi-image>a.image").unwrap())
         .filter_map(|e| e.value().attr("href"))
-        .map(|s| s.split("?cb=").next().unwrap().to_string())
+        .filter_map(|s| s.split("?cb=").next())
+        .map(String::from)
         .collect_vec();
     Ok((url.to_string(), imgs))
 }

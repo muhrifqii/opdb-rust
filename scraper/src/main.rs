@@ -1,4 +1,5 @@
 mod df;
+mod fetcher;
 mod output_writer;
 mod types;
 

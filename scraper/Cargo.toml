@@ -1,5 +1,5 @@
 [package]
-name = "opdb-scrapper"
+name = "opdb_scrapper"
 version.workspace = true
 edition.workspace = true
 authors.workspace = true
@@ -24,6 +24,8 @@ reqwest = { workspace = true }
 strsim = { workspace = true }
 clap = { workspace = true }
 scraper = { workspace = true }
+lazy_static = { workspace = true }
+async-trait = { workspace = true }
 
 [dev-dependencies]
 mockall = "0.13.1"

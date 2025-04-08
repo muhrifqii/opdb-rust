@@ -1,7 +1,7 @@
 use serde::Serialize;
 use std::cmp::Ordering;
 
-use super::types::{DfSubType, DfType};
+use super::types::{DfSubType, DfType, HasDevilFruit};
 use crate::types::UrlTyped;
 
 #[derive(Debug, Serialize, Default)]
@@ -22,6 +22,23 @@ impl std::fmt::Display for DfTypeInfo {
     }
 }
 
+#[derive(Debug)]
+pub struct DevilFruitName {
+    name: String,
+    en_name: String,
+    description: String,
+}
+
+impl DevilFruitName {
+    pub fn new(name: String, en_name: String, description: String) -> Self {
+        Self {
+            name,
+            en_name,
+            description,
+        }
+    }
+}
+
 #[derive(Debug, Serialize)]
 pub struct DevilFruit {
     pub df_type: DfType,
@@ -31,6 +48,48 @@ pub struct DevilFruit {
     pub description: String,
     pub pic_url: String,
     pub df_url: String,
+}
+
+impl DevilFruit {
+    pub fn zoan(
+        sub_type: DfSubType,
+        name_detail: DevilFruitName,
+        pic_url: String,
+        df_url: String,
+    ) -> Self {
+        Self {
+            df_type: DfType::Zoan,
+            df_sub_type: Some(sub_type),
+            name: name_detail.name,
+            en_name: name_detail.en_name,
+            description: name_detail.description,
+            pic_url,
+            df_url,
+        }
+    }
+
+    pub fn non_zoan(
+        df_type: DfType,
+        name_detail: DevilFruitName,
+        pic_url: String,
+        df_url: String,
+    ) -> Self {
+        Self {
+            df_type,
+            df_sub_type: None,
+            name: name_detail.name,
+            en_name: name_detail.en_name,
+            description: name_detail.description,
+            pic_url,
+            df_url,
+        }
+    }
+}
+
+impl HasDevilFruit for DevilFruit {
+    fn df_type(&self) -> DfType {
+        self.df_type
+    }
 }
 
 impl std::fmt::Display for DevilFruit {
@@ -92,12 +151,12 @@ mod tests {
     use crate::{
         df::{
             models::DfTypeInfo,
-            types::{DfSubType, DfType},
+            types::{DfSubType, DfType, HasDevilFruit},
         },
         types::UrlTyped,
     };
 
-    use super::{Character, DevilFruit};
+    use super::{Character, DevilFruit, DevilFruitName};
 
     #[test]
     fn df_has_valid_traits() {
@@ -146,6 +205,7 @@ mod tests {
             format!("(df_type: {}, df_sub_type: {:?}, name: {}, english name: {}, pic: {}, url: {}, description: {})",
                 df1.df_type, df1.df_sub_type, df1.name, df1.en_name, df1.pic_url, df1.df_url, df1.description
             ));
+        assert_eq!(DfType::Zoan, df3.df_type());
     }
 
     #[test]
@@ -156,5 +216,31 @@ mod tests {
             pic_url: "pic".to_string(),
         };
         assert_eq!(character.get_path(), "/wiki/Character:1234");
+    }
+
+    #[test]
+    fn df_constructor_tests() {
+        let df = DevilFruit::zoan(
+            DfSubType::MythicalZoan,
+            DevilFruitName::new(
+                "fruito".to_string(),
+                "fruit".to_string(),
+                "lorem".to_string(),
+            ),
+            "".to_string(),
+            "".to_string(),
+        );
+        assert_eq!("fruit", df.en_name);
+        let df = DevilFruit::non_zoan(
+            DfType::Logia,
+            DevilFruitName::new(
+                "ananas".to_string(),
+                "pinaple".to_string(),
+                "lorem".to_string(),
+            ),
+            "".to_string(),
+            "".to_string(),
+        );
+        assert_eq!("ananas", df.name);
     }
 }
