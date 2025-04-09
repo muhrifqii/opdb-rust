@@ -27,7 +27,7 @@ impl FetchHtml for Client {
 }
 
 #[derive(Debug, Clone)]
-pub struct HtmlFetcher<T = Client>
+pub struct HtmlFetcher<T>
 where
     T: FetchHtml,
 {

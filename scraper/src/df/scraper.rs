@@ -1,7 +1,6 @@
 use itertools::Itertools;
-use lazy_static::lazy_static;
 use log::{error, info};
-use regex::Regex;
+use reqwest::Client;
 use scraper::selectable::Selectable;
 use scraper::Html;
 use std::collections::HashMap;
@@ -11,7 +10,7 @@ use strum::IntoEnumIterator;
 use super::models::{DevilFruit, DfTypeInfo};
 use crate::df::parser::{get_parser, Utils};
 use crate::df::types::DfType;
-use crate::fetcher::HtmlFetcher;
+use crate::fetcher::{FetchHtml, HtmlFetcher};
 use crate::types::{Error, UrlTyped};
 
 pub trait DfScrapable {
@@ -19,18 +18,17 @@ pub trait DfScrapable {
     async fn get_df_list(&self) -> Result<Vec<DevilFruit>, Error>;
 }
 
-lazy_static! {
-    static ref REX_EN_NAME: Regex = Regex::new(r"English version: (.+)").unwrap();
-}
-
 #[derive(Debug)]
-pub struct DfScraper {
-    fetcher: HtmlFetcher,
+pub struct DfScraper<T = Client>
+where
+    T: FetchHtml + Clone,
+{
+    fetcher: HtmlFetcher<T>,
     base_url: String,
 }
 
-impl DfScraper {
-    pub fn new(fetcher: HtmlFetcher, base_url: &str) -> Self {
+impl<T: FetchHtml + Clone> DfScraper<T> {
+    pub fn new(fetcher: HtmlFetcher<T>, base_url: &str) -> Self {
         Self {
             fetcher,
             base_url: base_url.to_string(),
@@ -38,7 +36,9 @@ impl DfScraper {
     }
 }
 
-impl DfScrapable for DfScraper {
+impl<T: FetchHtml + Clone + std::marker::Send + std::marker::Sync + 'static> DfScrapable
+    for DfScraper<T>
+{
     async fn get_dftype_info(&self) -> Result<Vec<DfTypeInfo>, Error> {
         let url = format!("{}/wiki/Devil_Fruit", self.base_url);
         let html = self.fetcher.fetch(&url).await?;
@@ -60,11 +60,7 @@ impl DfScrapable for DfScraper {
             .map(|row| {
                 let cells = row.select(&td_selector).collect_vec();
                 if cells.len() < 3 {
-                    let msg = format!(
-                        "Expected at least 3 cells, found {}: {:?}",
-                        cells.len(),
-                        row.html()
-                    );
+                    let msg = format!("Expected at least 3 cells, found {}", cells.len());
                     return Err(Error::InvalidStructure(msg));
                 }
 
@@ -86,12 +82,7 @@ impl DfScrapable for DfScraper {
                     DfType::Logia => l_desc.trim(),
                     _ => "",
                 };
-                let obj = DfTypeInfo {
-                    df_type,
-                    cannon_count: cc,
-                    non_cannon_count: ncc,
-                    description: desc.to_string(),
-                };
+                let obj = DfTypeInfo::new(df_type, cc, ncc, desc.to_string());
                 info!("obj: {}", &obj);
                 Ok(obj)
             })
@@ -116,7 +107,6 @@ impl DfScrapable for DfScraper {
                 devil_fruits_map.insert(df_url.clone(), df);
 
                 let fetcher = self.fetcher.clone();
-
                 pic_tasks.spawn(async move {
                     let html = fetcher.fetch_only(&df_url).await?;
                     let doc = Html::parse_document(&html);
@@ -142,5 +132,68 @@ impl DfScrapable for DfScraper {
         }
 
         Ok(devil_fruits_map.into_values().sorted().collect_vec())
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use std::collections::HashMap;
+
+    use async_trait::async_trait;
+
+    use crate::{
+        df::scraper::{DfScrapable, DfScraper},
+        fetcher::{FetchHtml, HtmlFetcher},
+        types::Error,
+    };
+
+    #[derive(Clone)]
+    struct MockClient {
+        res_req: HashMap<String, Result<String, Error>>,
+    }
+
+    #[async_trait]
+    impl FetchHtml for MockClient {
+        async fn fetch(&self, url: &str) -> Result<String, Error> {
+            self.res_req.get(url).cloned().unwrap()
+        }
+    }
+
+    fn prepare_fetcher<const N: usize>(
+        arr: [(String, Result<String, Error>); N],
+    ) -> HtmlFetcher<MockClient> {
+        let client = MockClient {
+            res_req: HashMap::from(arr),
+        };
+        HtmlFetcher::new(client)
+    }
+
+    #[tokio::test]
+    async fn get_type_info() {
+        let fetcher = prepare_fetcher([(
+            "/wiki/Devil_Fruit".to_string(),
+            Ok(r#"<html><body>
+                <h4><span id="Paramecia">Paramecia</span></h4>
+                <p>Paramecia Text</p>
+                <h4><span id="Zoan">Zoan</span></h4>
+                <p>Zoan Text</p>
+                <h4><span id="Logia">Logia</span></h4>
+                <p>Logia Text</p>
+                <table class="wikitable">
+                    <tbody>
+                    <tr><th></th><th>Canon</th><th>Non-Canon</th><th>Total</th></tr>
+                    <tr><td>Paramecia</td><td>94 </td><td>48</td><td>142</td></tr>
+                    <tr><td>Zoan</td><td>55</td><td>7 </td><td> 62</td></tr>
+                    <tr><td>Logia</td><td>13</td><td>3</td><td>16  </td></tr>
+                    <tr><td>Undetermined</td><td>3</td><td>2</td><td>5</td></tr>
+                    <tr><td>Last</td><td></td><td></td><td></td></tr>
+                    </tbody></table>
+            </body></html>"#
+                .to_string()),
+        )]);
+        let scrape = DfScraper::new(fetcher, "");
+        let result = scrape.get_dftype_info().await;
+        assert!(result.is_ok());
+        assert_eq!(result.unwrap().len(), 4);
     }
 }
