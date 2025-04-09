@@ -12,6 +12,17 @@ pub struct DfTypeInfo {
     pub description: String,
 }
 
+impl DfTypeInfo {
+    pub fn new(df_type: DfType, cannon: u32, non_cannon: u32, description: String) -> Self {
+        Self {
+            df_type,
+            cannon_count: cannon,
+            non_cannon_count: non_cannon,
+            description,
+        }
+    }
+}
+
 impl std::fmt::Display for DfTypeInfo {
     fn fmt(&self, f: &mut std::fmt::Formatter) -> std::fmt::Result {
         write!(
@@ -125,12 +136,6 @@ impl PartialEq for DevilFruit {
             && self.description == other.description
             && self.df_url == other.df_url
     }
-}
-
-#[derive(Debug)]
-pub struct DfUser {
-    pub id: String,
-    pub name: String,
 }
 
 #[derive(Debug)]

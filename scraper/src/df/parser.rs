@@ -31,7 +31,7 @@ pub struct CanonLogiaParser;
 impl DfTypeParser for CanonZoanParser {
     fn parse(&self, html: &Html) -> Result<Vec<DevilFruit>, Error> {
         let sibling_iter = html
-            .select(&Selector::parse(&DfType::Zoan.id_for_fruit_list()).unwrap())
+            .select(&Utils::parse_selector(&DfType::Zoan.id_for_fruit_list())?)
             .next()
             .and_then(|e| e.parent())
             .map(|n| n.next_siblings())
@@ -51,10 +51,7 @@ impl DfTypeParser for CanonZoanParser {
                     && el
                         .first_child()
                         .and_then(|n| ElementRef::wrap(n))
-                        .ok_or_else(|| false)
-                        .unwrap()
-                        .value()
-                        .id()
+                        .and_then(|el| el.value().id())
                         .is_some_and(|s| s != "Canon"))
             })
             .filter(|el| el.value().name() == "ul")
@@ -88,7 +85,7 @@ macro_rules! impl_canon_paramecia_logia_parser {
         impl DfTypeParser for $T {
             fn parse(&self, html: &Html) -> Result<Vec<DevilFruit>, Error> {
                 let fruits: Result<Vec<_>, _> = html
-                    .select(&Selector::parse(&$df_type.id_for_fruit_list()).unwrap())
+                    .select(&Utils::parse_selector(&$df_type.id_for_fruit_list())?)
                     .next()
                     .and_then(|e| e.parent())
                     .map(|n| n.next_siblings())
@@ -235,8 +232,7 @@ impl Utils {
         let mut sub_type_map = HashMap::new();
 
         for df_sub in DfSubType::iter() {
-            let sub_type_selector = &Selector::parse(&df_sub.id_for_fruit_list())
-                .map_err(|_| Error::InvalidStructure("Failed to parse selector".to_string()))?;
+            let sub_type_selector = &Utils::parse_selector(&df_sub.id_for_fruit_list())?;
             let res: Result<(), Error> = html_doc
                 .select(sub_type_selector)
                 .next()
@@ -264,5 +260,18 @@ impl Utils {
         }
 
         Ok(sub_type_map)
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use crate::df::types::DfType;
+
+    use super::get_parser;
+
+    #[test]
+    #[should_panic]
+    fn test_get_parser() {
+        get_parser(&DfType::Undetermined, true);
     }
 }
