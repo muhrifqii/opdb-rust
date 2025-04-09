@@ -26,7 +26,7 @@ impl FetchHtml for Client {
     }
 }
 
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct HtmlFetcher<T = Client>
 where
     T: FetchHtml,
@@ -52,6 +52,10 @@ impl<T: FetchHtml> HtmlFetcher<T> {
         let html = self.client.fetch(url).await?;
         cache.insert(url.to_string(), html.clone());
         Ok(html)
+    }
+
+    pub async fn fetch_only(&self, url: &str) -> Result<String, Error> {
+        self.client.fetch(url).await
     }
 }
 
@@ -82,11 +86,18 @@ mod tests {
             res_req: HashMap::from([("url".to_string(), Ok("htmls".to_string()))]),
         };
         let fetcher = HtmlFetcher::new(mock_fetch);
+
+        let resp = fetcher.fetch_only("url").await;
+        assert!(resp.is_ok());
+        assert_eq!(resp.unwrap(), "htmls");
+        assert!(!fetcher.cache.lock().await.contains_key("url"));
+
         let resp = fetcher.fetch("url").await;
         assert!(resp.is_ok());
         assert_eq!(resp.unwrap(), "htmls");
-        let resp = fetcher.fetch("url").await;
         assert!(fetcher.cache.lock().await.contains_key("url"));
+
+        let resp = fetcher.fetch("url").await;
         assert_eq!(resp.unwrap(), "htmls");
     }
 

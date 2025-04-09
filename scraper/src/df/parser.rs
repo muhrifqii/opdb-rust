@@ -1,4 +1,4 @@
-use std::collections::HashMap;
+use std::{collections::HashMap, env::temp_dir};
 
 use itertools::Itertools as _;
 use lazy_static::lazy_static;
@@ -24,7 +24,10 @@ pub trait DfTypeParser {
 }
 
 pub struct CanonZoanParser;
+pub struct CanonParameciaParser;
+pub struct CanonLogiaParser;
 
+// traverse h3 "Canon" before h3 "Non-Canon"
 impl DfTypeParser for CanonZoanParser {
     fn parse(&self, html: &Html) -> Result<Vec<DevilFruit>, Error> {
         let sibling_iter = html
@@ -57,22 +60,17 @@ impl DfTypeParser for CanonZoanParser {
             .filter(|el| el.value().name() == "ul")
             .flat_map(|el| el.child_elements().collect_vec())
             .collect();
-        let df_sub_map = DfParserUtils::parse_sub_type(html)?;
+        let df_sub_map = Utils::parse_sub_type(html)?;
+        // info!("df_sub_map content: {:?}", df_sub_map);
         let df_list: Vec<_> = fruits
             .iter()
             .map(|el| {
-                let path = DfParserUtils::extract_href(
-                    el,
-                    &DfParserUtils::parse_selector("a:nth-of-type(1)")?,
-                )?;
+                let path = Utils::extract_href(el, "a:nth-of-type(1)")?;
 
-                let name_detail =
-                    DfParserUtils::parse_df_name(el, &REX_EN_NAME, &REX_DESCRIPTION_ZOAN);
-                let sub_type = df_sub_map
-                    .get(&path)
-                    .ok_or(Error::InvalidStructure("sub-type not found".to_string()))?;
+                let name_detail = Utils::parse_df_name(el, &REX_EN_NAME, &REX_DESCRIPTION_ZOAN);
+                let sub_type = df_sub_map.get(&path);
                 // info!("fruit: {:?}", &el.html());
-                let df = DevilFruit::zoan(*sub_type, name_detail, String::new(), path);
+                let df = DevilFruit::zoan(sub_type.copied(), name_detail, String::new(), path);
                 // info!("fruit name: {}", &df);
                 Ok(df)
             })
@@ -84,6 +82,7 @@ impl DfTypeParser for CanonZoanParser {
     }
 }
 
+// first ul after dl
 macro_rules! impl_canon_paramecia_logia_parser {
     ($T:ident, $df_type:expr) => {
         impl DfTypeParser for $T {
@@ -121,11 +120,8 @@ macro_rules! impl_canon_paramecia_logia_parser {
                 let df_list: Vec<_> = fruits
                     .iter()
                     .map(|el| {
-                        let path = DfParserUtils::extract_href(
-                            el,
-                            &DfParserUtils::parse_selector("a:nth-of-type(1)")?,
-                        )?;
-                        let name_detail = DfParserUtils::parse_df_name(el, &rex_en_name, &rex_desc);
+                        let path = Utils::extract_href(el, &"a:nth-of-type(1)")?;
+                        let name_detail = Utils::parse_df_name(el, &rex_en_name, &rex_desc);
                         let df = DevilFruit::non_zoan($df_type, name_detail, String::new(), path);
 
                         Ok(df)
@@ -139,13 +135,11 @@ macro_rules! impl_canon_paramecia_logia_parser {
         }
     };
 }
-pub struct CanonParameciaParser;
-pub struct CanonLogiaParser;
 
 impl_canon_paramecia_logia_parser!(CanonParameciaParser, DfType::Paramecia);
 impl_canon_paramecia_logia_parser!(CanonLogiaParser, DfType::Logia);
 
-pub fn get_parser(df_type: DfType, canon: bool) -> Box<dyn DfTypeParser> {
+pub fn get_parser(df_type: &DfType, canon: bool) -> Box<dyn DfTypeParser> {
     match (df_type, canon) {
         (DfType::Zoan, true) => Box::new(CanonZoanParser),
         (DfType::Logia, true) => Box::new(CanonLogiaParser),
@@ -154,16 +148,16 @@ pub fn get_parser(df_type: DfType, canon: bool) -> Box<dyn DfTypeParser> {
     }
 }
 
-pub struct DfParserUtils;
+pub struct Utils;
 
-impl DfParserUtils {
-    fn parse_selector(selector: &str) -> Result<Selector, Error> {
+impl Utils {
+    pub(crate) fn parse_selector(selector: &str) -> Result<Selector, Error> {
         Selector::parse(selector)
             .map_err(|_| Error::InvalidStructure(format!("Invalid selector: {}", selector)))
     }
 
-    fn extract_href(el: &ElementRef, selector: &Selector) -> Result<String, Error> {
-        el.select(selector)
+    pub(crate) fn extract_href(el: &ElementRef, selector: &str) -> Result<String, Error> {
+        el.select(&Self::parse_selector(selector)?)
             .next()
             .and_then(|e| e.value().attr("href"))
             .map(|s| s.to_string())
@@ -173,7 +167,29 @@ impl DfParserUtils {
             )))
     }
 
-    fn parse_df_name(el: &ElementRef, rex_en_name: &Regex, rex_desc: &Regex) -> DevilFruitName {
+    pub(crate) async fn get_first_parents_sibling_text(
+        html_doc: &Html,
+        selector: &str,
+    ) -> Result<String, Error> {
+        html_doc
+            .select(&Self::parse_selector(selector)?)
+            .next()
+            .and_then(|e| e.parent())
+            .map(|n| n.next_siblings())
+            .ok_or(Error::InvalidStructure(String::from(
+                "invalid sibling node",
+            )))?
+            .find(|n| n.value().is_element())
+            .and_then(|n| ElementRef::wrap(n))
+            .map(|e| e.text().join(""))
+            .ok_or(Error::InvalidStructure(String::from("invalid element")))
+    }
+
+    pub(crate) fn parse_df_name(
+        el: &ElementRef,
+        rex_en_name: &Regex,
+        rex_desc: &Regex,
+    ) -> DevilFruitName {
         let mut en_name = String::new();
         let mut description = String::new();
         let mut iter = el.text().into_iter();
@@ -205,6 +221,16 @@ impl DfParserUtils {
         DevilFruitName::new(name, en_name, description)
     }
 
+    pub(crate) fn parse_picture_url(html_doc: &Html) -> Result<Vec<String>, Error> {
+        let selector = Self::parse_selector("aside figure.pi-image>a.image")?;
+        Ok(html_doc
+            .select(&selector)
+            .filter_map(|e| e.value().attr("href"))
+            .filter_map(|s| s.split("?cb=").next())
+            .map(String::from)
+            .collect_vec())
+    }
+
     fn parse_sub_type(html_doc: &Html) -> Result<HashMap<String, DfSubType>, Error> {
         let mut sub_type_map = HashMap::new();
 
@@ -230,10 +256,7 @@ impl DfParserUtils {
                 .take(1)
                 .flat_map(|e| e.child_elements().collect_vec())
                 .try_for_each(|e| {
-                    let path = DfParserUtils::extract_href(
-                        &e,
-                        &DfParserUtils::parse_selector("a:nth-of-type(1)")?,
-                    )?;
+                    let path = Utils::extract_href(&e, "a:nth-of-type(1)")?;
                     sub_type_map.insert(path, df_sub);
                     Ok(())
                 });

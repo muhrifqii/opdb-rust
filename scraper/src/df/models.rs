@@ -52,14 +52,14 @@ pub struct DevilFruit {
 
 impl DevilFruit {
     pub fn zoan(
-        sub_type: DfSubType,
+        sub_type: Option<DfSubType>,
         name_detail: DevilFruitName,
         pic_url: String,
         df_url: String,
     ) -> Self {
         Self {
             df_type: DfType::Zoan,
-            df_sub_type: Some(sub_type),
+            df_sub_type: sub_type,
             name: name_detail.name,
             en_name: name_detail.en_name,
             description: name_detail.description,
@@ -221,7 +221,7 @@ mod tests {
     #[test]
     fn df_constructor_tests() {
         let df = DevilFruit::zoan(
-            DfSubType::MythicalZoan,
+            Some(DfSubType::MythicalZoan),
             DevilFruitName::new(
                 "fruito".to_string(),
                 "fruit".to_string(),
