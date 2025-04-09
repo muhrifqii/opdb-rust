@@ -1,9 +1,11 @@
 mod df;
+mod fetcher;
 mod output_writer;
 mod types;
 
 use clap::Parser;
 use df::scraper::{DfScrapable, DfScraper};
+use fetcher::HtmlFetcher;
 use log::{debug, info};
 use output_writer::{JsonWriter, OutputWriter};
 
@@ -29,7 +31,8 @@ async fn main() {
     let default_output_dir = String::from("data");
     let output_dir = args.output.unwrap_or(default_output_dir);
 
-    let df_s = DfScraper::new(base_url, reqwest::Client::new());
+    let fetcher = HtmlFetcher::new(reqwest::Client::builder().build().unwrap());
+    let df_s = DfScraper::new(fetcher, base_url);
     let df_type_infos = df_s.get_dftype_info().await.unwrap();
     let df_result = df_s.get_df_list().await.unwrap();
     info!("result size: {}", df_result.len());

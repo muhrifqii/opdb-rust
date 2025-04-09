@@ -71,6 +71,10 @@ impl DfSubType {
     }
 }
 
+pub trait HasDevilFruit {
+    fn df_type(&self) -> DfType;
+}
+
 #[cfg(test)]
 mod tests {
     use crate::{df::types::DfSubType, types::UrlTyped};
