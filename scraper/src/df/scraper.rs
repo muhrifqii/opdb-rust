@@ -196,4 +196,71 @@ mod tests {
         assert!(result.is_ok());
         assert_eq!(result.unwrap().len(), 4);
     }
+
+    #[tokio::test]
+    async fn get_df_list() {
+        let fetcher = prepare_fetcher([
+            (
+                "/wiki/Logia".to_string(),
+                Ok(r#"<html><body>
+                <h4><span id="Logia-Types">Logia</span></h4>
+                <dl></dl>
+                <h3>Some Text</h3>
+                <dl></dl>
+                <ul>
+                    <li><a href="/dfpath_logia" title="Some Logia Df">Some Logia Devil Fruit</a> (<i>English versions: Some En Logia Df</i>): Some description. Eaten by <a href="/character">Df User</a>.</li>
+                </ul>
+                </body></html>"#
+                    .to_string()),
+            ),
+            (
+                "/wiki/Paramecia".to_string(),
+                Ok(r#"<html><body>
+                <h4><span id="Paramecia-Type_Fruits">Paramecia</span></h4>
+                <dl></dl>
+                <h3>Some Text</h3>
+                <dl></dl>
+                <ul>
+                    <li><a href="/dfpath_paramecia" title="Some Paramecia Df">Some Paramecia Devil Fruit</a> (<i>English versions: Some En Paramecia Df</i>): Some description. Eaten by <a href="/character">Df User</a>.</li>
+                </ul>
+                </body></html>"#
+                    .to_string()),
+            ),
+            (
+                "/wiki/Zoan".to_string(),
+                Ok(r#"<html><body>
+                <h4><span id="Ancient_Zoan">Ancient Zoan</span></h4>
+                <dl></dl>
+                <p>wow</p>
+                <ul>
+                    <li><a href="/dfpath-ancient-zoan" title="Some Ancient Zoan">Some ancient zoan</a>: Eaten by <a href="/characterx" title="X">X</a>.</li>
+                </ul>
+                <h4><span id="Mythical_Zoan">Mythical Zoan</span></h4>
+                <dl></dl>
+                <p>wow</p>
+                <ul>
+                    <li><a href="/dfpath-mythical-zoan" title="Some Mythical Zoan">Some mythical zoan</a>: Eaten by <a href="/characterx" title="X">X</a>.</li>
+                </ul>
+                <h4><span id="List_of_Zoan-Type_Fruits">Zoan</span></h4>
+                <h3>Some Text</h3>
+                <dl></dl>
+                <ul>
+                    <li><a href="/dfpath-zoan" title="Some Zoan Df">Some Zoan Devil Fruit</a> (<i>English versions: Some En Zoan Df</i>): Some description. Eaten by <a href="/character">Df User</a>.</li>
+                    <li><a href="/dfpath-ancient-zoan" title="Some Ancient Zoan">Some ancient zoan</a> (<i>English versions: Some En Ancient Zoan Df</i>): Some description. Eaten by <a href="/characterx">X</a>.</li>
+                </ul>
+                </body></html>"#
+                    .to_string()),
+            ),
+            (
+                "/dfpath-zoan".to_string(),
+                Ok(r#"<html><body>
+                <aside><figure class="pi-image piapia"><a href="/picurl" class="image"><img src="/picurlsrc"/></a></figure></aside>
+                </body></html>"#
+                    .to_string()),
+            ),
+        ]);
+        let scrape = DfScraper::new(fetcher, "");
+        let df_list = scrape.get_df_list().await.unwrap();
+        assert_eq!(df_list.len(), 4);
+    }
 }
