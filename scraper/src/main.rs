@@ -41,20 +41,22 @@ async fn main() {
     let df_s = DfScraper::new(fetcher.clone(), base_url);
     let pirate_s = PirateScraper::new(fetcher.clone(), cat_crawler, base_url);
 
-    let (pirates, ships) = pirate_s.get().await.unwrap();
-    info!("pirates: {:?}\nships: {:?}", pirates, ships);
+    let df_type_infos = df_s.get_dftype_info().await.unwrap();
+    let df_result = df_s.get_df_list().await.unwrap();
+    let (pirates, ships) = pirate_s.scrape().await.unwrap();
 
-    // let df_type_infos = df_s.get_dftype_info().await.unwrap();
-    // let df_result = df_s.get_df_list().await.unwrap();
-    // info!("result size: {}", df_result.len());
-
-    // let writer = JsonWriter;
-    // writer
-    //     .write(&df_type_infos, &output_dir, "df_type_infos")
-    //     .await
-    //     .unwrap();
-    // writer
-    //     .write(&df_result, &output_dir, "df_list")
-    //     .await
-    //     .unwrap();
+    let writer = JsonWriter;
+    writer
+        .write(&df_type_infos, &output_dir, "df_type_infos")
+        .await
+        .unwrap();
+    writer
+        .write(&df_result, &output_dir, "df_list")
+        .await
+        .unwrap();
+    writer
+        .write(&pirates, &output_dir, "pirates")
+        .await
+        .unwrap();
+    writer.write(&ships, &output_dir, "ships").await.unwrap();
 }

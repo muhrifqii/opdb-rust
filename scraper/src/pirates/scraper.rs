@@ -37,7 +37,7 @@ impl<T: FetchHtml + Clone + Send + Sync + 'static> PirateScraper<T> {
         }
     }
 
-    pub async fn get(&self) -> Result<(Vec<Pirate>, Vec<Ship>), Error> {
+    pub async fn scrape(&self) -> Result<(Vec<Pirate>, Vec<Ship>), Error> {
         info!("crawling categories...");
         let category_by_sea_iter = self
             .category_crawler
