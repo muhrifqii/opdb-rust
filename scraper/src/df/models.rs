@@ -2,7 +2,7 @@ use serde::Serialize;
 use std::cmp::Ordering;
 
 use super::types::{DfSubType, DfType, HasDevilFruit};
-use crate::types::UrlTyped;
+use crate::types::{NamedJpEn, UrlTyped};
 
 #[derive(Debug, Serialize, Default)]
 pub struct DfTypeInfo {
@@ -33,23 +33,6 @@ impl std::fmt::Display for DfTypeInfo {
     }
 }
 
-#[derive(Debug)]
-pub struct DevilFruitName {
-    name: String,
-    en_name: String,
-    description: String,
-}
-
-impl DevilFruitName {
-    pub fn new(name: String, en_name: String, description: String) -> Self {
-        Self {
-            name,
-            en_name,
-            description,
-        }
-    }
-}
-
 #[derive(Debug, Serialize)]
 pub struct DevilFruit {
     pub df_type: DfType,
@@ -64,7 +47,7 @@ pub struct DevilFruit {
 impl DevilFruit {
     pub fn zoan(
         sub_type: Option<DfSubType>,
-        name_detail: DevilFruitName,
+        name_detail: NamedJpEn,
         pic_url: String,
         df_url: String,
     ) -> Self {
@@ -81,7 +64,7 @@ impl DevilFruit {
 
     pub fn non_zoan(
         df_type: DfType,
-        name_detail: DevilFruitName,
+        name_detail: NamedJpEn,
         pic_url: String,
         df_url: String,
     ) -> Self {
@@ -158,10 +141,10 @@ mod tests {
             models::DfTypeInfo,
             types::{DfSubType, DfType, HasDevilFruit},
         },
-        types::UrlTyped,
+        types::{NamedJpEn, UrlTyped},
     };
 
-    use super::{Character, DevilFruit, DevilFruitName};
+    use super::{Character, DevilFruit};
 
     #[test]
     fn df_has_valid_traits() {
@@ -227,7 +210,7 @@ mod tests {
     fn df_constructor_tests() {
         let df = DevilFruit::zoan(
             Some(DfSubType::MythicalZoan),
-            DevilFruitName::new(
+            NamedJpEn::new(
                 "fruito".to_string(),
                 "fruit".to_string(),
                 "lorem".to_string(),
@@ -238,7 +221,7 @@ mod tests {
         assert_eq!("fruit", df.en_name);
         let df = DevilFruit::non_zoan(
             DfType::Logia,
-            DevilFruitName::new(
+            NamedJpEn::new(
                 "ananas".to_string(),
                 "pinaple".to_string(),
                 "lorem".to_string(),
