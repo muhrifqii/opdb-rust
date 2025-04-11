@@ -8,10 +8,11 @@ use std::str::FromStr as _;
 use strum::IntoEnumIterator;
 
 use super::models::{DevilFruit, DfTypeInfo};
-use crate::df::parser::{get_parser, Utils};
+use crate::df::parser::get_parser;
 use crate::df::types::DfType;
 use crate::fetcher::{FetchHtml, HtmlFetcher};
 use crate::types::{Error, UrlTyped};
+use crate::utils;
 
 pub trait DfScrapable {
     async fn get_dftype_info(&self) -> Result<Vec<DfTypeInfo>, Error>;
@@ -45,16 +46,16 @@ impl<T: FetchHtml + Clone + std::marker::Send + std::marker::Sync + 'static> DfS
         let doc = Html::parse_document(&html);
 
         let desc = tokio::try_join!(
-            Utils::get_first_parents_sibling_text(&doc, "#Paramecia"),
-            Utils::get_first_parents_sibling_text(&doc, "#Zoan"),
-            Utils::get_first_parents_sibling_text(&doc, "#Logia")
+            utils::get_first_parents_sibling_text(&doc, "#Paramecia"),
+            utils::get_first_parents_sibling_text(&doc, "#Zoan"),
+            utils::get_first_parents_sibling_text(&doc, "#Logia")
         );
         let (p_desc, z_desc, l_desc) = desc?;
 
-        let row_selector = Utils::parse_selector(
+        let row_selector = utils::parse_selector(
             "table.wikitable:nth-of-type(1) tr:nth-of-type(n+2):nth-of-type(-n+5)",
         )?;
-        let td_selector = Utils::parse_selector("td")?;
+        let td_selector = utils::parse_selector("td")?;
 
         doc.select(&row_selector)
             .map(|row| {
@@ -110,7 +111,7 @@ impl<T: FetchHtml + Clone + std::marker::Send + std::marker::Sync + 'static> DfS
                 pic_tasks.spawn(async move {
                     let html = fetcher.fetch_only(&df_url).await?;
                     let doc = Html::parse_document(&html);
-                    let pic_url = Utils::parse_picture_url(&doc)?;
+                    let pic_url = utils::parse_picture_url(&doc)?;
                     let pic = pic_url.first().cloned().unwrap_or_default();
 
                     Ok::<(String, String), Error>((df_url, pic))

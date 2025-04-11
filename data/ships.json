@@ -1,0 +1,434 @@
+[
+  {
+    "name": "Bezan Burakku-gō",
+    "en_name": "Bezan Black",
+    "description": "The Bezan Black is the primary ship of the Black Cat Pirates.",
+    "affiliation": {
+      "name": "Black Cat Pirates",
+      "url": "/wiki/Black_Cat_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/c8/Bezan_Black_Infobox.png/revision/latest",
+    "url": "/wiki/Bezan_Black"
+  },
+  {
+    "name": "Biggu Toppu-gō",
+    "en_name": "Big Top",
+    "description": "Big Top is the Buggy Pirates' ship.",
+    "affiliation": {
+      "name": "Buggy Pirates",
+      "url": "/wiki/Buggy_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/55/Big_Top_Infobox.png/revision/latest",
+    "url": "/wiki/Big_Top"
+  },
+  {
+    "name": "Buraddo Batako-gō",
+    "en_name": "Blood Batako",
+    "description": "The Blood Batako was the ship of the Bluejam Pirates until its destruction.",
+    "affiliation": {
+      "name": "Bluejam Pirates",
+      "url": "/wiki/Bluejam_Pirates"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/7d/Blood_Batako.png/revision/latest",
+    "url": "/wiki/Blood_Batako"
+  },
+  {
+    "name": "Kukkingu Jōji-gō",
+    "en_name": "Cooking George",
+    "description": "The Cooking George was Zeff's ship when he was still captain of the Cook Pirates.",
+    "affiliation": {
+      "name": "Cook Pirates",
+      "url": "/wiki/Cook_Pirates"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/f2/Cooking_George_Infobox.png/revision/latest",
+    "url": "/wiki/Cooking_George"
+  },
+  {
+    "name": "Doreddonōto Sāberu-gō",
+    "en_name": "Dreadnaught Sabre",
+    "description": "The Dreadnaught Sabre was the flagship of the Krieg Pirates' armada.",
+    "affiliation": {
+      "name": "Krieg Pirates",
+      "url": "/wiki/Krieg_Pirates"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/5a/Dreadnaught_Sabre_Infobox.png/revision/latest",
+    "url": "/wiki/Dreadnaught_Sabre"
+  },
+  {
+    "name": "Gōingu Rufi-senpai-gō",
+    "en_name": "Going Luffy-senpai",
+    "description": "The Going Luffy-senpai was the Barto Club's ship. It was destroyed by Yasopp of the Red Hair Pirates.",
+    "affiliation": {
+      "name": "Barto Club",
+      "url": "/wiki/Barto_Club"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/ba/Going_Luffy-senpai_Infobox.png/revision/latest",
+    "url": "/wiki/Going_Luffy-senpai"
+  },
+  {
+    "name": "Gōingu Merī-gō",
+    "en_name": "Going Merry",
+    "description": "The Going Merry was the first full-sized ship owned by the Straw Hat Pirates, a caravel that served as their main transportation through the East Blue, and the Grand Line up until Water 7. It was often affectionally referred to as simply Merry (メリー, Merī) by the crew.",
+    "affiliation": {
+      "name": "Straw Hat Pirates",
+      "url": "/wiki/Straw_Hat_Pirates"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/41/Going_Merry_Infobox.png/revision/latest",
+    "url": "/wiki/Going_Merry"
+  },
+  {
+    "name": "Gurēto Eirīku-gō",
+    "en_name": "Great Eirik",
+    "description": "The Great Eirik is one of the giant longboats belonging to the Giant Warrior Pirates.",
+    "affiliation": {
+      "name": "Giant Warrior Pirates",
+      "url": "/wiki/Giant_Warrior_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/e/ed/Great_Eirik_Infobox.png/revision/latest",
+    "url": "/wiki/Great_Eirik"
+  },
+  {
+    "name": "Gurajji Dorufu-gō",
+    "en_name": "Grudge Dolph",
+    "description": "Grudge Dolph is a brown ship with a voodoo doll-like figurehead with a giant nail through it. It has five cannons on its front underneath the figurehead (the center of which seems blocked by the nail) and two masts. The front mast has a black sail brandishing the crew's jolly roger, two smaller jolly roger flags on each side, a crow's nest, and a giant candle on top. The back mast has another black sail and jolly roger flag. The ship's helm is on a raised platform, which is decorated with voodoo masks. The ship's cabin is designed to look like a shack with a straw roof, and the ship has five windows on each of its sides.",
+    "affiliation": {
+      "name": "Hawkins Pirates",
+      "url": "/wiki/Hawkins_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/10/Grudge_Dolph_Infobox.png/revision/latest",
+    "url": "/wiki/Grudge_Dolph"
+  },
+  {
+    "name": "Hanjōmaru",
+    "en_name": "Hanjomaru",
+    "description": "Hanjomaru is the Fallen Monk Pirates' ship.",
+    "affiliation": {
+      "name": "Fallen Monk Pirates",
+      "url": "/wiki/Fallen_Monk_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/0/0a/Hanjomaru_Infobox.png/revision/latest",
+    "url": "/wiki/Hanjomaru"
+  },
+  {
+    "name": "Happōsai",
+    "en_name": "Happosai",
+    "description": "The Happosai is the largest ship of the Happo Navy.",
+    "affiliation": {
+      "name": "Happo Navy",
+      "url": "/wiki/Happo_Navy"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/30/Happosai_Infobox.png/revision/latest",
+    "url": "/wiki/Happosai"
+  },
+  {
+    "name": "Juerī Marugerīta-gō",
+    "en_name": "Jewelry Margherita",
+    "description": "Jewelry Margherita is the Bonney Pirates' ship.",
+    "affiliation": {
+      "name": "Bonney Pirates",
+      "url": "/wiki/Bonney_Pirates"
+    },
+    "status": "Unknown",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/c1/Jewelry_Margherita_Infobox.png/revision/latest",
+    "url": "/wiki/Jewelry_Margherita"
+  },
+  {
+    "name": "Riberaru Haindo-gō",
+    "en_name": "Liberal Hind",
+    "description": "Liberal Hind is a large red and brown ship that closely resembles a Marine Battleship, relating to X Drake's defection from the Marines. However, it is unknown if the ship belonged to him during his time with the Marines.",
+    "affiliation": {
+      "name": "Drake Pirates",
+      "url": "/wiki/Drake_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/dd/Liberal_Hind_Infobox.png/revision/latest",
+    "url": "/wiki/Liberal_Hind"
+  },
+  {
+    "name": "Misu Rabu Dakku-gō",
+    "en_name": "Miss Love Duck",
+    "description": "The Miss Love Duck is the ship Alvida had when she was first introduced in the story.",
+    "affiliation": {
+      "name": "Alvida Pirates",
+      "url": "/wiki/Alvida_Pirates"
+    },
+    "status": "Unknown",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/2/2e/Miss_Love_Duck_Infobox.png/revision/latest",
+    "url": "/wiki/Miss_Love_Duck"
+  },
+  {
+    "name": "Nagurufaru",
+    "en_name": "Naglfar",
+    "description": "The Naglfar is the ship of the New Giant Warrior Pirates.",
+    "affiliation": {
+      "name": "New Giant Warrior Pirates",
+      "url": "/wiki/New_Giant_Warrior_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/6/66/Naglfar_Infobox.png/revision/latest",
+    "url": "/wiki/Naglfar"
+  },
+  {
+    "name": "Nyū Wicchi Bero-gō",
+    "en_name": "New Witch's Tongue",
+    "description": "The New Witch's Tongue is the ship used by the Bellamy Pirates.",
+    "affiliation": {
+      "name": "Bellamy Pirates",
+      "url": "/wiki/Bellamy_Pirates"
+    },
+    "status": "Unknown",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/fd/New_Witch%27s_Tongue_Infobox.png/revision/latest",
+    "url": "/wiki/New_Witch%27s_Tongue"
+  },
+  {
+    "name": "Nosutora Kasutero-gō",
+    "en_name": "Nostra Castello",
+    "description": "The Nostra Castello was the ship of the Fire Tank Pirates before it was destroyed by Big Mom and Prometheus in Totto Land.",
+    "affiliation": {
+      "name": "Fire Tank Pirates",
+      "url": "/wiki/Fire_Tank_Pirates"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/8/83/Nostra_Castello_Infobox.png/revision/latest",
+    "url": "/wiki/Nostra_Castello"
+  },
+  {
+    "name": "Numabū-gō",
+    "en_name": "Numabou",
+    "description": "Numabou was a ship belonging to the Caribou Pirates before it was destroyed by Surume.",
+    "affiliation": {
+      "name": "Caribou Pirates",
+      "url": "/wiki/Caribou_Pirates"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/49/Numabou_Infobox.png/revision/latest",
+    "url": "/wiki/Numabou"
+  },
+  {
+    "name": "Numanshia Furamingo-gō",
+    "en_name": "Numancia Flamingo",
+    "description": "The Numancia Flamingo is the main ship of the Donquixote Pirates.",
+    "affiliation": {
+      "name": "Donquixote Pirates",
+      "url": "/wiki/Donquixote_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/47/Numancia_Flamingo_Infobox.png/revision/latest",
+    "url": "/wiki/Numancia_Flamingo"
+  },
+  {
+    "name": "Pīsu Obu Supadiru-gō",
+    "en_name": "Piece of Spadille",
+    "description": "The Piece of Spadille was the ship used by the Spade Pirates before they were integrated into the Whitebeard Pirates.",
+    "affiliation": {
+      "name": "Spade Pirates",
+      "url": "/wiki/Spade_Pirates"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/3d/Piece_of_Spadille_Infobox.png/revision/latest",
+    "url": "/wiki/Piece_of_Spadille"
+  },
+  {
+    "name": "Pōrā Tangu-gō",
+    "en_name": "Polar Tang",
+    "description": "The Polar Tang was the submarine serving as the ship of the Heart Pirates. It was broken in half and sunk during the battle between the Heart Pirates and the Blackbeard Pirates at Winner Island.",
+    "affiliation": {
+      "name": "Heart Pirates",
+      "url": "/wiki/Heart_Pirates"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/f3/Polar_Tang_Infobox.png/revision/latest",
+    "url": "/wiki/Polar_Tang"
+  },
+  {
+    "name": "Kuīn Mama Shante-gō",
+    "en_name": "Queen Mama Chanter",
+    "description": "Queen Mama Chanter is a ship homie belonging to the Big Mom Pirates, and the apparent flagship of their fleet.",
+    "affiliation": {
+      "name": "Big Mom Pirates",
+      "url": "/wiki/Big_Mom_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/4a/Queen_Mama_Chanter_Infobox.png/revision/latest",
+    "url": "/wiki/Queen_Mama_Chanter"
+  },
+  {
+    "name": "Reddo Fōsu-gō",
+    "en_name": "Red Force",
+    "description": "The Red Force is the current ship used by the Red Hair Pirates, replacing their old ship.",
+    "affiliation": {
+      "name": "Red Hair Pirates",
+      "url": "/wiki/Red_Hair_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/2/27/Red_Force_Infobox.png/revision/latest",
+    "url": "/wiki/Red_Force"
+  },
+  {
+    "name": "Runbā Kaizokudan",
+    "en_name": "Rumbar Pirates",
+    "description": "The Rumbar Pirates are a long dead pirate crew from the West Blue. They were first mentioned by Crocus as the group of pirates who brought Laboon to the Twin Capes.",
+    "affiliation": {
+      "name": "",
+      "url": ""
+    },
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d3/Rumbar_Pirates%27_Jolly_Roger.png/revision/latest",
+    "url": "/wiki/Rumbar_Pirates"
+  },
+  {
+    "name": "Sekushī Fokushī-gō",
+    "en_name": "Sexy Foxy",
+    "description": "The Sexy Foxy is the ship used by Foxy the Silver Fox and his Foxy Pirates. It is an enormous ship with a giant fox head at the bow. The final event of the Davy Back Fight, the combat, took place here.",
+    "affiliation": {
+      "name": "Foxy Pirates",
+      "url": "/wiki/Foxy_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/8/81/Sexy_Foxy_Infobox.png/revision/latest",
+    "url": "/wiki/Sexy_Foxy"
+  },
+  {
+    "name": "Nemureru Mori no Hakuba-gō",
+    "en_name": "Sleeping White Horse of the Forest",
+    "description": "The Sleeping White Horse of the Forest is a ship captained by Cavendish of the Beautiful Pirates.",
+    "affiliation": {
+      "name": "Beautiful Pirates",
+      "url": "/wiki/Beautiful_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/c7/Sleeping_White_Horse_of_the_Forest_Infobox.png/revision/latest",
+    "url": "/wiki/Sleeping_White_Horse_of_the_Forest"
+  },
+  {
+    "name": "Sunappā Heddo-gō",
+    "en_name": "Snapper Head",
+    "description": "The ship has a figurehead of a fish, with flames around the neck part, while the rudder resembles a fish tail. The cabin on the middle and the back of the ship also resembles fishes. There are cannon ports on the sides of the vessel. Its overall appearance is a giant fish. The ship has five sails. The front two are dark blue, and they bear the Jolly Roger of the Sun Pirates. The middle one is dark blue, but is blank. The second one from the back is light blue. The last sail on the back is striped between blue green and green. The flag of the crew is on top of the foremost sail. After it was rebuilt, the ship had different colors on the front sail.",
+    "affiliation": {
+      "name": "Sun Pirates",
+      "url": "/wiki/Sun_Pirates"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/59/Snapper_Head_Infobox.png/revision/latest",
+    "url": "/wiki/Snapper_Head"
+  },
+  {
+    "name": "Sutei Chūn-gō",
+    "en_name": "Stay Tune",
+    "description": "Stay Tune is the On Air Pirates' ship.",
+    "affiliation": {
+      "name": "On Air Pirates",
+      "url": "/wiki/On_Air_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/4b/Stay_Tune_Infobox.png/revision/latest",
+    "url": "/wiki/Stay_Tune"
+  },
+  {
+    "name": "Sauzando Sanī-gō",
+    "en_name": "Thousand Sunny",
+    "description": "The Sunny is a brigantine-type ship designed and built by Franky, with help from Iceburg and many other master shipwrights from Galley-La. Built from Adam Wood, it is a magnificent ship of the finest craftsmanship at least double the size of the Going Merry. Its features include practically all of the various requests the Straw Hats had before arriving in Water 7.",
+    "affiliation": {
+      "name": "Straw Hat Pirates",
+      "url": "/wiki/Straw_Hat_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/b1/Thousand_Sunny_Infobox.png/revision/latest",
+    "url": "/wiki/Thousand_Sunny"
+  },
+  {
+    "name": "Surirā Bāku",
+    "en_name": "Thriller Bark",
+    "description": "Thriller Bark is a giant ship formerly located on the Florian Triangle. As revealed by Brook, it used to be an island located in the West Blue, where it was built. It was converted into a pirate ship, the world's largest, and is owned by the former Warlord, Gecko Moria, serving as ship for the Thriller Bark Pirates. The ship was heavily damaged by Moria's and Kuma's attacks during the battle against the Straw Hat Pirates and after Moria's defeat, it was abandoned. Thriller Bark is the main setting of the Thriller Bark Arc, as well as the ninth island in Paradise that the Straw Hat Pirates visited.",
+    "affiliation": {
+      "name": "Thriller Bark Pirates",
+      "url": "/wiki/Thriller_Bark_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/37/Thriller_Bark_Infobox.png/revision/latest",
+    "url": "/wiki/Thriller_Bark"
+  },
+  {
+    "name": "Usorando-gō",
+    "en_name": "Usoland",
+    "description": "The Usoland is the Tontatta Pirates' ship. It was built by the citizens of Dressrosa and is named after Usopp.",
+    "affiliation": {
+      "name": "Tontatta Pirates",
+      "url": "/wiki/Tontatta_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/2/29/Usoland_Infobox.png/revision/latest",
+    "url": "/wiki/Usoland"
+  },
+  {
+    "name": "Ūtan Sonā-gō",
+    "en_name": "Utan Sonar",
+    "description": "Utan Sonar is Shoujou's ship, and is a large vessel with an orangutan figurehead.",
+    "affiliation": {
+      "name": "Saruyama Alliance",
+      "url": "/wiki/Saruyama_Alliance"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/c9/Utan_Sonar_Anime_Infobox.png/revision/latest",
+    "url": "/wiki/Utan_Sonar"
+  },
+  {
+    "name": "Vikutoria Panku-gō",
+    "en_name": "Victoria Punk",
+    "description": "Victoria Punk was the Kid Pirates' ship. It is named after Victoria Shiruton Doruyanaika, a deceased childhood friend of Eustass Kid and Killer.",
+    "affiliation": {
+      "name": "Kid Pirates",
+      "url": "/wiki/Kid_Pirates"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/e/e0/Victoria_Punk_Infobox.png/revision/latest",
+    "url": "/wiki/Victoria_Punk"
+  },
+  {
+    "name": "Bikutorī Hantā-gō",
+    "en_name": "Victory Hunter",
+    "description": "The Victory Hunter is Masira's ship and main possession.",
+    "affiliation": {
+      "name": "Saruyama Alliance",
+      "url": "/wiki/Saruyama_Alliance"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/6/6e/Victory_Hunter_Infobox.png/revision/latest",
+    "url": "/wiki/Victory_Hunter"
+  },
+  {
+    "name": "Bikutorī Hantā-gō",
+    "en_name": "Victory Hunter",
+    "description": "The Victory Hunter is Masira's ship and main possession.",
+    "affiliation": {
+      "name": "Saruyama Alliance",
+      "url": "/wiki/Saruyama_Alliance"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/6/6e/Victory_Hunter_Infobox.png/revision/latest",
+    "url": "/wiki/Victory_Hunter"
+  },
+  {
+    "name": "Yonta Maria-gō",
+    "en_name": "Yonta Maria",
+    "description": "The Yonta Maria is the huge flagship of the Yonta Maria Grand Fleet, under the direct command of Orlumbus.",
+    "affiliation": {
+      "name": "Yonta Maria Grand Fleet",
+      "url": "/wiki/Yonta_Maria_Grand_Fleet"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/b5/Yonta_Maria_Infobox.png/revision/latest",
+    "url": "/wiki/Yonta_Maria"
+  }
+]

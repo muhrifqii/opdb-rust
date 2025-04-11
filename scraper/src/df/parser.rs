@@ -1,16 +1,18 @@
-use std::{collections::HashMap, env::temp_dir};
-
 use itertools::Itertools as _;
 use lazy_static::lazy_static;
 use log::info;
 use regex::Regex;
-use scraper::{ElementRef, Html, Selector};
+use scraper::{ElementRef, Html};
+use std::collections::HashMap;
 use strum::IntoEnumIterator as _;
 
-use crate::types::Error;
+use crate::{
+    types::{Error, NamedJpEn},
+    utils,
+};
 
 use super::{
-    models::{DevilFruit, DevilFruitName},
+    models::DevilFruit,
     types::{DfSubType, DfType},
 };
 
@@ -31,7 +33,7 @@ pub struct CanonLogiaParser;
 impl DfTypeParser for CanonZoanParser {
     fn parse(&self, html: &Html) -> Result<Vec<DevilFruit>, Error> {
         let sibling_iter = html
-            .select(&Utils::parse_selector(&DfType::Zoan.id_for_fruit_list())?)
+            .select(&utils::parse_selector(&DfType::Zoan.id_for_fruit_list())?)
             .next()
             .and_then(|e| e.parent())
             .map(|n| n.next_siblings())
@@ -62,7 +64,7 @@ impl DfTypeParser for CanonZoanParser {
         let df_list: Vec<_> = fruits
             .iter()
             .map(|el| {
-                let path = Utils::extract_href(el, "a:nth-of-type(1)")?;
+                let path = utils::extract_href(el, "a:nth-of-type(1)")?;
 
                 let name_detail = Utils::parse_df_name(el, &REX_EN_NAME, &REX_DESCRIPTION_ZOAN);
                 let sub_type = df_sub_map.get(&path);
@@ -85,7 +87,7 @@ macro_rules! impl_canon_paramecia_logia_parser {
         impl DfTypeParser for $T {
             fn parse(&self, html: &Html) -> Result<Vec<DevilFruit>, Error> {
                 let fruits: Result<Vec<_>, _> = html
-                    .select(&Utils::parse_selector(&$df_type.id_for_fruit_list())?)
+                    .select(&utils::parse_selector(&$df_type.id_for_fruit_list())?)
                     .next()
                     .and_then(|e| e.parent())
                     .map(|n| n.next_siblings())
@@ -117,7 +119,7 @@ macro_rules! impl_canon_paramecia_logia_parser {
                 let df_list: Vec<_> = fruits
                     .iter()
                     .map(|el| {
-                        let path = Utils::extract_href(el, &"a:nth-of-type(1)")?;
+                        let path = utils::extract_href(el, &"a:nth-of-type(1)")?;
                         let name_detail = Utils::parse_df_name(el, &rex_en_name, &rex_desc);
                         let df = DevilFruit::non_zoan($df_type, name_detail, String::new(), path);
 
@@ -148,45 +150,7 @@ pub fn get_parser(df_type: &DfType, canon: bool) -> Box<dyn DfTypeParser> {
 pub struct Utils;
 
 impl Utils {
-    pub(crate) fn parse_selector(selector: &str) -> Result<Selector, Error> {
-        Selector::parse(selector)
-            .map_err(|_| Error::InvalidStructure(format!("Invalid selector: {}", selector)))
-    }
-
-    pub(crate) fn extract_href(el: &ElementRef, selector: &str) -> Result<String, Error> {
-        el.select(&Self::parse_selector(selector)?)
-            .next()
-            .and_then(|e| e.value().attr("href"))
-            .map(|s| s.to_string())
-            .ok_or(Error::InvalidStructure(format!(
-                "Missing href attribute. found: {}",
-                el.html().as_str()
-            )))
-    }
-
-    pub(crate) async fn get_first_parents_sibling_text(
-        html_doc: &Html,
-        selector: &str,
-    ) -> Result<String, Error> {
-        html_doc
-            .select(&Self::parse_selector(selector)?)
-            .next()
-            .and_then(|e| e.parent())
-            .map(|n| n.next_siblings())
-            .ok_or(Error::InvalidStructure(String::from(
-                "invalid sibling node",
-            )))?
-            .find(|n| n.value().is_element())
-            .and_then(|n| ElementRef::wrap(n))
-            .map(|e| e.text().join(""))
-            .ok_or(Error::InvalidStructure(String::from("invalid element")))
-    }
-
-    pub(crate) fn parse_df_name(
-        el: &ElementRef,
-        rex_en_name: &Regex,
-        rex_desc: &Regex,
-    ) -> DevilFruitName {
+    fn parse_df_name(el: &ElementRef, rex_en_name: &Regex, rex_desc: &Regex) -> NamedJpEn {
         let mut en_name = String::new();
         let mut description = String::new();
         let mut iter = el.text().into_iter();
@@ -215,24 +179,14 @@ impl Utils {
             }
         }
         description += &iter.join("").replace("\n", "").to_string();
-        DevilFruitName::new(name, en_name, description)
-    }
-
-    pub(crate) fn parse_picture_url(html_doc: &Html) -> Result<Vec<String>, Error> {
-        let selector = Self::parse_selector("aside figure.pi-image>a.image")?;
-        Ok(html_doc
-            .select(&selector)
-            .filter_map(|e| e.value().attr("href"))
-            .filter_map(|s| s.split("?cb=").next())
-            .map(String::from)
-            .collect_vec())
+        NamedJpEn::new(name, en_name, description)
     }
 
     fn parse_sub_type(html_doc: &Html) -> Result<HashMap<String, DfSubType>, Error> {
         let mut sub_type_map = HashMap::new();
 
         for df_sub in DfSubType::iter() {
-            let sub_type_selector = &Utils::parse_selector(&df_sub.id_for_fruit_list())?;
+            let sub_type_selector = &utils::parse_selector(&df_sub.id_for_fruit_list())?;
             let res: Result<(), Error> = html_doc
                 .select(sub_type_selector)
                 .next()
@@ -252,7 +206,7 @@ impl Utils {
                 .take(1)
                 .flat_map(|e| e.child_elements().collect_vec())
                 .try_for_each(|e| {
-                    let path = Utils::extract_href(&e, "a:nth-of-type(1)")?;
+                    let path = utils::extract_href(&e, "a:nth-of-type(1)")?;
                     sub_type_map.insert(path, df_sub);
                     Ok(())
                 });
