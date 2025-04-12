@@ -19,7 +19,7 @@ impl FetchHtml for Client {
             .get(url)
             .send()
             .await
-            .map_err(|r| Error::RequestError(r.to_string()))?
+            .map_err(|r| Error::RequestError(format!("{:?} on url: {}", r, url)))?
             .text()
             .await
             .unwrap())
