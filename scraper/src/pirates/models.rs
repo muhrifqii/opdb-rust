@@ -115,3 +115,156 @@ impl PartialOrd for Ship {
         Some(self.cmp(other))
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use crate::types::{NamedJpEn, NamedUrl};
+
+    fn create_test_ship(
+        name: &str,
+        en_name: &str,
+        description: &str,
+        url: &str,
+        pic_url: &str,
+        affiliation_name: &str,
+        affiliation_url: &str,
+        status: &str,
+    ) -> Ship {
+        Ship::new(
+            NamedJpEn::new(
+                name.to_string(),
+                en_name.to_string(),
+                description.to_string(),
+            ),
+            url.to_string(),
+            pic_url.to_string(),
+            NamedUrl::new(affiliation_name.to_string(), affiliation_url.to_string()),
+            status.to_string(),
+        )
+    }
+
+    fn create_test_pirate(
+        name: &str,
+        en_name: &str,
+        description: &str,
+        url: &str,
+        pic_url: &str,
+        ship_name: &str,
+        ship_url: &str,
+        captain_name: &str,
+        captain_url: &str,
+    ) -> Pirate {
+        Pirate::new(
+            NamedJpEn::new(
+                name.to_string(),
+                en_name.to_string(),
+                description.to_string(),
+            ),
+            url.to_string(),
+            vec![NamedUrl::new(ship_name.to_string(), ship_url.to_string())],
+            vec![NamedUrl::new(
+                captain_name.to_string(),
+                captain_url.to_string(),
+            )],
+            pic_url.to_string(),
+        )
+    }
+
+    #[test]
+    fn ship_has_valid_traits() {
+        let ship = create_test_ship(
+            "Thousand Sunny",
+            "Thousand Sunny",
+            "The ship of the Straw Hat Pirates",
+            "ship/thousand-sunny",
+            "https://example.com/thousand-sunny.jpg",
+            "Straw Hat Pirates",
+            "crew/straw-hat-pirates",
+            "Active",
+        );
+
+        assert_eq!(ship.get_path(), "ship/thousand-sunny");
+        assert_eq!(ship.name, "Thousand Sunny");
+        assert_eq!(ship.en_name, "Thousand Sunny");
+        assert_eq!(ship.description, "The ship of the Straw Hat Pirates");
+    }
+
+    #[test]
+    fn ship_ordering() {
+        let ship1 = create_test_ship(
+            "Thousand Sunny",
+            "Thousand Sunny",
+            "The ship of the Straw Hat Pirates",
+            "ship/thousand-sunny",
+            "",
+            "Straw Hat Pirates",
+            "crew/straw-hat-pirates",
+            "Active",
+        );
+
+        let ship2 = create_test_ship(
+            "Going Merry",
+            "Going Merry",
+            "The first ship of the Straw Hat Pirates",
+            "ship/going-merry",
+            "",
+            "Straw Hat Pirates",
+            "crew/straw-hat-pirates",
+            "Inactive",
+        );
+
+        assert!(ship1 > ship2);
+        assert_ne!(ship1, ship2);
+    }
+
+    #[test]
+    fn pirate_has_valid_traits() {
+        let pirate = create_test_pirate(
+            "Akagami Kaizokudan",
+            "Red-Haired Pirates",
+            "A powerful pirate crew led by Shanks",
+            "pirate/red-haired-pirates",
+            "https://example.com/red-haired-pirates.jpg",
+            "Red Force",
+            "ship/red-force",
+            "Shanks",
+            "pirate/shanks",
+        );
+
+        assert_eq!(pirate.get_path(), "pirate/red-haired-pirates");
+        assert_eq!(pirate.name, "Akagami Kaizokudan");
+        assert_eq!(pirate.en_name, "Red-Haired Pirates");
+        assert_eq!(pirate.description, "A powerful pirate crew led by Shanks");
+    }
+
+    #[test]
+    fn pirate_ordering() {
+        let pirate1 = create_test_pirate(
+            "Akagami Kaizokudan",
+            "Red-Haired Pirates",
+            "A powerful pirate crew led by Shanks",
+            "pirate/red-haired-pirates",
+            "",
+            "Red Force",
+            "ship/red-force",
+            "Shanks",
+            "pirate/shanks",
+        );
+
+        let pirate2 = create_test_pirate(
+            "Mugiwara Kaizokudan",
+            "Straw Hat Pirates",
+            "A pirate crew led by Monkey D. Luffy",
+            "pirate/straw-hat-pirates",
+            "",
+            "Thousand Sunny",
+            "ship/thousand-sunny",
+            "Monkey D. Luffy",
+            "pirate/monkey-d-luffy",
+        );
+
+        assert!(pirate2 > pirate1);
+        assert_ne!(pirate1, pirate2);
+    }
+}

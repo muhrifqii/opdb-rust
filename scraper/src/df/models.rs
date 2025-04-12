@@ -2,7 +2,7 @@ use serde::Serialize;
 use std::cmp::Ordering;
 
 use super::types::{DfSubType, DfType, HasDevilFruit};
-use crate::types::{NamedJpEn, UrlTyped};
+use crate::types::NamedJpEn;
 
 #[derive(Debug, Serialize, Default)]
 pub struct DfTypeInfo {
@@ -121,19 +121,6 @@ impl PartialEq for DevilFruit {
     }
 }
 
-#[derive(Debug)]
-pub struct Character {
-    pub id: String,
-    pub name: String,
-    pub pic_url: String,
-}
-
-impl UrlTyped for Character {
-    fn get_path(&self) -> String {
-        format!("/wiki/Character:{}", self.id)
-    }
-}
-
 #[cfg(test)]
 mod tests {
     use crate::{
@@ -141,10 +128,10 @@ mod tests {
             models::DfTypeInfo,
             types::{DfSubType, DfType, HasDevilFruit},
         },
-        types::{NamedJpEn, UrlTyped},
+        types::NamedJpEn,
     };
 
-    use super::{Character, DevilFruit};
+    use super::DevilFruit;
 
     #[test]
     fn df_has_valid_traits() {
@@ -194,16 +181,6 @@ mod tests {
                 df1.df_type, df1.df_sub_type, df1.name, df1.en_name, df1.pic_url, df1.df_url, df1.description
             ));
         assert_eq!(DfType::Zoan, df3.df_type());
-    }
-
-    #[test]
-    fn char_has_valid_traits() {
-        let character = Character {
-            id: "1234".to_string(),
-            name: "Foo".to_string(),
-            pic_url: "pic".to_string(),
-        };
-        assert_eq!(character.get_path(), "/wiki/Character:1234");
     }
 
     #[test]

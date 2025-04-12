@@ -56,7 +56,7 @@ pub(crate) async fn get_first_parents_sibling_text(
 }
 
 pub(crate) fn parse_picture_url(html_doc: &Html) -> Result<Vec<String>, Error> {
-    let selector = parse_selector("aside figure.pi-image>a.image")?;
+    let selector = parse_selector("aside.portable-infobox figure.pi-image>a.image")?;
     Ok(html_doc
         .select(&selector)
         .filter_map(|e| e.value().attr("href"))

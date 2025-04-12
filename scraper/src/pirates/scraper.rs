@@ -1,7 +1,5 @@
 use itertools::Itertools as _;
-use lazy_static::lazy_static;
 use log::{debug, error, info};
-use regex::Regex;
 use reqwest::Client;
 use scraper::Html;
 use tokio::task::JoinSet;
@@ -47,6 +45,7 @@ impl<T: FetchHtml + Clone + Send + Sync + 'static> PirateScraper<T> {
             .filter(|path| !path.contains("Category:Non-Canon"));
         let mut ships = vec![];
         let mut pirates = vec![];
+        info!("crawling categories by sea");
         for sea_url in category_by_sea_iter {
             let mut pirate_urls = self
                 .category_crawler
@@ -69,7 +68,7 @@ impl<T: FetchHtml + Clone + Send + Sync + 'static> PirateScraper<T> {
                         .into_iter()
                         .filter(|path| {
                             !path.contains("Category:Non-Canon")
-                                || path != "/wiki/New_Donquixote_Family"
+                                && path != "/wiki/New_Donquixote_Family"
                         }),
                 );
             }
@@ -79,7 +78,7 @@ impl<T: FetchHtml + Clone + Send + Sync + 'static> PirateScraper<T> {
             for pirate_url in pirate_urls {
                 let fetcher = self.fetcher.clone();
                 let html = fetcher
-                    .fetch_only(&format!("{}{}", &self.base_url, &pirate_url))
+                    .fetch(&format!("{}{}", &self.base_url, &pirate_url))
                     .await
                     .map(utils::cleanup_html)?;
                 let doc = Html::parse_document(&html);
@@ -157,7 +156,7 @@ async fn parse_ship_detail(
     base_url: String,
 ) -> Result<Ship, Error> {
     let html = fetcher
-        .fetch_only(&format!("{}{}", base_url, &named_ship.get_path()))
+        .fetch(&format!("{}{}", base_url, &named_ship.get_path()))
         .await
         .map(utils::cleanup_html)?;
     let doc = Html::parse_document(&html);
@@ -202,14 +201,197 @@ async fn parse_ship_detail(
 
 #[cfg(test)]
 mod tests {
-    use crate::{category::CategoryScraper, fetcher::HtmlFetcher, pirates::scraper::PirateScraper};
+    use std::collections::HashMap;
+
+    use async_trait::async_trait;
+
+    use crate::{
+        category::CategoryScraper,
+        fetcher::{FetchHtml, HtmlFetcher},
+        pirates::scraper::PirateScraper,
+        types::Error,
+    };
+
+    #[derive(Clone)]
+    struct MockClient {
+        res_req: HashMap<String, Result<String, Error>>,
+    }
+
+    #[async_trait]
+    impl FetchHtml for MockClient {
+        async fn fetch(&self, url: &str) -> Result<String, Error> {
+            self.res_req
+                .get(url)
+                .cloned()
+                .ok_or(Error::InvalidStructure(url.to_string()))
+                .unwrap()
+        }
+    }
+
+    fn prepare_fetcher<const N: usize>(
+        arr: [(String, Result<String, Error>); N],
+    ) -> HtmlFetcher<MockClient> {
+        let client = MockClient {
+            res_req: HashMap::from(arr),
+        };
+        HtmlFetcher::new(client)
+    }
 
     #[tokio::test]
     async fn test_get() {
-        // let fetcher = HtmlFetcher::new(reqwest::Client::new());
-        // let base_url = "https://onepiece.fandom.com";
-        // let cat_crawler = CategoryScraper::new(fetcher.clone(), base_url);
-        // let scraper = PirateScraper::new(fetcher, Box::new(cat_crawler), base_url);
-        // scraper.get().await.unwrap();
+        let fetcher = prepare_fetcher([
+            (
+                "/wiki/Category:Pirate_Crews_by_Sea".to_string(),
+                Ok(r##"
+<div>
+    <ul>
+        <li class="category-page__member">
+            <a href="/wiki/Category:Grand_Line_Pirate_Crews" class="category-page__member-link" title="Category:Grand Line Pirate Crews">
+                Category:Grand Line Pirate Crews
+            </a>
+        </li>
+    </ul>
+</div>"##
+                    .to_string()),
+            ),
+            (
+                "/wiki/Category:Grand_Line_Pirate_Crews".to_string(),
+                Ok(r##"
+<div>
+    <div>
+        <ul>
+            <li class="category-page__member">
+                <a href="/wiki/Category:Non-Canon_Grand_Line_Pirate_Crews" class="category-page__member-link" title="Category:Non-Canon Grand Line Pirate Crews">
+                   Category:Non-Canon Grand Line Pirate Crews
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li class="category-page__member">
+                <a href="/wiki/Fallen_Monk_Pirates" class="category-page__member-link" title="Fallen Monk Pirates">
+                    Fallen Monk Pirates
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li class="category-page__member">
+                <a href="/wiki/Category:New_World_Pirate_Crews" class="category-page__member-link" title="Category:New World Pirate Crews">
+                Category:New World Pirate Crews</a>
+            </li>
+        </ul>
+    </div>
+</div>"##.to_string())
+            ),
+            (
+                "/wiki/Category:New_World_Pirate_Crews".to_string(),
+                Ok(r##"
+<div>
+    <ul>
+        <li class="category-page__member">
+            <a href="/wiki/New_Donquixote_Family" class="category-page__member-link" title="New Donquixote Family">New Donquixote Family</a>
+        </li>
+        <li class="category-page__member">
+            <a href="/wiki/Rocks_Pirates" class="category-page__member-link" title="Rocks Pirates">
+                Rocks Pirates
+            </a>
+        </li>
+    </ul>
+</div>
+                "##.to_string())
+            ),
+            (
+                "/wiki/Fallen_Monk_Pirates".to_string(),
+                Ok(r##"
+<main>
+    <span class="mw-page-title-main">Fallen Monk Pirates</span>
+    <div id="mw-content-text">
+        <p></p>
+        <aside class="portable-infobox">
+            <figure class="pi-image">
+                <a href="/image-path-212" class="image"/>
+            </figure>
+            <section>
+                <div class="pi-item pi-data pi-item-spacing pi-border-color" data-source="rname">
+                    <div class="pi-data-value pi-font"><i>Hakaisō Kaizokudan</i></div>
+                </div>
+                <div class="pi-item pi-data pi-item-spacing pi-border-color" data-source="captain">
+                    <div class="pi-data-value pi-font"><a href="/wiki/Urouge" title="Urouge">Urouge</a></div>
+                </div>
+                <div class="pi-item pi-data pi-item-spacing pi-border-color" data-source="ship">
+                    <div class="pi-data-value pi-font"><a href="/wiki/Hanjomaru" title="Hanjomaru">Hanjomaru</a></div>
+                </div>
+            </section>
+        </aside>
+        <p></p>
+        <p>The Fallen Monk Pirates are an infamous and notable rookie pirate crew</p>
+    </div>
+</main>
+                "##.to_string()),
+            ),
+            (
+                "/wiki/Rocks_Pirates".to_string(),
+                Ok(r##"
+<main>
+    <span class="mw-page-title-main">Rocks Pirates</span>
+    <div id="mw-content-text">
+        <p></p>
+        <aside class="portable-infobox">
+            <figure class="pi-image">
+                <a href="/image-path-213" class="image"/>
+            </figure>
+            <section>
+                <div class="pi-item pi-data pi-item-spacing pi-border-color" data-source="rname">
+                    <div class="pi-data-value pi-font"><i>Rokkusu Kaizokudan</i></div>
+                </div>
+                <div class="pi-item pi-data pi-item-spacing pi-border-color" data-source="captain">
+                    <div class="pi-data-value pi-font"><a href="/wiki/Rocks_D._Xebec" title="Rocks D. Xebec">Rocks D. Xebec</a></div>
+                </div>
+            </section>
+        </aside>
+        <p></p>
+        <p>The Rocks Pirates were a legendary and powerful pirate crew that sailed the seas until their defeat at God Valley 38 years ago.</p>
+    </div>
+</main>
+                "##.to_string()),
+            ),
+            (
+                "/wiki/Hanjomaru".to_string(),
+                Ok(r##"
+<main>
+    <span class="mw-page-title-main">Hanjomaru</span>
+    <div id="mw-content-text">
+        <p></p>
+        <aside class="portable-infobox">
+            <figure class="pi-image">
+                <a href="/image-path-213" class="image"/>
+            </figure>
+            <section>
+                <div class="pi-item pi-data pi-item-spacing pi-border-color" data-source="rname">
+                    <div class="pi-data-value pi-font"><i>Hanjōmaru</i></div>
+                </div>
+                <div class="pi-item pi-data pi-item-spacing pi-border-color" data-source="affiliation">
+                    <div class="pi-data-value pi-font"><a href="/wiki/Fallen_Monk_Pirates" title="Fallen Monk Pirates">Fallen Monk Pirates</a></div>
+                </div>
+                <div class="pi-item pi-data pi-item-spacing pi-border-color" data-source="status">
+                    <div class="pi-data-value pi-font">Active</div>
+                </div>
+            </section>
+        </aside>
+        <p></p>
+        <p>Hanjomaru is the Fallen Monk Pirates ship.</p>
+    </div>
+</main>
+                "##.to_string()),
+            ),]);
+
+        let cat_crawler = CategoryScraper::new(fetcher.clone(), "");
+        let scraper = PirateScraper::new(fetcher, Box::new(cat_crawler), "");
+        let (pirates, ships) = scraper.scrape().await.unwrap();
+        assert_eq!(pirates.len(), 2);
+        assert_eq!(ships.len(), 1);
     }
 }
