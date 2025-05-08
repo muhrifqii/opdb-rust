@@ -1,13 +1,18 @@
 mod category;
+mod client;
 mod df;
 mod fetcher;
 mod output_writer;
 mod pirates;
+mod ships;
 mod types;
 mod utils;
 
+use std::sync::Arc;
+
 use category::CategoryScraper;
 use clap::Parser;
+use client::HttpClientWrapper;
 use df::scraper::{DfScrapable, DfScraper};
 use fetcher::HtmlFetcher;
 use log::{debug, info};
@@ -36,10 +41,12 @@ async fn main() {
     let default_output_dir = String::from("data");
     let output_dir = args.output.unwrap_or(default_output_dir);
 
-    let fetcher = HtmlFetcher::new(reqwest::Client::builder().build().unwrap());
-    let cat_crawler = Box::new(CategoryScraper::new(fetcher.clone(), base_url));
-    let df_s = DfScraper::new(fetcher.clone(), base_url);
-    let pirate_s = PirateScraper::new(fetcher.clone(), cat_crawler, base_url);
+    let client = HttpClientWrapper(reqwest::Client::builder().build().unwrap());
+    let fetcher = HtmlFetcher::new(client, base_url);
+    let cat_crawler = Arc::new(CategoryScraper::new(fetcher.clone(), base_url));
+    let df_s = DfScraper::new(fetcher.clone());
+    let pirate_s = PirateScraper::new(fetcher.clone(), cat_crawler.clone());
+    let ship_s = ships::scraper::ShipScraper::new(fetcher.clone(), cat_crawler);
 
     let df_type_infos = df_s.get_dftype_info().await.unwrap();
     let df_result = df_s.get_df_list().await.unwrap();

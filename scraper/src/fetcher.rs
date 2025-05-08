@@ -1,91 +1,100 @@
-use async_trait::async_trait;
-use reqwest::Client;
 use std::{collections::HashMap, sync::Arc};
 use tokio::sync::Mutex;
 
-use crate::types::Error;
+use crate::{client::FetchHtml, types::Error};
 
 pub type ArcMapHtml = Arc<Mutex<HashMap<String, String>>>;
 
-#[async_trait]
-pub trait FetchHtml {
-    async fn fetch(&self, url: &str) -> Result<String, Error>;
-}
-
-#[async_trait]
-impl FetchHtml for Client {
-    async fn fetch(&self, url: &str) -> Result<String, Error> {
-        Ok(self
-            .get(url)
-            .send()
-            .await
-            .map_err(|r| Error::RequestError(format!("{:?} on url: {}", r, url)))?
-            .text()
-            .await
-            .unwrap())
-    }
-}
-
 #[derive(Debug, Clone)]
-pub struct HtmlFetcher<T>
-where
-    T: FetchHtml,
-{
-    client: T,
+pub struct HtmlFetcher {
+    base_url: String,
+    client: Arc<dyn FetchHtml>,
     cache: ArcMapHtml,
 }
 
-impl<T: FetchHtml> HtmlFetcher<T> {
-    pub fn new(client: T) -> Self {
+impl HtmlFetcher {
+    pub fn new(
+        client: impl FetchHtml + Send + Sync + std::fmt::Debug + 'static,
+        base_url: &str,
+    ) -> Self {
         Self {
-            client,
+            base_url: base_url.to_string(),
+            client: Arc::new(client),
             cache: Arc::new(Mutex::new(HashMap::new())),
         }
     }
 
-    pub async fn fetch(&self, url: &str) -> Result<String, Error> {
+    pub async fn fetch(&self, url_path: &str) -> Result<String, Error> {
         let mut cache = self.cache.lock().await;
-        if let Some(html) = cache.get(url) {
+        if let Some(html) = cache.get(url_path) {
             return Ok(html.clone());
         }
 
-        let html = self.client.fetch(url).await?;
-        cache.insert(url.to_string(), html.clone());
+        let html = self
+            .client
+            .fetch(format!("{}{}", &self.base_url, &url_path))
+            .await?;
+        cache.insert(url_path.to_string(), html.clone());
         Ok(html)
     }
 
-    pub async fn fetch_only(&self, url: &str) -> Result<String, Error> {
-        self.client.fetch(url).await
+    pub async fn fetch_only(&self, url_path: &str) -> Result<String, Error> {
+        self.client
+            .fetch(format!("{}{}", &self.base_url, url_path))
+            .await
     }
 }
 
 #[cfg(test)]
-mod tests {
+pub mod mocks {
     use std::collections::HashMap;
 
     use async_trait::async_trait;
-    use mockito::Server;
 
-    use super::{FetchHtml, HtmlFetcher};
-    use crate::types::Error;
+    use crate::{
+        client::{FetchHtml, MockHttpClientWrapper},
+        types::Error,
+    };
 
-    struct MockClient {
+    use super::HtmlFetcher;
+
+    #[derive(Clone, Debug)]
+    pub struct MockClient {
         res_req: HashMap<String, Result<String, Error>>,
     }
 
     #[async_trait]
     impl FetchHtml for MockClient {
-        async fn fetch(&self, url: &str) -> Result<String, Error> {
-            self.res_req.get(url).cloned().unwrap()
+        async fn fetch(&self, url: String) -> Result<String, Error> {
+            self.res_req
+                .get(&url)
+                .cloned()
+                .ok_or(Error::RequestError(url))
+                .unwrap()
         }
     }
 
+    pub fn prepare_fetcher<const N: usize>(
+        arr: [(String, Result<String, Error>); N],
+    ) -> HtmlFetcher {
+        let client = MockClient {
+            res_req: HashMap::from(arr),
+        };
+
+        HtmlFetcher::new(client, "")
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use mockito::Server;
+
+    use super::HtmlFetcher;
+    use crate::{client::HttpClientWrapper, fetcher::mocks::prepare_fetcher};
+
     #[tokio::test]
     async fn valid_fetcher() {
-        let mock_fetch = MockClient {
-            res_req: HashMap::from([("url".to_string(), Ok("htmls".to_string()))]),
-        };
-        let fetcher = HtmlFetcher::new(mock_fetch);
+        let fetcher = prepare_fetcher([("url".to_string(), Ok("htmls".to_string()))]);
 
         let resp = fetcher.fetch_only("url").await;
         assert!(resp.is_ok());
@@ -110,13 +119,14 @@ mod tests {
             .create_async()
             .await;
 
-        let fetcher = HtmlFetcher::new(reqwest::Client::builder().build().unwrap());
+        let client = HttpClientWrapper(reqwest::Client::builder().build().unwrap());
+        let fetcher = HtmlFetcher::new(client, &server.url());
 
-        let url = format!("{}/a_path", server.url());
-        let resp = fetcher.fetch(&url).await;
+        let resp = fetcher.fetch("/a_path").await;
         mocked.assert_async().await;
         assert_eq!(resp.unwrap(), "Will of D");
 
+        server.reset();
         let resp = fetcher.fetch("/404").await;
         assert!(resp.is_err());
     }
