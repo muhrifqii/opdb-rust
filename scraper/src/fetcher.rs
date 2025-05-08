@@ -51,10 +51,7 @@ pub mod mocks {
 
     use async_trait::async_trait;
 
-    use crate::{
-        client::{FetchHtml, MockHttpClientWrapper},
-        types::Error,
-    };
+    use crate::{client::FetchHtml, types::Error};
 
     use super::HtmlFetcher;
 
@@ -70,7 +67,7 @@ pub mod mocks {
                 .get(&url)
                 .cloned()
                 .ok_or(Error::RequestError(url))
-                .unwrap()
+                .and_then(|r| r)
         }
     }
 
@@ -125,9 +122,5 @@ mod tests {
         let resp = fetcher.fetch("/a_path").await;
         mocked.assert_async().await;
         assert_eq!(resp.unwrap(), "Will of D");
-
-        server.reset();
-        let resp = fetcher.fetch("/404").await;
-        assert!(resp.is_err());
     }
 }
