@@ -182,6 +182,10 @@ mod tests {
                 Ok(r##"
 <main>
     <span class="mw-page-title-main">Northheim</span>
+    <div class="page-header__categories">
+	    <span class="page-header__categories-in">in:</span>
+        <a href="/wiki/Category:Non-Canon_Pirate_Ships" title="Category:Non-Canon Pirate Ships" data-tracking-label="categories-top-more-0">Non-Canon Pirate Ships</a>
+    </div>
     <div id="mw-content-text">
         <p></p>
         <aside class="portable-infobox">
@@ -212,5 +216,8 @@ mod tests {
         let scraper = ShipScraper::new(fetcher, crawler);
         let ships = scraper.scrape().await.unwrap();
         assert_eq!(ships.len(), 2);
+        // validate non-cannon/cannon
+        assert!(!ships[0].non_cannon);
+        assert!(ships[1].non_cannon);
     }
 }
