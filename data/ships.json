@@ -1,279 +1,627 @@
 [
   {
-    "name": "Bezan Burakku-gō",
-    "en_name": "Bezan Black",
-    "description": "The Bezan Black is the primary ship of the Black Cat Pirates.",
+    "name": "Arubida Kaizokudan",
+    "en_name": "Alvida Pirates",
+    "description": "The Alvida Pirates were a group of pirates led by the female pirate \"Iron Mace\" Alvida. They were the first enemy pirates Luffy was seen to encounter. The crew has since dissolved into an alliance with the Buggy Pirates, forming the Buggy and Alvida Alliance, which later becomes the Pirate Dispatch Organization known as Buggy's Delivery. They are one of the antagonist groups in the Romance Dawn Arc.",
     "affiliation": {
-      "name": "Black Cat Pirates",
-      "url": "/wiki/Black_Cat_Pirates"
+      "name": "",
+      "url": ""
     },
-    "status": "Active",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/c8/Bezan_Black_Infobox.png/revision/latest",
-    "url": "/wiki/Bezan_Black"
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/f4/Alvida_Pirates%27_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Alvida_Pirates"
   },
   {
-    "name": "Biggu Toppu-gō",
-    "en_name": "Big Top",
-    "description": "Big Top is the Buggy Pirates' ship.",
+    "name": "Barubaru Dan",
+    "en_name": "Barbar Pirates",
+    "description": "The Barbar Pirates are sand pirates of the Arabasta Kingdom. The Barbar Pirates are skilled sand sailors. It is shown that they often clash with desert bandits. They travel the desert searching for food. All the members wear little umbrellas on their heads. While searching for water, Luffy accidentally broke the Barbar Pirates' ship and decide to go to Melias to search for wood in order to repair their ship.",
     "affiliation": {
-      "name": "Buggy Pirates",
-      "url": "/wiki/Buggy_Pirates"
+      "name": "",
+      "url": ""
     },
-    "status": "Active",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/55/Big_Top_Infobox.png/revision/latest",
-    "url": "/wiki/Big_Top"
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/12/Barbar_Pirates%27_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Barbar_Pirates"
   },
   {
-    "name": "Buraddo Batako-gō",
-    "en_name": "Blood Batako",
-    "description": "The Blood Batako was the ship of the Bluejam Pirates until its destruction.",
+    "name": "Bareruzu Kaizokudan",
+    "en_name": "Barrels Pirates",
+    "description": "The Barrels Pirates were a pirate crew led by Diez Barrels.",
     "affiliation": {
-      "name": "Bluejam Pirates",
-      "url": "/wiki/Bluejam_Pirates"
+      "name": "",
+      "url": ""
     },
-    "status": "Destroyed",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/7d/Blood_Batako.png/revision/latest",
-    "url": "/wiki/Blood_Batako"
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/c6/Barrels_Pirates_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Barrels_Pirates"
   },
   {
-    "name": "Kukkingu Jōji-gō",
-    "en_name": "Cooking George",
-    "description": "The Cooking George was Zeff's ship when he was still captain of the Cook Pirates.",
+    "name": "Baruto Kurabu",
+    "en_name": "Barto Club",
+    "description": "The Barto Club is a pirate crew led by Bartolomeo and the second ship of the Straw Hat Grand Fleet. Following their actions on Gartel Island and confrontation with the Red Hair Pirates, their status is unknown.",
     "affiliation": {
-      "name": "Cook Pirates",
-      "url": "/wiki/Cook_Pirates"
+      "name": "",
+      "url": ""
     },
-    "status": "Destroyed",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/f2/Cooking_George_Infobox.png/revision/latest",
-    "url": "/wiki/Cooking_George"
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/59/Barto_Club_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Barto_Club"
   },
   {
-    "name": "Doreddonōto Sāberu-gō",
-    "en_name": "Dreadnaught Sabre",
-    "description": "The Dreadnaught Sabre was the flagship of the Krieg Pirates' armada.",
+    "name": "Baian Kaizoku-dan",
+    "en_name": "Bayan Pirates",
+    "description": "The Bayan Pirates is a pirate crew. Their captain is Bayan and their \"division\" commander is Zap. They have many members and their general theme is musical. They use Bayan's compositions to hypnotize enemies into obedience, and planned to use this to manipulate Amanda to reveal a treasure to them. The entire crew was eventually defeated by the Straw Hat Pirates.",
     "affiliation": {
-      "name": "Krieg Pirates",
-      "url": "/wiki/Krieg_Pirates"
+      "name": "",
+      "url": ""
     },
-    "status": "Destroyed",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/5a/Dreadnaught_Sabre_Infobox.png/revision/latest",
-    "url": "/wiki/Dreadnaught_Sabre"
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/ac/Bayan_Pirates%27_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Bayan_Pirates"
   },
   {
-    "name": "Gōingu Rufi-senpai-gō",
-    "en_name": "Going Luffy-senpai",
-    "description": "The Going Luffy-senpai was the Barto Club's ship. It was destroyed by Yasopp of the Red Hair Pirates.",
+    "name": "Hyakujū Kaizokudan",
+    "en_name": "Beasts Pirates",
+    "description": "The Beasts Pirates are an extremely infamous and powerful pirate crew led by their governor-general, Kaidou, formerly one of the Four Emperors. They were based in Wano Country, specifically headquartered on Onigashima.",
     "affiliation": {
-      "name": "Barto Club",
-      "url": "/wiki/Barto_Club"
+      "name": "",
+      "url": ""
     },
-    "status": "Destroyed",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/ba/Going_Luffy-senpai_Infobox.png/revision/latest",
-    "url": "/wiki/Going_Luffy-senpai"
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/f6/Beasts_Pirates%27_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Beasts_Pirates"
   },
   {
-    "name": "Gōingu Merī-gō",
-    "en_name": "Going Merry",
-    "description": "The Going Merry was the first full-sized ship owned by the Straw Hat Pirates, a caravel that served as their main transportation through the East Blue, and the Grand Line up until Water 7. It was often affectionally referred to as simply Merry (メリー, Merī) by the crew.",
+    "name": "Utsukushiki Kaizoku-dan",
+    "en_name": "Beautiful Pirates",
+    "description": "The Beautiful Pirates are the first ship of the Straw Hat Grand Fleet, a crew commanded by Cavendish.",
     "affiliation": {
-      "name": "Straw Hat Pirates",
-      "url": "/wiki/Straw_Hat_Pirates"
+      "name": "",
+      "url": ""
     },
-    "status": "Destroyed",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/41/Going_Merry_Infobox.png/revision/latest",
-    "url": "/wiki/Going_Merry"
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/fc/Beautiful_Pirates_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Beautiful_Pirates"
   },
   {
-    "name": "Gurēto Eirīku-gō",
-    "en_name": "Great Eirik",
-    "description": "The Great Eirik is one of the giant longboats belonging to the Giant Warrior Pirates.",
+    "name": "Beramī Kaizokudan",
+    "en_name": "Bellamy Pirates",
+    "description": "The Bellamy Pirates were the former pirate crew of Bellamy the Hyena. Founded in the North Blue, they held some notoriety through the first reaches of the Grand Line as an affiliate of the Donquixote Pirates, but eventually collapsed after losing favor with Donquixote Doflamingo himself.",
     "affiliation": {
-      "name": "Giant Warrior Pirates",
-      "url": "/wiki/Giant_Warrior_Pirates"
+      "name": "",
+      "url": ""
     },
-    "status": "Active",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/e/ed/Great_Eirik_Infobox.png/revision/latest",
-    "url": "/wiki/Great_Eirik"
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/b7/Bellamy_Pirates%27_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Bellamy_Pirates"
   },
   {
-    "name": "Gurajji Dorufu-gō",
-    "en_name": "Grudge Dolph",
-    "description": "Grudge Dolph is a brown ship with a voodoo doll-like figurehead with a giant nail through it. It has five cannons on its front underneath the figurehead (the center of which seems blocked by the nail) and two masts. The front mast has a black sail brandishing the crew's jolly roger, two smaller jolly roger flags on each side, a crow's nest, and a giant candle on top. The back mast has another black sail and jolly roger flag. The ship's helm is on a raised platform, which is decorated with voodoo masks. The ship's cabin is designed to look like a shack with a straw roof, and the ship has five windows on each of its sides.",
+    "name": "Biggu Mamu Kaizokudan",
+    "en_name": "Big Mom Pirates",
+    "description": "The Big Mom Pirates are an extremely infamous and powerful pirate crew led by their captain, Charlotte Linlin, better known as \"Big Mom\", formerly one of the Four Emperors. They are in control of the powerful nation of Totto Land, with their captain ruling it as its queen and their base of operations being Whole Cake Island, the country's main island. The captain agreed to an alliance with the Beasts Pirates for plans to take over the world. However, the captain was defeated during the Raid on Onigashima by Eustass Kid and Trafalgar Law of the Worst Generation, and she was subsequently stripped of her position as an Emperor, leaving the crew's status unknown.",
     "affiliation": {
-      "name": "Hawkins Pirates",
-      "url": "/wiki/Hawkins_Pirates"
+      "name": "",
+      "url": ""
     },
-    "status": "Active",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/10/Grudge_Dolph_Infobox.png/revision/latest",
-    "url": "/wiki/Grudge_Dolph"
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d8/Big_Mom_Pirates%27_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Big_Mom_Pirates"
   },
   {
-    "name": "Hanjōmaru",
-    "en_name": "Hanjomaru",
-    "description": "Hanjomaru is the Fallen Monk Pirates' ship.",
+    "name": "Kuroneko Kaizokudan",
+    "en_name": "Black Cat Pirates",
+    "description": "The Black Cat Pirates' flag is a standard jolly roger with a skull the shape of a cat's head, completed with slitted eyes, and crossbones.",
     "affiliation": {
-      "name": "Fallen Monk Pirates",
-      "url": "/wiki/Fallen_Monk_Pirates"
+      "name": "",
+      "url": ""
     },
-    "status": "Active",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/0/0a/Hanjomaru_Infobox.png/revision/latest",
-    "url": "/wiki/Hanjomaru"
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/49/Black_Cat_Pirates%27_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Black_Cat_Pirates"
   },
   {
-    "name": "Happōsai",
-    "en_name": "Happosai",
-    "description": "The Happosai is the largest ship of the Happo Navy.",
+    "name": "Burūjamu Kaizoku-dan",
+    "en_name": "Bluejam Pirates",
+    "description": "The Bluejam Pirates was a pirate crew led by Bluejam. They came into conflict with Luffy, Ace, and Sabo 12 years ago on Dawn Island, which began with Ace and Sabo stealing money from one of the crew members.",
     "affiliation": {
-      "name": "Happo Navy",
-      "url": "/wiki/Happo_Navy"
+      "name": "",
+      "url": ""
     },
-    "status": "Active",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/30/Happosai_Infobox.png/revision/latest",
-    "url": "/wiki/Happosai"
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d5/NoPicAvailable.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Bluejam_Pirates"
   },
   {
-    "name": "Juerī Marugerīta-gō",
-    "en_name": "Jewelry Margherita",
-    "description": "Jewelry Margherita is the Bonney Pirates' ship.",
+    "name": "Bonī Kaizokudan",
+    "en_name": "Bonney Pirates",
+    "description": "The Bonney Pirates are an infamous and notable rookie pirate crew from South Blue that made their debut on the Sabaody Archipelago the same time the Straw Hat Pirates arrived there two years ago. As such, they are part of the Worst Generation. Following being defeated by the Blackbeard Pirates and captured by Akainu in the New World, Bonney was taken to Marine Headquarters, during which she was able to escape unlike her crew.",
     "affiliation": {
-      "name": "Bonney Pirates",
-      "url": "/wiki/Bonney_Pirates"
+      "name": "",
+      "url": ""
     },
-    "status": "Unknown",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/c1/Jewelry_Margherita_Infobox.png/revision/latest",
-    "url": "/wiki/Jewelry_Margherita"
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/5e/Bonney_Pirates%27_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Bonney_Pirates"
   },
   {
-    "name": "Riberaru Haindo-gō",
-    "en_name": "Liberal Hind",
-    "description": "Liberal Hind is a large red and brown ship that closely resembles a Marine Battleship, relating to X Drake's defection from the Marines. However, it is unknown if the ship belonged to him during his time with the Marines.",
+    "name": "Bagīzu Deribarī",
+    "en_name": "Buggy's Delivery",
+    "description": "Buggy's Delivery, also known as the Pirate Dispatch Organization (海賊派遣組織, Kaizoku Haken Soshiki, VIZ: \"Pirate Temp Agency\"), is a pirate mercenary group founded by Buggy the Star Clown. The organization has since been integrated into the Cross Guild.",
     "affiliation": {
-      "name": "Drake Pirates",
-      "url": "/wiki/Drake_Pirates"
+      "name": "Seven Warlords of the Sea",
+      "url": "/wiki/Seven_Warlords_of_the_Sea"
     },
-    "status": "Active",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/dd/Liberal_Hind_Infobox.png/revision/latest",
-    "url": "/wiki/Liberal_Hind"
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/59/Buggy%27s_Delivery_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Buggy%27s_Delivery"
   },
   {
-    "name": "Misu Rabu Dakku-gō",
-    "en_name": "Miss Love Duck",
-    "description": "The Miss Love Duck is the ship Alvida had when she was first introduced in the story.",
+    "name": "Bagī Kaizokudan",
+    "en_name": "Buggy Pirates",
+    "description": "The Buggy Pirates are a band of pirates led by Buggy, a former Roger Pirates apprentice.",
     "affiliation": {
-      "name": "Alvida Pirates",
-      "url": "/wiki/Alvida_Pirates"
+      "name": "",
+      "url": ""
     },
-    "status": "Unknown",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/2/2e/Miss_Love_Duck_Infobox.png/revision/latest",
-    "url": "/wiki/Miss_Love_Duck"
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/11/Buggy_Pirates%27_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Buggy_Pirates"
   },
   {
-    "name": "Nagurufaru",
-    "en_name": "Naglfar",
-    "description": "The Naglfar is the ship of the New Giant Warrior Pirates.",
+    "name": "Karibū Kaizokudan",
+    "en_name": "Caribou Pirates",
+    "description": "The Caribou Pirates are a crew who arrived at Sabaody Archipelago around the same time as the Straw Hats were reuniting. Their captains are the brothers Caribou and Coribou, which temporarily changed to Demaro Black when they joined the Fake Straw Hat Crew, under the belief they were real until the truth was disclosed.",
     "affiliation": {
-      "name": "New Giant Warrior Pirates",
-      "url": "/wiki/New_Giant_Warrior_Pirates"
+      "name": "",
+      "url": ""
     },
-    "status": "Active",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/6/66/Naglfar_Infobox.png/revision/latest",
-    "url": "/wiki/Naglfar"
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/a8/Caribou_Pirates%27_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Caribou_Pirates"
   },
   {
-    "name": "Nyū Wicchi Bero-gō",
-    "en_name": "New Witch's Tongue",
-    "description": "The New Witch's Tongue is the ship used by the Bellamy Pirates.",
+    "name": "Kukku Kaizokudan",
+    "en_name": "Cook Pirates",
+    "description": "The Cook Pirates was Red-Leg Zeff's old pirate crew.",
     "affiliation": {
-      "name": "Bellamy Pirates",
-      "url": "/wiki/Bellamy_Pirates"
+      "name": "",
+      "url": ""
     },
-    "status": "Unknown",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/fd/New_Witch%27s_Tongue_Infobox.png/revision/latest",
-    "url": "/wiki/New_Witch%27s_Tongue"
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/72/Cook_Pirates%27_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Cook_Pirates"
   },
   {
-    "name": "Nosutora Kasutero-gō",
-    "en_name": "Nostra Castello",
-    "description": "The Nostra Castello was the ship of the Fire Tank Pirates before it was destroyed by Big Mom and Prometheus in Totto Land.",
+    "name": "Donkihōte Kaizoku-dan",
+    "en_name": "Donquixote Pirates",
+    "description": "The Donquixote Pirates, also known as the Donquixote Family (ドンキホーテファミリー, Donkihōte Famirī), was a powerful pirate crew led by the former Warlord, Donquixote Doflamingo. They used to rule the kingdom of Dressrosa as the governing body, with their captain as the king. Due to their actions and role, they are the main antagonists of the Dressrosa Arc and the Dressrosa Saga as a whole.",
     "affiliation": {
-      "name": "Fire Tank Pirates",
-      "url": "/wiki/Fire_Tank_Pirates"
+      "name": "",
+      "url": ""
     },
-    "status": "Destroyed",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/8/83/Nostra_Castello_Infobox.png/revision/latest",
-    "url": "/wiki/Nostra_Castello"
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/f5/Donquixote_Pirates%27_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Donquixote_Pirates"
   },
   {
-    "name": "Numabū-gō",
-    "en_name": "Numabou",
-    "description": "Numabou was a ship belonging to the Caribou Pirates before it was destroyed by Surume.",
+    "name": "Dorēku Kaizokudan",
+    "en_name": "Drake Pirates",
+    "description": "The Drake Pirates are an infamous and notable pirate crew originating from the North Blue, and are led by X Drake, who is later revealed to still be part of the Marines as a member of SWORD. They were introduced on Sabaody Archipelago around the time the Straw Hat Pirates arrived there two years ago and are part of the Worst Generation.",
     "affiliation": {
-      "name": "Caribou Pirates",
-      "url": "/wiki/Caribou_Pirates"
+      "name": "",
+      "url": ""
     },
-    "status": "Destroyed",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/49/Numabou_Infobox.png/revision/latest",
-    "url": "/wiki/Numabou"
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/4a/Drake_Pirates%27_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Drake_Pirates"
   },
   {
-    "name": "Numanshia Furamingo-gō",
-    "en_name": "Numancia Flamingo",
-    "description": "The Numancia Flamingo is the main ship of the Donquixote Pirates.",
+    "name": "Doreiku kaizoku-dan",
+    "en_name": "Drayke Pirates",
+    "description": "The Drayke Pirates are a crew commanded by Drayke and are the main antagonists of Legend of the Rainbow Island.",
     "affiliation": {
-      "name": "Donquixote Pirates",
-      "url": "/wiki/Donquixote_Pirates"
+      "name": "",
+      "url": ""
     },
-    "status": "Active",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/47/Numancia_Flamingo_Infobox.png/revision/latest",
-    "url": "/wiki/Numancia_Flamingo"
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/fe/Drayke_Pirates.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Drayke_Pirates"
   },
   {
-    "name": "Pīsu Obu Supadiru-gō",
-    "en_name": "Piece of Spadille",
-    "description": "The Piece of Spadille was the ship used by the Spade Pirates before they were integrated into the Whitebeard Pirates.",
+    "name": "Erudorago Kaizoku-danErudorago Ichimi",
+    "en_name": "Eldoraggo Pirates",
+    "description": "The Eldoraggo Pirates are a pirate crew under the command of Eldoraggo. They act as the main antagonist group in One Piece: The Movie.",
     "affiliation": {
-      "name": "Spade Pirates",
-      "url": "/wiki/Spade_Pirates"
+      "name": "",
+      "url": ""
     },
-    "status": "Destroyed",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/3d/Piece_of_Spadille_Infobox.png/revision/latest",
-    "url": "/wiki/Piece_of_Spadille"
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/fe/Eldoraggo%27s_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Eldoraggo_Pirates"
   },
   {
-    "name": "Pōrā Tangu-gō",
-    "en_name": "Polar Tang",
-    "description": "The Polar Tang was the submarine serving as the ship of the Heart Pirates. It was broken in half and sunk during the battle between the Heart Pirates and the Blackbeard Pirates at Winner Island.",
+    "name": "Hakaisō Kaizokudan",
+    "en_name": "Fallen Monk Pirates",
+    "description": "The Fallen Monk Pirates are an infamous and notable rookie pirate crew who were first seen on Sabaody Archipelago around the time the Straw Hat Pirates arrived there two years ago. As such, they are part of the Worst Generation, with their captain being Urouge.",
     "affiliation": {
-      "name": "Heart Pirates",
-      "url": "/wiki/Heart_Pirates"
+      "name": "",
+      "url": ""
     },
-    "status": "Destroyed",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/f3/Polar_Tang_Infobox.png/revision/latest",
-    "url": "/wiki/Polar_Tang"
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/5e/Fallen_Monk_Pirates%27_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Fallen_Monk_Pirates"
   },
   {
-    "name": "Kuīn Mama Shante-gō",
-    "en_name": "Queen Mama Chanter",
-    "description": "Queen Mama Chanter is a ship homie belonging to the Big Mom Pirates, and the apparent flagship of their fleet.",
+    "name": "Faia Tanku Kaizokudan",
+    "en_name": "Fire Tank Pirates",
+    "description": "The Fire Tank Pirates are an infamous and notable rookie pirate crew who are led by Capone Bege, originated in the West Blue, and arrived on the Sabaody Archipelago around the time the Straw Hat Pirates arrived there two years ago, along with other rookie crews. As such, they are part of the Worst Generation.",
     "affiliation": {
-      "name": "Big Mom Pirates",
-      "url": "/wiki/Big_Mom_Pirates"
+      "name": "",
+      "url": ""
     },
-    "status": "Active",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/4a/Queen_Mama_Chanter_Infobox.png/revision/latest",
-    "url": "/wiki/Queen_Mama_Chanter"
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/54/Fire_Tank_Pirates%27_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Fire_Tank_Pirates"
   },
   {
-    "name": "Reddo Fōsu-gō",
-    "en_name": "Red Force",
-    "description": "The Red Force is the current ship used by the Red Hair Pirates, replacing their old ship.",
+    "name": "Fokushī Kaizokudan",
+    "en_name": "Foxy Pirates",
+    "description": "The Foxy Pirates are a group of pirates led by Foxy the Silver Fox. A majority of the crew was composed mostly of crewmen won through the Davy Back Fight. The crew was composed of 500 members, according to the anime.",
     "affiliation": {
-      "name": "Red Hair Pirates",
-      "url": "/wiki/Red_Hair_Pirates"
+      "name": "",
+      "url": ""
     },
-    "status": "Active",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/2/27/Red_Force_Infobox.png/revision/latest",
-    "url": "/wiki/Red_Force"
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/49/Foxy_Pirates%27_Current_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Foxy_Pirates"
+  },
+  {
+    "name": "Gyarī Kaizokudan",
+    "en_name": "Gally Pirates",
+    "description": "The Gally Pirates are a pirate crew that appeared in Romance Dawn, Version 1. Their captain is Crescent-Moon Gally.",
+    "affiliation": {
+      "name": "",
+      "url": ""
+    },
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/46/Gally_Pirates%27_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Gally_Pirates"
+  },
+  {
+    "name": "Gyanzakku Kaizokudan",
+    "en_name": "Ganzack Pirates",
+    "description": "The Ganzack Pirates were a group of pirates led by Ganzack. They appeared in the first OVA.",
+    "affiliation": {
+      "name": "",
+      "url": ""
+    },
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/33/Ganzack_Pirates%27_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Ganzack_Pirates"
+  },
+  {
+    "name": "Gasupāde Kaizokudan",
+    "en_name": "Gasparde Pirates",
+    "description": "The Gasparde Pirates were a pirate crew that appeared in the fourth movie. They were headed by former Marine officer, \"General\" Gasparde, and his right-hand man, Needless.",
+    "affiliation": {
+      "name": "",
+      "url": ""
+    },
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/4a/Gasparde_Pirates%27_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Gasparde_Pirates"
+  },
+  {
+    "name": "Gējitsu kaizoku-dan",
+    "en_name": "Gejitsu Pirates",
+    "description": "The Gejitsu Pirates are a crew commanded by Yuta.",
+    "affiliation": {
+      "name": "",
+      "url": ""
+    },
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d5/NoPicAvailable.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Gejitsu_Pirates"
+  },
+  {
+    "name": "Kyo Hei Kaizoku-dan",
+    "en_name": "Giant Warrior Pirates",
+    "description": "The Giant Warrior Pirates is a pirate crew made up of giants from Elbaph lead by Dorry and Brogy. Before them, the crew's captains were Jarul and Jorul. They disbanded 102 years ago when Dorry and Brogy began their duel, but reunited once they returned to Elbaph. They are major allies of the Straw Hat Pirates during the Egghead Arc.",
+    "affiliation": {
+      "name": "",
+      "url": ""
+    },
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/a9/Giant_Warrior_Pirates%27_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Giant_Warrior_Pirates"
+  },
+  {
+    "name": "Jairo Kaizokudan",
+    "en_name": "Gyro Pirates",
+    "description": "The Gyro Pirates is a pirate crew from South Blue, under captain Gyro.",
+    "affiliation": {
+      "name": "",
+      "url": ""
+    },
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/b4/Gyro_Pirates%27_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Gyro_Pirates"
+  },
+  {
+    "name": "Happō Suigun",
+    "en_name": "Happo Navy",
+    "description": "The Happo Navy is a pirate crew led by the Chinjao Family of the Kano Country. Under Sai, the Happo Navy is the third ship of the Straw Hat Grand Fleet.",
+    "affiliation": {
+      "name": "",
+      "url": ""
+    },
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/de/Happo_Navy_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Happo_Navy"
+  },
+  {
+    "name": "Hōkinsu Kaizokudan",
+    "en_name": "Hawkins Pirates",
+    "description": "The Hawkins Pirates are an infamous and notable rookie pirate crew introduced in Sabaody Archipelago around the time the Straw Hat Pirates arrived there two years ago. As such, they are part of the Worst Generation, with their captain being Basil Hawkins.",
+    "affiliation": {
+      "name": "",
+      "url": ""
+    },
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d5/Hawkins_Pirates%27_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Hawkins_Pirates"
+  },
+  {
+    "name": "Hāto no Kaizokudan",
+    "en_name": "Heart Pirates",
+    "description": "The Heart Pirates are an infamous and notable rookie pirate crew from the North Blue and introduced on Sabaody Archipelago around the time the Straw Hat Pirates arrived there two years ago. Their captain, Trafalgar D. Water Law, is a member of the Worst Generation and a former member of the Seven Warlords of the Sea. They were in an alliance with the Straw Hat Pirates, Kouzuki Family, and Mink Tribe with the goal of taking down both Donquixote Doflamingo of the Seven Warlords of the Sea and Kaidou of the Four Emperors. The alliance was dissolved after their objective of taking down Doflamingo and Kaidou was achieved.",
+    "affiliation": {
+      "name": "",
+      "url": ""
+    },
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/76/Heart_Pirates%27_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Heart_Pirates"
+  },
+  {
+    "name": "Ideo Kaizokudan",
+    "en_name": "Ideo Pirates",
+    "description": "The Ideo Pirates, formerly known as the XXX Gym Martial Arts Alliance (XXX（トリプルエックス）ジム格闘連合, Toripuru-Ekkusu Jimu Kakutō Rengō, pronounced \"Triple X Gym Martial Arts Alliance\") is a pirate crew led by Ideo and the fourth ship of the Straw Hat Grand Fleet.",
+    "affiliation": {
+      "name": "",
+      "url": ""
+    },
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/c9/Ideo_Pirates_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Ideo_Pirates"
+  },
+  {
+    "name": "Kiddo Kaizokudan",
+    "en_name": "Kid Pirates",
+    "description": "The Kid Pirates were an infamous and notable rookie pirate crew introduced during the Sabaody Archipelago Arc during the time the Straw Hat Pirates arrived there two years ago. As such, they are part of the Worst Generation. Like the Straw Hats, this crew had two bounties above 100,000,000. Both members had slightly higher bounties than the respective members of the Straw Hat Pirates before the timeskip. Their captain is Eustass Kid.",
+    "affiliation": {
+      "name": "",
+      "url": ""
+    },
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/ad/Kid_Pirates%27_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Kid_Pirates"
+  },
+  {
+    "name": "Kurīku Kaizokudan",
+    "en_name": "Krieg Pirates",
+    "description": "The Krieg Pirates, also known as the Pirate Armada (海賊艦隊, Kaizoku Kantai), are an East Blue pirate fleet led by Don Krieg. At their height, they boasted some five thousand men across fifty ships, and held the most notorious reputation in the East Blue, until they were decimated by Dracule Mihawk. Sometime after the events of the Baratie Arc, Krieg, Gin and Pearl managed to make it to the New World where they now reside on Hachinosu.",
+    "affiliation": {
+      "name": "",
+      "url": ""
+    },
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/f9/Krieg_Pirates%27_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Krieg_Pirates"
+  },
+  {
+    "name": "Makuro Ichimi",
+    "en_name": "Macro Pirates",
+    "description": "The Macro Pirates are a trio of fish-men who are notable for attempting to abduct the mermaid Camie thirty-one times.",
+    "affiliation": {
+      "name": "",
+      "url": ""
+    },
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/b1/Macro_Pirates_Portrait.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Macro_Pirates"
+  },
+  {
+    "name": "Kyōken Kaizoku-dan",
+    "en_name": "Mad Dog Pirates",
+    "description": "The Mad Dog Pirates are a pirate crew in Paradise. They appear in Legend of the Rainbow Island.",
+    "affiliation": {
+      "name": "",
+      "url": ""
+    },
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d3/Mad_Dog_Pirates_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Mad_Dog_Pirates"
+  },
+  {
+    "name": "Mashira Kaizokudan",
+    "en_name": "Masira Pirates",
+    "description": "The Masira Pirates is a crew of treasure hunters and shipwreck salvagers. Their captain is Masira. They are part of the Saruyama Alliance, alongside the Shoujou Pirates and Mont Blanc Cricket.",
+    "affiliation": {
+      "name": "",
+      "url": ""
+    },
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/2/28/Masira_Pirates%27_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Masira_Pirates"
+  },
+  {
+    "name": "Naguri Kaizoku-dan",
+    "en_name": "Naguri Pirates",
+    "description": "The Naguri Pirates were a group of pirates from Gol D. Roger's time.",
+    "affiliation": {
+      "name": "",
+      "url": ""
+    },
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/5b/Naguri_Pirates%27_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Naguri_Pirates"
+  },
+  {
+    "name": "Nyū Donkihōte Famirī",
+    "en_name": "New Donquixote Family",
+    "description": "The New Donquixote Family is a pirate crew formed by Kardia to avenge Donquixote Doflamingo. They are the primary antagonists of One Piece Premier Show 2021.",
+    "affiliation": {
+      "name": "",
+      "url": ""
+    },
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d5/NoPicAvailable.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/New_Donquixote_Family"
+  },
+  {
+    "name": "Nyū Donkihōte Famirī",
+    "en_name": "New Donquixote Family",
+    "description": "The New Donquixote Family is a pirate crew formed by Kardia to avenge Donquixote Doflamingo. They are the primary antagonists of One Piece Premier Show 2021.",
+    "affiliation": {
+      "name": "",
+      "url": ""
+    },
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d5/NoPicAvailable.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/New_Donquixote_Family"
+  },
+  {
+    "name": "Shin Gyojin Kaizoku-dan",
+    "en_name": "New Fish-Man Pirates",
+    "description": "The New Fish-Man Pirates were a pirate crew led by Hody Jones. The crew was comprised almost entirely of fish-men residing on Fish-Man Island, though they also included several merfolk, sea beasts, and enslaved humans. The New Fish-Man Pirates were the most prominent figures in the long history of human/fish-men hate over their hero Fisher Tiger's death. They carried on the legacy of Arlong, having established their crew based on Arlong's ideals. Like Arlong, they wished to make fish-men the supreme race and aimed to sink the humans into the ocean.",
+    "affiliation": {
+      "name": "",
+      "url": ""
+    },
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/9/91/New_Fish-Man_Pirates%27_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/New_Fish-Man_Pirates"
+  },
+  {
+    "name": "Shin Kyo Hei Kaizoku-dan",
+    "en_name": "New Giant Warrior Pirates",
+    "description": "The New Giant Warrior Pirates are a pirate crew of giants led by Hajrudin. The crew is a spiritual revival of the Giant Warrior Pirates that disbanded 100 years ago. They were once part of Buggy's Delivery, before leaving to become the sixth ship of the Straw Hat Grand Fleet after the events on Dressrosa.",
+    "affiliation": {
+      "name": "",
+      "url": ""
+    },
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/c3/New_Giant_Warrior_Pirates_Portrait.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/New_Giant_Warrior_Pirates"
+  },
+  {
+    "name": "Nokkusu Kaizokudan",
+    "en_name": "Nox Pirates",
+    "description": "The Nox Pirates, initially known as the Nox Expedition Party (ノックス探検隊, Nokkusu Tanken-tai), was a pirate crew of minks led by Pedro. They initially set sail from Zou as explorers with the intention of finding poneglyphs, but were chased by the World Government and ended up receiving bounties. The crew was defeated in Totto Land five years ago, causing it to be disbanded.",
+    "affiliation": {
+      "name": "",
+      "url": ""
+    },
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/ba/Nox_Pirates_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Nox_Pirates"
+  },
+  {
+    "name": "On Ea Kaizokudan",
+    "en_name": "On Air Pirates",
+    "description": "The On Air Pirates are an infamous and notable rookie pirate crew discovered on the Sabaody Archipelago around the time the Straw Hat Pirates arrived two years ago. As such, they are part of the Worst Generation, with their captain being Scratchmen Apoo. During the timeskip, they became a subordinate crew to the Beasts Pirates.",
+    "affiliation": {
+      "name": "",
+      "url": ""
+    },
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/b4/On_Air_Pirates%27_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/On_Air_Pirates"
+  },
+  {
+    "name": "Akagami Kaizoku-dan",
+    "en_name": "Red Hair Pirates",
+    "description": "The Red Hair Pirates are an extremely infamous and powerful pirate crew ruling in the New World, captained by their chief, Red-Haired Shanks, one of the Four Emperors and a former apprentice of the Roger Pirates.",
+    "affiliation": {
+      "name": "",
+      "url": ""
+    },
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/8/81/Red_Hair_Pirates%27_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Red_Hair_Pirates"
+  },
+  {
+    "name": "Rokkusu Kaizokudan",
+    "en_name": "Rocks Pirates",
+    "description": "The Rocks Pirates were a legendary and powerful pirate crew that sailed the seas until their defeat at God Valley 38 years ago.",
+    "affiliation": {
+      "name": "",
+      "url": ""
+    },
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/2/2d/Rocks_Pirates_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Rocks_Pirates"
+  },
+  {
+    "name": "Rōringu Kaizokudan",
+    "en_name": "Rolling Pirates",
+    "description": "The Rolling Pirates are a group of pirates introduced in the Thriller Bark Arc. They are led by the 23rd daughter of the Charlotte Family, Charlotte Lola. The crew had their own shadows taken away by Gecko Moria, and they aid Luffy in helping him defeat Moria by stuffing as many shadows as they can into him, making him more powerful.",
+    "affiliation": {
+      "name": "",
+      "url": ""
+    },
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/0/09/Rolling_Pirates_Post_Timeskip.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Rolling_Pirates"
   },
   {
     "name": "Runbā Kaizokudan",
@@ -285,150 +633,228 @@
     },
     "status": "",
     "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d3/Rumbar_Pirates%27_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
     "url": "/wiki/Rumbar_Pirates"
   },
   {
-    "name": "Sekushī Fokushī-gō",
-    "en_name": "Sexy Foxy",
-    "description": "The Sexy Foxy is the ship used by Foxy the Silver Fox and his Foxy Pirates. It is an enormous ship with a giant fox head at the bow. The final event of the Davy Back Fight, the combat, took place here.",
+    "name": "Saruyama Rengō-gun",
+    "en_name": "Saruyama Alliance",
+    "description": "The Saruyama Alliance (lit. \"Monkey Mountain Alliance\") is a Pirate Alliance formed between three pirate captains: Mont Blanc Cricket and his surrogate sons, the brothers \"Salvage King\" Masira and \"Sonar King\" Shoujou. As an alliance, it joins the brothers' respective crews, the Masira Pirates and the Shoujou Pirates.",
     "affiliation": {
-      "name": "Foxy Pirates",
-      "url": "/wiki/Foxy_Pirates"
+      "name": "",
+      "url": ""
     },
-    "status": "Active",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/8/81/Sexy_Foxy_Infobox.png/revision/latest",
-    "url": "/wiki/Sexy_Foxy"
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/fd/Saruyama_Alliance%27s_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Saruyama_Alliance"
   },
   {
-    "name": "Nemureru Mori no Hakuba-gō",
-    "en_name": "Sleeping White Horse of the Forest",
-    "description": "The Sleeping White Horse of the Forest is a ship captained by Cavendish of the Beautiful Pirates.",
+    "name": "Sasaki Kaizokudan",
+    "en_name": "Sasaki Pirates",
+    "description": "The Sasaki Pirates were a pirate crew originating from the Grand Line that was once captained by Sasaki before he joined the Beasts Pirates.",
     "affiliation": {
-      "name": "Beautiful Pirates",
-      "url": "/wiki/Beautiful_Pirates"
+      "name": "",
+      "url": ""
     },
-    "status": "Active",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/c7/Sleeping_White_Horse_of_the_Forest_Infobox.png/revision/latest",
-    "url": "/wiki/Sleeping_White_Horse_of_the_Forest"
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d5/NoPicAvailable.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Sasaki_Pirates"
   },
   {
-    "name": "Sunappā Heddo-gō",
-    "en_name": "Snapper Head",
-    "description": "The ship has a figurehead of a fish, with flames around the neck part, while the rudder resembles a fish tail. The cabin on the middle and the back of the ship also resembles fishes. There are cannon ports on the sides of the vessel. Its overall appearance is a giant fish. The ship has five sails. The front two are dark blue, and they bear the Jolly Roger of the Sun Pirates. The middle one is dark blue, but is blank. The second one from the back is light blue. The last sail on the back is striped between blue green and green. The flag of the crew is on top of the foremost sail. After it was rebuilt, the ship had different colors on the front sail.",
+    "name": "Shunaidā Kaizokudan",
+    "en_name": "Schneider Pirates",
+    "description": "The Schneider Pirates are a pirate crew active in Paradise.",
     "affiliation": {
-      "name": "Sun Pirates",
-      "url": "/wiki/Sun_Pirates"
+      "name": "",
+      "url": ""
     },
-    "status": "Destroyed",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/59/Snapper_Head_Infobox.png/revision/latest",
-    "url": "/wiki/Snapper_Head"
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/c6/Schneider_Pirates%27_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Schneider_Pirates"
   },
   {
-    "name": "Sutei Chūn-gō",
-    "en_name": "Stay Tune",
-    "description": "Stay Tune is the On Air Pirates' ship.",
+    "name": "Shōjō Kaizokudan",
+    "en_name": "Shoujou Pirates",
+    "description": "The Shoujou Pirates is a crew of treasure hunters and echolocating explorers. Their captain is Shoujou. They are part of the Saruyama Alliance, alongside the Masira Pirates and Mont Blanc Cricket.",
     "affiliation": {
-      "name": "On Air Pirates",
-      "url": "/wiki/On_Air_Pirates"
+      "name": "",
+      "url": ""
     },
-    "status": "Active",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/4b/Stay_Tune_Infobox.png/revision/latest",
-    "url": "/wiki/Stay_Tune"
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/4a/Shoujou_Pirates%27_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Shoujou_Pirates"
   },
   {
-    "name": "Sauzando Sanī-gō",
-    "en_name": "Thousand Sunny",
-    "description": "The Sunny is a brigantine-type ship designed and built by Franky, with help from Iceburg and many other master shipwrights from Galley-La. Built from Adam Wood, it is a magnificent ship of the finest craftsmanship at least double the size of the Going Merry. Its features include practically all of the various requests the Straw Hats had before arriving in Water 7.",
+    "name": "Saimon Kaizoku-dan",
+    "en_name": "Simon Pirates",
+    "description": "The Simon Pirates (サイモン海賊団, Saimon Kaizoku-dan) were a pirate crew led by Simon in the game, One Piece: Great Hidden Treasure of the Nanatsu Islands.",
     "affiliation": {
-      "name": "Straw Hat Pirates",
-      "url": "/wiki/Straw_Hat_Pirates"
+      "name": "",
+      "url": ""
     },
-    "status": "Active",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/b1/Thousand_Sunny_Infobox.png/revision/latest",
-    "url": "/wiki/Thousand_Sunny"
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/74/Simon_Pirates_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Simon_Pirates"
   },
   {
-    "name": "Surirā Bāku",
-    "en_name": "Thriller Bark",
-    "description": "Thriller Bark is a giant ship formerly located on the Florian Triangle. As revealed by Brook, it used to be an island located in the West Blue, where it was built. It was converted into a pirate ship, the world's largest, and is owned by the former Warlord, Gecko Moria, serving as ship for the Thriller Bark Pirates. The ship was heavily damaged by Moria's and Kuma's attacks during the battle against the Straw Hat Pirates and after Moria's defeat, it was abandoned. Thriller Bark is the main setting of the Thriller Bark Arc, as well as the ninth island in Paradise that the Straw Hat Pirates visited.",
+    "name": "Supēdo Kaizokudan",
+    "en_name": "Spade Pirates",
+    "description": "The Spade Pirates was the former pirate crew of Portgas D. Ace that was founded five years before the current storyline. The crew later disbanded when its members integrated into the Whitebeard Pirates.",
     "affiliation": {
-      "name": "Thriller Bark Pirates",
-      "url": "/wiki/Thriller_Bark_Pirates"
+      "name": "",
+      "url": ""
     },
-    "status": "Active",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/37/Thriller_Bark_Infobox.png/revision/latest",
-    "url": "/wiki/Thriller_Bark"
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/1d/Spade_Pirates%27_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Spade_Pirates"
   },
   {
-    "name": "Usorando-gō",
-    "en_name": "Usoland",
-    "description": "The Usoland is the Tontatta Pirates' ship. It was built by the citizens of Dressrosa and is named after Usopp.",
+    "name": "Mugiwara no Ichimi",
+    "en_name": "Straw Hat Pirates",
+    "description": "The Straw Hat Pirates, also known as the Mugiwara Pirates, Straw Hat Crew or  simply the Straw Hats, are an extremely infamous and powerful pirate crew that originated from the East Blue. They are the main focus and protagonists of the manga and anime One Piece and are led by the main protagonist, Monkey D. Luffy.",
     "affiliation": {
-      "name": "Tontatta Pirates",
-      "url": "/wiki/Tontatta_Pirates"
+      "name": "",
+      "url": ""
     },
-    "status": "Active",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/2/29/Usoland_Infobox.png/revision/latest",
-    "url": "/wiki/Usoland"
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/8/87/Straw_Hat_Pirates%27_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Straw_Hat_Pirates"
   },
   {
-    "name": "Ūtan Sonā-gō",
-    "en_name": "Utan Sonar",
-    "description": "Utan Sonar is Shoujou's ship, and is a large vessel with an orangutan figurehead.",
+    "name": "Taiyō no Kaizokudan",
+    "en_name": "Sun Pirates",
+    "description": "The Sun Pirates, sometimes known as the Fish-Man Pirates (魚人海賊団, Gyojin Kaizoku-dan), are a pirate crew formed by the late Fisher Tiger. The crew is notable for having Jinbe and Arlong as part of its members, the former eventually becoming the second captain of the crew, and later, one of the Seven Warlords of the Sea. This crew split apart into three factions eleven years ago: the Sun Pirates under Jinbe, the Arlong Pirates under Arlong, and the Macro Pirates under Macro. The Sun Pirates were pardoned by the World Government when Jinbe became a Warlord of the Sea, but lost the pardon when he abdicated his title. They later went to serve under Emperor Big Mom until Jinbe rebelled and joined the Straw Hat Pirates.",
     "affiliation": {
-      "name": "Saruyama Alliance",
-      "url": "/wiki/Saruyama_Alliance"
+      "name": "",
+      "url": ""
     },
-    "status": "Active",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/c9/Utan_Sonar_Anime_Infobox.png/revision/latest",
-    "url": "/wiki/Utan_Sonar"
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/44/Sun_Pirates%27_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Sun_Pirates"
   },
   {
-    "name": "Vikutoria Panku-gō",
-    "en_name": "Victoria Punk",
-    "description": "Victoria Punk was the Kid Pirates' ship. It is named after Victoria Shiruton Doruyanaika, a deceased childhood friend of Eustass Kid and Killer.",
+    "name": "Suītsu Kaizokudan",
+    "en_name": "Sweet Pirates",
+    "description": "The Sweet Pirates are an all-female group of pirates led by Desire, originating from the East Blue. The crew was nearly annihilated by the Silver Pirate Alliance, and the remaining members joined the Alliance, not knowing that they were the attackers, officially dissolving the crew. Later, the remaining four members were betrayed by the Silver Pirate Alliance and set back out to sea on their own.",
     "affiliation": {
-      "name": "Kid Pirates",
-      "url": "/wiki/Kid_Pirates"
+      "name": "",
+      "url": ""
     },
-    "status": "Destroyed",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/e/e0/Victoria_Punk_Infobox.png/revision/latest",
-    "url": "/wiki/Victoria_Punk"
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/e/ed/Sweet_Pirates_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Sweet_Pirates"
   },
   {
-    "name": "Bikutorī Hantā-gō",
-    "en_name": "Victory Hunter",
-    "description": "The Victory Hunter is Masira's ship and main possession.",
+    "name": "Ochanoma Kaizokudan",
+    "en_name": "Tearoom Pirates",
+    "description": "The Tearoom Pirates are a family of pirates who appear in the sixth movie.",
     "affiliation": {
-      "name": "Saruyama Alliance",
-      "url": "/wiki/Saruyama_Alliance"
+      "name": "",
+      "url": ""
     },
-    "status": "Active",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/6/6e/Victory_Hunter_Infobox.png/revision/latest",
-    "url": "/wiki/Victory_Hunter"
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/a2/Tearoom_Pirates%27_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Tearoom_Pirates"
   },
   {
-    "name": "Bikutorī Hantā-gō",
-    "en_name": "Victory Hunter",
-    "description": "The Victory Hunter is Masira's ship and main possession.",
+    "name": "Surirā Bāku Kaizokudan",
+    "en_name": "Thriller Bark Pirates",
+    "description": "The Thriller Bark Pirates is the second pirate crew captained by the former Warlord, Gecko Moria. They are the main antagonist group in the Thriller Bark Arc, where they operated from the mysterious Florian Triangle to abduct unsuspecting victims of their shadows for their undead zombie army.",
     "affiliation": {
-      "name": "Saruyama Alliance",
-      "url": "/wiki/Saruyama_Alliance"
+      "name": "",
+      "url": ""
     },
-    "status": "Active",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/6/6e/Victory_Hunter_Infobox.png/revision/latest",
-    "url": "/wiki/Victory_Hunter"
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/e/e1/Thriller_Bark%27s_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Thriller_Bark_Pirates"
   },
   {
-    "name": "Yonta Maria-gō",
-    "en_name": "Yonta Maria",
-    "description": "The Yonta Maria is the huge flagship of the Yonta Maria Grand Fleet, under the direct command of Orlumbus.",
+    "name": "Tontatta Kaizokudan",
+    "en_name": "Tontatta Pirates",
+    "description": "The Tontatta Pirates, formerly known as Tonta Corps (トンタ兵団, Tonta Heidan), are the armed forces of the Tontatta Tribe formed in order to commence Operation SOP, and later, reformed as a pirate crew. They are composed of 200 dwarves under the command of Leo, forming the fifth ship of the Straw Hat Grand Fleet.",
     "affiliation": {
-      "name": "Yonta Maria Grand Fleet",
-      "url": "/wiki/Yonta_Maria_Grand_Fleet"
+      "name": "",
+      "url": ""
     },
-    "status": "Active",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/b5/Yonta_Maria_Infobox.png/revision/latest",
-    "url": "/wiki/Yonta_Maria"
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/e/eb/Tontatta_Pirates%27_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Tontatta_Pirates"
+  },
+  {
+    "name": "Toranpu Kyōdai",
+    "en_name": "Trump Pirates",
+    "description": "The Trump Pirates are an East Blue pirate crew under the command of the Trump Siblings, a group of animal/playing-card themed captains led by Bear King. They are the main antagonists of the second movie.",
+    "affiliation": {
+      "name": "",
+      "url": ""
+    },
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/6/6e/Trump_Sibling_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Trump_Pirates"
+  },
+  {
+    "name": "Chūrippu Kaizokudan",
+    "en_name": "Tulip Pirates",
+    "description": "The Tulip Pirates are a group of pirates that appeared in Jango's cover story.",
+    "affiliation": {
+      "name": "",
+      "url": ""
+    },
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/a3/Tulip_Pirates%27_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Tulip_Pirates"
+  },
+  {
+    "name": "Iesu Kaizokudan",
+    "en_name": "Yes Pirates",
+    "description": "The Yes Pirates were a pirate crew that originated from the East Blue.",
+    "affiliation": {
+      "name": "",
+      "url": ""
+    },
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d5/NoPicAvailable.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Yes_Pirates"
+  },
+  {
+    "name": "Yonta Maria Dai-sendan",
+    "en_name": "Yonta Maria Grand Fleet",
+    "description": "The Yonta Maria Grand Fleet is a group of 56 ships led by Orlumbus. It shares its name with its flagship, the Yonta Maria. After the defeat of Doflamingo, the flagship became the seventh ship of the Straw Hat Grand Fleet and with it the entire Yonta Maria Grand Fleet.",
+    "affiliation": {
+      "name": "",
+      "url": ""
+    },
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/a0/Yonta_Maria_Grand_Fleet_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Yonta_Maria_Grand_Fleet"
+  },
+  {
+    "name": "Zenī Kaizoku-dan",
+    "en_name": "Zenny Pirates",
+    "description": "The Zenny Pirates are a pirate crew that the Straw Hat Pirates helped to head to the sea.",
+    "affiliation": {
+      "name": "",
+      "url": ""
+    },
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/a7/Zenny_Pirates%27_Jolly_Roger.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Zenny_Pirates"
   }
 ]

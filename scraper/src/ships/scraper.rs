@@ -30,7 +30,7 @@ impl ShipScraper {
         info!("crawling ship categories");
         let urls = self
             .category_crawler
-            .get_nested_href("/wiki/Category:Pirate_Crews_by_Sea", true)
+            .get_nested_href("/wiki/Category:Ships", true)
             .await?;
 
         let concurrency_limit = Arc::new(Semaphore::new(20));
@@ -116,7 +116,7 @@ mod tests {
     async fn test_get() {
         let fetcher = prepare_fetcher([
             (
-                "/wiki/Category:Pirate_Crews_by_Sea".to_string(),
+                "/wiki/Category:Ships".to_string(),
                 Ok(r##"
 <div>
     <ul>
