@@ -208,7 +208,7 @@ mod tests {
                 "##.to_string()),
             )
         ]);
-        let crawler = Arc::new(CategoryScraper::new(fetcher.clone(), ""));
+        let crawler = Arc::new(CategoryScraper::new(fetcher.clone()));
         let scraper = ShipScraper::new(fetcher, crawler);
         let ships = scraper.scrape().await.unwrap();
         assert_eq!(ships.len(), 2);

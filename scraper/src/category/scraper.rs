@@ -16,15 +16,11 @@ pub trait UrlCrawler {
 #[derive(Debug)]
 pub struct CategoryScraper {
     fetcher: HtmlFetcher,
-    base_url: String,
 }
 
 impl CategoryScraper {
-    pub fn new(fetcher: HtmlFetcher, base_url: &str) -> Self {
-        Self {
-            fetcher,
-            base_url: base_url.to_string(),
-        }
+    pub fn new(fetcher: HtmlFetcher) -> Self {
+        Self { fetcher }
     }
 }
 
@@ -32,8 +28,7 @@ impl CategoryScraper {
 #[cfg_attr(test, mockall::automock)]
 impl UrlCrawler for CategoryScraper {
     async fn get_href(&self, path: &str) -> Result<Vec<String>, Error> {
-        let url = format!("{}{}", self.base_url, path);
-        let html = self.fetcher.fetch_only(&url).await?;
+        let html = self.fetcher.fetch_only(path).await?;
         let doc = Html::parse_document(&html);
 
         let links = utils::extract_all_href(
@@ -61,8 +56,7 @@ impl UrlCrawler for CategoryScraper {
             debug!("DFS crawling on {:?}", next_path);
             visited.insert(next_path.clone());
 
-            let url = format!("{}{}", self.base_url, next_path);
-            let html = self.fetcher.fetch_only(&url).await;
+            let html = self.fetcher.fetch_only(&next_path).await;
             if html.is_err() {
                 err_collection.push(html.err().unwrap());
                 continue;
@@ -178,7 +172,7 @@ mod tests {
                     Ok(r#"<ul><li class="category-page__member"><a href="/wiki/somepages" class="category-age__member-link" title="wow">a page</a></li></ul>"#.to_string()),
                 )
         ]);
-        let crawler = CategoryScraper::new(fetcher, "");
+        let crawler = CategoryScraper::new(fetcher);
         let result = crawler
             .get_nested_href("/wiki/Category:Pirate_Crews_by_Sea", true)
             .await;

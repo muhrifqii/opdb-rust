@@ -43,7 +43,7 @@ async fn main() {
 
     let client = HttpClientWrapper(reqwest::Client::builder().build().unwrap());
     let fetcher = HtmlFetcher::new(client, base_url);
-    let cat_crawler = Arc::new(CategoryScraper::new(fetcher.clone(), base_url));
+    let cat_crawler = Arc::new(CategoryScraper::new(fetcher.clone()));
 
     let df_s = DfScraper::new(fetcher.clone());
     let pirate_s = PirateScraper::new(fetcher.clone(), cat_crawler.clone());

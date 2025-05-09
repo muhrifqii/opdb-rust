@@ -306,7 +306,7 @@ mod tests {
                     "##.to_string()),
                 ),]);
 
-        let cat_crawler = CategoryScraper::new(fetcher.clone(), "");
+        let cat_crawler = CategoryScraper::new(fetcher.clone());
         let scraper = PirateScraper::new(fetcher, Arc::new(cat_crawler));
         let pirates = scraper.scrape().await.unwrap();
         assert_eq!(pirates.len(), 2);
