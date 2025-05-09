@@ -1,6 +1,5 @@
 use itertools::Itertools;
 use log::{error, info};
-use reqwest::Client;
 use scraper::selectable::Selectable;
 use scraper::Html;
 use std::collections::HashMap;
@@ -10,7 +9,7 @@ use strum::IntoEnumIterator;
 use super::models::{DevilFruit, DfTypeInfo};
 use crate::df::parser::get_parser;
 use crate::df::types::DfType;
-use crate::fetcher::{FetchHtml, HtmlFetcher};
+use crate::fetcher::HtmlFetcher;
 use crate::types::{Error, UrlTyped};
 use crate::utils;
 
@@ -20,29 +19,19 @@ pub trait DfScrapable {
 }
 
 #[derive(Debug)]
-pub struct DfScraper<T = Client>
-where
-    T: FetchHtml + Clone,
-{
-    fetcher: HtmlFetcher<T>,
-    base_url: String,
+pub struct DfScraper {
+    fetcher: HtmlFetcher,
 }
 
-impl<T: FetchHtml + Clone> DfScraper<T> {
-    pub fn new(fetcher: HtmlFetcher<T>, base_url: &str) -> Self {
-        Self {
-            fetcher,
-            base_url: base_url.to_string(),
-        }
+impl DfScraper {
+    pub fn new(fetcher: HtmlFetcher) -> Self {
+        Self { fetcher }
     }
 }
 
-impl<T: FetchHtml + Clone + std::marker::Send + std::marker::Sync + 'static> DfScrapable
-    for DfScraper<T>
-{
+impl DfScrapable for DfScraper {
     async fn get_dftype_info(&self) -> Result<Vec<DfTypeInfo>, Error> {
-        let url = format!("{}/wiki/Devil_Fruit", self.base_url);
-        let html = self.fetcher.fetch(&url).await?;
+        let html = self.fetcher.fetch("/wiki/Devil_Fruit").await?;
         let doc = Html::parse_document(&html);
 
         let desc = tokio::try_join!(
@@ -96,15 +85,14 @@ impl<T: FetchHtml + Clone + std::marker::Send + std::marker::Sync + 'static> DfS
         info!("collecting df...");
         // Step 1: For each DfType (Paramecia, Zoan, Logia)
         for df_type in DfType::iter().filter(|t| !t.get_path().is_empty()) {
-            let url = format!("{}{}", &self.base_url, df_type.get_path());
-            let html = self.fetcher.fetch(&url).await?;
+            let html = self.fetcher.fetch(&df_type.get_path()).await?;
             let doc = Html::parse_document(&html);
 
             let df_list = get_parser(&df_type, true).parse(&doc)?;
 
             // Step 2: Store each DevilFruit and prepare to fetch their pictures
             for df in df_list {
-                let df_url = format!("{}{}", &self.base_url, &df.df_url);
+                let df_url = df.df_url.clone();
                 devil_fruits_map.insert(df_url.clone(), df);
 
                 let fetcher = self.fetcher.clone();
@@ -138,36 +126,10 @@ impl<T: FetchHtml + Clone + std::marker::Send + std::marker::Sync + 'static> DfS
 
 #[cfg(test)]
 mod tests {
-    use std::collections::HashMap;
-
-    use async_trait::async_trait;
-
     use crate::{
         df::scraper::{DfScrapable, DfScraper},
-        fetcher::{FetchHtml, HtmlFetcher},
-        types::Error,
+        fetcher::mocks::prepare_fetcher,
     };
-
-    #[derive(Clone)]
-    struct MockClient {
-        res_req: HashMap<String, Result<String, Error>>,
-    }
-
-    #[async_trait]
-    impl FetchHtml for MockClient {
-        async fn fetch(&self, url: &str) -> Result<String, Error> {
-            self.res_req.get(url).cloned().unwrap()
-        }
-    }
-
-    fn prepare_fetcher<const N: usize>(
-        arr: [(String, Result<String, Error>); N],
-    ) -> HtmlFetcher<MockClient> {
-        let client = MockClient {
-            res_req: HashMap::from(arr),
-        };
-        HtmlFetcher::new(client)
-    }
 
     #[tokio::test]
     async fn get_type_info() {
@@ -192,7 +154,7 @@ mod tests {
             </body></html>"#
                 .to_string()),
         )]);
-        let scrape = DfScraper::new(fetcher, "");
+        let scrape = DfScraper::new(fetcher);
         let result = scrape.get_dftype_info().await;
         assert!(result.is_ok());
         assert_eq!(result.unwrap().len(), 4);
@@ -260,7 +222,7 @@ mod tests {
                     .to_string()),
             ),
         ]);
-        let scrape = DfScraper::new(fetcher, "");
+        let scrape = DfScraper::new(fetcher);
         let df_list = scrape.get_df_list().await.unwrap();
         assert_eq!(df_list.len(), 4);
     }
