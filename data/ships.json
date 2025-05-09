@@ -1,860 +1,2004 @@
 [
   {
-    "name": "Arubida Kaizokudan",
-    "en_name": "Alvida Pirates",
-    "description": "The Alvida Pirates were a group of pirates led by the female pirate \"Iron Mace\" Alvida. They were the first enemy pirates Luffy was seen to encounter. The crew has since dissolved into an alliance with the Buggy Pirates, forming the Buggy and Alvida Alliance, which later becomes the Pirate Dispatch Organization known as Buggy's Delivery. They are one of the antagonist groups in the Romance Dawn Arc.",
+    "name": "Arekusandora-gō",
+    "en_name": "Alexandra",
+    "description": "The Alexandra has a similar design to most Marine vessels. It has a green hull with brown lining. It also has an individualistic brown railing not commonly found on Marine vessels. It has two large masts and one smaller that have a total of five sails. In its interior, it has a technically advanced communications room.",
     "affiliation": {
-      "name": "",
-      "url": ""
+      "name": "Marines",
+      "url": "/wiki/Marines"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/f4/Alvida_Pirates%27_Jolly_Roger.png/revision/latest",
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/41/Alexandra_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/Alvida_Pirates"
+    "url": "/wiki/Alexandra"
   },
   {
-    "name": "Barubaru Dan",
-    "en_name": "Barbar Pirates",
-    "description": "The Barbar Pirates are sand pirates of the Arabasta Kingdom. The Barbar Pirates are skilled sand sailors. It is shown that they often clash with desert bandits. They travel the desert searching for food. All the members wear little umbrellas on their heads. While searching for water, Luffy accidentally broke the Barbar Pirates' ship and decide to go to Melias to search for wood in order to repair their ship.",
+    "name": "Arekusandora-gō",
+    "en_name": "Alexandra",
+    "description": "The Alexandra has a similar design to most Marine vessels. It has a green hull with brown lining. It also has an individualistic brown railing not commonly found on Marine vessels. It has two large masts and one smaller that have a total of five sails. In its interior, it has a technically advanced communications room.",
     "affiliation": {
-      "name": "",
-      "url": ""
+      "name": "Marines",
+      "url": "/wiki/Marines"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/12/Barbar_Pirates%27_Jolly_Roger.png/revision/latest",
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/41/Alexandra_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/Barbar_Pirates"
+    "url": "/wiki/Alexandra"
   },
   {
-    "name": "Bareruzu Kaizokudan",
-    "en_name": "Barrels Pirates",
-    "description": "The Barrels Pirates were a pirate crew led by Diez Barrels.",
+    "name": "Baratie",
+    "en_name": "Baratie",
+    "description": "The Baratie is an ocean-going restaurant run by Zeff. It is located in the Sambas Region (サンバス海域, Sanbasu Kaiiki) of the East Blue, close to the Paradise half of the Grand Line.",
     "affiliation": {
-      "name": "",
-      "url": ""
+      "name": "Zeff",
+      "url": "/wiki/Zeff"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/c6/Barrels_Pirates_Infobox.png/revision/latest",
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/e/eb/Baratie_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/Barrels_Pirates"
+    "url": "/wiki/Baratie"
   },
   {
-    "name": "Baruto Kurabu",
-    "en_name": "Barto Club",
-    "description": "The Barto Club is a pirate crew led by Bartolomeo and the second ship of the Straw Hat Grand Fleet. Following their actions on Gartel Island and confrontation with the Red Hair Pirates, their status is unknown.",
+    "name": "Batoru Furankī",
+    "en_name": "Battle Frankies",
+    "description": "The Battle Franky is a line of special battleships built by Cutty Flam (now known as Franky), respectively named \"Battle Franky\" with a call number from 1 through 35. While no bigger than lifeboats, each one is heavily armed with cannons and other weaponry. Some of the ships even have armor, turrets, and various mechanical devices. This makes these small crafts as dangerous as actual battleships.",
     "affiliation": {
       "name": "",
       "url": ""
     },
     "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/59/Barto_Club_Jolly_Roger.png/revision/latest",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/bf/Battle_Frankies_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/Barto_Club"
+    "url": "/wiki/Battle_Frankies"
   },
   {
-    "name": "Baian Kaizoku-dan",
-    "en_name": "Bayan Pirates",
-    "description": "The Bayan Pirates is a pirate crew. Their captain is Bayan and their \"division\" commander is Zap. They have many members and their general theme is musical. They use Bayan's compositions to hypnotize enemies into obedience, and planned to use this to manipulate Amanda to reveal a treasure to them. The entire crew was eventually defeated by the Straw Hat Pirates.",
+    "name": "Bezan Burakku-gō",
+    "en_name": "Bezan Black",
+    "description": "The Bezan Black is the primary ship of the Black Cat Pirates.",
     "affiliation": {
-      "name": "",
-      "url": ""
+      "name": "Black Cat Pirates",
+      "url": "/wiki/Black_Cat_Pirates"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/ac/Bayan_Pirates%27_Jolly_Roger.png/revision/latest",
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/c8/Bezan_Black_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/Bayan_Pirates"
+    "url": "/wiki/Bezan_Black"
   },
   {
-    "name": "Hyakujū Kaizokudan",
-    "en_name": "Beasts Pirates",
-    "description": "The Beasts Pirates are an extremely infamous and powerful pirate crew led by their governor-general, Kaidou, formerly one of the Four Emperors. They were based in Wano Country, specifically headquartered on Onigashima.",
+    "name": "Biggu Ran'nā-gō",
+    "en_name": "Big Runner",
+    "description": "The Big Runner's appearance was somewhat similar to a fish. Its design was analogous to a jet ski, and the craft was metallic and round at the front. Yellow eyes were painted on the hull, and in the back was a small sail. There were light blue railings on the sides along with teeth on the bottom of the fish face.",
     "affiliation": {
-      "name": "",
-      "url": ""
+      "name": "Bobby",
+      "url": "/wiki/Bobby_(Non-Canon)"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/f6/Beasts_Pirates%27_Jolly_Roger.png/revision/latest",
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/9/92/Big_Runner_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/Beasts_Pirates"
+    "url": "/wiki/Big_Runner"
   },
   {
-    "name": "Utsukushiki Kaizoku-dan",
-    "en_name": "Beautiful Pirates",
-    "description": "The Beautiful Pirates are the first ship of the Straw Hat Grand Fleet, a crew commanded by Cavendish.",
+    "name": "Biggu Toppu-gō",
+    "en_name": "Big Top",
+    "description": "Big Top is the Buggy Pirates' ship.",
     "affiliation": {
-      "name": "",
-      "url": ""
+      "name": "Buggy Pirates",
+      "url": "/wiki/Buggy_Pirates"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/fc/Beautiful_Pirates_Jolly_Roger.png/revision/latest",
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/55/Big_Top_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/Beautiful_Pirates"
+    "url": "/wiki/Big_Top"
   },
   {
-    "name": "Beramī Kaizokudan",
-    "en_name": "Bellamy Pirates",
-    "description": "The Bellamy Pirates were the former pirate crew of Bellamy the Hyena. Founded in the North Blue, they held some notoriety through the first reaches of the Grand Line as an affiliate of the Donquixote Pirates, but eventually collapsed after losing favor with Donquixote Doflamingo himself.",
+    "name": "Biggu Toppu-gō",
+    "en_name": "Big Top",
+    "description": "Big Top is the Buggy Pirates' ship.",
     "affiliation": {
-      "name": "",
-      "url": ""
+      "name": "Buggy Pirates",
+      "url": "/wiki/Buggy_Pirates"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/b7/Bellamy_Pirates%27_Jolly_Roger.png/revision/latest",
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/55/Big_Top_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/Bellamy_Pirates"
+    "url": "/wiki/Big_Top"
   },
   {
-    "name": "Biggu Mamu Kaizokudan",
-    "en_name": "Big Mom Pirates",
-    "description": "The Big Mom Pirates are an extremely infamous and powerful pirate crew led by their captain, Charlotte Linlin, better known as \"Big Mom\", formerly one of the Four Emperors. They are in control of the powerful nation of Totto Land, with their captain ruling it as its queen and their base of operations being Whole Cake Island, the country's main island. The captain agreed to an alliance with the Beasts Pirates for plans to take over the world. However, the captain was defeated during the Raid on Onigashima by Eustass Kid and Trafalgar Law of the Worst Generation, and she was subsequently stripped of her position as an Emperor, leaving the crew's status unknown.",
+    "name": "Biggu Toppu Burasutā-gō",
+    "en_name": "Big Top Blaster",
+    "description": "The Big Top Blaster is a ship belonging to the Cross Guild, having been built to act as the organization's flagship.",
     "affiliation": {
-      "name": "",
-      "url": ""
+      "name": "Cross Guild",
+      "url": "/wiki/Cross_Guild"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d8/Big_Mom_Pirates%27_Jolly_Roger.png/revision/latest",
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/2/23/Big_Top_Blaster_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/Big_Mom_Pirates"
+    "url": "/wiki/Big_Top_Blaster"
   },
   {
-    "name": "Kuroneko Kaizokudan",
-    "en_name": "Black Cat Pirates",
-    "description": "The Black Cat Pirates' flag is a standard jolly roger with a skull the shape of a cat's head, completed with slitted eyes, and crossbones.",
+    "name": "Burikingu-gō",
+    "en_name": "Bliking",
+    "description": "The Bliking is Wapol's ship. It has the ability to go underwater, although how this is achieved is unknown. Chess would stand on top of the mast while it was submerged, making him appear as if he were walking on water.",
     "affiliation": {
-      "name": "",
-      "url": ""
+      "name": "Bliking Pirates",
+      "url": "/wiki/Bliking_Pirates"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/49/Black_Cat_Pirates%27_Jolly_Roger.png/revision/latest",
+    "status": "Unknown",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/0/00/Bliking_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/Black_Cat_Pirates"
+    "url": "/wiki/Bliking"
   },
   {
-    "name": "Burūjamu Kaizoku-dan",
-    "en_name": "Bluejam Pirates",
-    "description": "The Bluejam Pirates was a pirate crew led by Bluejam. They came into conflict with Luffy, Ace, and Sabo 12 years ago on Dawn Island, which began with Ace and Sabo stealing money from one of the crew members.",
+    "name": "Burikingu-gō",
+    "en_name": "Bliking",
+    "description": "The Bliking is Wapol's ship. It has the ability to go underwater, although how this is achieved is unknown. Chess would stand on top of the mast while it was submerged, making him appear as if he were walking on water.",
+    "affiliation": {
+      "name": "Bliking Pirates",
+      "url": "/wiki/Bliking_Pirates"
+    },
+    "status": "Unknown",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/0/00/Bliking_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Bliking"
+  },
+  {
+    "name": "Buraddo Batako-gō",
+    "en_name": "Blood Batako",
+    "description": "The Blood Batako was the ship of the Bluejam Pirates until its destruction.",
+    "affiliation": {
+      "name": "Bluejam Pirates",
+      "url": "/wiki/Bluejam_Pirates"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/7d/Blood_Batako.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Blood_Batako"
+  },
+  {
+    "name": "Buraddo Batako-gō",
+    "en_name": "Blood Batako",
+    "description": "The Blood Batako was the ship of the Bluejam Pirates until its destruction.",
+    "affiliation": {
+      "name": "Bluejam Pirates",
+      "url": "/wiki/Bluejam_Pirates"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/7d/Blood_Batako.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Blood_Batako"
+  },
+  {
+    "name": "Baunti Maru",
+    "en_name": "Bounty Maru",
+    "description": "Bounty Maru is the ship of Yosaku and Johnny that was first introduced in a cover story.",
+    "affiliation": {
+      "name": "Yosaku",
+      "url": "/wiki/Yosaku"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/14/Bounty_Maru_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Bounty_Maru"
+  },
+  {
+    "name": "Kataparuto-gō",
+    "en_name": "Catapult",
+    "description": "The Catapult was a submarine used by Douglas Bullet.",
+    "affiliation": {
+      "name": "Douglas Bullet",
+      "url": "/wiki/Douglas_Bullet"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/70/Catapult_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Catapult"
+  },
+  {
+    "name": "Kataparuto-gō",
+    "en_name": "Catapult",
+    "description": "The Catapult was a submarine used by Douglas Bullet.",
+    "affiliation": {
+      "name": "Douglas Bullet",
+      "url": "/wiki/Douglas_Bullet"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/70/Catapult_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Catapult"
+  },
+  {
+    "name": "Chiryaku Ten'nen Maru",
+    "en_name": "Chiryaku Ten'nen Maru",
+    "description": "Chiryaku Ten'nen Maru is the ship that was used by Mr. 3 and Miss Goldenweek when they were Baroque Works members.",
+    "affiliation": {
+      "name": "Baroque Works",
+      "url": "/wiki/Baroque_Works"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/8/8b/Chiryaku_Ten%27nen_Maru_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Chiryaku_Ten%27nen_Maru"
+  },
+  {
+    "name": "Kukkingu Jōji-gō",
+    "en_name": "Cooking George",
+    "description": "The Cooking George was Zeff's ship when he was still captain of the Cook Pirates.",
+    "affiliation": {
+      "name": "Cook Pirates",
+      "url": "/wiki/Cook_Pirates"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/f2/Cooking_George_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Cooking_George"
+  },
+  {
+    "name": "Kukkingu Jōji-gō",
+    "en_name": "Cooking George",
+    "description": "The Cooking George was Zeff's ship when he was still captain of the Cook Pirates.",
+    "affiliation": {
+      "name": "Cook Pirates",
+      "url": "/wiki/Cook_Pirates"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/f2/Cooking_George_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Cooking_George"
+  },
+  {
+    "name": "Kyūti Wagon-gō",
+    "en_name": "Cutie Wagon",
+    "description": "The vessel is shaped like half of a giant pink seashell. The ship could be said to resemble a seashell or a pink sleigh with a tapered front.",
+    "affiliation": {
+      "name": "Foxy Pirates",
+      "url": "/wiki/Foxy_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/fa/Cutie_Wagon_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Cutie_Wagon"
+  },
+  {
+    "name": "Daiaru Sen",
+    "en_name": "Dial Boat",
+    "description": "A Dial Boat is a boat that uses Dials for propulsion, mainly through the use of Breath Dials. They can travel on the Milky Road quite efficiently. One notable example of a Dial Boat is Karasumaru.",
+    "affiliation": {
+      "name": "Skypiea",
+      "url": "/wiki/Skypiea"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/9/9f/Dial_Boat_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Dial_Boat"
+  },
+  {
+    "name": "Doreddonōto Sāberu-gō",
+    "en_name": "Dreadnaught Sabre",
+    "description": "The Dreadnaught Sabre was the flagship of the Krieg Pirates' armada.",
+    "affiliation": {
+      "name": "Krieg Pirates",
+      "url": "/wiki/Krieg_Pirates"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/5a/Dreadnaught_Sabre_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Dreadnaught_Sabre"
+  },
+  {
+    "name": "Esukāru-gō",
+    "en_name": "Escar",
+    "description": "The Escar is the ship used by Rice Rice to sell Den-Den Company products.",
+    "affiliation": {
+      "name": "Rice Rice",
+      "url": "/wiki/Rice_Rice"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/c9/Escar.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Escar"
+  },
+  {
+    "name": "Sendan",
+    "en_name": "Fleet",
+    "description": "A Fleet (船団, Sendan) or Armada (艦隊, Kantai) is a seafaring organization that is strong or large enough to facilitate a large number of ships to support the main transportation of said organization. Not many organizations have the funds or influence to support one, but if one is able to, they can exert a lot of influence across the Blue Sea.",
     "affiliation": {
       "name": "",
       "url": ""
     },
     "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/a7/Whitebeard%27s_Subordinates_Fleet.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Fleet"
+  },
+  {
+    "name": "Furaingu Datchiman-gō",
+    "en_name": "Flying Dutchman",
+    "description": "The Flying Dutchman is a legendary ship from maritime folklore, and is largely infamous as a ghost ship. It is the main vessel of the Flying Pirates and was once captained by the original Vander Decken and his descendants, up until Vander Decken IX.",
+    "affiliation": {
+      "name": "Vander Decken",
+      "url": "/wiki/Vander_Decken"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/c9/Flying_Dutchman_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Flying_Dutchman"
+  },
+  {
+    "name": "Soratobu Gasu Fūsen",
+    "en_name": "Flying Gas Balloon",
+    "description": "The Flying Gas Balloon is an airborne craft used by Caesar Clown.",
+    "affiliation": {
+      "name": "Caesar Clown",
+      "url": "/wiki/Caesar_Clown"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/b9/Flying_Gas_Balloon_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Flying_Gas_Balloon"
+  },
+  {
+    "name": "Fūru-gō",
+    "en_name": "Full",
+    "description": "The Full is a ship used by the Baroque Works organization.",
+    "affiliation": {
+      "name": "Baroque Works",
+      "url": "/wiki/Baroque_Works"
+    },
+    "status": "Unknown",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/b3/Full_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Full"
+  },
+  {
+    "name": "Gōin ni Merī-gō",
+    "en_name": "Goin' on the Merry",
+    "description": "The Goin' on the Merry is Chinpy's ship.",
+    "affiliation": {
+      "name": "Makiguso Pirates",
+      "url": "/wiki/Makiguso_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/31/Goin%27_on_the_Merry_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Goin%27_on_the_Merry"
+  },
+  {
+    "name": "Gōingu Rufi-senpai-gō",
+    "en_name": "Going Luffy-senpai",
+    "description": "The Going Luffy-senpai was the Barto Club's ship. It was destroyed by Yasopp of the Red Hair Pirates.",
+    "affiliation": {
+      "name": "Barto Club",
+      "url": "/wiki/Barto_Club"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/ba/Going_Luffy-senpai_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Going_Luffy-senpai"
+  },
+  {
+    "name": "Gōingu Rufi-senpai-gō",
+    "en_name": "Going Luffy-senpai",
+    "description": "The Going Luffy-senpai was the Barto Club's ship. It was destroyed by Yasopp of the Red Hair Pirates.",
+    "affiliation": {
+      "name": "Barto Club",
+      "url": "/wiki/Barto_Club"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/ba/Going_Luffy-senpai_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Going_Luffy-senpai"
+  },
+  {
+    "name": "Gōingu Merī-gō",
+    "en_name": "Going Merry",
+    "description": "The Going Merry was the first full-sized ship owned by the Straw Hat Pirates, a caravel that served as their main transportation through the East Blue, and the Grand Line up until Water 7. It was often affectionally referred to as simply Merry (メリー, Merī) by the crew.",
+    "affiliation": {
+      "name": "Straw Hat Pirates",
+      "url": "/wiki/Straw_Hat_Pirates"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/41/Going_Merry_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Going_Merry"
+  },
+  {
+    "name": "Gōingu Merī-gō",
+    "en_name": "Going Merry",
+    "description": "The Going Merry was the first full-sized ship owned by the Straw Hat Pirates, a caravel that served as their main transportation through the East Blue, and the Grand Line up until Water 7. It was often affectionally referred to as simply Merry (メリー, Merī) by the crew.",
+    "affiliation": {
+      "name": "Straw Hat Pirates",
+      "url": "/wiki/Straw_Hat_Pirates"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/41/Going_Merry_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Going_Merry"
+  },
+  {
+    "name": "Guran Tezōro",
+    "en_name": "Gran Tesoro",
+    "description": "Gran Tesoro is a massive ship with a metropolis built on it, described as the largest entertainment city in the world. It was formerly ruled by Gild Tesoro, but after he was deposed and most of the population evacuated, Carina took command over the ship.",
+    "affiliation": {
+      "name": "Carina",
+      "url": "/wiki/Carina"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/c4/Gran_Tesoro_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Gran_Tesoro"
+  },
+  {
+    "name": "Gurēto Eirīku-gō",
+    "en_name": "Great Eirik",
+    "description": "The Great Eirik is one of the giant longboats belonging to the Giant Warrior Pirates.",
+    "affiliation": {
+      "name": "Giant Warrior Pirates",
+      "url": "/wiki/Giant_Warrior_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/e/ed/Great_Eirik_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Great_Eirik"
+  },
+  {
+    "name": "Gurōseade-gō",
+    "en_name": "Groseade",
+    "description": "Groseade was the ship of the World Pirates.",
+    "affiliation": {
+      "name": "World Pirates",
+      "url": "/wiki/World_Pirates"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/34/Groseade_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Groseade"
+  },
+  {
+    "name": "Gurajji Dorufu-gō",
+    "en_name": "Grudge Dolph",
+    "description": "Grudge Dolph is a brown ship with a voodoo doll-like figurehead with a giant nail through it. It has five cannons on its front underneath the figurehead (the center of which seems blocked by the nail) and two masts. The front mast has a black sail brandishing the crew's jolly roger, two smaller jolly roger flags on each side, a crow's nest, and a giant candle on top. The back mast has another black sail and jolly roger flag. The ship's helm is on a raised platform, which is decorated with voodoo masks. The ship's cabin is designed to look like a shack with a straw roof, and the ship has five windows on each of its sides.",
+    "affiliation": {
+      "name": "Hawkins Pirates",
+      "url": "/wiki/Hawkins_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/10/Grudge_Dolph_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Grudge_Dolph"
+  },
+  {
+    "name": "H-1",
+    "en_name": "H-1",
+    "description": "The H-1 is an anime-only boat that Henzo designed.",
+    "affiliation": {
+      "name": "Henzo",
+      "url": "/wiki/Henzo"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d9/H-1_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/H-1"
+  },
+  {
+    "name": "Hanjōmaru",
+    "en_name": "Hanjomaru",
+    "description": "Hanjomaru is the Fallen Monk Pirates' ship.",
+    "affiliation": {
+      "name": "Fallen Monk Pirates",
+      "url": "/wiki/Fallen_Monk_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/0/0a/Hanjomaru_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Hanjomaru"
+  },
+  {
+    "name": "Happōsai",
+    "en_name": "Happosai",
+    "description": "The Happosai is the largest ship of the Happo Navy.",
+    "affiliation": {
+      "name": "Happo Navy",
+      "url": "/wiki/Happo_Navy"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/30/Happosai_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Happosai"
+  },
+  {
+    "name": "Hitsugibune",
+    "en_name": "Hitsugibune",
+    "description": "The Hitsugibune is a small craft used by the former Warlord, Dracule Mihawk.",
+    "affiliation": {
+      "name": "Dracule Mihawk",
+      "url": "/wiki/Dracule_Mihawk"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/0/0d/Hitsugibune_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Hitsugibune"
+  },
+  {
+    "name": "Hitsugibune",
+    "en_name": "Hitsugibune",
+    "description": "The Hitsugibune is a small craft used by the former Warlord, Dracule Mihawk.",
+    "affiliation": {
+      "name": "Dracule Mihawk",
+      "url": "/wiki/Dracule_Mihawk"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/0/0d/Hitsugibune_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Hitsugibune"
+  },
+  {
+    "name": "Ippōsai",
+    "en_name": "Ipposai",
+    "description": "The Ipposai ships are all smaller than the Happosai. They resemble Turtle Ships, with figureheads that resemble sea serpents.",
+    "affiliation": {
+      "name": "Happo Navy",
+      "url": "/wiki/Happo_Navy"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/4c/Ipposai_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Ipposai"
+  },
+  {
+    "name": "Shima-bune",
+    "en_name": "Island Ship",
+    "description": "The Island Ship is Shiki's flying pirate ship.",
+    "affiliation": {
+      "name": "Golden Lion Pirates",
+      "url": "/wiki/Golden_Lion_Pirates"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/48/Island_Ship_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Island_Ship"
+  },
+  {
+    "name": "Juerī Marugerīta-gō",
+    "en_name": "Jewelry Margherita",
+    "description": "Jewelry Margherita is the Bonney Pirates' ship.",
+    "affiliation": {
+      "name": "Bonney Pirates",
+      "url": "/wiki/Bonney_Pirates"
+    },
+    "status": "Unknown",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/c1/Jewelry_Margherita_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Jewelry_Margherita"
+  },
+  {
+    "name": "Shihō-sen",
+    "en_name": "Judicial Ship",
+    "description": "The Judicial Ship was a traveling court that can judge a person anywhere in the world. It carried Jorge to sentence Tom to death in Enies Lobby. It was later destroyed by Spandam using the Battle Frankies as part of his plot against Tom.",
+    "affiliation": {
+      "name": "World Government",
+      "url": "/wiki/World_Government"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/9/91/Judicial_Ship_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Judicial_Ship"
+  },
+  {
+    "name": "Shihō-sen",
+    "en_name": "Judicial Ship",
+    "description": "The Judicial Ship was a traveling court that can judge a person anywhere in the world. It carried Jorge to sentence Tom to death in Enies Lobby. It was later destroyed by Spandam using the Battle Frankies as part of his plot against Tom.",
+    "affiliation": {
+      "name": "World Government",
+      "url": "/wiki/World_Government"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/9/91/Judicial_Ship_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Judicial_Ship"
+  },
+  {
+    "name": "Karasumaru",
+    "en_name": "Karasumaru",
+    "description": "The Karasumaru is a Dial Boat owned by Conis, briefly used by the Straw Hat Pirates to explore Skypiea.",
+    "affiliation": {
+      "name": "Straw Hat Pirates",
+      "url": "/wiki/Straw_Hat_Pirates"
+    },
+    "status": "Unknown",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/3e/Karasumaru_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Karasumaru"
+  },
+  {
+    "name": "Kuri Maron Marin",
+    "en_name": "Kuri Marron Marine",
+    "description": "The Kuri Marron Marine was a ship formerly captained by Mont Blanc Cricket.",
+    "affiliation": {
+      "name": "Mont Blanc Cricket",
+      "url": "/wiki/Mont_Blanc_Cricket"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/39/Kuri_Marron_Marine_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Kuri_Marron_Marine"
+  },
+  {
+    "name": "Redi Merii-gō",
+    "en_name": "Lady Mary",
+    "description": "The Lady Mary is an anime-only ship that Alvida and her crew tried to rob. Nami was also on this boat. The plan to loot the ship was thwarted by Luffy.",
+    "affiliation": {
+      "name": "",
+      "url": ""
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/0/01/Lady_Mary_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Lady_Mary"
+  },
+  {
+    "name": "Riberaru Haindo-gō",
+    "en_name": "Liberal Hind",
+    "description": "Liberal Hind is a large red and brown ship that closely resembles a Marine Battleship, relating to X Drake's defection from the Marines. However, it is unknown if the ship belonged to him during his time with the Marines.",
+    "affiliation": {
+      "name": "Drake Pirates",
+      "url": "/wiki/Drake_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/dd/Liberal_Hind_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Liberal_Hind"
+  },
+  {
+    "name": "Ritoru Jeraisu-gō",
+    "en_name": "Little Gerais",
+    "description": "The Little Gerais is a ship used by the Little Pirates.",
+    "affiliation": {
+      "name": "Little Pirates",
+      "url": "/wiki/Little_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/e/ef/Little_Gerais_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Little_Gerais"
+  },
+  {
+    "name": "Meruhen-gō",
+    "en_name": "Märchen",
+    "description": "The Märchen is a ship used by Monkey D. Luffy in the first version of Romance Dawn.",
+    "affiliation": {
+      "name": "Monkey D. Luffy",
+      "url": "/wiki/Monkey_D._Luffy/Misc.#Early_One_Piece"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/6/69/M%C3%A4rchen_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/M%C3%A4rchen"
+  },
+  {
+    "name": "Mazzu",
+    "en_name": "MADS",
+    "description": "MADS, also known as the Laboratory for Peace (平和研究所, Heiwa Kenkyūjo), was a lawless scientific research institute led by Vegapunk. It was active for thirteen years between 39–26 years ago before being shut down by the World Government.",
+    "affiliation": {
+      "name": "",
+      "url": ""
+    },
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/f3/MADS_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/MADS_Research_Ship"
+  },
+  {
+    "name": "Ma Ikkāda-gō",
+    "en_name": "Ma Ikkada",
+    "description": "The Ma Ikkada was a raft used by Monkey D. Luffy and Sanji for the Donut Race in the anime.",
+    "affiliation": {
+      "name": "Straw Hat Pirates",
+      "url": "/wiki/Straw_Hat_Pirates"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/aa/Ma_Ikkada_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Ma_Ikkada"
+  },
+  {
+    "name": "Ma Ikkāda-gō",
+    "en_name": "Ma Ikkada",
+    "description": "The Ma Ikkada was a raft used by Monkey D. Luffy and Sanji for the Donut Race in the anime.",
+    "affiliation": {
+      "name": "Straw Hat Pirates",
+      "url": "/wiki/Straw_Hat_Pirates"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/aa/Ma_Ikkada_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Ma_Ikkada"
+  },
+  {
+    "name": "Machina Hareruya-gō",
+    "en_name": "Machina Hallelujah",
+    "description": "Machina Hallelujah was a ship used by Gaimon's crew when he was a pirate.",
+    "affiliation": {
+      "name": "Gaimon",
+      "url": "/wiki/Gaimon"
+    },
+    "status": "Unknown",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/1b/Machina_Hallelujah_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Machina_Hallelujah"
+  },
+  {
+    "name": "Manmosu-gō",
+    "en_name": "Mammoth",
+    "description": "The Mammoth was a ship captained by Jack of the Beasts Pirates. It was destroyed by Zunesha during Jack's second attack on Zou.",
+    "affiliation": {
+      "name": "Beasts Pirates",
+      "url": "/wiki/Beasts_Pirates"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/cc/Mammoth_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Mammoth"
+  },
+  {
+    "name": "Manmosu-gō",
+    "en_name": "Mammoth",
+    "description": "The Mammoth was a ship captained by Jack of the Beasts Pirates. It was destroyed by Zunesha during Jack's second attack on Zou.",
+    "affiliation": {
+      "name": "Beasts Pirates",
+      "url": "/wiki/Beasts_Pirates"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/cc/Mammoth_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Mammoth"
+  },
+  {
+    "name": "Kaigun-sen",
+    "en_name": "Marine Ships",
+    "description": "Marine Ships are ships that serve the Marines, acting as their transportation and means of fighting naval warfare.",
+    "affiliation": {
+      "name": "Marines",
+      "url": "/wiki/Marines"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/0/08/Marine_Ships_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Marine_Ships"
+  },
+  {
+    "name": "Marubenī-gō",
+    "en_name": "Marubenny",
+    "description": "The Marubenny is a non-canon ship created as part of the Adventure of the Marubenny collaboration project and advertising campaign. Based on the general trading company Marubeni, the ship travels around the One Piece world, interacting with various locations and characters using Marubeni's technology.",
+    "affiliation": {
+      "name": "Marubeni",
+      "url": "https://en.wikipedia.org/wiki/Marubeni"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/6/64/Marubenny_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Marubenny"
+  },
+  {
+    "name": "Makushimu",
+    "en_name": "Maxim",
+    "description": "The Ark Maxim is Enel's colossal flying ark. It was built by Gan Fall's men for Enel.",
+    "affiliation": {
+      "name": "Enel",
+      "url": "/wiki/Enel"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/ce/Maxim_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Maxim"
+  },
+  {
+    "name": "Migohai Gaimika-gō",
+    "en_name": "Migohai Gaimika",
+    "description": "The Migohai Gaimika was Donquixote Mjosgard's personal ship.",
+    "affiliation": {
+      "name": "Donquixote Mjosgard",
+      "url": "/wiki/Donquixote_Mjosgard"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/41/Migohai_Gaimika_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Migohai_Gaimika"
+  },
+  {
+    "name": "Migohai Gaimika-gō",
+    "en_name": "Migohai Gaimika",
+    "description": "The Migohai Gaimika was Donquixote Mjosgard's personal ship.",
+    "affiliation": {
+      "name": "Donquixote Mjosgard",
+      "url": "/wiki/Donquixote_Mjosgard"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/41/Migohai_Gaimika_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Migohai_Gaimika"
+  },
+  {
+    "name": "Mini Merī Ni-gō",
+    "en_name": "Mini Merry II",
+    "description": "The Mini Merry II is a small four-person shopping boat based on the Going Merry that was made by Franky. It is contained in Channel 2 of the Thousand Sunny's Soldier Dock System.",
+    "affiliation": {
+      "name": "Straw Hat Pirates",
+      "url": "/wiki/Straw_Hat_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/9/96/Mini_Merry_II_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Mini_Merry_II"
+  },
+  {
+    "name": "Misu Rabu Dakku-gō",
+    "en_name": "Miss Love Duck",
+    "description": "The Miss Love Duck is the ship Alvida had when she was first introduced in the story.",
+    "affiliation": {
+      "name": "Alvida Pirates",
+      "url": "/wiki/Alvida_Pirates"
+    },
+    "status": "Unknown",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/2/2e/Miss_Love_Duck_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Miss_Love_Duck"
+  },
+  {
+    "name": "Mobī Dikku-gō",
+    "en_name": "Moby Dick",
+    "description": "Moby Dick was the Whitebeard Pirates' main flagship. Its name was revealed in the third databook.",
+    "affiliation": {
+      "name": "Whitebeard Pirates",
+      "url": "/wiki/Whitebeard_Pirates"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/a1/Moby_Dick_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Moby_Dick"
+  },
+  {
+    "name": "Mobī Dikku-gō",
+    "en_name": "Moby Dick",
+    "description": "Moby Dick was the Whitebeard Pirates' main flagship. Its name was revealed in the third databook.",
+    "affiliation": {
+      "name": "Whitebeard Pirates",
+      "url": "/wiki/Whitebeard_Pirates"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/a1/Moby_Dick_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Moby_Dick"
+  },
+  {
+    "name": "Nagurufaru",
+    "en_name": "Naglfar",
+    "description": "The Naglfar is the ship of the New Giant Warrior Pirates.",
+    "affiliation": {
+      "name": "New Giant Warrior Pirates",
+      "url": "/wiki/New_Giant_Warrior_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/6/66/Naglfar_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Naglfar"
+  },
+  {
+    "name": "Nasugashira-gō",
+    "en_name": "Nasugasira",
+    "description": "Nasugasira is a teppanyaki ship which is part of an expansion to Baratie.",
+    "affiliation": {
+      "name": "Baratie",
+      "url": "/wiki/Baratie"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/af/Nasugasira_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Nasugasira"
+  },
+  {
+    "name": "Nyū Wicchi Bero-gō",
+    "en_name": "New Witch's Tongue",
+    "description": "The New Witch's Tongue is the ship used by the Bellamy Pirates.",
+    "affiliation": {
+      "name": "Bellamy Pirates",
+      "url": "/wiki/Bellamy_Pirates"
+    },
+    "status": "Unknown",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/fd/New_Witch%27s_Tongue_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/New_Witch%27s_Tongue"
+  },
+  {
+    "name": "Nita Maria-gō",
+    "en_name": "Nita Maria",
+    "description": "The Nita Maria is the smallest of Orlumbus' three ship classes. Its sails are arranged the same as the Santa Maria, with a black sail with the Jolly Roger in front, two sails in the middle, the top of which contains its name, and a sail in the back.",
+    "affiliation": {
+      "name": "Yonta Maria Grand Fleet",
+      "url": "/wiki/Yonta_Maria_Grand_Fleet"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/50/Nita_Maria_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Nita_Maria"
+  },
+  {
+    "name": "Noa",
+    "en_name": "Noah",
+    "description": "Noah, also known as the \"Ship of Promise\" (約束の舟, Yakusoku no Fune), is an enormous ship that was created during the Void Century by the denizens of Fish-Man Island. Queen Otohime and King Neptune believed the ship's purpose was for the mass migration of the island's citizens to the surface.",
+    "affiliation": {
+      "name": "Fish-Man Island",
+      "url": "/wiki/Fish-Man_Island"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/6/68/Noah_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Noah"
+  },
+  {
+    "name": "Nōsuhaimu-gō",
+    "en_name": "Northheim",
+    "description": "The Northheim was the ship Mont Blanc Noland used to explore the Grand Line.",
+    "affiliation": {
+      "name": "Mont Blanc Noland",
+      "url": "/wiki/Mont_Blanc_Noland"
+    },
+    "status": "Unknown",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/18/Northheim_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Northheim"
+  },
+  {
+    "name": "Nosutora Kasutero-gō",
+    "en_name": "Nostra Castello",
+    "description": "The Nostra Castello was the ship of the Fire Tank Pirates before it was destroyed by Big Mom and Prometheus in Totto Land.",
+    "affiliation": {
+      "name": "Fire Tank Pirates",
+      "url": "/wiki/Fire_Tank_Pirates"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/8/83/Nostra_Castello_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Nostra_Castello"
+  },
+  {
+    "name": "Nosutora Kasutero-gō",
+    "en_name": "Nostra Castello",
+    "description": "The Nostra Castello was the ship of the Fire Tank Pirates before it was destroyed by Big Mom and Prometheus in Totto Land.",
+    "affiliation": {
+      "name": "Fire Tank Pirates",
+      "url": "/wiki/Fire_Tank_Pirates"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/8/83/Nostra_Castello_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Nostra_Castello"
+  },
+  {
+    "name": "Numabū-gō",
+    "en_name": "Numabou",
+    "description": "Numabou was a ship belonging to the Caribou Pirates before it was destroyed by Surume.",
+    "affiliation": {
+      "name": "Caribou Pirates",
+      "url": "/wiki/Caribou_Pirates"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/49/Numabou_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Numabou"
+  },
+  {
+    "name": "Numanshia Furamingo-gō",
+    "en_name": "Numancia Flamingo",
+    "description": "The Numancia Flamingo is the main ship of the Donquixote Pirates.",
+    "affiliation": {
+      "name": "Donquixote Pirates",
+      "url": "/wiki/Donquixote_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/47/Numancia_Flamingo_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Numancia_Flamingo"
+  },
+  {
+    "name": "Numanshia Furamingo-gō",
+    "en_name": "Numancia Flamingo",
+    "description": "The Numancia Flamingo is the main ship of the Donquixote Pirates.",
+    "affiliation": {
+      "name": "Donquixote Pirates",
+      "url": "/wiki/Donquixote_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/47/Numancia_Flamingo_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Numancia_Flamingo"
+  },
+  {
+    "name": "Kyakusen Ōbitto Gō",
+    "en_name": "Orbit",
+    "description": "Orbit was a cruise ship from East Blue. Sanji was a trainee chef aboard it.",
+    "affiliation": {
+      "name": "",
+      "url": ""
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/6/6f/Orbit_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Orbit"
+  },
+  {
+    "name": "Kyakusen Ōbitto Gō",
+    "en_name": "Orbit",
+    "description": "Orbit was a cruise ship from East Blue. Sanji was a trainee chef aboard it.",
+    "affiliation": {
+      "name": "",
+      "url": ""
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/6/6f/Orbit_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Orbit"
+  },
+  {
+    "name": "Ōro Jakuson-gō",
+    "en_name": "Oro Jackson",
+    "description": "The Oro Jackson was the ship built by Tom for Gol D. Roger and the Roger Pirates. It is the only known ship that has sailed to the end of the Grand Line.",
+    "affiliation": {
+      "name": "Roger Pirates",
+      "url": "/wiki/Roger_Pirates"
+    },
+    "status": "Unknown",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/9/9b/Oro_Jackson_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Oro_Jackson"
+  },
+  {
+    "name": "Okkusu Beru",
+    "en_name": "Ox Bell",
+    "description": "The Ox Bell is a sacred bell that is kept in the plaza of Marineford. It was originally on the ancient warship Ox Lloyd's (オックス・ロイズ号, Okkusu Roizu-gō).",
+    "affiliation": {
+      "name": "",
+      "url": ""
+    },
+    "status": "",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/ba/Ox_Bell_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Ox_Lloyd%27s"
+  },
+  {
+    "name": "Pafyūmu Yuda-gō",
+    "en_name": "Perfume Yuda",
+    "description": "The Perfume Yuda is a giant red ship, resembling a Junk. The front have two Yuda harnessed, allowing them to move through the Calm Belt with ease. The ship has paddle wheels at the rear, a cabin with the architecture resembling those from ancient China, the front sail with the crew's Jolly Roger and the back sail with the kanji for \"Kuja\".",
+    "affiliation": {
+      "name": "Kuja Pirates",
+      "url": "/wiki/Kuja_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/59/Perfume_Yuda_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Perfume_Yuda"
+  },
+  {
+    "name": "Pafyūmu Yuda-gō",
+    "en_name": "Perfume Yuda",
+    "description": "The Perfume Yuda is a giant red ship, resembling a Junk. The front have two Yuda harnessed, allowing them to move through the Calm Belt with ease. The ship has paddle wheels at the rear, a cabin with the architecture resembling those from ancient China, the front sail with the crew's Jolly Roger and the back sail with the kanji for \"Kuja\".",
+    "affiliation": {
+      "name": "Kuja Pirates",
+      "url": "/wiki/Kuja_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/59/Perfume_Yuda_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Perfume_Yuda"
+  },
+  {
+    "name": "Pīsu Obu Supadiru-gō",
+    "en_name": "Piece of Spadille",
+    "description": "The Piece of Spadille was the ship used by the Spade Pirates before they were integrated into the Whitebeard Pirates.",
+    "affiliation": {
+      "name": "Spade Pirates",
+      "url": "/wiki/Spade_Pirates"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/3d/Piece_of_Spadille_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Piece_of_Spadille"
+  },
+  {
+    "name": "Pīsu Obu Supadiru-gō",
+    "en_name": "Piece of Spadille",
+    "description": "The Piece of Spadille was the ship used by the Spade Pirates before they were integrated into the Whitebeard Pirates.",
+    "affiliation": {
+      "name": "Spade Pirates",
+      "url": "/wiki/Spade_Pirates"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/3d/Piece_of_Spadille_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Piece_of_Spadille"
+  },
+  {
+    "name": "Pain Pīku-gō",
+    "en_name": "Pine Peak",
+    "description": "The Pine Peak is an anime-only Marine ship stationed at the G-8 Base. It attempted to capture the Going Merry, but failed.",
+    "affiliation": {
+      "name": "Marines",
+      "url": "/wiki/Marines"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/2/2b/Pine_Peak_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Pine_Peak"
+  },
+  {
+    "name": "Pain Pīku-gō",
+    "en_name": "Pine Peak",
+    "description": "The Pine Peak is an anime-only Marine ship stationed at the G-8 Base. It attempted to capture the Going Merry, but failed.",
+    "affiliation": {
+      "name": "Marines",
+      "url": "/wiki/Marines"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/2/2b/Pine_Peak_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Pine_Peak"
+  },
+  {
+    "name": "Puruton",
+    "en_name": "Pluton",
+    "description": "Pluton is one of the three Ancient Weapons, alongside Poseidon and Uranus. Pluton is a highly advanced warship capable of mass destruction, labeled the World's Worst Battleship (世界最悪の戦艦, Sekai Saiaku no Senkan). It was constructed long ago in the city of Water 7 in the Grand Line. The battleship is said to be capable of destroying whole islands in a single shot and is located deep beneath Mt. Fuji in Wano Country. ",
+    "affiliation": {
+      "name": "",
+      "url": ""
+    },
+    "status": "Unknown",
     "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d5/NoPicAvailable.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/Bluejam_Pirates"
+    "url": "/wiki/Pluton"
   },
   {
-    "name": "Bonī Kaizokudan",
-    "en_name": "Bonney Pirates",
-    "description": "The Bonney Pirates are an infamous and notable rookie pirate crew from South Blue that made their debut on the Sabaody Archipelago the same time the Straw Hat Pirates arrived there two years ago. As such, they are part of the Worst Generation. Following being defeated by the Blackbeard Pirates and captured by Akainu in the New World, Bonney was taken to Marine Headquarters, during which she was able to escape unlike her crew.",
+    "name": "Pōrā Tangu-gō",
+    "en_name": "Polar Tang",
+    "description": "The Polar Tang was the submarine serving as the ship of the Heart Pirates. It was broken in half and sunk during the battle between the Heart Pirates and the Blackbeard Pirates at Winner Island.",
     "affiliation": {
-      "name": "",
-      "url": ""
+      "name": "Heart Pirates",
+      "url": "/wiki/Heart_Pirates"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/5e/Bonney_Pirates%27_Jolly_Roger.png/revision/latest",
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/f3/Polar_Tang_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/Bonney_Pirates"
+    "url": "/wiki/Polar_Tang"
   },
   {
-    "name": "Bagīzu Deribarī",
-    "en_name": "Buggy's Delivery",
-    "description": "Buggy's Delivery, also known as the Pirate Dispatch Organization (海賊派遣組織, Kaizoku Haken Soshiki, VIZ: \"Pirate Temp Agency\"), is a pirate mercenary group founded by Buggy the Star Clown. The organization has since been integrated into the Cross Guild.",
+    "name": "Pōrā Tangu-gō",
+    "en_name": "Polar Tang",
+    "description": "The Polar Tang was the submarine serving as the ship of the Heart Pirates. It was broken in half and sunk during the battle between the Heart Pirates and the Blackbeard Pirates at Winner Island.",
     "affiliation": {
-      "name": "Seven Warlords of the Sea",
-      "url": "/wiki/Seven_Warlords_of_the_Sea"
+      "name": "Heart Pirates",
+      "url": "/wiki/Heart_Pirates"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/59/Buggy%27s_Delivery_Infobox.png/revision/latest",
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/f3/Polar_Tang_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/Buggy%27s_Delivery"
+    "url": "/wiki/Polar_Tang"
   },
   {
-    "name": "Bagī Kaizokudan",
-    "en_name": "Buggy Pirates",
-    "description": "The Buggy Pirates are a band of pirates led by Buggy, a former Roger Pirates apprentice.",
+    "name": "Pōrā Tangu-gō",
+    "en_name": "Polar Tang",
+    "description": "The Polar Tang was the submarine serving as the ship of the Heart Pirates. It was broken in half and sunk during the battle between the Heart Pirates and the Blackbeard Pirates at Winner Island.",
     "affiliation": {
-      "name": "",
-      "url": ""
+      "name": "Heart Pirates",
+      "url": "/wiki/Heart_Pirates"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/11/Buggy_Pirates%27_Jolly_Roger.png/revision/latest",
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/f3/Polar_Tang_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/Buggy_Pirates"
+    "url": "/wiki/Polar_Tang"
   },
   {
-    "name": "Karibū Kaizokudan",
-    "en_name": "Caribou Pirates",
-    "description": "The Caribou Pirates are a crew who arrived at Sabaody Archipelago around the same time as the Straw Hats were reuniting. Their captains are the brothers Caribou and Coribou, which temporarily changed to Demaro Black when they joined the Fake Straw Hat Crew, under the belief they were real until the truth was disclosed.",
+    "name": "Pōrā Tangu-gō",
+    "en_name": "Polar Tang",
+    "description": "The Polar Tang was the submarine serving as the ship of the Heart Pirates. It was broken in half and sunk during the battle between the Heart Pirates and the Blackbeard Pirates at Winner Island.",
     "affiliation": {
-      "name": "",
-      "url": ""
+      "name": "Heart Pirates",
+      "url": "/wiki/Heart_Pirates"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/a8/Caribou_Pirates%27_Jolly_Roger.png/revision/latest",
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/f3/Polar_Tang_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/Caribou_Pirates"
+    "url": "/wiki/Polar_Tang"
   },
   {
-    "name": "Kukku Kaizokudan",
-    "en_name": "Cook Pirates",
-    "description": "The Cook Pirates was Red-Leg Zeff's old pirate crew.",
+    "name": "Kuīn Mama Shante-gō",
+    "en_name": "Queen Mama Chanter",
+    "description": "Queen Mama Chanter is a ship homie belonging to the Big Mom Pirates, and the apparent flagship of their fleet.",
     "affiliation": {
-      "name": "",
-      "url": ""
+      "name": "Big Mom Pirates",
+      "url": "/wiki/Big_Mom_Pirates"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/72/Cook_Pirates%27_Jolly_Roger.png/revision/latest",
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/4a/Queen_Mama_Chanter_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/Cook_Pirates"
+    "url": "/wiki/Queen_Mama_Chanter"
   },
   {
-    "name": "Donkihōte Kaizoku-dan",
-    "en_name": "Donquixote Pirates",
-    "description": "The Donquixote Pirates, also known as the Donquixote Family (ドンキホーテファミリー, Donkihōte Famirī), was a powerful pirate crew led by the former Warlord, Donquixote Doflamingo. They used to rule the kingdom of Dressrosa as the governing body, with their captain as the king. Due to their actions and role, they are the main antagonists of the Dressrosa Arc and the Dressrosa Saga as a whole.",
+    "name": "Randorufu Ichiza",
+    "en_name": "Randolph Theater",
+    "description": "Randolph Theater is a theater troupe that debuted in Episode Special 3. The troupe was owned by Randolph before his retirement.",
     "affiliation": {
-      "name": "",
-      "url": ""
+      "name": "Randolph",
+      "url": "/wiki/Randolph_(Non-Canon)"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/f5/Donquixote_Pirates%27_Jolly_Roger.png/revision/latest",
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/c7/Randolph%27s_Theater_Anime_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/Donquixote_Pirates"
+    "url": "/wiki/Randolph_Theater"
   },
   {
-    "name": "Dorēku Kaizokudan",
-    "en_name": "Drake Pirates",
-    "description": "The Drake Pirates are an infamous and notable pirate crew originating from the North Blue, and are led by X Drake, who is later revealed to still be part of the Marines as a member of SWORD. They were introduced on Sabaody Archipelago around the time the Straw Hat Pirates arrived there two years ago and are part of the Worst Generation.",
+    "name": "Reddo Fōsu-gō",
+    "en_name": "Red Force",
+    "description": "The Red Force is the current ship used by the Red Hair Pirates, replacing their old ship.",
     "affiliation": {
-      "name": "",
-      "url": ""
+      "name": "Red Hair Pirates",
+      "url": "/wiki/Red_Hair_Pirates"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/4a/Drake_Pirates%27_Jolly_Roger.png/revision/latest",
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/2/27/Red_Force_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/Drake_Pirates"
+    "url": "/wiki/Red_Force"
   },
   {
-    "name": "Doreiku kaizoku-dan",
-    "en_name": "Drayke Pirates",
-    "description": "The Drayke Pirates are a crew commanded by Drayke and are the main antagonists of Legend of the Rainbow Island.",
+    "name": "Rokkī Pōto-gō",
+    "en_name": "Rocky Port",
+    "description": "The Rocky Port is a large passenger ship formerly of a certain country that was involved in the Rocky Port Incident.",
     "affiliation": {
-      "name": "",
-      "url": ""
+      "name": "Blackbeard Pirates",
+      "url": "/wiki/Blackbeard_Pirates"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/fe/Drayke_Pirates.png/revision/latest",
-    "non_cannon": false,
-    "url": "/wiki/Drayke_Pirates"
-  },
-  {
-    "name": "Erudorago Kaizoku-danErudorago Ichimi",
-    "en_name": "Eldoraggo Pirates",
-    "description": "The Eldoraggo Pirates are a pirate crew under the command of Eldoraggo. They act as the main antagonist group in One Piece: The Movie.",
-    "affiliation": {
-      "name": "",
-      "url": ""
-    },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/fe/Eldoraggo%27s_Jolly_Roger.png/revision/latest",
-    "non_cannon": false,
-    "url": "/wiki/Eldoraggo_Pirates"
-  },
-  {
-    "name": "Hakaisō Kaizokudan",
-    "en_name": "Fallen Monk Pirates",
-    "description": "The Fallen Monk Pirates are an infamous and notable rookie pirate crew who were first seen on Sabaody Archipelago around the time the Straw Hat Pirates arrived there two years ago. As such, they are part of the Worst Generation, with their captain being Urouge.",
-    "affiliation": {
-      "name": "",
-      "url": ""
-    },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/5e/Fallen_Monk_Pirates%27_Jolly_Roger.png/revision/latest",
-    "non_cannon": false,
-    "url": "/wiki/Fallen_Monk_Pirates"
-  },
-  {
-    "name": "Faia Tanku Kaizokudan",
-    "en_name": "Fire Tank Pirates",
-    "description": "The Fire Tank Pirates are an infamous and notable rookie pirate crew who are led by Capone Bege, originated in the West Blue, and arrived on the Sabaody Archipelago around the time the Straw Hat Pirates arrived there two years ago, along with other rookie crews. As such, they are part of the Worst Generation.",
-    "affiliation": {
-      "name": "",
-      "url": ""
-    },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/54/Fire_Tank_Pirates%27_Jolly_Roger.png/revision/latest",
-    "non_cannon": false,
-    "url": "/wiki/Fire_Tank_Pirates"
-  },
-  {
-    "name": "Fokushī Kaizokudan",
-    "en_name": "Foxy Pirates",
-    "description": "The Foxy Pirates are a group of pirates led by Foxy the Silver Fox. A majority of the crew was composed mostly of crewmen won through the Davy Back Fight. The crew was composed of 500 members, according to the anime.",
-    "affiliation": {
-      "name": "",
-      "url": ""
-    },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/49/Foxy_Pirates%27_Current_Jolly_Roger.png/revision/latest",
-    "non_cannon": false,
-    "url": "/wiki/Foxy_Pirates"
-  },
-  {
-    "name": "Gyarī Kaizokudan",
-    "en_name": "Gally Pirates",
-    "description": "The Gally Pirates are a pirate crew that appeared in Romance Dawn, Version 1. Their captain is Crescent-Moon Gally.",
-    "affiliation": {
-      "name": "",
-      "url": ""
-    },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/46/Gally_Pirates%27_Jolly_Roger.png/revision/latest",
-    "non_cannon": false,
-    "url": "/wiki/Gally_Pirates"
-  },
-  {
-    "name": "Gyanzakku Kaizokudan",
-    "en_name": "Ganzack Pirates",
-    "description": "The Ganzack Pirates were a group of pirates led by Ganzack. They appeared in the first OVA.",
-    "affiliation": {
-      "name": "",
-      "url": ""
-    },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/33/Ganzack_Pirates%27_Jolly_Roger.png/revision/latest",
-    "non_cannon": false,
-    "url": "/wiki/Ganzack_Pirates"
-  },
-  {
-    "name": "Gasupāde Kaizokudan",
-    "en_name": "Gasparde Pirates",
-    "description": "The Gasparde Pirates were a pirate crew that appeared in the fourth movie. They were headed by former Marine officer, \"General\" Gasparde, and his right-hand man, Needless.",
-    "affiliation": {
-      "name": "",
-      "url": ""
-    },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/4a/Gasparde_Pirates%27_Jolly_Roger.png/revision/latest",
-    "non_cannon": false,
-    "url": "/wiki/Gasparde_Pirates"
-  },
-  {
-    "name": "Gējitsu kaizoku-dan",
-    "en_name": "Gejitsu Pirates",
-    "description": "The Gejitsu Pirates are a crew commanded by Yuta.",
-    "affiliation": {
-      "name": "",
-      "url": ""
-    },
-    "status": "",
+    "status": "Active",
     "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d5/NoPicAvailable.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/Gejitsu_Pirates"
+    "url": "/wiki/Rocky_Port"
   },
   {
-    "name": "Kyo Hei Kaizoku-dan",
-    "en_name": "Giant Warrior Pirates",
-    "description": "The Giant Warrior Pirates is a pirate crew made up of giants from Elbaph lead by Dorry and Brogy. Before them, the crew's captains were Jarul and Jorul. They disbanded 102 years ago when Dorry and Brogy began their duel, but reunited once they returned to Elbaph. They are major allies of the Straw Hat Pirates during the Egghead Arc.",
+    "name": "Rokuron Dokuron-gō",
+    "en_name": "Rokuron Dokuron",
+    "description": "The Rokuron Dokuron appeared to be a red ship of average size, with green wave patterns on the sides and the top of the cabin. The front of the ship featured two skulls, one on each side, with a sun pattern around the right eyes, and the back has a half-sun symbol. Behind the main cabin was a multistory house with another building linked to it, and from the taller building's rooftop were ropes attached to the front and back sails.",
+    "affiliation": {
+      "name": "",
+      "url": ""
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/b2/Rokuron_Dokuron_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Rokuron_Dokuron"
+  },
+  {
+    "name": "Ryūgū-gō",
+    "en_name": "Ryugu",
+    "description": "The Ryugu is a ship from Ryugu Kingdom.",
+    "affiliation": {
+      "name": "Ryugu Kingdom",
+      "url": "/wiki/Ryugu_Kingdom"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/2/22/Ryugu.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Ryugu"
+  },
+  {
+    "name": "Sabagashira Ichi-gō",
+    "en_name": "Sabagashira I",
+    "description": "The Sabagashira I is a small, fish-shaped paddleboat contained in the Baratie, used for naval combat. It is usually piloted by Patty and Carne.",
+    "affiliation": {
+      "name": "Baratie",
+      "url": "/wiki/Baratie"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/0/05/Sabagashira_I_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Sabagashira_I"
+  },
+  {
+    "name": "Sāberu Obu Jībekku-gō",
+    "en_name": "Saber of Xebec",
+    "description": "The Blackbeard Pirates have at least ten ships, at least three of which (if not all) share an appearance, so the lead ship has yet to be properly identified. The ships are identified as warships, and are capable of crossing the Calm Belt.",
+    "affiliation": {
+      "name": "Blackbeard Pirates",
+      "url": "/wiki/Blackbeard_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/16/Saber_of_Xebec_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Saber_of_Xebec"
+  },
+  {
+    "name": "Sāberu Obu Jībekku-gō",
+    "en_name": "Saber of Xebec",
+    "description": "The Blackbeard Pirates have at least ten ships, at least three of which (if not all) share an appearance, so the lead ship has yet to be properly identified. The ships are identified as warships, and are capable of crossing the Calm Belt.",
+    "affiliation": {
+      "name": "Blackbeard Pirates",
+      "url": "/wiki/Blackbeard_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/16/Saber_of_Xebec_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Saber_of_Xebec"
+  },
+  {
+    "name": "Jeruma Ōkoku",
+    "en_name": "Germa Kingdom",
+    "description": "The Germa Kingdom, also known as the Kingdom of Science (科学の国, Kagaku no Kuni), is the world's only seafaring kingdom, and a former member nation of the World Government. About 300 years ago, it was the center of the Germa Empire (ジェルマ帝国, Jeruma Teikoku),, which was formed by the Vinsmoke Family's conquest of the North Blue. Today, the kingdom remains under Vinsmoke rule, and is serviced militarily as the Underworld army known as Germa 66.",
     "affiliation": {
       "name": "",
       "url": ""
     },
     "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/a9/Giant_Warrior_Pirates%27_Jolly_Roger.png/revision/latest",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/0/01/Germa_Kingdom_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/Giant_Warrior_Pirates"
+    "url": "/wiki/Saint_Germain"
   },
   {
-    "name": "Jairo Kaizokudan",
-    "en_name": "Gyro Pirates",
-    "description": "The Gyro Pirates is a pirate crew from South Blue, under captain Gyro.",
+    "name": "Saramandā-go",
+    "en_name": "Salamander",
+    "description": "The Salamander was the ship used by Gasparde Pirates. It was stolen from Elena when they ransacked the town.",
+    "affiliation": {
+      "name": "Gasparde Pirates",
+      "url": "/wiki/Gasparde_Pirates"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/8/8f/Salamander_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Salamander"
+  },
+  {
+    "name": "Suna Zori",
+    "en_name": "Sand Sled",
+    "description": "A Sand Sled is an anime-only ship that can travel on sand. The Barbar Pirates use those kind of ships and Rasa is the best Sand Sled navigator in the group.",
+    "affiliation": {
+      "name": "",
+      "url": ""
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d9/Sand_Sled_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Sand_Sled"
+  },
+  {
+    "name": "Santa Maria-gō",
+    "en_name": "Santa Maria",
+    "description": "The Santa Maria are 5 ships owned by the Yonta Maria Grand Fleet, and the middle class of their ships between the Nita Maria and the Yonta Maria.",
+    "affiliation": {
+      "name": "Yonta Maria Grand Fleet",
+      "url": "/wiki/Yonta_Maria_Grand_Fleet"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/14/Santa_Maria_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Santa_Maria"
+  },
+  {
+    "name": "Sekushī Fokushī-gō",
+    "en_name": "Sexy Foxy",
+    "description": "The Sexy Foxy is the ship used by Foxy the Silver Fox and his Foxy Pirates. It is an enormous ship with a giant fox head at the bow. The final event of the Davy Back Fight, the combat, took place here.",
+    "affiliation": {
+      "name": "Foxy Pirates",
+      "url": "/wiki/Foxy_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/8/81/Sexy_Foxy_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Sexy_Foxy"
+  },
+  {
+    "name": "Shāku Emeraruda-gō",
+    "en_name": "Shark Emeralda",
+    "description": "The Shark Emeralda is the ship of the Treasure Pirates. It appeared in the Heart of Gold special.",
+    "affiliation": {
+      "name": "Treasure Pirates",
+      "url": "/wiki/Treasure_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/7c/Shark_Emeralda_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Shark_Emeralda"
+  },
+  {
+    "name": "Shāku Sabumāji San-gō",
+    "en_name": "Shark Submerge III",
+    "description": "The Shark Submerge III is a deep-sea exploring submarine shaped like a shark that can carry three people. It is a part of the Thousand Sunny's Soldier Dock System and can be deployed by the number 3 channel.",
+    "affiliation": {
+      "name": "Straw Hat Pirates",
+      "url": "/wiki/Straw_Hat_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/b9/Shark_Submerge_III_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Shark_Submerge_III"
+  },
+  {
+    "name": "Shāku Sabumāji San-gō",
+    "en_name": "Shark Submerge III",
+    "description": "The Shark Submerge III is a deep-sea exploring submarine shaped like a shark that can carry three people. It is a part of the Thousand Sunny's Soldier Dock System and can be deployed by the number 3 channel.",
+    "affiliation": {
+      "name": "Straw Hat Pirates",
+      "url": "/wiki/Straw_Hat_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/b9/Shark_Submerge_III_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Shark_Submerge_III"
+  },
+  {
+    "name": "Shāku Supābu-gō",
+    "en_name": "Shark Superb",
+    "description": "The Shark Superb was the ship used by the Arlong Pirates.",
+    "affiliation": {
+      "name": "Arlong Pirates",
+      "url": "/wiki/Arlong_Pirates"
+    },
+    "status": "Unknown",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/fa/Shark_Superb_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Shark_Superb"
+  },
+  {
+    "name": "Shimashima Shoppingu-gō",
+    "en_name": "Shimashima Shopping",
+    "description": "The Shimashima Shopping was a small ship personally owned by Sanji, normally stored at the Baratie. It was briefly used by Sanji, Luffy, and Yosaku to travel to the Conomi Islands—a journey it ultimately did not survive.",
+    "affiliation": {
+      "name": "Baratie",
+      "url": "/wiki/Baratie"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/c2/Shimashima_Shopping_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Shimashima_Shopping"
+  },
+  {
+    "name": "Shimashima Shoppingu-gō",
+    "en_name": "Shimashima Shopping",
+    "description": "The Shimashima Shopping was a small ship personally owned by Sanji, normally stored at the Baratie. It was briefly used by Sanji, Luffy, and Yosaku to travel to the Conomi Islands—a journey it ultimately did not survive.",
+    "affiliation": {
+      "name": "Baratie",
+      "url": "/wiki/Baratie"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/c2/Shimashima_Shopping_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Shimashima_Shopping"
+  },
+  {
+    "name": "Shiro Mokuba Ichi-gō",
+    "en_name": "Shiro Mokuba I",
+    "description": "The Shiro Mokuba I is a Waver owned by Nami, originally salvaged from a shipwreck in the proximity of Jaya. After receiving many modifications (including its name) from Franky, it currently stands in Channel 1 of the Thousand Sunny's Soldier Dock system.",
+    "affiliation": {
+      "name": "Straw Hat Pirates",
+      "url": "/wiki/Straw_Hat_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/2/21/Shiro_Mokuba_I_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Shiro_Mokuba_I"
+  },
+  {
+    "name": "Shisutā Ankō",
+    "en_name": "Sister Anko",
+    "description": "The Sister Anko is a dessert ship which is part of an expansion to Baratie. It is managed by Patty.",
+    "affiliation": {
+      "name": "Baratie",
+      "url": "/wiki/Baratie"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/be/Sister_Anko_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Sister_Anko"
+  },
+  {
+    "name": "Nemureru Mori no Hakuba-gō",
+    "en_name": "Sleeping White Horse of the Forest",
+    "description": "The Sleeping White Horse of the Forest is a ship captained by Cavendish of the Beautiful Pirates.",
+    "affiliation": {
+      "name": "Beautiful Pirates",
+      "url": "/wiki/Beautiful_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/c7/Sleeping_White_Horse_of_the_Forest_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Sleeping_White_Horse_of_the_Forest"
+  },
+  {
+    "name": "Sunappā Heddo-gō",
+    "en_name": "Snapper Head",
+    "description": "The ship has a figurehead of a fish, with flames around the neck part, while the rudder resembles a fish tail. The cabin on the middle and the back of the ship also resembles fishes. There are cannon ports on the sides of the vessel. Its overall appearance is a giant fish. The ship has five sails. The front two are dark blue, and they bear the Jolly Roger of the Sun Pirates. The middle one is dark blue, but is blank. The second one from the back is light blue. The last sail on the back is striped between blue green and green. The flag of the crew is on top of the foremost sail. After it was rebuilt, the ship had different colors on the front sail.",
+    "affiliation": {
+      "name": "Sun Pirates",
+      "url": "/wiki/Sun_Pirates"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/59/Snapper_Head_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Snapper_Head"
+  },
+  {
+    "name": "Sunappā Heddo-gō",
+    "en_name": "Snapper Head",
+    "description": "The ship has a figurehead of a fish, with flames around the neck part, while the rudder resembles a fish tail. The cabin on the middle and the back of the ship also resembles fishes. There are cannon ports on the sides of the vessel. Its overall appearance is a giant fish. The ship has five sails. The front two are dark blue, and they bear the Jolly Roger of the Sun Pirates. The middle one is dark blue, but is blank. The second one from the back is light blue. The last sail on the back is striped between blue green and green. The flag of the crew is on top of the foremost sail. After it was rebuilt, the ship had different colors on the front sail.",
+    "affiliation": {
+      "name": "Sun Pirates",
+      "url": "/wiki/Sun_Pirates"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/59/Snapper_Head_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Snapper_Head"
+  },
+  {
+    "name": "Sunappā Heddo-gō",
+    "en_name": "Snapper Head",
+    "description": "The ship has a figurehead of a fish, with flames around the neck part, while the rudder resembles a fish tail. The cabin on the middle and the back of the ship also resembles fishes. There are cannon ports on the sides of the vessel. Its overall appearance is a giant fish. The ship has five sails. The front two are dark blue, and they bear the Jolly Roger of the Sun Pirates. The middle one is dark blue, but is blank. The second one from the back is light blue. The last sail on the back is striped between blue green and green. The flag of the crew is on top of the foremost sail. After it was rebuilt, the ship had different colors on the front sail.",
+    "affiliation": {
+      "name": "Sun Pirates",
+      "url": "/wiki/Sun_Pirates"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/59/Snapper_Head_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Snapper_Head"
+  },
+  {
+    "name": "Supa Airando-gō",
+    "en_name": "Spa Island",
+    "description": "Spa Island was a non-canon resort ship where the Straw Hats went to take a break once they left the Florian Triangle. Doran was the owner of the ship. This was the setting of the Spa Island Arc.",
+    "affiliation": {
+      "name": "Doran",
+      "url": "/wiki/Doran_(Non-Canon)"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/7a/Spa_Island_Arc.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Spa_Island"
+  },
+  {
+    "name": "Sento Burisu-gō",
+    "en_name": "St. Briss",
+    "description": "The St. Briss was an exploration ship that came from the Briss Kingdom.",
+    "affiliation": {
+      "name": "Briss Kingdom",
+      "url": "/wiki/Briss_Kingdom"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/8/89/St._Briss_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/St._Briss"
+  },
+  {
+    "name": "Sutan Marē-gō",
+    "en_name": "Stan Maley",
+    "description": "",
+    "affiliation": {
+      "name": "Marines",
+      "url": "/wiki/Marines"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/ae/Stan_Maley_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Stan_Maley"
+  },
+  {
+    "name": "Sutan Marē-gō",
+    "en_name": "Stan Maley",
+    "description": "",
+    "affiliation": {
+      "name": "Marines",
+      "url": "/wiki/Marines"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/ae/Stan_Maley_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Stan_Maley"
+  },
+  {
+    "name": "Sutei Chūn-gō",
+    "en_name": "Stay Tune",
+    "description": "Stay Tune is the On Air Pirates' ship.",
+    "affiliation": {
+      "name": "On Air Pirates",
+      "url": "/wiki/On_Air_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/4b/Stay_Tune_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Stay_Tune"
+  },
+  {
+    "name": "Sutoraikā",
+    "en_name": "Striker",
+    "description": "The Striker is a raft that was used by Portgas D. Ace.",
+    "affiliation": {
+      "name": "Portgas D. Ace",
+      "url": "/wiki/Portgas_D._Ace"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/41/Striker_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Striker"
+  },
+  {
+    "name": "Suvaru",
+    "en_name": "Svarr",
+    "description": "A Svarr, literally meaning mist-ship, is a boat that uses the buoyancy of Island Clouds to sail through the air. They are used to move around Elbaph's Sun World.",
+    "affiliation": {
+      "name": "Elbaph",
+      "url": "/wiki/Elbaph"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/32/Svarr_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Svarr"
+  },
+  {
+    "name": "Kaisoku Suwanda-gō",
+    "en_name": "Swanda Express",
+    "description": "The Swanda Express was a vessel crewed by Mr. 2 and his men during the Arabasta Saga.",
+    "affiliation": {
+      "name": "Baroque Works",
+      "url": "/wiki/Baroque_Works"
+    },
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/19/Swanda_Express_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Swanda_Express"
+  },
+  {
+    "name": "Takoyaki Eito",
+    "en_name": "Takoyaki 8",
+    "description": "Takoyaki 8 is a ship stand run by Hatchan near his home at Fish-Man Island. Built by a community of catfish, it is the home base for Hatchan's takoyaki selling business.",
+    "affiliation": {
+      "name": "Hatchan",
+      "url": "/wiki/Hatchan"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/1f/Takoyaki_8_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Takoyaki_8"
+  },
+  {
+    "name": "Tarierishin Gou",
+    "en_name": "Tarielishin",
+    "description": "Tarielishin was the anime-only pirate ship of the Wetton Pirates before the Pumpkin Pirates stole it.",
+    "affiliation": {
+      "name": "Wetton Pirates",
+      "url": "/wiki/Wetton_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/9/98/Tarielishin_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Tarielishin"
+  },
+  {
+    "name": "Tarierishin Gou",
+    "en_name": "Tarielishin",
+    "description": "Tarielishin was the anime-only pirate ship of the Wetton Pirates before the Pumpkin Pirates stole it.",
+    "affiliation": {
+      "name": "Wetton Pirates",
+      "url": "/wiki/Wetton_Pirates"
+    },
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/9/98/Tarielishin_Infobox.png/revision/latest",
+    "non_cannon": false,
+    "url": "/wiki/Tarielishin"
+  },
+  {
+    "name": "Taruto",
+    "en_name": "Tartes",
+    "description": "The Tartes are small battleships that compose the majority of Big Mom's fleet. A number of tartes are stationed near each island in Totto Land, each 34 fleets corresponding to one of the 34 islands. Several guard the entrance to Lake Aprico on Whole Cake Island. They are sent out to investigate unauthorized or unknown ships that enter the Big Mom Pirates territory, and they have the power to shoot down any ship they believe to be dangerous or unwelcome. They are usually run by Pawn Soldiers, though in emergencies the ministers take command.",
     "affiliation": {
       "name": "",
       "url": ""
     },
     "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/b4/Gyro_Pirates%27_Jolly_Roger.png/revision/latest",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/a6/Tartes_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/Gyro_Pirates"
+    "url": "/wiki/Tartes"
   },
   {
-    "name": "Happō Suigun",
-    "en_name": "Happo Navy",
-    "description": "The Happo Navy is a pirate crew led by the Chinjao Family of the Kano Country. Under Sai, the Happo Navy is the third ship of the Straw Hat Grand Fleet.",
+    "name": "Tarutaigā-gō",
+    "en_name": "Taru Tiger",
+    "description": "The Taru Tiger is a small boat Nami, Usopp, and Robin used for the Donut Race portion of the Davy Back Fight.",
     "affiliation": {
-      "name": "",
-      "url": ""
+      "name": "Straw Hat Pirates",
+      "url": "/wiki/Straw_Hat_Pirates"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/de/Happo_Navy_Infobox.png/revision/latest",
+    "status": "Unknown",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/6/61/Taru_Tiger_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/Happo_Navy"
+    "url": "/wiki/Taru_Tiger"
   },
   {
-    "name": "Hōkinsu Kaizokudan",
-    "en_name": "Hawkins Pirates",
-    "description": "The Hawkins Pirates are an infamous and notable rookie pirate crew introduced in Sabaody Archipelago around the time the Straw Hat Pirates arrived there two years ago. As such, they are part of the Worst Generation, with their captain being Basil Hawkins.",
+    "name": "Tarumanma-gō",
+    "en_name": "Tarumanma",
+    "description": "The Tarumanma was an anime-only ship used by Tony Tony Chopper and Roronoa Zoro in the Donut Race.",
     "affiliation": {
-      "name": "",
-      "url": ""
+      "name": "Straw Hat Pirates",
+      "url": "/wiki/Straw_Hat_Pirates"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d5/Hawkins_Pirates%27_Jolly_Roger.png/revision/latest",
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/16/Tarumanma_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/Hawkins_Pirates"
+    "url": "/wiki/Tarumanma"
   },
   {
-    "name": "Hāto no Kaizokudan",
-    "en_name": "Heart Pirates",
-    "description": "The Heart Pirates are an infamous and notable rookie pirate crew from the North Blue and introduced on Sabaody Archipelago around the time the Straw Hat Pirates arrived there two years ago. Their captain, Trafalgar D. Water Law, is a member of the Worst Generation and a former member of the Seven Warlords of the Sea. They were in an alliance with the Straw Hat Pirates, Kouzuki Family, and Mink Tribe with the goal of taking down both Donquixote Doflamingo of the Seven Warlords of the Sea and Kaidou of the Four Emperors. The alliance was dissolved after their objective of taking down Doflamingo and Kaidou was achieved.",
+    "name": "Tarumanma-gō",
+    "en_name": "Tarumanma",
+    "description": "The Tarumanma was an anime-only ship used by Tony Tony Chopper and Roronoa Zoro in the Donut Race.",
     "affiliation": {
-      "name": "",
-      "url": ""
+      "name": "Straw Hat Pirates",
+      "url": "/wiki/Straw_Hat_Pirates"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/76/Heart_Pirates%27_Jolly_Roger.png/revision/latest",
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/16/Tarumanma_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/Heart_Pirates"
+    "url": "/wiki/Tarumanma"
   },
   {
-    "name": "Ideo Kaizokudan",
-    "en_name": "Ideo Pirates",
-    "description": "The Ideo Pirates, formerly known as the XXX Gym Martial Arts Alliance (XXX（トリプルエックス）ジム格闘連合, Toripuru-Ekkusu Jimu Kakutō Rengō, pronounced \"Triple X Gym Martial Arts Alliance\") is a pirate crew led by Ideo and the fourth ship of the Straw Hat Grand Fleet.",
+    "name": "Tecchiri Fifutī Faibu",
+    "en_name": "Tettiri 55",
+    "description": "The Tettiri 55 is the airship used by the Pilabuggy Villain Alliance.",
     "affiliation": {
-      "name": "",
-      "url": ""
+      "name": "Pilabuggy Villain Alliance",
+      "url": "/wiki/Pilabuggy_Villain_Alliance"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/c9/Ideo_Pirates_Jolly_Roger.png/revision/latest",
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/57/Tettiri_55_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/Ideo_Pirates"
+    "url": "/wiki/Tettiri_55"
   },
   {
-    "name": "Kiddo Kaizokudan",
-    "en_name": "Kid Pirates",
-    "description": "The Kid Pirates were an infamous and notable rookie pirate crew introduced during the Sabaody Archipelago Arc during the time the Straw Hat Pirates arrived there two years ago. As such, they are part of the Worst Generation. Like the Straw Hats, this crew had two bounties above 100,000,000. Both members had slightly higher bounties than the respective members of the Straw Hat Pirates before the timeskip. Their captain is Eustass Kid.",
+    "name": "Sauzando Gorī-gō",
+    "en_name": "Thousand Gorry",
+    "description": "The Thousand Gorry, previously called the Maying Gorry (メーイング・ゴリー号, Mēingu Gorī-gō), is the Fischer's Pirates' ship.",
     "affiliation": {
-      "name": "",
-      "url": ""
+      "name": "Fischer's Pirates",
+      "url": "/wiki/Fischer%27s_Pirates"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/ad/Kid_Pirates%27_Jolly_Roger.png/revision/latest",
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/9/9b/Thousand_Gorry_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/Kid_Pirates"
+    "url": "/wiki/Thousand_Gorry"
   },
   {
-    "name": "Kurīku Kaizokudan",
-    "en_name": "Krieg Pirates",
-    "description": "The Krieg Pirates, also known as the Pirate Armada (海賊艦隊, Kaizoku Kantai), are an East Blue pirate fleet led by Don Krieg. At their height, they boasted some five thousand men across fifty ships, and held the most notorious reputation in the East Blue, until they were decimated by Dracule Mihawk. Sometime after the events of the Baratie Arc, Krieg, Gin and Pearl managed to make it to the New World where they now reside on Hachinosu.",
+    "name": "Sauzando Sanī-gō",
+    "en_name": "Thousand Sunny",
+    "description": "The Sunny is a brigantine-type ship designed and built by Franky, with help from Iceburg and many other master shipwrights from Galley-La. Built from Adam Wood, it is a magnificent ship of the finest craftsmanship at least double the size of the Going Merry. Its features include practically all of the various requests the Straw Hats had before arriving in Water 7.",
     "affiliation": {
-      "name": "",
-      "url": ""
+      "name": "Straw Hat Pirates",
+      "url": "/wiki/Straw_Hat_Pirates"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/f9/Krieg_Pirates%27_Jolly_Roger.png/revision/latest",
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/b1/Thousand_Sunny_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/Krieg_Pirates"
+    "url": "/wiki/Thousand_Sunny"
   },
   {
-    "name": "Makuro Ichimi",
-    "en_name": "Macro Pirates",
-    "description": "The Macro Pirates are a trio of fish-men who are notable for attempting to abduct the mermaid Camie thirty-one times.",
+    "name": "Sauzando Sanī-gō",
+    "en_name": "Thousand Sunny",
+    "description": "The Sunny is a brigantine-type ship designed and built by Franky, with help from Iceburg and many other master shipwrights from Galley-La. Built from Adam Wood, it is a magnificent ship of the finest craftsmanship at least double the size of the Going Merry. Its features include practically all of the various requests the Straw Hats had before arriving in Water 7.",
     "affiliation": {
-      "name": "",
-      "url": ""
+      "name": "Straw Hat Pirates",
+      "url": "/wiki/Straw_Hat_Pirates"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/b1/Macro_Pirates_Portrait.png/revision/latest",
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/b1/Thousand_Sunny_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/Macro_Pirates"
+    "url": "/wiki/Thousand_Sunny"
   },
   {
-    "name": "Kyōken Kaizoku-dan",
-    "en_name": "Mad Dog Pirates",
-    "description": "The Mad Dog Pirates are a pirate crew in Paradise. They appear in Legend of the Rainbow Island.",
+    "name": "Sauzando Sanī-gō",
+    "en_name": "Thousand Sunny",
+    "description": "The Sunny is a brigantine-type ship designed and built by Franky, with help from Iceburg and many other master shipwrights from Galley-La. Built from Adam Wood, it is a magnificent ship of the finest craftsmanship at least double the size of the Going Merry. Its features include practically all of the various requests the Straw Hats had before arriving in Water 7.",
     "affiliation": {
-      "name": "",
-      "url": ""
+      "name": "Straw Hat Pirates",
+      "url": "/wiki/Straw_Hat_Pirates"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d3/Mad_Dog_Pirates_Infobox.png/revision/latest",
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/b1/Thousand_Sunny_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/Mad_Dog_Pirates"
+    "url": "/wiki/Thousand_Sunny"
   },
   {
-    "name": "Mashira Kaizokudan",
-    "en_name": "Masira Pirates",
-    "description": "The Masira Pirates is a crew of treasure hunters and shipwreck salvagers. Their captain is Masira. They are part of the Saruyama Alliance, alongside the Shoujou Pirates and Mont Blanc Cricket.",
+    "name": "Surirā Bāku",
+    "en_name": "Thriller Bark",
+    "description": "Thriller Bark is a giant ship formerly located on the Florian Triangle. As revealed by Brook, it used to be an island located in the West Blue, where it was built. It was converted into a pirate ship, the world's largest, and is owned by the former Warlord, Gecko Moria, serving as ship for the Thriller Bark Pirates. The ship was heavily damaged by Moria's and Kuma's attacks during the battle against the Straw Hat Pirates and after Moria's defeat, it was abandoned. Thriller Bark is the main setting of the Thriller Bark Arc, as well as the ninth island in Paradise that the Straw Hat Pirates visited.",
     "affiliation": {
-      "name": "",
-      "url": ""
+      "name": "Thriller Bark Pirates",
+      "url": "/wiki/Thriller_Bark_Pirates"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/2/28/Masira_Pirates%27_Jolly_Roger.png/revision/latest",
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/37/Thriller_Bark_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/Masira_Pirates"
+    "url": "/wiki/Thriller_Bark"
   },
   {
-    "name": "Naguri Kaizoku-dan",
-    "en_name": "Naguri Pirates",
-    "description": "The Naguri Pirates were a group of pirates from Gol D. Roger's time.",
+    "name": "Surirā Bāku",
+    "en_name": "Thriller Bark",
+    "description": "Thriller Bark is a giant ship formerly located on the Florian Triangle. As revealed by Brook, it used to be an island located in the West Blue, where it was built. It was converted into a pirate ship, the world's largest, and is owned by the former Warlord, Gecko Moria, serving as ship for the Thriller Bark Pirates. The ship was heavily damaged by Moria's and Kuma's attacks during the battle against the Straw Hat Pirates and after Moria's defeat, it was abandoned. Thriller Bark is the main setting of the Thriller Bark Arc, as well as the ninth island in Paradise that the Straw Hat Pirates visited.",
     "affiliation": {
-      "name": "",
-      "url": ""
+      "name": "Thriller Bark Pirates",
+      "url": "/wiki/Thriller_Bark_Pirates"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/5b/Naguri_Pirates%27_Jolly_Roger.png/revision/latest",
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/37/Thriller_Bark_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/Naguri_Pirates"
+    "url": "/wiki/Thriller_Bark"
   },
   {
-    "name": "Nyū Donkihōte Famirī",
-    "en_name": "New Donquixote Family",
-    "description": "The New Donquixote Family is a pirate crew formed by Kardia to avenge Donquixote Doflamingo. They are the primary antagonists of One Piece Premier Show 2021.",
+    "name": "Umibōzu-gō",
+    "en_name": "Umibozu",
+    "description": "The Umibozu is a submarine belonging to the Laotour Bandits.",
     "affiliation": {
-      "name": "",
-      "url": ""
+      "name": "Laotour Bandits",
+      "url": "/wiki/Laotour_Bandits"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d5/NoPicAvailable.png/revision/latest",
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/7d/Umibozu_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/New_Donquixote_Family"
+    "url": "/wiki/Umibozu"
   },
   {
-    "name": "Nyū Donkihōte Famirī",
-    "en_name": "New Donquixote Family",
-    "description": "The New Donquixote Family is a pirate crew formed by Kardia to avenge Donquixote Doflamingo. They are the primary antagonists of One Piece Premier Show 2021.",
+    "name": "Usorando-gō",
+    "en_name": "Usoland",
+    "description": "The Usoland is the Tontatta Pirates' ship. It was built by the citizens of Dressrosa and is named after Usopp.",
     "affiliation": {
-      "name": "",
-      "url": ""
+      "name": "Tontatta Pirates",
+      "url": "/wiki/Tontatta_Pirates"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d5/NoPicAvailable.png/revision/latest",
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/2/29/Usoland_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/New_Donquixote_Family"
+    "url": "/wiki/Usoland"
   },
   {
-    "name": "Shin Gyojin Kaizoku-dan",
-    "en_name": "New Fish-Man Pirates",
-    "description": "The New Fish-Man Pirates were a pirate crew led by Hody Jones. The crew was comprised almost entirely of fish-men residing on Fish-Man Island, though they also included several merfolk, sea beasts, and enslaved humans. The New Fish-Man Pirates were the most prominent figures in the long history of human/fish-men hate over their hero Fisher Tiger's death. They carried on the legacy of Arlong, having established their crew based on Arlong's ideals. Like Arlong, they wished to make fish-men the supreme race and aimed to sink the humans into the ocean.",
+    "name": "Ūtan Sonā-gō",
+    "en_name": "Utan Sonar",
+    "description": "Utan Sonar is Shoujou's ship, and is a large vessel with an orangutan figurehead.",
     "affiliation": {
-      "name": "",
-      "url": ""
+      "name": "Saruyama Alliance",
+      "url": "/wiki/Saruyama_Alliance"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/9/91/New_Fish-Man_Pirates%27_Jolly_Roger.png/revision/latest",
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/c9/Utan_Sonar_Anime_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/New_Fish-Man_Pirates"
+    "url": "/wiki/Utan_Sonar"
   },
   {
-    "name": "Shin Kyo Hei Kaizoku-dan",
-    "en_name": "New Giant Warrior Pirates",
-    "description": "The New Giant Warrior Pirates are a pirate crew of giants led by Hajrudin. The crew is a spiritual revival of the Giant Warrior Pirates that disbanded 100 years ago. They were once part of Buggy's Delivery, before leaving to become the sixth ship of the Straw Hat Grand Fleet after the events on Dressrosa.",
+    "name": "Vikutoria Panku-gō",
+    "en_name": "Victoria Punk",
+    "description": "Victoria Punk was the Kid Pirates' ship. It is named after Victoria Shiruton Doruyanaika, a deceased childhood friend of Eustass Kid and Killer.",
     "affiliation": {
-      "name": "",
-      "url": ""
+      "name": "Kid Pirates",
+      "url": "/wiki/Kid_Pirates"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/c3/New_Giant_Warrior_Pirates_Portrait.png/revision/latest",
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/e/e0/Victoria_Punk_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/New_Giant_Warrior_Pirates"
+    "url": "/wiki/Victoria_Punk"
   },
   {
-    "name": "Nokkusu Kaizokudan",
-    "en_name": "Nox Pirates",
-    "description": "The Nox Pirates, initially known as the Nox Expedition Party (ノックス探検隊, Nokkusu Tanken-tai), was a pirate crew of minks led by Pedro. They initially set sail from Zou as explorers with the intention of finding poneglyphs, but were chased by the World Government and ended up receiving bounties. The crew was defeated in Totto Land five years ago, causing it to be disbanded.",
+    "name": "Vikutoria Panku-gō",
+    "en_name": "Victoria Punk",
+    "description": "Victoria Punk was the Kid Pirates' ship. It is named after Victoria Shiruton Doruyanaika, a deceased childhood friend of Eustass Kid and Killer.",
     "affiliation": {
-      "name": "",
-      "url": ""
+      "name": "Kid Pirates",
+      "url": "/wiki/Kid_Pirates"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/ba/Nox_Pirates_Infobox.png/revision/latest",
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/e/e0/Victoria_Punk_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/Nox_Pirates"
+    "url": "/wiki/Victoria_Punk"
   },
   {
-    "name": "On Ea Kaizokudan",
-    "en_name": "On Air Pirates",
-    "description": "The On Air Pirates are an infamous and notable rookie pirate crew discovered on the Sabaody Archipelago around the time the Straw Hat Pirates arrived two years ago. As such, they are part of the Worst Generation, with their captain being Scratchmen Apoo. During the timeskip, they became a subordinate crew to the Beasts Pirates.",
+    "name": "Bikutorī Hantā-gō",
+    "en_name": "Victory Hunter",
+    "description": "The Victory Hunter is Masira's ship and main possession.",
     "affiliation": {
-      "name": "",
-      "url": ""
+      "name": "Saruyama Alliance",
+      "url": "/wiki/Saruyama_Alliance"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/b4/On_Air_Pirates%27_Jolly_Roger.png/revision/latest",
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/6/6e/Victory_Hunter_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/On_Air_Pirates"
+    "url": "/wiki/Victory_Hunter"
   },
   {
-    "name": "Akagami Kaizoku-dan",
-    "en_name": "Red Hair Pirates",
-    "description": "The Red Hair Pirates are an extremely infamous and powerful pirate crew ruling in the New World, captained by their chief, Red-Haired Shanks, one of the Four Emperors and a former apprentice of the Roger Pirates.",
+    "name": "Weibā",
+    "en_name": "Waver",
+    "description": "Wavers are small vehicles created in Skypiea.",
     "affiliation": {
-      "name": "",
-      "url": ""
+      "name": "Skypiea",
+      "url": "/wiki/Skypiea"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/8/81/Red_Hair_Pirates%27_Jolly_Roger.png/revision/latest",
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/bc/Waver_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/Red_Hair_Pirates"
+    "url": "/wiki/Waver"
   },
   {
-    "name": "Rokkusu Kaizokudan",
-    "en_name": "Rocks Pirates",
-    "description": "The Rocks Pirates were a legendary and powerful pirate crew that sailed the seas until their defeat at God Valley 38 years ago.",
+    "name": "Webu Panikku-gō",
+    "en_name": "Web Panic",
+    "description": "The Web Panic is a large brown ship with a drill at the front. The ships black sails feature a cross bones with a symbol similar to that of her captain's rival Arlong.",
     "affiliation": {
-      "name": "",
-      "url": ""
+      "name": "Willy",
+      "url": "/wiki/Willy"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/2/2d/Rocks_Pirates_Infobox.png/revision/latest",
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/2/2a/Web_Panic_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/Rocks_Pirates"
+    "url": "/wiki/Web_Panic"
   },
   {
-    "name": "Rōringu Kaizokudan",
-    "en_name": "Rolling Pirates",
-    "description": "The Rolling Pirates are a group of pirates introduced in the Thriller Bark Arc. They are led by the 23rd daughter of the Charlotte Family, Charlotte Lola. The crew had their own shadows taken away by Gecko Moria, and they aid Luffy in helping him defeat Moria by stuffing as many shadows as they can into him, making him more powerful.",
+    "name": "Howaito Taigā-gō",
+    "en_name": "White Tiger",
+    "description": "The White Tiger was the Neo Marines' main ship.",
     "affiliation": {
-      "name": "",
-      "url": ""
+      "name": "Neo Marines",
+      "url": "/wiki/Neo_Marines"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/0/09/Rolling_Pirates_Post_Timeskip.png/revision/latest",
+    "status": "Destroyed",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/73/White_Tiger_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/Rolling_Pirates"
+    "url": "/wiki/White_Tiger"
   },
   {
-    "name": "Runbā Kaizokudan",
-    "en_name": "Rumbar Pirates",
-    "description": "The Rumbar Pirates are a long dead pirate crew from the West Blue. They were first mentioned by Crocus as the group of pirates who brought Laboon to the Twin Capes.",
+    "name": "Vinto Guranma-gō",
+    "en_name": "Wind Granma",
+    "description": "Wind Granma is a ship used by Monkey D. Dragon, leader of the Revolutionary Army.",
     "affiliation": {
-      "name": "",
-      "url": ""
+      "name": "Revolutionary Army",
+      "url": "/wiki/Revolutionary_Army"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d3/Rumbar_Pirates%27_Jolly_Roger.png/revision/latest",
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/3/38/Wind_Granma_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/Rumbar_Pirates"
+    "url": "/wiki/Wind_Granma"
   },
   {
-    "name": "Saruyama Rengō-gun",
-    "en_name": "Saruyama Alliance",
-    "description": "The Saruyama Alliance (lit. \"Monkey Mountain Alliance\") is a Pirate Alliance formed between three pirate captains: Mont Blanc Cricket and his surrogate sons, the brothers \"Salvage King\" Masira and \"Sonar King\" Shoujou. As an alliance, it joins the brothers' respective crews, the Masira Pirates and the Shoujou Pirates.",
+    "name": "Yamato Maru",
+    "en_name": "Yamato Maru",
+    "description": "The Yamato Maru is Yamato's personal ship in One Piece School. It is one of Yamato's Secret Tools for Visiting Wano Country's Capital (ヤマトのワノ都おでかけ秘密道具, Yamato no Wano-to o Dekake Himitsu Dōgu).",
     "affiliation": {
-      "name": "",
-      "url": ""
+      "name": "Yamato",
+      "url": "/wiki/Yamato"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/f/fd/Saruyama_Alliance%27s_Jolly_Roger.png/revision/latest",
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/5/5e/Yamato_Maru_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/Saruyama_Alliance"
+    "url": "/wiki/Yamato_Maru"
   },
   {
-    "name": "Sasaki Kaizokudan",
-    "en_name": "Sasaki Pirates",
-    "description": "The Sasaki Pirates were a pirate crew originating from the Grand Line that was once captained by Sasaki before he joined the Beasts Pirates.",
+    "name": "Yonta Maria-gō",
+    "en_name": "Yonta Maria",
+    "description": "The Yonta Maria is the huge flagship of the Yonta Maria Grand Fleet, under the direct command of Orlumbus.",
     "affiliation": {
-      "name": "",
-      "url": ""
+      "name": "Yonta Maria Grand Fleet",
+      "url": "/wiki/Yonta_Maria_Grand_Fleet"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d5/NoPicAvailable.png/revision/latest",
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/b/b5/Yonta_Maria_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/Sasaki_Pirates"
+    "url": "/wiki/Yonta_Maria"
   },
   {
-    "name": "Shunaidā Kaizokudan",
-    "en_name": "Schneider Pirates",
-    "description": "The Schneider Pirates are a pirate crew active in Paradise.",
+    "name": "Zenī-gō",
+    "en_name": "Zenny (Ship)",
+    "description": "The Zenny is the anime-only ship used by the Zenny Pirates led by its captain, Zenny.",
     "affiliation": {
-      "name": "",
-      "url": ""
+      "name": "Zenny Pirates",
+      "url": "/wiki/Zenny_Pirates"
     },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/c/c6/Schneider_Pirates%27_Jolly_Roger.png/revision/latest",
+    "status": "Active",
+    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d0/Zenny_%28Ship%29_Infobox.png/revision/latest",
     "non_cannon": false,
-    "url": "/wiki/Schneider_Pirates"
-  },
-  {
-    "name": "Shōjō Kaizokudan",
-    "en_name": "Shoujou Pirates",
-    "description": "The Shoujou Pirates is a crew of treasure hunters and echolocating explorers. Their captain is Shoujou. They are part of the Saruyama Alliance, alongside the Masira Pirates and Mont Blanc Cricket.",
-    "affiliation": {
-      "name": "",
-      "url": ""
-    },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/4a/Shoujou_Pirates%27_Jolly_Roger.png/revision/latest",
-    "non_cannon": false,
-    "url": "/wiki/Shoujou_Pirates"
-  },
-  {
-    "name": "Saimon Kaizoku-dan",
-    "en_name": "Simon Pirates",
-    "description": "The Simon Pirates (サイモン海賊団, Saimon Kaizoku-dan) were a pirate crew led by Simon in the game, One Piece: Great Hidden Treasure of the Nanatsu Islands.",
-    "affiliation": {
-      "name": "",
-      "url": ""
-    },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/7/74/Simon_Pirates_Infobox.png/revision/latest",
-    "non_cannon": false,
-    "url": "/wiki/Simon_Pirates"
-  },
-  {
-    "name": "Supēdo Kaizokudan",
-    "en_name": "Spade Pirates",
-    "description": "The Spade Pirates was the former pirate crew of Portgas D. Ace that was founded five years before the current storyline. The crew later disbanded when its members integrated into the Whitebeard Pirates.",
-    "affiliation": {
-      "name": "",
-      "url": ""
-    },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/1/1d/Spade_Pirates%27_Jolly_Roger.png/revision/latest",
-    "non_cannon": false,
-    "url": "/wiki/Spade_Pirates"
-  },
-  {
-    "name": "Mugiwara no Ichimi",
-    "en_name": "Straw Hat Pirates",
-    "description": "The Straw Hat Pirates, also known as the Mugiwara Pirates, Straw Hat Crew or  simply the Straw Hats, are an extremely infamous and powerful pirate crew that originated from the East Blue. They are the main focus and protagonists of the manga and anime One Piece and are led by the main protagonist, Monkey D. Luffy.",
-    "affiliation": {
-      "name": "",
-      "url": ""
-    },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/8/87/Straw_Hat_Pirates%27_Jolly_Roger.png/revision/latest",
-    "non_cannon": false,
-    "url": "/wiki/Straw_Hat_Pirates"
-  },
-  {
-    "name": "Taiyō no Kaizokudan",
-    "en_name": "Sun Pirates",
-    "description": "The Sun Pirates, sometimes known as the Fish-Man Pirates (魚人海賊団, Gyojin Kaizoku-dan), are a pirate crew formed by the late Fisher Tiger. The crew is notable for having Jinbe and Arlong as part of its members, the former eventually becoming the second captain of the crew, and later, one of the Seven Warlords of the Sea. This crew split apart into three factions eleven years ago: the Sun Pirates under Jinbe, the Arlong Pirates under Arlong, and the Macro Pirates under Macro. The Sun Pirates were pardoned by the World Government when Jinbe became a Warlord of the Sea, but lost the pardon when he abdicated his title. They later went to serve under Emperor Big Mom until Jinbe rebelled and joined the Straw Hat Pirates.",
-    "affiliation": {
-      "name": "",
-      "url": ""
-    },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/4/44/Sun_Pirates%27_Jolly_Roger.png/revision/latest",
-    "non_cannon": false,
-    "url": "/wiki/Sun_Pirates"
-  },
-  {
-    "name": "Suītsu Kaizokudan",
-    "en_name": "Sweet Pirates",
-    "description": "The Sweet Pirates are an all-female group of pirates led by Desire, originating from the East Blue. The crew was nearly annihilated by the Silver Pirate Alliance, and the remaining members joined the Alliance, not knowing that they were the attackers, officially dissolving the crew. Later, the remaining four members were betrayed by the Silver Pirate Alliance and set back out to sea on their own.",
-    "affiliation": {
-      "name": "",
-      "url": ""
-    },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/e/ed/Sweet_Pirates_Infobox.png/revision/latest",
-    "non_cannon": false,
-    "url": "/wiki/Sweet_Pirates"
-  },
-  {
-    "name": "Ochanoma Kaizokudan",
-    "en_name": "Tearoom Pirates",
-    "description": "The Tearoom Pirates are a family of pirates who appear in the sixth movie.",
-    "affiliation": {
-      "name": "",
-      "url": ""
-    },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/a2/Tearoom_Pirates%27_Jolly_Roger.png/revision/latest",
-    "non_cannon": false,
-    "url": "/wiki/Tearoom_Pirates"
-  },
-  {
-    "name": "Surirā Bāku Kaizokudan",
-    "en_name": "Thriller Bark Pirates",
-    "description": "The Thriller Bark Pirates is the second pirate crew captained by the former Warlord, Gecko Moria. They are the main antagonist group in the Thriller Bark Arc, where they operated from the mysterious Florian Triangle to abduct unsuspecting victims of their shadows for their undead zombie army.",
-    "affiliation": {
-      "name": "",
-      "url": ""
-    },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/e/e1/Thriller_Bark%27s_Jolly_Roger.png/revision/latest",
-    "non_cannon": false,
-    "url": "/wiki/Thriller_Bark_Pirates"
-  },
-  {
-    "name": "Tontatta Kaizokudan",
-    "en_name": "Tontatta Pirates",
-    "description": "The Tontatta Pirates, formerly known as Tonta Corps (トンタ兵団, Tonta Heidan), are the armed forces of the Tontatta Tribe formed in order to commence Operation SOP, and later, reformed as a pirate crew. They are composed of 200 dwarves under the command of Leo, forming the fifth ship of the Straw Hat Grand Fleet.",
-    "affiliation": {
-      "name": "",
-      "url": ""
-    },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/e/eb/Tontatta_Pirates%27_Jolly_Roger.png/revision/latest",
-    "non_cannon": false,
-    "url": "/wiki/Tontatta_Pirates"
-  },
-  {
-    "name": "Toranpu Kyōdai",
-    "en_name": "Trump Pirates",
-    "description": "The Trump Pirates are an East Blue pirate crew under the command of the Trump Siblings, a group of animal/playing-card themed captains led by Bear King. They are the main antagonists of the second movie.",
-    "affiliation": {
-      "name": "",
-      "url": ""
-    },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/6/6e/Trump_Sibling_Infobox.png/revision/latest",
-    "non_cannon": false,
-    "url": "/wiki/Trump_Pirates"
-  },
-  {
-    "name": "Chūrippu Kaizokudan",
-    "en_name": "Tulip Pirates",
-    "description": "The Tulip Pirates are a group of pirates that appeared in Jango's cover story.",
-    "affiliation": {
-      "name": "",
-      "url": ""
-    },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/a3/Tulip_Pirates%27_Infobox.png/revision/latest",
-    "non_cannon": false,
-    "url": "/wiki/Tulip_Pirates"
-  },
-  {
-    "name": "Iesu Kaizokudan",
-    "en_name": "Yes Pirates",
-    "description": "The Yes Pirates were a pirate crew that originated from the East Blue.",
-    "affiliation": {
-      "name": "",
-      "url": ""
-    },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/d/d5/NoPicAvailable.png/revision/latest",
-    "non_cannon": false,
-    "url": "/wiki/Yes_Pirates"
-  },
-  {
-    "name": "Yonta Maria Dai-sendan",
-    "en_name": "Yonta Maria Grand Fleet",
-    "description": "The Yonta Maria Grand Fleet is a group of 56 ships led by Orlumbus. It shares its name with its flagship, the Yonta Maria. After the defeat of Doflamingo, the flagship became the seventh ship of the Straw Hat Grand Fleet and with it the entire Yonta Maria Grand Fleet.",
-    "affiliation": {
-      "name": "",
-      "url": ""
-    },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/a0/Yonta_Maria_Grand_Fleet_Infobox.png/revision/latest",
-    "non_cannon": false,
-    "url": "/wiki/Yonta_Maria_Grand_Fleet"
-  },
-  {
-    "name": "Zenī Kaizoku-dan",
-    "en_name": "Zenny Pirates",
-    "description": "The Zenny Pirates are a pirate crew that the Straw Hat Pirates helped to head to the sea.",
-    "affiliation": {
-      "name": "",
-      "url": ""
-    },
-    "status": "",
-    "pic_url": "https://static.wikia.nocookie.net/onepiece/images/a/a7/Zenny_Pirates%27_Jolly_Roger.png/revision/latest",
-    "non_cannon": false,
-    "url": "/wiki/Zenny_Pirates"
+    "url": "/wiki/Zenny_(Ship)"
   }
 ]
