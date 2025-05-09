@@ -10,6 +10,7 @@ pub struct Ship {
     pub affiliation: NamedUrl,
     pub status: String,
     pub pic_url: String,
+    pub non_cannon: bool,
     url: String,
 }
 
@@ -20,6 +21,7 @@ impl Ship {
         pic_url: String,
         affiliation: NamedUrl,
         status: String,
+        non_cannon: bool,
     ) -> Self {
         Self {
             name: named_detail.name,
@@ -29,6 +31,7 @@ impl Ship {
             status,
             pic_url,
             url,
+            non_cannon,
         }
     }
 }
@@ -84,6 +87,7 @@ mod tests {
             pic_url.to_string(),
             NamedUrl::new(affiliation_name.to_string(), affiliation_url.to_string()),
             status.to_string(),
+            false,
         )
     }
 

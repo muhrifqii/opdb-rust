@@ -1,7 +1,7 @@
 use std::collections::HashSet;
 
 use async_trait::async_trait;
-use log::{error, info};
+use log::{debug, error, info};
 use scraper::Html;
 
 use crate::{fetcher::HtmlFetcher, types::Error, utils};
@@ -58,7 +58,7 @@ impl UrlCrawler for CategoryScraper {
             if visited.contains(&next_path) {
                 continue;
             }
-            info!("DFS crawling on {:?}", next_path);
+            debug!("DFS crawling on {:?}", next_path);
             visited.insert(next_path.clone());
 
             let url = format!("{}{}", self.base_url, next_path);

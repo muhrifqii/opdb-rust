@@ -103,3 +103,12 @@ pub(crate) fn parse_infobox_single_data_named_urls(el: &ElementRef) -> Vec<Named
         })
         .collect()
 }
+
+pub(crate) fn parse_is_non_cannon(html_doc: &Html) -> Result<bool, Error> {
+    let selector = parse_selector("page-header__categories a")?;
+    let non_cannon = html_doc
+        .select(&selector)
+        .filter_map(|e| e.value().attr("href"))
+        .any(|url| url.contains("Category:Non-Canon"));
+    Ok(non_cannon)
+}

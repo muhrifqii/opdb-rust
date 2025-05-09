@@ -44,13 +44,15 @@ async fn main() {
     let client = HttpClientWrapper(reqwest::Client::builder().build().unwrap());
     let fetcher = HtmlFetcher::new(client, base_url);
     let cat_crawler = Arc::new(CategoryScraper::new(fetcher.clone(), base_url));
+
     let df_s = DfScraper::new(fetcher.clone());
     let pirate_s = PirateScraper::new(fetcher.clone(), cat_crawler.clone());
-    let ship_s = ships::scraper::ShipScraper::new(fetcher.clone(), cat_crawler);
+    let ship_s = ships::scraper::ShipScraper::new(fetcher.clone(), cat_crawler.clone());
 
     let df_type_infos = df_s.get_dftype_info().await.unwrap();
     let df_result = df_s.get_df_list().await.unwrap();
-    let (pirates, ships) = pirate_s.scrape().await.unwrap();
+    let pirates = pirate_s.scrape().await.unwrap();
+    let ships = ship_s.scrape().await.unwrap();
 
     let writer = JsonWriter;
     writer

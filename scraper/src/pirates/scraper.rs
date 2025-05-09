@@ -12,7 +12,7 @@ use crate::{
     utils,
 };
 
-use super::models::{Pirate, Ship};
+use super::models::Pirate;
 
 pub struct PirateScraper {
     fetcher: HtmlFetcher,
@@ -27,7 +27,7 @@ impl PirateScraper {
         }
     }
 
-    pub async fn scrape(&self) -> Result<(Vec<Pirate>, Vec<Ship>), Error> {
+    pub async fn scrape(&self) -> Result<Vec<Pirate>, Error> {
         info!("crawling categories...");
         let category_by_sea_iter = self
             .category_crawler
@@ -35,7 +35,6 @@ impl PirateScraper {
             .await?
             .into_iter()
             .filter(|path| !path.contains("Category:Non-Canon"));
-        let mut ships = vec![];
         let mut pirates = vec![];
         let mut pirate_tasks = JoinSet::new();
         info!("crawling categories by sea");
@@ -87,16 +86,7 @@ impl PirateScraper {
             }
         }
         pirates.sort();
-        // info!("collecting ships...");
-        // while let Some(res) = ship_tasks.join_next().await {
-        //     match res {
-        //         Ok(Ok(ship)) => ships.push(ship),
-        //         Ok(Err(e)) => error!("Error parsing ship detail {}", e),
-        //         Err(e) => error!("Error parsing ship detail {}", e),
-        //     }
-        // }
-        // ships.sort();
-        Ok((pirates, ships))
+        Ok(pirates)
     }
 }
 
@@ -109,6 +99,7 @@ async fn parse_pirate_detail(fetcher: HtmlFetcher, pirate_url: String) -> Result
         .unwrap_or_default();
     let description = utils::parse_main_page_first_paragraph(&doc)?;
     let en_name = utils::parse_main_page_title(&doc)?;
+    let non_cannon = utils::parse_is_non_cannon(&doc)?;
     let mut name_detail = NamedJpEn::new(String::new(), en_name, description);
     let mut captain = vec![];
     let mut ship = vec![];
@@ -145,7 +136,14 @@ async fn parse_pirate_detail(fetcher: HtmlFetcher, pirate_url: String) -> Result
             }
         }
     }
-    Ok(Pirate::new(name_detail, pirate_url, ship, captain, pic_url))
+    Ok(Pirate::new(
+        name_detail,
+        pirate_url,
+        ship,
+        captain,
+        pic_url,
+        non_cannon,
+    ))
 }
 
 #[cfg(test)]
@@ -310,8 +308,7 @@ mod tests {
 
         let cat_crawler = CategoryScraper::new(fetcher.clone(), "");
         let scraper = PirateScraper::new(fetcher, Arc::new(cat_crawler));
-        let (pirates, ships) = scraper.scrape().await.unwrap();
+        let pirates = scraper.scrape().await.unwrap();
         assert_eq!(pirates.len(), 2);
-        // assert_eq!(ships.len(), 1);
     }
 }
