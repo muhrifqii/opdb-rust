@@ -100,6 +100,37 @@ mod tests {
     };
 
     #[tokio::test]
+    async fn get_category_should_crawl_href_only() {
+        let fetcher = prepare_fetcher([
+            (
+                "/wiki/Category:Pirate_Crews_by_Sea".to_string(),
+                Ok(r##"
+<div>
+    <ul>
+        <li class="category-page__member">
+            <a href="/wiki/Category:Grand_Line_Pirate_Crews" class="category-page__member-link" title="Category:Grand Line Pirate Crews">
+                Category:Grand Line Pirate Crews
+            </a>
+        </li>
+        <li class="category-page__member">
+            <a href="/wiki/Category:New_World_Pirate_Crews" class="category-page__member-link" title="Category:New World Pirate Crews">
+                Category:New World Pirate Crews
+            </a>
+        </li>
+    </ul>
+</div>"##.to_string()),
+            ),
+        ]);
+
+        let crawler = CategoryScraper::new(fetcher);
+        let result = crawler
+            .get_href("/wiki/Category:Pirate_Crews_by_Sea")
+            .await
+            .unwrap();
+        assert_eq!(result.len(), 2);
+    }
+
+    #[tokio::test]
     async fn nested_category_should_crawl_all() {
         let fetcher = prepare_fetcher([
                 (

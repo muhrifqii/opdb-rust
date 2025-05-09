@@ -1,9 +1,8 @@
 use std::sync::Arc;
 
-use itertools::Itertools as _;
 use log::{error, info};
 use scraper::Html;
-use tokio::task::JoinSet;
+use tokio::{sync::Semaphore, task::JoinSet};
 
 use crate::{
     category::UrlCrawler,
@@ -28,54 +27,26 @@ impl PirateScraper {
     }
 
     pub async fn scrape(&self) -> Result<Vec<Pirate>, Error> {
-        info!("crawling categories...");
-        let category_by_sea_iter = self
+        info!("crawling pirate categories");
+        let urls = self
             .category_crawler
-            .get_href("/wiki/Category:Pirate_Crews_by_Sea")
-            .await?
-            .into_iter()
-            .filter(|path| !path.contains("Category:Non-Canon"));
+            .get_nested_href("/wiki/Category:Pirate_Groups", true)
+            .await?;
+
+        let concurrency_limit = Arc::new(Semaphore::new(20));
         let mut pirates = vec![];
         let mut pirate_tasks = JoinSet::new();
-        info!("crawling categories by sea");
-        for sea_url in category_by_sea_iter {
-            let mut pirate_urls = self
-                .category_crawler
-                .get_href(&sea_url)
-                .await?
-                .into_iter()
-                .filter(|path| !path.contains("Category:Non-Canon"))
-                .collect_vec();
-
-            if let Some(i) = pirate_urls
-                .iter()
-                .position(|path| path.contains("Category:"))
-            {
-                let nested_cat_url = pirate_urls[i].clone();
-                pirate_urls.swap_remove(i);
-                pirate_urls.extend(
-                    self.category_crawler
-                        .get_href(&nested_cat_url)
-                        .await?
-                        .into_iter()
-                        .filter(|path| {
-                            !path.contains("Category:Non-Canon")
-                                && path != "/wiki/New_Donquixote_Family"
-                        }),
-                );
-            }
-
-            for pirate_url in pirate_urls {
-                let fetcher = self.fetcher.clone();
-                pirate_tasks.spawn(async move {
-                    (
-                        pirate_url.clone(),
-                        parse_pirate_detail(fetcher, pirate_url).await,
-                    )
-                });
-            }
+        for url in urls {
+            let permit = concurrency_limit.clone().acquire_owned().await.unwrap();
+            let fetcher = self.fetcher.clone();
+            pirate_tasks.spawn(async move {
+                let _permit = permit;
+                let result = parse_pirate_detail(fetcher, url.clone()).await;
+                (url, result)
+            });
         }
-        info!("collecting pirates...");
+
+        info!("collecting pirates");
         while let Some(res) = pirate_tasks.join_next().await {
             match res {
                 Ok((_, Ok(pirate))) => {
@@ -159,7 +130,7 @@ mod tests {
     async fn test_get() {
         let fetcher = prepare_fetcher([
                 (
-                    "/wiki/Category:Pirate_Crews_by_Sea".to_string(),
+                    "/wiki/Category:Pirate_Groups".to_string(),
                     Ok(r##"
     <div>
         <ul>
@@ -176,15 +147,6 @@ mod tests {
                     "/wiki/Category:Grand_Line_Pirate_Crews".to_string(),
                     Ok(r##"
     <div>
-        <div>
-            <ul>
-                <li class="category-page__member">
-                    <a href="/wiki/Category:Non-Canon_Grand_Line_Pirate_Crews" class="category-page__member-link" title="Category:Non-Canon Grand Line Pirate Crews">
-                       Category:Non-Canon Grand Line Pirate Crews
-                    </a>
-                </li>
-            </ul>
-        </div>
         <div>
             <ul>
                 <li class="category-page__member">
@@ -276,35 +238,7 @@ mod tests {
     </main>
                     "##.to_string()),
                 ),
-                (
-                    "/wiki/Hanjomaru".to_string(),
-                    Ok(r##"
-    <main>
-        <span class="mw-page-title-main">Hanjomaru</span>
-        <div id="mw-content-text">
-            <p></p>
-            <aside class="portable-infobox">
-                <figure class="pi-image">
-                    <a href="/image-path-213" class="image"/>
-                </figure>
-                <section>
-                    <div class="pi-item pi-data pi-item-spacing pi-border-color" data-source="rname">
-                        <div class="pi-data-value pi-font"><i>Hanjōmaru</i></div>
-                    </div>
-                    <div class="pi-item pi-data pi-item-spacing pi-border-color" data-source="affiliation">
-                        <div class="pi-data-value pi-font"><a href="/wiki/Fallen_Monk_Pirates" title="Fallen Monk Pirates">Fallen Monk Pirates</a></div>
-                    </div>
-                    <div class="pi-item pi-data pi-item-spacing pi-border-color" data-source="status">
-                        <div class="pi-data-value pi-font">Active</div>
-                    </div>
-                </section>
-            </aside>
-            <p></p>
-            <p>Hanjomaru is the Fallen Monk Pirates ship.</p>
-        </div>
-    </main>
-                    "##.to_string()),
-                ),]);
+        ]);
 
         let cat_crawler = CategoryScraper::new(fetcher.clone());
         let scraper = PirateScraper::new(fetcher, Arc::new(cat_crawler));
