@@ -69,9 +69,14 @@ impl UrlCrawler for CategoryScraper {
                 .filter_map(|e| e.value().attr("href"))
                 .map(String::from)
             {
-                if a.contains("Category:") && !visited.contains(&a) {
+                if visited.contains(&a) {
+                    continue;
+                }
+
+                if a.contains("Category:") {
                     stack.push(a);
-                } else if !a.contains("Category:") {
+                } else {
+                    visited.insert(a.clone());
                     urls.push(a);
                 }
             }
@@ -96,7 +101,7 @@ impl UrlCrawler for CategoryScraper {
 mod tests {
     use crate::{
         category::{CategoryScraper, UrlCrawler},
-        fetcher::mocks::prepare_fetcher,
+        fetcher::{self, mocks::prepare_fetcher},
     };
 
     #[tokio::test]
@@ -217,5 +222,70 @@ mod tests {
             .get_nested_href("/wiki/Category:Some-categories", true)
             .await;
         assert!(result.is_ok());
+    }
+
+    #[tokio::test]
+    async fn dedupe_test() {
+        let fetcher = prepare_fetcher([
+            (
+                "/wiki/Category:Pirate_Crews_by_Sea".to_string(),
+                Ok(r##"
+    <div>
+        <ul>
+            <li class="category-page__member">
+                <a href="/wiki/Category:Grand_Line_Pirate_Crews" class="category-page__member-link" title="Category:Grand Line Pirate Crews">
+                    Category:Grand Line Pirate Crews
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li class="category-page__member">
+                <a href="/wiki/Category:New_World_Pirate_Crews" class="category-page__member-link" title="Category:New World Pirate Crews">
+                Category:New World Pirate Crews</a>
+            </li>
+        </ul>
+    </div>
+    "##.to_string()),
+            ),
+            (
+                "/wiki/Category:Grand_Line_Pirate_Crews".to_string(),
+                Ok(r##"
+    <div>
+        <ul>
+            <li class="category-page__member">
+                <a href="/wiki/Fallen_Monk_Pirates" class="category-page__member-link" title="Fallen Monk Pirates">
+                    Fallen Monk Pirates
+                </a>
+            </li>
+        </ul>
+    </div>"##.to_string())
+            ),
+            (
+                "/wiki/Category:New_World_Pirate_Crews".to_string(), // having a looping child-parent
+                Ok(r##"
+    <div>
+        <ul>
+            <li class="category-page__member">
+                <a href="/wiki/Fallen_Monk_Pirates" class="category-page__member-link" title="Fallen Monk Pirates">
+                    Fallen Monk Pirates
+                </a>
+            </li>
+            <li class="category-page__member">
+                <a href="/wiki/Category:Grand_Line_Pirate_Crews" class="category-page__member-link" title="Category:Grand Line Pirate Crews">
+                    Category:Grand Line Pirate Crews
+                </a>
+            </li>
+        </ul>
+    </div>
+            "##.to_string())
+            ),
+        ]);
+        let crawler = CategoryScraper::new(fetcher);
+        let result = crawler
+            .get_nested_href("/wiki/Category:Pirate_Crews_by_Sea", true)
+            .await
+            .unwrap();
+        assert_eq!(result.len(), 1);
+        assert_eq!(result[0], "/wiki/Fallen_Monk_Pirates");
     }
 }
