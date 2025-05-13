@@ -1,8 +1,5 @@
-use async_trait::async_trait;
 use serde::Serialize;
 use thiserror::Error;
-
-use crate::output_writer::{JsonWriter, OutputWriter};
 
 pub trait UrlTyped {
     fn get_path(&self) -> String;
@@ -49,12 +46,4 @@ impl NamedJpEn {
             description,
         }
     }
-}
-
-#[async_trait(?Send)]
-pub trait ScrapeTask<T = JsonWriter>
-where
-    T: OutputWriter,
-{
-    async fn run(&self, writer: T) -> Result<(), Error>;
 }

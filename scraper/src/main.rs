@@ -16,16 +16,17 @@ use client::HttpClientWrapper;
 use df::scraper::{DfScrapable, DfScraper};
 use fetcher::HtmlFetcher;
 use log::{debug, info};
-use output_writer::{JsonWriter, OutputWriter};
+use output_writer::OutputWriter;
 use pirates::scraper::PirateScraper;
 
 /// OPDB Scrapper program
-#[derive(Parser, Debug)]
+#[derive(Parser)]
 #[command(version, about)]
 struct MainArgs {
     /// Set the scrapped output directory path
-    #[arg(short, long)]
-    output: Option<String>,
+    #[arg(short, long, default_value = "data")]
+    output_dir: String,
+    category: Option<String>,
 }
 
 #[tokio::main]
@@ -38,34 +39,31 @@ async fn main() {
     let args = MainArgs::parse();
 
     let base_url = "https://onepiece.fandom.com";
-    let default_output_dir = String::from("data");
-    let output_dir = args.output.unwrap_or(default_output_dir);
+    let output_dir = args.output_dir;
+    let category = args.category.as_ref();
 
     let client = HttpClientWrapper(reqwest::Client::builder().build().unwrap());
     let fetcher = HtmlFetcher::new(client, base_url);
     let cat_crawler = Arc::new(CategoryScraper::new(fetcher.clone()));
+    let writer = OutputWriter::new(output_dir);
 
-    let df_s = DfScraper::new(fetcher.clone());
-    let pirate_s = PirateScraper::new(fetcher.clone(), cat_crawler.clone());
-    let ship_s = ships::scraper::ShipScraper::new(fetcher.clone(), cat_crawler.clone());
+    if category.is_none() || category.is_some_and(|c| c == "df") {
+        let df_s = DfScraper::new(fetcher.clone());
+        let df_type_infos = df_s.get_dftype_info().await.unwrap();
+        let df_result = df_s.get_df_list().await.unwrap();
+        writer.write(&df_type_infos, "df_type_infos").await.unwrap();
+        writer.write(&df_result, "df_list").await.unwrap();
+    }
 
-    let df_type_infos = df_s.get_dftype_info().await.unwrap();
-    let df_result = df_s.get_df_list().await.unwrap();
-    let pirates = pirate_s.scrape().await.unwrap();
-    let ships = ship_s.scrape().await.unwrap();
+    if category.is_none() || category.is_some_and(|c| c == "pirate") {
+        let pirate_s = PirateScraper::new(fetcher.clone(), cat_crawler.clone());
+        let pirates = pirate_s.scrape().await.unwrap();
+        writer.write(&pirates, "pirates").await.unwrap();
+    }
 
-    let writer = JsonWriter;
-    writer
-        .write(&df_type_infos, &output_dir, "df_type_infos")
-        .await
-        .unwrap();
-    writer
-        .write(&df_result, &output_dir, "df_list")
-        .await
-        .unwrap();
-    writer
-        .write(&pirates, &output_dir, "pirates")
-        .await
-        .unwrap();
-    writer.write(&ships, &output_dir, "ships").await.unwrap();
+    if category.is_none() || category.is_some_and(|c| c == "ship") {
+        let ship_s = ships::scraper::ShipScraper::new(fetcher.clone(), cat_crawler.clone());
+        let ships = ship_s.scrape().await.unwrap();
+        writer.write(&ships, "ships").await.unwrap();
+    }
 }

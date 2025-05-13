@@ -1,32 +1,54 @@
-#[cfg(all(test, not(rust_analyzer)))]
-use mocks::{create_dir_all, File};
 use serde::Serialize;
-use serde_json::to_string_pretty;
+use serde_json::to_vec_pretty;
+use strum::{Display, EnumIter, EnumString, IntoEnumIterator};
 #[cfg(any(not(test), rust_analyzer))]
 use tokio::fs::{create_dir_all, File};
 use tokio::io::AsyncWriteExt;
 
-pub trait OutputWriter {
-    async fn write<T>(&self, data: &T, path: &str, file_name: &str) -> std::io::Result<()>
-    where
-        T: Serialize;
+#[cfg(all(test, not(rust_analyzer)))]
+use mocks::{create_dir_all, File};
+
+#[derive(Debug, EnumString, EnumIter, Display)]
+#[strum(serialize_all = "snake_case")]
+pub enum OutputFormat {
+    Json,
 }
 
-#[derive(Default, Debug)]
-pub struct JsonWriter;
+#[derive(Debug)]
+pub struct OutputWriter {
+    format: Vec<OutputFormat>,
+    dir: String,
+}
 
-impl OutputWriter for JsonWriter {
-    async fn write<T>(&self, data: &T, path: &str, file_name: &str) -> std::io::Result<()>
+impl OutputWriter {
+    pub fn new(dir: String) -> Self {
+        Self {
+            format: OutputFormat::iter().collect(),
+            dir,
+        }
+    }
+
+    pub async fn write<T>(&self, data: &T, file_name: &str) -> std::io::Result<()>
     where
-        T: Serialize,
+        T: ?Sized + Serialize,
     {
-        create_dir_all(path).await?;
-        let mut file = File::create(path.to_string() + "/" + file_name + ".json").await?;
-        let json = to_string_pretty(data).expect("Failed to serialize JSON");
-        file.write_all(json.as_bytes()).await?;
-        file.flush().await?;
+        create_dir_all(&self.dir).await?;
+        for fmt in self.format.iter() {
+            let mut file = File::create(format!("{}/{}.{}", &self.dir, file_name, fmt)).await?;
+            file.write_all(&serialize(data, fmt)).await?;
+            file.flush().await?;
+        }
 
         Ok(())
+    }
+}
+
+fn serialize<T>(data: &T, format: &OutputFormat) -> Vec<u8>
+where
+    T: ?Sized + Serialize,
+{
+    match format {
+        OutputFormat::Json => to_vec_pretty(data).expect("Failed to serialize JSON"),
     }
 }
 
@@ -77,18 +99,18 @@ mod tests {
         output_writer::mocks::{self, File},
     };
 
-    use super::{JsonWriter, OutputWriter};
+    use super::OutputWriter;
 
     #[tokio::test]
     async fn write_to_json() {
         let devils = vec![DfTypeInfo::default()];
-        let writer = JsonWriter;
+        let writer = OutputWriter::new("folder".to_string());
         mocks::FILE.with_borrow_mut(|f| {
             *f = File {
                 expexted: "folder/output.json".to_string(),
             }
         });
-        writer.write(&devils, "folder", "output").await.unwrap();
+        writer.write(&devils, "output").await.unwrap();
         mocks::FILE.with_borrow_mut(|f| *f = File::default());
     }
 }
